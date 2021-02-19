@@ -1,0 +1,46 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "articles/**.md",
+          "articles/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "dest": "_site",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+			"./_exported_templates/packages/"
+		],
+		"postProcessors": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false,
+		"dest": "_site",
+        "xrefService": [
+           "https://xref.docs.microsoft.com/query?uid={uid}"
+         ],
+		"globalMetadata": {
+			"_appTitle": "Unity Reflect",
+            "_packageVersion": "2.0",
+			"_enableSearch": true,
+			"_appLogoPath": "logo.svg",
+			"_disableToc": false,
+			"enableTocForManual": true
+		},
+        "globalMetadataFiles": ["projectMetadata.json"]
+	}
+}
