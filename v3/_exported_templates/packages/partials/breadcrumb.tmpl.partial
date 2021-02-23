@@ -1,0 +1,22 @@
+{{!Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.}}
+<div class="subnav navbar navbar-default">
+<div class="container hide-when-search" id="breadcrumb" >
+  <div id="version-switcher-select">
+<div class="component-select" onclick="onVersionSwitcherClick()">
+<div id="component-select-current-display" class="component-select__current">
+Unity Hub 3.0 Demo
+</div>
+
+<ul id="version-switcher-ul" class="component-select__options-container">
+<a style="color:#000;" href="#"><li class="component-select__option">
+            3.0 Demo
+        </li></a>
+
+<a style="color:#000;" href="#"><li class="component-select__option">
+            2.4
+        </li></a>
+
+
+        </ul>
+</div>
+</div></div>

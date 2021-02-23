@@ -1,0 +1,276 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/corinne.goss/Documents/GitHub/cdg1010.github.io/v3",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "log_codes": [
+        "include-not-found"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "ESN7RCkA3D3CsQhmuzP6+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/CreateProject.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/CreateProject.html",
+          "hash": "5T4jh0kUgtrFXbzehE5Hlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/HubCLI.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/HubCLI.html",
+          "hash": "oQM8NsOLGtQ0zLq7x5cOrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/InstallEditors.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/InstallEditors.html",
+          "hash": "CUBAxnd5MiUiVo99VhAb1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/InstallHub.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/InstallHub.html",
+          "hash": "AH+ues9oVJHQvovlgnbgvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/LoggingIn.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/LoggingIn.html",
+          "hash": "5YrlFVu5vrsqS9KL3RN/uQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/ManageInstalls.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/ManageInstalls.html",
+          "hash": "jobmykbUB9KHMX5vMhYFlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/ManageLicense.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/ManageLicense.html",
+          "hash": "5JMXDfzp6PwgxXuF1DbNgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/ManageProfile.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/ManageProfile.html",
+          "hash": "TX9WA7fr0NhcGa1XhNrnGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/Preferences.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Preferences.html",
+          "hash": "tLXpSPW6AW7sBxlIws6G7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/Projects.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Projects.html",
+          "hash": "pDBXifetWzCxq2woC2PnQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/Support.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Support.html",
+          "hash": "nHcGHmG/yoEtklqWUqzkdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/SystemRequirements.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/SystemRequirements.html",
+          "hash": "3dQwzOGIoWoGSHvC7k05oQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/Templates.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Templates.html",
+          "hash": "1uvvPW9852YmmzmH5ohjxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/UIOverview.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/UIOverview.html",
+          "hash": "sBFgtzvMrK80yWf52jaHDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html",
+          "hash": "qFCduFNMd78PhApHfMSHsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "L+qrvlC9PTGZLC9vfQUvwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "4DwNsdyzG4ekBtJW4lT5Cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 16,
+          "skipped_file_count": 16
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
