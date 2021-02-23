@@ -7,23 +7,23 @@
     href: InstallHub.md
   - name: Navigating the Hub
     href: UIOverview.md
-  - name: Logging in
-    href: LoggingIn.md
-- name: Downloading and installing Unity
+- name: Manage your Unity installations
   items:
-  - name: Installing the Unity Editor and modules
+  - name: Logging in to the Hub
+    href: LoggingIn.md
+  - name: Installing the Editor and modules
     href: InstallEditors.md
   - name: Manage your Editor installations
     href: ManageInstalls.md
-- name: Projects and Templates
+- name: Manage your Unity projects
   items:
-  - name: Manage your projects
+  - name: Manage your Projects
     href: Projects.md
   - name: Manage your Templates
     href: Templates.md
   - name: Create a project from a template
     href: CreateProject.md
-- name: Profile and Preferences
+- name: Profile and preferences
   items:
   - name: Manage your license
     href: ManageLicense.md

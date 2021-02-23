@@ -1,1 +1,1 @@
-[!include[index](/articles/intro.md)]
+[!include[index](/manual/index.md)]
