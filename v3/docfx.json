@@ -3,8 +3,8 @@
     "content": [
       {
         "files": [
-          "articles/**.md",
-          "articles/**/toc.yml",
+          "manual/**.md",
+          "manual/**/toc.yml",
           "toc.yml",
           "*.md"
         ]
@@ -34,8 +34,8 @@
            "https://xref.docs.microsoft.com/query?uid={uid}"
          ],
 		"globalMetadata": {
-			"_appTitle": "Unity Reflect",
-            "_packageVersion": "2.0",
+			"_appTitle": "Unity Hub",
+            "_packageVersion": "3.0",
 			"_enableSearch": true,
 			"_appLogoPath": "logo.svg",
 			"_disableToc": false,

@@ -1,4 +1,4 @@
 - name: Manual
-  href: articles/intro.md
+  href: manual/index.md
 - name: Get help
-  href: Support.md
+  href: manual/Support.md

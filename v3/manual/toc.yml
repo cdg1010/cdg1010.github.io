@@ -1,0 +1,39 @@
+- name: Getting started
+  href: index.md
+  items:
+  - name: System and network requirements
+    href: SystemRequirements.md
+  - name: Installing the Hub
+    href: InstallHub.md
+  - name: Navigating the Hub
+    href: UIOverview.md
+  - name: Logging in
+    href: LoggingIn.md
+- name: Downloading and installing Unity
+  items:
+  - name: Installing the Unity Editor and modules
+    href: InstallEditors.md
+  - name: Manage your Editor installations
+    href: ManageInstalls.md
+- name: Projects and Templates
+  items:
+  - name: Manage your projects
+    href: Projects.md
+  - name: Manage your Templates
+    href: Templates.md
+  - name: Create a project from a template
+    href: CreateProject.md
+- name: Profile and Preferences
+  items:
+  - name: Manage your license
+    href: ManageLicense.md
+  - name: Manage your profile and account settings
+    href: ManageProfile.md
+  - name: Change your Hub preferences
+    href: Preferences.md
+- name: For advanced users
+  items:
+  - name: Command line interface
+    href: HubCLI.md
+- name: Get help
+  href: Support.md
