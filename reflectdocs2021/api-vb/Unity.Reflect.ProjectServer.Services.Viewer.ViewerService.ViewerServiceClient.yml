@@ -1,0 +1,1024 @@
+### YamlMime:ManagedReference
+items:
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  commentId: T:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  id: ViewerService.ViewerServiceClient
+  parent: Unity.Reflect.ProjectServer.Services.Viewer
+  children:
+  - Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor
+  - Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor
+  - Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor(ClientBaseConfiguration)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor(ClientBaseConfiguration)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor(grpc.CallInvoker)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor(grpc.CallInvoker)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor(grpc.Channel)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor(grpc.Channel)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.NewInstance(ClientBaseConfiguration)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.NewInstance(ClientBaseConfiguration)
+  langs:
+  - csharp
+  - vb
+  name: ViewerService.ViewerServiceClient
+  nameWithType: ViewerService.ViewerServiceClient
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  type: Class
+  source:
+    id: ViewerServiceClient
+    path: ''
+    startLine: 37447
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  summary: Client for ViewerService
+  example: []
+  syntax:
+    content: 'public class ViewerServiceClient : grpc.ClientBase<ViewerService.ViewerServiceClient>, grpc.ClientBase<ViewerService.ViewerServiceClient>'
+    content.vb: >-
+      Public Class ViewerServiceClient
+          Inherits grpc.ClientBase(Of ViewerService.ViewerServiceClient)
+          Implements grpc.ClientBase(Of ViewerService.ViewerServiceClient)
+  inheritance:
+  - System.Object
+  implements:
+  - grpc.ClientBase{Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient}
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor(grpc.Channel)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor(grpc.Channel)
+  id: '#ctor(grpc.Channel)'
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  langs:
+  - csharp
+  - vb
+  name: ViewerServiceClient(grpc.Channel)
+  nameWithType: ViewerService.ViewerServiceClient.ViewerServiceClient(grpc.Channel)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ViewerServiceClient(grpc.Channel)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 17292
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  summary: Creates a new client for ViewerService
+  example: []
+  syntax:
+    content: public ViewerServiceClient(grpc.Channel channel)
+    parameters:
+    - id: channel
+      type: grpc.Channel
+      description: The channel to use to make remote calls.
+    content.vb: Public Sub New(channel As grpc.Channel)
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor(grpc.CallInvoker)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor(grpc.CallInvoker)
+  id: '#ctor(grpc.CallInvoker)'
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  langs:
+  - csharp
+  - vb
+  name: ViewerServiceClient(grpc.CallInvoker)
+  nameWithType: ViewerService.ViewerServiceClient.ViewerServiceClient(grpc.CallInvoker)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ViewerServiceClient(grpc.CallInvoker)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 17297
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  summary: Creates a new client for ViewerService that uses a custom <code>CallInvoker</code>.
+  example: []
+  syntax:
+    content: public ViewerServiceClient(grpc.CallInvoker callInvoker)
+    parameters:
+    - id: callInvoker
+      type: grpc.CallInvoker
+      description: The callInvoker to use to make remote calls.
+    content.vb: Public Sub New(callInvoker As grpc.CallInvoker)
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor
+  id: '#ctor'
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  langs:
+  - csharp
+  - vb
+  name: ViewerServiceClient()
+  nameWithType: ViewerService.ViewerServiceClient.ViewerServiceClient()
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ViewerServiceClient()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 17301
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  summary: Protected parameterless constructor to allow creation of test doubles.
+  example: []
+  syntax:
+    content: protected ViewerServiceClient()
+    content.vb: Protected Sub New
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor(ClientBaseConfiguration)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor(ClientBaseConfiguration)
+  id: '#ctor(ClientBaseConfiguration)'
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  langs:
+  - csharp
+  - vb
+  name: ViewerServiceClient(ClientBaseConfiguration)
+  nameWithType: ViewerService.ViewerServiceClient.ViewerServiceClient(ClientBaseConfiguration)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ViewerServiceClient(ClientBaseConfiguration)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 17306
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  summary: Protected constructor to allow creation of configured clients.
+  example: []
+  syntax:
+    content: protected ViewerServiceClient(ClientBaseConfiguration configuration)
+    parameters:
+    - id: configuration
+      type: ClientBaseConfiguration
+      description: The client configuration.
+    content.vb: Protected Sub New(configuration As ClientBaseConfiguration)
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  id: ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  langs:
+  - csharp
+  - vb
+  name: ListProjects(Empty, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  nameWithType: ViewerService.ViewerServiceClient.ListProjects(Empty, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects(Unity.Reflect.ProjectServer.Services.Empty, grpc.Metadata, System.Nullable<System.DateTime>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: ListProjects
+    path: ''
+    startLine: 17310
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public virtual ListProjectsResponse ListProjects(Empty request, grpc.Metadata headers = null, DateTime? deadline = default(DateTime? ), CancellationToken cancellationToken = default(CancellationToken))
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Empty
+    - id: headers
+      type: grpc.Metadata
+    - id: deadline
+      type: System.Nullable{System.DateTime}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse
+    content.vb: Public Overridable Function ListProjects(request As Empty, headers As grpc.Metadata = Nothing, deadline As Date? = Nothing, cancellationToken As CancellationToken = Nothing) As ListProjectsResponse
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects*
+  nameWithType.vb: ViewerService.ViewerServiceClient.ListProjects(Empty, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects(Unity.Reflect.ProjectServer.Services.Empty, grpc.Metadata, System.Nullable(Of System.DateTime), System.Threading.CancellationToken)
+  name.vb: ListProjects(Empty, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  id: ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  langs:
+  - csharp
+  - vb
+  name: ListProjects(Empty, grpc.CallOptions)
+  nameWithType: ViewerService.ViewerServiceClient.ListProjects(Empty, grpc.CallOptions)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects(Unity.Reflect.ProjectServer.Services.Empty, grpc.CallOptions)
+  type: Method
+  source:
+    id: ListProjects
+    path: ''
+    startLine: 17314
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public virtual ListProjectsResponse ListProjects(Empty request, grpc.CallOptions options)
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Empty
+    - id: options
+      type: grpc.CallOptions
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse
+    content.vb: Public Overridable Function ListProjects(request As Empty, options As grpc.CallOptions) As ListProjectsResponse
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  id: ListProjectsAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  langs:
+  - csharp
+  - vb
+  name: ListProjectsAsync(Empty, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  nameWithType: ViewerService.ViewerServiceClient.ListProjectsAsync(Empty, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync(Unity.Reflect.ProjectServer.Services.Empty, grpc.Metadata, System.Nullable<System.DateTime>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: ListProjectsAsync
+    path: ''
+    startLine: 17318
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public virtual grpc.AsyncUnaryCall<ListProjectsResponse> ListProjectsAsync(Empty request, grpc.Metadata headers = null, DateTime? deadline = default(DateTime? ), CancellationToken cancellationToken = default(CancellationToken))
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Empty
+    - id: headers
+      type: grpc.Metadata
+    - id: deadline
+      type: System.Nullable{System.DateTime}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: grpc.AsyncUnaryCall{Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse}
+    content.vb: Public Overridable Function ListProjectsAsync(request As Empty, headers As grpc.Metadata = Nothing, deadline As Date? = Nothing, cancellationToken As CancellationToken = Nothing) As grpc.AsyncUnaryCall(Of ListProjectsResponse)
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync*
+  nameWithType.vb: ViewerService.ViewerServiceClient.ListProjectsAsync(Empty, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync(Unity.Reflect.ProjectServer.Services.Empty, grpc.Metadata, System.Nullable(Of System.DateTime), System.Threading.CancellationToken)
+  name.vb: ListProjectsAsync(Empty, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  id: ListProjectsAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  langs:
+  - csharp
+  - vb
+  name: ListProjectsAsync(Empty, grpc.CallOptions)
+  nameWithType: ViewerService.ViewerServiceClient.ListProjectsAsync(Empty, grpc.CallOptions)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync(Unity.Reflect.ProjectServer.Services.Empty, grpc.CallOptions)
+  type: Method
+  source:
+    id: ListProjectsAsync
+    path: ''
+    startLine: 17322
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public virtual grpc.AsyncUnaryCall<ListProjectsResponse> ListProjectsAsync(Empty request, grpc.CallOptions options)
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Empty
+    - id: options
+      type: grpc.CallOptions
+    return:
+      type: grpc.AsyncUnaryCall{Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse}
+    content.vb: Public Overridable Function ListProjectsAsync(request As Empty, options As grpc.CallOptions) As grpc.AsyncUnaryCall(Of ListProjectsResponse)
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.NewInstance(ClientBaseConfiguration)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.NewInstance(ClientBaseConfiguration)
+  id: NewInstance(ClientBaseConfiguration)
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  langs:
+  - csharp
+  - vb
+  name: NewInstance(ClientBaseConfiguration)
+  nameWithType: ViewerService.ViewerServiceClient.NewInstance(ClientBaseConfiguration)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.NewInstance(ClientBaseConfiguration)
+  type: Method
+  source:
+    id: NewInstance
+    path: ''
+    startLine: 17327
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  summary: Creates a new instance of client from given <code>ClientBaseConfiguration</code>.
+  example: []
+  syntax:
+    content: protected override ViewerService.ViewerServiceClient NewInstance(ClientBaseConfiguration configuration)
+    parameters:
+    - id: configuration
+      type: ClientBaseConfiguration
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+    content.vb: Protected Overrides Function NewInstance(configuration As ClientBaseConfiguration) As ViewerService.ViewerServiceClient
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.NewInstance*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor(grpc.Channel)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor(grpc.Channel)
+  id: '#ctor(grpc.Channel)'
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  langs:
+  - csharp
+  - vb
+  name: ViewerServiceClient(grpc.Channel)
+  nameWithType: ViewerService.ViewerServiceClient.ViewerServiceClient(grpc.Channel)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ViewerServiceClient(grpc.Channel)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 37451
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  summary: Creates a new client for ViewerService
+  example: []
+  syntax:
+    content: public ViewerServiceClient(grpc.Channel channel)
+    parameters:
+    - id: channel
+      type: grpc.Channel
+      description: The channel to use to make remote calls.
+    content.vb: Public Sub New(channel As grpc.Channel)
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor(grpc.CallInvoker)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor(grpc.CallInvoker)
+  id: '#ctor(grpc.CallInvoker)'
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  langs:
+  - csharp
+  - vb
+  name: ViewerServiceClient(grpc.CallInvoker)
+  nameWithType: ViewerService.ViewerServiceClient.ViewerServiceClient(grpc.CallInvoker)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ViewerServiceClient(grpc.CallInvoker)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 37456
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  summary: Creates a new client for ViewerService that uses a custom <code>CallInvoker</code>.
+  example: []
+  syntax:
+    content: public ViewerServiceClient(grpc.CallInvoker callInvoker)
+    parameters:
+    - id: callInvoker
+      type: grpc.CallInvoker
+      description: The callInvoker to use to make remote calls.
+    content.vb: Public Sub New(callInvoker As grpc.CallInvoker)
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor
+  id: '#ctor'
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  langs:
+  - csharp
+  - vb
+  name: ViewerServiceClient()
+  nameWithType: ViewerService.ViewerServiceClient.ViewerServiceClient()
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ViewerServiceClient()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 37460
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  summary: Protected parameterless constructor to allow creation of test doubles.
+  example: []
+  syntax:
+    content: protected ViewerServiceClient()
+    content.vb: Protected Sub New
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor(ClientBaseConfiguration)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor(ClientBaseConfiguration)
+  id: '#ctor(ClientBaseConfiguration)'
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  langs:
+  - csharp
+  - vb
+  name: ViewerServiceClient(ClientBaseConfiguration)
+  nameWithType: ViewerService.ViewerServiceClient.ViewerServiceClient(ClientBaseConfiguration)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ViewerServiceClient(ClientBaseConfiguration)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 37465
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  summary: Protected constructor to allow creation of configured clients.
+  example: []
+  syntax:
+    content: protected ViewerServiceClient(ClientBaseConfiguration configuration)
+    parameters:
+    - id: configuration
+      type: ClientBaseConfiguration
+      description: The client configuration.
+    content.vb: Protected Sub New(configuration As ClientBaseConfiguration)
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  id: ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  langs:
+  - csharp
+  - vb
+  name: ListProjects(Empty, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  nameWithType: ViewerService.ViewerServiceClient.ListProjects(Empty, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects(Unity.Reflect.ProjectServer.Services.Empty, grpc.Metadata, System.Nullable<System.DateTime>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: ListProjects
+    path: ''
+    startLine: 37469
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public virtual ListProjectsResponse ListProjects(Empty request, grpc.Metadata headers = null, DateTime? deadline = default(DateTime? ), CancellationToken cancellationToken = default(CancellationToken))
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Empty
+    - id: headers
+      type: grpc.Metadata
+    - id: deadline
+      type: System.Nullable{System.DateTime}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse
+    content.vb: Public Overridable Function ListProjects(request As Empty, headers As grpc.Metadata = Nothing, deadline As Date? = Nothing, cancellationToken As CancellationToken = Nothing) As ListProjectsResponse
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects*
+  nameWithType.vb: ViewerService.ViewerServiceClient.ListProjects(Empty, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects(Unity.Reflect.ProjectServer.Services.Empty, grpc.Metadata, System.Nullable(Of System.DateTime), System.Threading.CancellationToken)
+  name.vb: ListProjects(Empty, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  id: ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  langs:
+  - csharp
+  - vb
+  name: ListProjects(Empty, grpc.CallOptions)
+  nameWithType: ViewerService.ViewerServiceClient.ListProjects(Empty, grpc.CallOptions)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects(Unity.Reflect.ProjectServer.Services.Empty, grpc.CallOptions)
+  type: Method
+  source:
+    id: ListProjects
+    path: ''
+    startLine: 37473
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public virtual ListProjectsResponse ListProjects(Empty request, grpc.CallOptions options)
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Empty
+    - id: options
+      type: grpc.CallOptions
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse
+    content.vb: Public Overridable Function ListProjects(request As Empty, options As grpc.CallOptions) As ListProjectsResponse
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  id: ListProjectsAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  langs:
+  - csharp
+  - vb
+  name: ListProjectsAsync(Empty, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  nameWithType: ViewerService.ViewerServiceClient.ListProjectsAsync(Empty, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync(Unity.Reflect.ProjectServer.Services.Empty, grpc.Metadata, System.Nullable<System.DateTime>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: ListProjectsAsync
+    path: ''
+    startLine: 37477
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public virtual grpc.AsyncUnaryCall<ListProjectsResponse> ListProjectsAsync(Empty request, grpc.Metadata headers = null, DateTime? deadline = default(DateTime? ), CancellationToken cancellationToken = default(CancellationToken))
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Empty
+    - id: headers
+      type: grpc.Metadata
+    - id: deadline
+      type: System.Nullable{System.DateTime}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: grpc.AsyncUnaryCall{Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse}
+    content.vb: Public Overridable Function ListProjectsAsync(request As Empty, headers As grpc.Metadata = Nothing, deadline As Date? = Nothing, cancellationToken As CancellationToken = Nothing) As grpc.AsyncUnaryCall(Of ListProjectsResponse)
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync*
+  nameWithType.vb: ViewerService.ViewerServiceClient.ListProjectsAsync(Empty, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync(Unity.Reflect.ProjectServer.Services.Empty, grpc.Metadata, System.Nullable(Of System.DateTime), System.Threading.CancellationToken)
+  name.vb: ListProjectsAsync(Empty, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  id: ListProjectsAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  langs:
+  - csharp
+  - vb
+  name: ListProjectsAsync(Empty, grpc.CallOptions)
+  nameWithType: ViewerService.ViewerServiceClient.ListProjectsAsync(Empty, grpc.CallOptions)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync(Unity.Reflect.ProjectServer.Services.Empty, grpc.CallOptions)
+  type: Method
+  source:
+    id: ListProjectsAsync
+    path: ''
+    startLine: 37481
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public virtual grpc.AsyncUnaryCall<ListProjectsResponse> ListProjectsAsync(Empty request, grpc.CallOptions options)
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Empty
+    - id: options
+      type: grpc.CallOptions
+    return:
+      type: grpc.AsyncUnaryCall{Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse}
+    content.vb: Public Overridable Function ListProjectsAsync(request As Empty, options As grpc.CallOptions) As grpc.AsyncUnaryCall(Of ListProjectsResponse)
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.NewInstance(ClientBaseConfiguration)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.NewInstance(ClientBaseConfiguration)
+  id: NewInstance(ClientBaseConfiguration)
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  langs:
+  - csharp
+  - vb
+  name: NewInstance(ClientBaseConfiguration)
+  nameWithType: ViewerService.ViewerServiceClient.NewInstance(ClientBaseConfiguration)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.NewInstance(ClientBaseConfiguration)
+  type: Method
+  source:
+    id: NewInstance
+    path: ''
+    startLine: 37486
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  summary: Creates a new instance of client from given <code>ClientBaseConfiguration</code>.
+  example: []
+  syntax:
+    content: protected override ViewerService.ViewerServiceClient NewInstance(ClientBaseConfiguration configuration)
+    parameters:
+    - id: configuration
+      type: ClientBaseConfiguration
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+    content.vb: Protected Overrides Function NewInstance(configuration As ClientBaseConfiguration) As ViewerService.ViewerServiceClient
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.NewInstance*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Unity.Reflect.ProjectServer.Services.Viewer
+  commentId: N:Unity.Reflect.ProjectServer.Services.Viewer
+  name: Unity.Reflect.ProjectServer.Services.Viewer
+  nameWithType: Unity.Reflect.ProjectServer.Services.Viewer
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: grpc.ClientBase{Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient}
+  commentId: '!:grpc.ClientBase{Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient}'
+  definition: grpc.ClientBase`1
+  name: grpc.ClientBase<ViewerService.ViewerServiceClient>
+  nameWithType: grpc.ClientBase<ViewerService.ViewerServiceClient>
+  fullName: grpc.ClientBase<Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient>
+  nameWithType.vb: grpc.ClientBase(Of ViewerService.ViewerServiceClient)
+  fullName.vb: grpc.ClientBase(Of Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient)
+  name.vb: grpc.ClientBase(Of ViewerService.ViewerServiceClient)
+  spec.csharp:
+  - uid: grpc.ClientBase`1
+    name: grpc.ClientBase
+    nameWithType: grpc.ClientBase
+    fullName: grpc.ClientBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+    name: ViewerService.ViewerServiceClient
+    nameWithType: ViewerService.ViewerServiceClient
+    fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: grpc.ClientBase`1
+    name: grpc.ClientBase
+    nameWithType: grpc.ClientBase
+    fullName: grpc.ClientBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+    name: ViewerService.ViewerServiceClient
+    nameWithType: ViewerService.ViewerServiceClient
+    fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: grpc.ClientBase`1
+  isExternal: true
+  name: grpc.ClientBase<>
+  nameWithType: grpc.ClientBase<>
+  fullName: grpc.ClientBase<>
+  nameWithType.vb: grpc.ClientBase(Of )
+  fullName.vb: grpc.ClientBase(Of )
+  name.vb: grpc.ClientBase(Of )
+  spec.csharp:
+  - uid: grpc.ClientBase`1
+    name: grpc.ClientBase
+    nameWithType: grpc.ClientBase
+    fullName: grpc.ClientBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: grpc.ClientBase`1
+    name: grpc.ClientBase
+    nameWithType: grpc.ClientBase
+    fullName: grpc.ClientBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.#ctor
+  name: ViewerServiceClient
+  nameWithType: ViewerService.ViewerServiceClient.ViewerServiceClient
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ViewerServiceClient
+- uid: grpc.Channel
+  isExternal: true
+  name: grpc.Channel
+  nameWithType: grpc.Channel
+  fullName: grpc.Channel
+- uid: grpc.CallInvoker
+  isExternal: true
+  name: grpc.CallInvoker
+  nameWithType: grpc.CallInvoker
+  fullName: grpc.CallInvoker
+- uid: ClientBaseConfiguration
+  isExternal: true
+  name: ClientBaseConfiguration
+  nameWithType: ClientBaseConfiguration
+  fullName: ClientBaseConfiguration
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects
+  name: ListProjects
+  nameWithType: ViewerService.ViewerServiceClient.ListProjects
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjects
+- uid: Unity.Reflect.ProjectServer.Services.Empty
+  commentId: T:Unity.Reflect.ProjectServer.Services.Empty
+  parent: Unity.Reflect.ProjectServer.Services
+  name: Empty
+  nameWithType: Empty
+  fullName: Unity.Reflect.ProjectServer.Services.Empty
+- uid: grpc.Metadata
+  isExternal: true
+  name: grpc.Metadata
+  nameWithType: grpc.Metadata
+  fullName: grpc.Metadata
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse
+  commentId: T:Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse
+  parent: Unity.Reflect.ProjectServer.Services.Viewer
+  name: ListProjectsResponse
+  nameWithType: ListProjectsResponse
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse
+- uid: Unity.Reflect.ProjectServer.Services
+  commentId: N:Unity.Reflect.ProjectServer.Services
+  name: Unity.Reflect.ProjectServer.Services
+  nameWithType: Unity.Reflect.ProjectServer.Services
+  fullName: Unity.Reflect.ProjectServer.Services
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+- uid: grpc.CallOptions
+  isExternal: true
+  name: grpc.CallOptions
+  nameWithType: grpc.CallOptions
+  fullName: grpc.CallOptions
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync
+  name: ListProjectsAsync
+  nameWithType: ViewerService.ViewerServiceClient.ListProjectsAsync
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.ListProjectsAsync
+- uid: grpc.AsyncUnaryCall{Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse}
+  commentId: '!:grpc.AsyncUnaryCall{Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse}'
+  definition: grpc.AsyncUnaryCall`1
+  name: grpc.AsyncUnaryCall<ListProjectsResponse>
+  nameWithType: grpc.AsyncUnaryCall<ListProjectsResponse>
+  fullName: grpc.AsyncUnaryCall<Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse>
+  nameWithType.vb: grpc.AsyncUnaryCall(Of ListProjectsResponse)
+  fullName.vb: grpc.AsyncUnaryCall(Of Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse)
+  name.vb: grpc.AsyncUnaryCall(Of ListProjectsResponse)
+  spec.csharp:
+  - uid: grpc.AsyncUnaryCall`1
+    name: grpc.AsyncUnaryCall
+    nameWithType: grpc.AsyncUnaryCall
+    fullName: grpc.AsyncUnaryCall
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse
+    name: ListProjectsResponse
+    nameWithType: ListProjectsResponse
+    fullName: Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: grpc.AsyncUnaryCall`1
+    name: grpc.AsyncUnaryCall
+    nameWithType: grpc.AsyncUnaryCall
+    fullName: grpc.AsyncUnaryCall
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse
+    name: ListProjectsResponse
+    nameWithType: ListProjectsResponse
+    fullName: Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: grpc.AsyncUnaryCall`1
+  isExternal: true
+  name: grpc.AsyncUnaryCall<>
+  nameWithType: grpc.AsyncUnaryCall<>
+  fullName: grpc.AsyncUnaryCall<>
+  nameWithType.vb: grpc.AsyncUnaryCall(Of )
+  fullName.vb: grpc.AsyncUnaryCall(Of )
+  name.vb: grpc.AsyncUnaryCall(Of )
+  spec.csharp:
+  - uid: grpc.AsyncUnaryCall`1
+    name: grpc.AsyncUnaryCall
+    nameWithType: grpc.AsyncUnaryCall
+    fullName: grpc.AsyncUnaryCall
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: grpc.AsyncUnaryCall`1
+    name: grpc.AsyncUnaryCall
+    nameWithType: grpc.AsyncUnaryCall
+    fullName: grpc.AsyncUnaryCall
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.NewInstance*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.NewInstance
+  name: NewInstance
+  nameWithType: ViewerService.ViewerServiceClient.NewInstance
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient.NewInstance
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  commentId: T:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient
+  parent: Unity.Reflect.ProjectServer.Services.Viewer
+  name: ViewerService.ViewerServiceClient
+  nameWithType: ViewerService.ViewerServiceClient
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceClient

@@ -1,0 +1,10 @@
+syntax = "proto3";
+package Reflect;
+
+option csharp_namespace = "Unity.Reflect.Model";
+
+message SyncParameter {
+	string value = 1;
+	string parameterGroup = 2;
+	bool visible = 3;
+}

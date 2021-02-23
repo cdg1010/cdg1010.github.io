@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+  
+  <meta name="robots" content="noindex">
+  
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);  })(window,document,'script','dataLayer','GTM-5V25JL6');</script>
+  
+  
+  <script>
+  $(document).ready(function(){
+    $('#component-select-current-display').click(function(){
+        $('#component-select-current-display').toggleClass('component-select__current--is-active');
+    });
+    $(document).click(function(e){
+        if (!(e.target.id == 'component-select-current-display'))
+            $('#component-select-current-display').removeClass('component-select__current--is-active');
+    });
+     });
+  </script>
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+  
+    <title>Reflect Publisher API | Unity Reflect | 2.0 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Reflect Publisher API | Unity Reflect | 2.0 ">
+    <meta name="generator" content="docfx 2.45.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/version-switcher.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="unity:packageTitle" content="Unity Reflect | 2.0">
+    <meta property="docfx:rel" content="../">
+    
+  
+  </head>
+  <body data-spy="scroll" data-target="#affix" class="">
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5V25JL6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+        
+        		<div class="back-to-unity-group">
+        			<a class="back-to-unity" href="http://docs.unity3d.com/">docs.unity3d.com</a>
+        		</div>
+        
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="subnav navbar navbar-default">
+        <div class="container hide-when-search" id="breadcrumb">
+          <div id="version-switcher-select">
+        <div class="component-select" onclick="onVersionSwitcherClick()">
+        <div id="component-select-current-display" class="component-select__current">
+        Unity Reflect 2.0
+        </div>
+        
+        <ul id="version-switcher-ul" class="component-select__options-container">
+        <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.3/manual/index.html"><li class="component-select__option">
+                    1.3
+                </li></a>
+        <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.2/manual/index.html"><li class="component-select__option">
+                    1.2
+                </li></a>
+        <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.1/manual/index.html"><li class="component-select__option">
+                    1.1
+                </li></a>
+                <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.0/manual/index.html"><li class="component-select__option">
+                            1.0
+                        </li></a>
+        
+        
+                </ul>
+        </div>
+        </div></div>
+      </div></header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10" id="main_content">
+          <div id="breadcrumb_placeholder"></div>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="reflect-publisher-api" sourcefile="api/index.md" sourcestartlinenumber="1" sourceendlinenumber="1">Reflect Publisher API</h1>
+
+<h2 id="getting-started" sourcefile="api/index.md" sourcestartlinenumber="3" sourceendlinenumber="3">Getting started</h2>
+<p sourcefile="api/index.md" sourcestartlinenumber="5" sourceendlinenumber="5">This documentation is intended for anyone who wants to create a plugin to publish data to Unity Reflect.</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="7" sourceendlinenumber="7">For general information about using Unity Reflect, see the <a href="../manual/index.md" data-raw-source="[user manual](../manual/index.md)" sourcefile="api/index.md" sourcestartlinenumber="7" sourceendlinenumber="7">user manual</a>.</p>
+<h2 id="recommended-developer-setup" sourcefile="api/index.md" sourcestartlinenumber="9" sourceendlinenumber="9">Recommended developer setup</h2>
+<h3 id="unity-reflect" sourcefile="api/index.md" sourcestartlinenumber="11" sourceendlinenumber="11">Unity Reflect</h3>
+<p sourcefile="api/index.md" sourcestartlinenumber="13" sourceendlinenumber="13">To use the Publisher API, Unity Reflect must be installed on your machine, including both the local sync service and the Reflect UI. See <a href="../manual/ReflectInstaller.md" data-raw-source="[Installing Reflect](../manual/ReflectInstaller.md)" sourcefile="api/index.md" sourcestartlinenumber="13" sourceendlinenumber="13">Installing Reflect</a> for instructions.</p>
+<h3 id="licenses" sourcefile="api/index.md" sourcestartlinenumber="15" sourceendlinenumber="15">Licenses</h3>
+<p sourcefile="api/index.md" sourcestartlinenumber="17" sourceendlinenumber="17">To run the plugin you create, you need a valid <a href="../manual/ManagingLicenses.html" data-raw-source="[Reflect license](../manual/ManagingLicenses.html)" sourcefile="api/index.md" sourcestartlinenumber="17" sourceendlinenumber="17">Reflect license</a>.</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="19" sourceendlinenumber="19">To use the Editor workflow, you also need a valid Unity Pro license.</p>
+<h3 id="local-sync-service" sourcefile="api/index.md" sourcestartlinenumber="21" sourceendlinenumber="21">Local sync service</h3>
+<p sourcefile="api/index.md" sourcestartlinenumber="23" sourceendlinenumber="23">When running your plugin, you can choose which server to export your project to.</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="25" sourceendlinenumber="25">You can test your plugin by exporting data to the Reflect cloud server, but this option doesn&#39;t allow you to see the service logs if anything goes wrong during the export session. For this reason, we recommend sending data to a local sync service instead. This service is automatically installed when you install the Reflect Core component in the Reflect installer.</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="27" sourceendlinenumber="27">When installed, the local sync service runs as a Windows service.</p>
+<ul sourcefile="api/index.md" sourcestartlinenumber="29" sourceendlinenumber="30">
+<li sourcefile="api/index.md" sourcestartlinenumber="29" sourceendlinenumber="29">To manage the service, go to <strong>Task Manager</strong> &gt; <strong>Services</strong> &gt; <strong>Unity Reflect.</strong></li>
+<li sourcefile="api/index.md" sourcestartlinenumber="30" sourceendlinenumber="30">To access your local service logs, go to <code>C:\ProgramData\Unity\Reflect\Logs\SyncService</code>.</li>
+</ul>
+<h3 id="editor-workflow" sourcefile="api/index.md" sourcestartlinenumber="32" sourceendlinenumber="32">Editor workflow</h3>
+<p sourcefile="api/index.md" sourcestartlinenumber="34" sourceendlinenumber="34">There are multiple ways to confirm that your plugin sends the correct data, the most straightforward of which is to use the default Reflect Viewer (which can be installed with the Reflect installer).</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="36" sourceendlinenumber="36">However, the default Viewer offers limited options for inspecting and debugging data. For this reason, we suggest using the Editor workflow instead. With this workflow, you can closely inspect the assets your data has been converted into from the Unity Editor.</p>
+<blockquote sourcefile="api/index.md" sourcestartlinenumber="38" sourceendlinenumber="38"><p sourcefile="api/index.md" sourcestartlinenumber="38" sourceendlinenumber="38"><strong>Note:</strong> Unity Reflect is currently focusing its support on Unity 2019.4 LTS.</p>
+</blockquote>
+<p sourcefile="api/index.md" sourcestartlinenumber="40" sourceendlinenumber="40">The Editor workflow requires a valid Unity Pro license.</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="42" sourceendlinenumber="42">For more information about the Editor workflow, see the <a href="../manual/devguide/DevGuide.html" data-raw-source="[developer guide](../manual/devguide/DevGuide.html)" sourcefile="api/index.md" sourcestartlinenumber="42" sourceendlinenumber="42">developer guide</a>.</p>
+<!--
+## Getting started in C#
+
+The Reflect team provides a sample project repository to demonstrate how to use the C# Publisher API in a real plugin environment.
+
+Any C# plugin will depend on two Reflect NuGet packages :
+Unity.Reflect : a multiplatform .NET Standard 2.0 library containing the core Reflect API,
+Unity.Reflect.UI : a Windows only .NET Standard 2.0 library exposing endpoints to communicate with the Reflect UI. This UI is an external process, and the well functioning of your plugin depends on it being installed in your user’s machine (through the Reflect Core component).
+
+You can retrieve the Reflect packages directly in the C# Publisher Sample repository.
+
+-->
+<h2 id="reflect-plugin-architecture" sourcefile="api/index.md" sourcestartlinenumber="57" sourceendlinenumber="57">Reflect plugin architecture</h2>
+<h3 id="usual-plugin-flow" sourcefile="api/index.md" sourcestartlinenumber="59" sourceendlinenumber="59">Usual plugin flow</h3>
+<p sourcefile="api/index.md" sourcestartlinenumber="61" sourceendlinenumber="61"><img src="../manual/images/1.4/Pub2.png" alt="Reflect plugin architecture" sourcefile="api/index.md" sourcestartlinenumber="61" sourceendlinenumber="61"></p>
+<p sourcefile="api/index.md" sourcestartlinenumber="63" sourceendlinenumber="63">The Unity Reflect plugin is integrated into the publisher software as a native add-on. When the user wants to export a source project, the plugin can invoke the Reflect UI to retrieve settings for the export session including the user’s Unity account, target project and sync server (whether local, on a local network, or hosted in the cloud).</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="65" sourceendlinenumber="65">The plugin can then connect to the selected sync server and query the publisher software for model data (meshes, textures, materials, objects, instances) to send to the server immediately through transactions.</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="67" sourceendlinenumber="67">When the plugin has finished sending the model data, it can close communication with the server and free the export process.</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="69" sourceendlinenumber="69"><img src="../manual/images/1.4/Pub1.png" alt="Reflect plugin architecture" sourcefile="api/index.md" sourcestartlinenumber="69" sourceendlinenumber="69"></p>
+<h3 id="native-plugin-prerequisites" sourcefile="api/index.md" sourcestartlinenumber="71" sourceendlinenumber="71">Native plugin prerequisites</h3>
+<p sourcefile="api/index.md" sourcestartlinenumber="73" sourceendlinenumber="73">A Reflect plugin is typically an add-on of the desired publisher software, which means:</p>
+<ul sourcefile="api/index.md" sourcestartlinenumber="75" sourceendlinenumber="76">
+<li sourcefile="api/index.md" sourcestartlinenumber="75" sourceendlinenumber="75">The plugin needs the ability to retrieve model information (geometry, materials, metadata, or anything relevant), potentially through the software API, and</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="76" sourceendlinenumber="76">Ideally, the plugin can integrate seamlessly into the software’s UI, to display export and sync buttons for example. Note that this is just the usual Reflect plugin UX, but your plugin can still work without this.</li>
+</ul>
+<h3 id="publisher-transactions--flows" sourcefile="api/index.md" sourcestartlinenumber="78" sourceendlinenumber="78">Publisher transactions &amp; flows</h3>
+<h4 id="transactions" sourcefile="api/index.md" sourcestartlinenumber="80" sourceendlinenumber="80">Transactions</h4>
+<p sourcefile="api/index.md" sourcestartlinenumber="82" sourceendlinenumber="82">In Reflect, a transaction is an atomic and self-contained set of elements that the plugin sends to the sync server. When committed, it contains the complete state of the source model.</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="84" sourceendlinenumber="84"><img src="../manual/images/1.4/Pub3.png" alt="Reflect plugin architecture" sourcefile="api/index.md" sourcestartlinenumber="84" sourceendlinenumber="84"></p>
+<h4 id="simple-export-flow" sourcefile="api/index.md" sourcestartlinenumber="86" sourceendlinenumber="86">Simple export flow</h4>
+<p sourcefile="api/index.md" sourcestartlinenumber="88" sourceendlinenumber="88"><img src="../manual/images/1.4/Pub4.png" alt="Reflect plugin architecture" sourcefile="api/index.md" sourcestartlinenumber="88" sourceendlinenumber="88"></p>
+<p sourcefile="api/index.md" sourcestartlinenumber="90" sourceendlinenumber="90">The simple export is the most basic Reflect flow:</p>
+<ol sourcefile="api/index.md" sourcestartlinenumber="92" sourceendlinenumber="95">
+<li sourcefile="api/index.md" sourcestartlinenumber="92" sourceendlinenumber="92">The user opens a project in the publisher software.</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="93" sourceendlinenumber="93">The user clicks the Reflect Export button.</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="94" sourceendlinenumber="94">The Reflect UI appears for the user to select a target Unity project and sync server.</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="95" sourceendlinenumber="95">The plugin parses and sends the project to Reflect. This may take some time.</li>
+</ol>
+<p sourcefile="api/index.md" sourcestartlinenumber="97" sourceendlinenumber="97">Once the simple export has been performed, any viewer with the proper read access can open the exported project.</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="99" sourceendlinenumber="99">In order to perform a simple export, the plugin should use a single transaction to send the whole project at one time.</p>
+<h4 id="sync-flow" sourcefile="api/index.md" sourcestartlinenumber="101" sourceendlinenumber="101">Sync flow</h4>
+<p sourcefile="api/index.md" sourcestartlinenumber="103" sourceendlinenumber="103"><img src="../manual/images/1.4/Pub5.png" alt="Reflect plugin architecture" sourcefile="api/index.md" sourcestartlinenumber="103" sourceendlinenumber="103"></p>
+<p sourcefile="api/index.md" sourcestartlinenumber="105" sourceendlinenumber="105">The sync is an advanced flow that can be leveraged by the user to save a lot of time when iterating over their source project.</p>
+<ol sourcefile="api/index.md" sourcestartlinenumber="108" sourceendlinenumber="114">
+<li sourcefile="api/index.md" sourcestartlinenumber="108" sourceendlinenumber="108">The user opens a project in the publisher software.</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="109" sourceendlinenumber="109">The user clicks the Reflect Export button.</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="110" sourceendlinenumber="110">The Reflect UI appears for the user to select a target Unity project and sync server.</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="111" sourceendlinenumber="111">The plugin parses and sends the project to Reflect (<strong>sync first export</strong>). This may take some time.</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="112" sourceendlinenumber="112">After the first export is complete, the plugin stays alert to any changes in the source model (via the software’s API).</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="113" sourceendlinenumber="113">When there is a change in the source project, the plugin automatically sends this information to the server without any additional UX steps for the user. Each of these steps are called <strong>sync updates</strong> and typically take less time than the initial export.</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="114" sourceendlinenumber="114">The plugin stops observing changes when the user disables the sync mode in their publisher software.</li>
+</ol>
+<p sourcefile="api/index.md" sourcestartlinenumber="116" sourceendlinenumber="116">Once the first export is performed, any viewer with read access can open the exported project and be up to date with the latest publisher changes. The user can also click the sync button to enable Sync Mode in the Viewer to automatically reflect any subsequent changes in the Viewer.</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="118" sourceendlinenumber="118">To perform a sync:</p>
+<ul sourcefile="api/index.md" sourcestartlinenumber="120" sourceendlinenumber="124">
+<li sourcefile="api/index.md" sourcestartlinenumber="120" sourceendlinenumber="120">The first export should behave exactly like a first export, but the plugin should not close the publisher client when the export is complete (as it will be used in subsequent transactions).</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="121" sourceendlinenumber="123">Whenever the plugin is notified of a change, it should send the delta information through a new transaction to the same publisher client. To reduce parsing time, there is no need to send unchanged data, but only the following:<ul sourcefile="api/index.md" sourcestartlinenumber="122" sourceendlinenumber="123">
+<li sourcefile="api/index.md" sourcestartlinenumber="122" sourceendlinenumber="122"><strong>RemoveObjectInstance</strong> when an object instance has just been deleted</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="123" sourceendlinenumber="123"><strong>Send</strong> when an item has just been added or modified. If the sent item already exists in the server, it will be overridden.</li>
+</ul>
+</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="124" sourceendlinenumber="124">The publisher client can be closed when the user disables Sync Mode.</li>
+</ul>
+<h2 id="reflect-ui" sourcefile="api/index.md" sourcestartlinenumber="126" sourceendlinenumber="126">Reflect UI</h2>
+<p sourcefile="api/index.md" sourcestartlinenumber="128" sourceendlinenumber="128">The Reflect Publisher API provides an endpoint to display the Reflect UI as an external process and to retrieve whatever settings the user has chosen for their export session. Note that this assumes that the Reflect Core component has been installed into the user’s machine: if not, an exception is thrown.</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="130" sourceendlinenumber="130">This method takes a the following input arguments:</p>
+<ul sourcefile="api/index.md" sourcestartlinenumber="132" sourceendlinenumber="133">
+<li sourcefile="api/index.md" sourcestartlinenumber="132" sourceendlinenumber="132"><strong>pluginName</strong>, <strong>pluginVersion</strong>: These indicate the name and the version of the plugin you’re developing, which are used by the Reflect UI to display and filter exported projects.</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="133" sourceendlinenumber="133"><strong>publishType</strong>: This enum indicates what publish flow the user is going to use (simple export or sync).</li>
+</ul>
+<p sourcefile="api/index.md" sourcestartlinenumber="135" sourceendlinenumber="135">Finally, this method returns a PublisherSettings instance containing user settings data. If null, it means that the user cancelled the operation: otherwise, it contains useful information such as target project and sync service. Note that this instance can be programmatically modified after being returned: for example, to enforce additional Reflect rules. See (Customize PublisherSettings)[#customize-publishersettings] for more details.</p>
+<!--
+The C# API provides an additional and advanced flow to skip the Reflect UI, replacing it by a config file. See [TODO].-->
+<h2 id="the-publisher-client" sourcefile="api/index.md" sourcestartlinenumber="140" sourceendlinenumber="140">The publisher client</h2>
+<h3 id="purpose-and-life-cycle" sourcefile="api/index.md" sourcestartlinenumber="142" sourceendlinenumber="142">Purpose and life cycle</h3>
+<p sourcefile="api/index.md" sourcestartlinenumber="144" sourceendlinenumber="144">In Reflect, the publisher client abstracts a connection between your plugin and its target project and sync server during an export session. This means that its life cycle is tightly linked to the export session’s: the publisher client should be opened immediately after the user provides their settings in the Reflect UI and closed as soon as the export session (either simple export or sync) is done.</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="146" sourceendlinenumber="146">The client’s OpenClient method takes 3 input arguments to specify information about the upcoming publish session:</p>
+<ul sourcefile="api/index.md" sourcestartlinenumber="148" sourceendlinenumber="150">
+<li sourcefile="api/index.md" sourcestartlinenumber="148" sourceendlinenumber="148"><strong>sourceName</strong>: This is the public name of the source project. It doesn’t necessarily have to be unique, but it will be used throughout Reflect for the user to identify this project.</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="149" sourceendlinenumber="149"><strong>sourceId</strong>: This identifies the source project and should be unique and persistent over multiple publishing sessions. Our recommendation is to use the (sanitized) source file name.</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="150" sourceendlinenumber="150"><strong>settings</strong>: This is where you should provide the PublisherSettings instance that you retrieved from the Reflect UI. You can customize the settings further before providing them to the OpenClient method.</li>
+</ul>
+<h3 id="customize-publishersettings" sourcefile="api/index.md" sourcestartlinenumber="152" sourceendlinenumber="152">Customize PublisherSettings</h3>
+<p sourcefile="api/index.md" sourcestartlinenumber="154" sourceendlinenumber="154">After the Reflect UI call, the returned PublisherSettings instance already contains some information about the upcoming publish session. However, it is possible to customize it further by tweaking some values in this instance before you open the Publisher Client.</p>
+<h4 id="native-settings" sourcefile="api/index.md" sourcestartlinenumber="156" sourceendlinenumber="156">Native settings</h4>
+<p sourcefile="api/index.md" sourcestartlinenumber="158" sourceendlinenumber="158">The settings you can modify in the PublisherSettings instance are:</p>
+<ul sourcefile="api/index.md" sourcestartlinenumber="160" sourceendlinenumber="162">
+<li sourcefile="api/index.md" sourcestartlinenumber="160" sourceendlinenumber="160"><strong>LengthUnit</strong> &amp; <strong>CustomUnitCoefficient</strong>: Specify which length unit will be used for geometry and transforms.</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="161" sourceendlinenumber="161"><strong>PreserveUvs</strong>: Specify whether the unit conversion should be applied to UV.</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="162" sourceendlinenumber="162"><strong>AxisInversion</strong>: Specify the mathematical basis your vertex and transform info come from.</li>
+</ul>
+<h4 id="rules" sourcefile="api/index.md" sourcestartlinenumber="164" sourceendlinenumber="164">Rules</h4>
+<p sourcefile="api/index.md" sourcestartlinenumber="166" sourceendlinenumber="166">The PublisherSettings instance exposes a Rules property that you can feed with JSON content to specify which rules you want the sync server’s rule engine to apply automatically. We currently support only a limited number of predefined conditions and actions.</p>
+<!--To see a template file, as well as an example use case, see [TODO].-->
+<h5 id="conditions" sourcefile="api/index.md" sourcestartlinenumber="170" sourceendlinenumber="170">Conditions</h5>
+<p sourcefile="api/index.md" sourcestartlinenumber="172" sourceendlinenumber="172">Conditions must be fulfilled in order for the action to take place in the sync server.</p>
+<table sourcefile="api/index.md" sourcestartlinenumber="174" sourceendlinenumber="178">
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:left">Can be applied on</th>
+<th style="text-align:left">Description</th>
+<th style="text-align:left">Inputs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>ConditionGroup</strong></td>
+<td style="text-align:left">Anything</td>
+<td style="text-align:left">Groups multiple conditions with a satisfaction criteria.</td>
+<td style="text-align:left"><strong>GroupCriteria</strong>: Any or All <br> <strong>Conditions</strong>: Condition[]</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>ParameterValueComparison</strong></td>
+<td style="text-align:left">SyncObject, SyncObjectInstance</td>
+<td style="text-align:left">Detects whether the metadata contains a specific key, or if this parameter equals a specific value.</td>
+<td style="text-align:left"><strong>ComparisonCriteria</strong>: Equals or Contains <br> <strong>IsCaseSensitive</strong>: bool <br> <strong>ParameterName</strong>: string <br> <strong>ParameterValue</strong>: string</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>SyncTypeComparison</strong></td>
+<td style="text-align:left">Anything</td>
+<td style="text-align:left">Returns true if the model has the expected type.</td>
+<td style="text-align:left"><strong>SyncType</strong>: String</td>
+</tr>
+</tbody>
+</table>
+<h5 id="actions" sourcefile="api/index.md" sourcestartlinenumber="180" sourceendlinenumber="180">Actions</h5>
+<p sourcefile="api/index.md" sourcestartlinenumber="182" sourceendlinenumber="182">Actions are applied on a model only if the corresponding condition has been validated for this model. An immediate action takes place instantly and a delayed action takes place when the transaction is committed.</p>
+<table sourcefile="api/index.md" sourcestartlinenumber="184" sourceendlinenumber="190">
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:left">Type</th>
+<th style="text-align:left">Can be applied on</th>
+<th style="text-align:left">Description</th>
+<th style="text-align:left">Inputs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>GroupRootObjects</strong></td>
+<td style="text-align:left">Delayed</td>
+<td style="text-align:left">SyncObjectInstance</td>
+<td style="text-align:left">Groups or merges instances by metadata value for a specific key.</td>
+<td style="text-align:left"><strong>BaseName</strong>: String <br> <strong>ParameterName</strong>: String <br> <strong>Method</strong>: Group or Merge</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>MergeChildObjects</strong></td>
+<td style="text-align:left">Immediate</td>
+<td style="text-align:left">SyncObject</td>
+<td style="text-align:left">Merges the object’s children.</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>ReparentInstances</strong></td>
+<td style="text-align:left">Delayed</td>
+<td style="text-align:left">SyncObjectInstance</td>
+<td style="text-align:left">Reparents instances under a single parent object.</td>
+<td style="text-align:left"><strong>ParentCondition</strong>: Condition <br> <strong>ChildrenCondition</strong>: Condition <br> <strong>Method</strong>: Group or Merge <br> <strong>ParameterNamePairs</strong>: <br> <code> { ParentParameterName : string ChildrenParameterName : string } </code></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>ScaleAndFlipInstance</strong></td>
+<td style="text-align:left">Immediate</td>
+<td style="text-align:left">SyncObjectInstance</td>
+<td style="text-align:left">Applies a scale and a YZ axis flip.</td>
+<td style="text-align:left"><strong>ScaleFactor</strong>: Float <br> <strong>FlipYZ</strong>: Bool</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>ScaleAndFlipObject</strong></td>
+<td style="text-align:left">Immediate</td>
+<td style="text-align:left">SyncObject</td>
+<td style="text-align:left">Applies a scale and a YZ axis flip.</td>
+<td style="text-align:left"><strong>ScaleFactor</strong>: Float <br> <strong>FlipYZ</strong>: Bool</td>
+</tr>
+</tbody>
+</table>
+<h3 id="transactions-1" sourcefile="api/index.md" sourcestartlinenumber="192" sourceendlinenumber="192">Transactions</h3>
+<p sourcefile="api/index.md" sourcestartlinenumber="194" sourceendlinenumber="194">This section of the document covers technical details about transactions: see <a href="#publisher-transactions-and-flows" data-raw-source="[Publisher transactions and flows](#publisher-transactions-and-flows)" sourcefile="api/index.md" sourcestartlinenumber="194" sourceendlinenumber="194">Publisher transactions and flows</a> for a broader overview.</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="196" sourceendlinenumber="196">Once your publisher client is opened, you can create a transaction from it. Note that you cannot start a transaction if there already is a pending transaction attached to your client: transactions are not to be used concurrently.</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="198" sourceendlinenumber="198">After your transaction is started, you can begin parsing the source and perform the following actions along the way:</p>
+<ul sourcefile="api/index.md" sourcestartlinenumber="200" sourceendlinenumber="206">
+<li sourcefile="api/index.md" sourcestartlinenumber="200" sourceendlinenumber="202"><p sourcefile="api/index.md" sourcestartlinenumber="200" sourceendlinenumber="200">Send an item</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="202" sourceendlinenumber="202">If the item already exists in the server, it is overridden by the new version.</p>
+</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="204" sourceendlinenumber="206"><p sourcefile="api/index.md" sourcestartlinenumber="204" sourceendlinenumber="204">Remove an instance</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="206" sourceendlinenumber="206">This is only needed for a sync update transaction to remove instances that have been created in previous transactions. Note that you don’t need to remove assets (other than instances) because the sync server automatically determines what is no longer a dependency.</p>
+</li>
+</ul>
+<p sourcefile="api/index.md" sourcestartlinenumber="208" sourceendlinenumber="208">When your transaction contains every desired change, you’ll need to commit it to confirm and officially push the changes to Reflect. Before the transaction is committed, the transaction remains “internal” and cannot be seen by viewers.</p>
+<!--
+### Activity report (C# API only)
+This part is to cover technical details about activity reporting in C# ; see [TODO] for more information about activities in the Reflect Dashboard.
+Report message
+The publisher client exposes an endpoint to report messages that will be displayed in the Dashboard’s activity report. We recommend using this with parsimony in order not to flood the user with messages.
+
+These messages should be understandable by your plugin users (thus, mostly non developers), and when you’re reporting an issue, you should always suggest an action the user can perform to fix it.
+Report progress
+Parsing the scene can take some time ; it can be good for your users to know how far they have come. For this reason, the publisher client exposes a method to report the current parsing progress, so that the Dashboard’s activity report can track a percentage of the export process.
+
+Note that the provided parsing progress is not displayed as is in the Dashboard ; instead, Reflect uses an formula to combine parsing progress and internal transaction computation progress.
+
+Also note that reporting the parsing progress is not necessary, but rather a UX bonus for your plugin. If no parsing progress is provided, the Dashboard will display a generic loading icon instead.
+-->
+<h2 id="reflect-data" sourcefile="api/index.md" sourcestartlinenumber="225" sourceendlinenumber="225">Reflect data</h2>
+<h3 id="syncmodel-and-syncid" sourcefile="api/index.md" sourcestartlinenumber="227" sourceendlinenumber="227">SyncModel and SyncId</h3>
+<p sourcefile="api/index.md" sourcestartlinenumber="229" sourceendlinenumber="229">A <strong>SyncModel</strong> is a model that can be sent through Reflect from the Publisher to the Viewer. When the Viewer downloads a SyncModel, it converts it into the correct Unity asset. The following SyncModels are supported:</p>
+<ul sourcefile="api/index.md" sourcestartlinenumber="231" sourceendlinenumber="235">
+<li sourcefile="api/index.md" sourcestartlinenumber="231" sourceendlinenumber="231">SyncObject</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="232" sourceendlinenumber="232">SyncObjectInstance</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="233" sourceendlinenumber="233">SyncMesh</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="234" sourceendlinenumber="234">SyncMaterial</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="235" sourceendlinenumber="235">SyncTexture</li>
+</ul>
+<p sourcefile="api/index.md" sourcestartlinenumber="237" sourceendlinenumber="237">Any SyncModel needs a name, used in the Viewer to properly display and identify the model, and an ID, represented by the SyncId class. This ID is used by Reflect to identify a specific model, and it is the plugin’s responsibility to provide a valid ID that meets the following requirements:</p>
+<ul sourcefile="api/index.md" sourcestartlinenumber="239" sourceendlinenumber="242">
+<li sourcefile="api/index.md" sourcestartlinenumber="239" sourceendlinenumber="239">The ID must be unique amongst the models of the same type in a specific source project. Otherwise, models will override each other when sent to the server.</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="240" sourceendlinenumber="242">The ID must be persistent over multiple publishing sessions, otherwise:<ul sourcefile="api/index.md" sourcestartlinenumber="241" sourceendlinenumber="242">
+<li sourcefile="api/index.md" sourcestartlinenumber="241" sourceendlinenumber="241">The plugin may waste time sending a model that the server has already stored under a different ID.</li>
+<li sourcefile="api/index.md" sourcestartlinenumber="242" sourceendlinenumber="242">The Sync flow will not work as expected, as the Viewer relies upon the IDs to retrieve and modify existing models.</li>
+</ul>
+</li>
+</ul>
+<h3 id="syncobject" sourcefile="api/index.md" sourcestartlinenumber="244" sourceendlinenumber="244">SyncObject</h3>
+<p sourcefile="api/index.md" sourcestartlinenumber="246" sourceendlinenumber="246">A <strong>SyncObject</strong> is the Reflect equivalent of a Prefab in Unity: it’s an object definition that you can reference multiple times without duplicating data, thanks to SyncObjectInstances. When SyncObjects are downloaded in Unity, they are converted into cached GameObjects (or prefabs in the Editor workflow).</p>
+<h4 id="hierarchy" sourcefile="api/index.md" sourcestartlinenumber="248" sourceendlinenumber="248">Hierarchy</h4>
+<p sourcefile="api/index.md" sourcestartlinenumber="250" sourceendlinenumber="250">SyncObjects have a children list property that you can use to support hierarchy in your plugin. Any child is converted directly to a child GameObject in Unity and doesn’t need to be referenced by a SyncObjectInstance. Note that nested SyncObjects suffer from data duplication, as they are not instantiated and we don’t support nested instantiating.</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="252" sourceendlinenumber="252">However, keep in mind that the default Viewer is instance-oriented: some of its features (like streaming, BIM filtering, and BIM information) work on a per-instance basis. These features won&#39;t benefit the children of a SyncObject as they do not directly rely on a SyncObjectInstance to be instantiated. The best way to design your plugin is to make any object that makes sense as a whole a root SyncObject.</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="254" sourceendlinenumber="254">For example, if you think there is value in having all the screws of a chair separated and independent in the Viewer, then you should send each screw as a SyncObjectInstance. If the screws have the same model definition, then you can use only one SyncObject and reference it in all your instances.</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="256" sourceendlinenumber="256">However, if screws are too precise a granularity for you, you might prefer sending the chair itself as a SyncObject, and have screws as children SyncObjects. Then, the chair would be the only object you’d be able to select and inspect from the viewer.</p>
+<h4 id="mesh-and-materials" sourcefile="api/index.md" sourcestartlinenumber="258" sourceendlinenumber="258">Mesh and materials</h4>
+<p sourcefile="api/index.md" sourcestartlinenumber="260" sourceendlinenumber="260">A single SyncObject can only reference one mesh: however, it can apply several materials to this mesh. This is possible because a SyncMesh can have multiple submeshes, each of which can be assigned to a different material.</p>
+<h3 id="syncobjectinstance" sourcefile="api/index.md" sourcestartlinenumber="262" sourceendlinenumber="262">SyncObjectInstance</h3>
+<p sourcefile="api/index.md" sourcestartlinenumber="264" sourceendlinenumber="264">A <strong>SyncObjectInstance</strong> is to the SyncObject what a GameObject is to the Prefab. When SyncObjectInstances are downloaded in Unity, they are converted into GameObjects (assuming its referenced SyncObject is provided: otherwise, an exception is thrown).</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="266" sourceendlinenumber="266">SyncObjectInstances are the only models you need to remove during a sync, because they are the Viewer’s root assets. If during a sync a mesh asset is not an instance dependency anymore, for any reason, Reflect automatically determines that it doesn’t need to download it.</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="268" sourceendlinenumber="268">The SyncObjectInstance is where you should provide metadata. The Viewer leverages this information to filter and reorder downloaded instances. Metadata is represented by a simple dictionary of key/pair values.</p>
+<h3 id="syncmesh" sourcefile="api/index.md" sourcestartlinenumber="270" sourceendlinenumber="270">SyncMesh</h3>
+<p sourcefile="api/index.md" sourcestartlinenumber="272" sourceendlinenumber="272">A <strong>SyncMesh</strong> is converted to a Unity mesh in the Viewer. A SyncObject can only reference one single mesh, but the mesh can contain multiple submeshes, which allows multiple materials for one mesh.</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="274" sourceendlinenumber="274">The SyncMesh class exposes the Vertices, Normals, and Uvs properties to populate vertex geometry information, whereupon the SyncSubMesh class can provide the triangles data.</p>
+<h3 id="syncmaterial" sourcefile="api/index.md" sourcestartlinenumber="276" sourceendlinenumber="276">SyncMaterial</h3>
+<p sourcefile="api/index.md" sourcestartlinenumber="278" sourceendlinenumber="278">A <strong>SyncMaterial</strong> is converted to a Unity material in the Viewer. The materials rely upon a custom Reflect shader that is built on top of Physically Based Rendering (PBR), hence the usual PBR properties it exposes.</p>
+<p sourcefile="api/index.md" sourcestartlinenumber="280" sourceendlinenumber="280">When designing a SyncTexture, SyncMaterials should use SyncMaps, which add additional post-processing settings to the texture such as UV tiling and offset. This allows your plugin to send one single texture instead of sending a separate texture for each post-processing variant.</p>
+<h3 id="synctexture" sourcefile="api/index.md" sourcestartlinenumber="282" sourceendlinenumber="282">SyncTexture</h3>
+<p sourcefile="api/index.md" sourcestartlinenumber="284" sourceendlinenumber="284">A <strong>SyncTexture</strong> is converted to a Unity texture in the Viewer. This asset exposes a Source property as a byte array, so you only need to read the bytes from your JPG or PNG texture file and write them in the SyncTexture.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2020 Unity Technologies<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../styles/metadata-collector.js"></script>
+    <script type="text/javascript" src="../styles/version-switcher.js"></script>
+  </div></body>
+</html>

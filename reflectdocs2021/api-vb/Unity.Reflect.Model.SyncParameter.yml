@@ -1,0 +1,1577 @@
+### YamlMime:ManagedReference
+items:
+- uid: Unity.Reflect.Model.SyncParameter
+  commentId: T:Unity.Reflect.Model.SyncParameter
+  id: SyncParameter
+  parent: Unity.Reflect.Model
+  children:
+  - Unity.Reflect.Model.SyncParameter.#ctor
+  - Unity.Reflect.Model.SyncParameter.#ctor
+  - Unity.Reflect.Model.SyncParameter.#ctor(System.String,System.String,System.Boolean)
+  - Unity.Reflect.Model.SyncParameter.#ctor(System.String,System.String,System.Boolean)
+  - Unity.Reflect.Model.SyncParameter.#ctor(Unity.Reflect.Model.SyncParameter)
+  - Unity.Reflect.Model.SyncParameter.#ctor(Unity.Reflect.Model.SyncParameter)
+  - Unity.Reflect.Model.SyncParameter.CalculateSize
+  - Unity.Reflect.Model.SyncParameter.CalculateSize
+  - Unity.Reflect.Model.SyncParameter.Clone
+  - Unity.Reflect.Model.SyncParameter.Clone
+  - Unity.Reflect.Model.SyncParameter.Descriptor
+  - Unity.Reflect.Model.SyncParameter.Descriptor
+  - Unity.Reflect.Model.SyncParameter.Equals(System.Object)
+  - Unity.Reflect.Model.SyncParameter.Equals(System.Object)
+  - Unity.Reflect.Model.SyncParameter.Equals(Unity.Reflect.Model.SyncParameter)
+  - Unity.Reflect.Model.SyncParameter.Equals(Unity.Reflect.Model.SyncParameter)
+  - Unity.Reflect.Model.SyncParameter.GetHashCode
+  - Unity.Reflect.Model.SyncParameter.GetHashCode
+  - Unity.Reflect.Model.SyncParameter.MergeFrom(pb.CodedInputStream)
+  - Unity.Reflect.Model.SyncParameter.MergeFrom(pb.CodedInputStream)
+  - Unity.Reflect.Model.SyncParameter.MergeFrom(Unity.Reflect.Model.SyncParameter)
+  - Unity.Reflect.Model.SyncParameter.MergeFrom(Unity.Reflect.Model.SyncParameter)
+  - Unity.Reflect.Model.SyncParameter.ParameterGroup
+  - Unity.Reflect.Model.SyncParameter.ParameterGroup
+  - Unity.Reflect.Model.SyncParameter.ParameterGroupFieldNumber
+  - Unity.Reflect.Model.SyncParameter.ParameterGroupFieldNumber
+  - Unity.Reflect.Model.SyncParameter.Parser
+  - Unity.Reflect.Model.SyncParameter.Parser
+  - Unity.Reflect.Model.SyncParameter.ToString
+  - Unity.Reflect.Model.SyncParameter.ToString
+  - Unity.Reflect.Model.SyncParameter.Value
+  - Unity.Reflect.Model.SyncParameter.Value
+  - Unity.Reflect.Model.SyncParameter.ValueFieldNumber
+  - Unity.Reflect.Model.SyncParameter.ValueFieldNumber
+  - Unity.Reflect.Model.SyncParameter.Visible
+  - Unity.Reflect.Model.SyncParameter.Visible
+  - Unity.Reflect.Model.SyncParameter.VisibleFieldNumber
+  - Unity.Reflect.Model.SyncParameter.VisibleFieldNumber
+  - Unity.Reflect.Model.SyncParameter.WriteTo(pb.CodedOutputStream)
+  - Unity.Reflect.Model.SyncParameter.WriteTo(pb.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: SyncParameter
+  nameWithType: SyncParameter
+  fullName: Unity.Reflect.Model.SyncParameter
+  type: Class
+  source:
+    id: SyncParameter
+    path: ''
+    startLine: 27480
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: 'public sealed class SyncParameter : pb.IMessage<SyncParameter>, pb.IMessage<SyncParameter>'
+    content.vb: >-
+      Public NotInheritable Class SyncParameter
+          Inherits pb.IMessage(Of SyncParameter)
+          Implements pb.IMessage(Of SyncParameter)
+  inheritance:
+  - System.Object
+  implements:
+  - pb.IMessage{Unity.Reflect.Model.SyncParameter}
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Unity.Reflect.Model.SyncParameter.#ctor(System.String,System.String,System.Boolean)
+  commentId: M:Unity.Reflect.Model.SyncParameter.#ctor(System.String,System.String,System.Boolean)
+  id: '#ctor(System.String,System.String,System.Boolean)'
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: SyncParameter(String, String, Boolean)
+  nameWithType: SyncParameter.SyncParameter(String, String, Boolean)
+  fullName: Unity.Reflect.Model.SyncParameter.SyncParameter(System.String, System.String, System.Boolean)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1529
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncParameter(string value, string parameterGroup, bool visible)
+    parameters:
+    - id: value
+      type: System.String
+    - id: parameterGroup
+      type: System.String
+    - id: visible
+      type: System.Boolean
+    content.vb: Public Sub New(value As String, parameterGroup As String, visible As Boolean)
+  overload: Unity.Reflect.Model.SyncParameter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncParameter.Parser
+  commentId: P:Unity.Reflect.Model.SyncParameter.Parser
+  id: Parser
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: SyncParameter.Parser
+  fullName: Unity.Reflect.Model.SyncParameter.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 7324
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public static pb.MessageParser<SyncParameter> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{Unity.Reflect.Model.SyncParameter}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of SyncParameter)
+  overload: Unity.Reflect.Model.SyncParameter.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.Model.SyncParameter.Descriptor
+  commentId: P:Unity.Reflect.Model.SyncParameter.Descriptor
+  id: Descriptor
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: SyncParameter.Descriptor
+  fullName: Unity.Reflect.Model.SyncParameter.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 7327
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: Unity.Reflect.Model.SyncParameter.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.Model.SyncParameter.#ctor
+  commentId: M:Unity.Reflect.Model.SyncParameter.#ctor
+  id: '#ctor'
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: SyncParameter()
+  nameWithType: SyncParameter.SyncParameter()
+  fullName: Unity.Reflect.Model.SyncParameter.SyncParameter()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 7337
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncParameter()
+    content.vb: Public Sub New
+  overload: Unity.Reflect.Model.SyncParameter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncParameter.#ctor(Unity.Reflect.Model.SyncParameter)
+  commentId: M:Unity.Reflect.Model.SyncParameter.#ctor(Unity.Reflect.Model.SyncParameter)
+  id: '#ctor(Unity.Reflect.Model.SyncParameter)'
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: SyncParameter(SyncParameter)
+  nameWithType: SyncParameter.SyncParameter(SyncParameter)
+  fullName: Unity.Reflect.Model.SyncParameter.SyncParameter(Unity.Reflect.Model.SyncParameter)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 7344
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncParameter(SyncParameter other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.Model.SyncParameter
+    content.vb: Public Sub New(other As SyncParameter)
+  overload: Unity.Reflect.Model.SyncParameter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncParameter.Clone
+  commentId: M:Unity.Reflect.Model.SyncParameter.Clone
+  id: Clone
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: SyncParameter.Clone()
+  fullName: Unity.Reflect.Model.SyncParameter.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 7352
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncParameter Clone()
+    return:
+      type: Unity.Reflect.Model.SyncParameter
+    content.vb: Public Function Clone As SyncParameter
+  overload: Unity.Reflect.Model.SyncParameter.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncParameter.ValueFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncParameter.ValueFieldNumber
+  id: ValueFieldNumber
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: ValueFieldNumber
+  nameWithType: SyncParameter.ValueFieldNumber
+  fullName: Unity.Reflect.Model.SyncParameter.ValueFieldNumber
+  type: Field
+  source:
+    id: ValueFieldNumber
+    path: ''
+    startLine: 7358
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;value&quot; field.
+  example: []
+  syntax:
+    content: public const int ValueFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const ValueFieldNumber As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncParameter.Value
+  commentId: P:Unity.Reflect.Model.SyncParameter.Value
+  id: Value
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: SyncParameter.Value
+  fullName: Unity.Reflect.Model.SyncParameter.Value
+  type: Property
+  source:
+    id: Value
+    path: ''
+    startLine: 7360
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Value As String
+  overload: Unity.Reflect.Model.SyncParameter.Value*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncParameter.ParameterGroupFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncParameter.ParameterGroupFieldNumber
+  id: ParameterGroupFieldNumber
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: ParameterGroupFieldNumber
+  nameWithType: SyncParameter.ParameterGroupFieldNumber
+  fullName: Unity.Reflect.Model.SyncParameter.ParameterGroupFieldNumber
+  type: Field
+  source:
+    id: ParameterGroupFieldNumber
+    path: ''
+    startLine: 7369
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;parameterGroup&quot; field.
+  example: []
+  syntax:
+    content: public const int ParameterGroupFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const ParameterGroupFieldNumber As Integer = 2
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncParameter.ParameterGroup
+  commentId: P:Unity.Reflect.Model.SyncParameter.ParameterGroup
+  id: ParameterGroup
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: ParameterGroup
+  nameWithType: SyncParameter.ParameterGroup
+  fullName: Unity.Reflect.Model.SyncParameter.ParameterGroup
+  type: Property
+  source:
+    id: ParameterGroup
+    path: ''
+    startLine: 7371
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public string ParameterGroup { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ParameterGroup As String
+  overload: Unity.Reflect.Model.SyncParameter.ParameterGroup*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncParameter.VisibleFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncParameter.VisibleFieldNumber
+  id: VisibleFieldNumber
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: VisibleFieldNumber
+  nameWithType: SyncParameter.VisibleFieldNumber
+  fullName: Unity.Reflect.Model.SyncParameter.VisibleFieldNumber
+  type: Field
+  source:
+    id: VisibleFieldNumber
+    path: ''
+    startLine: 7380
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;visible&quot; field.
+  example: []
+  syntax:
+    content: public const int VisibleFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const VisibleFieldNumber As Integer = 3
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncParameter.Visible
+  commentId: P:Unity.Reflect.Model.SyncParameter.Visible
+  id: Visible
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: Visible
+  nameWithType: SyncParameter.Visible
+  fullName: Unity.Reflect.Model.SyncParameter.Visible
+  type: Property
+  source:
+    id: Visible
+    path: ''
+    startLine: 7382
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public bool Visible { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Visible As Boolean
+  overload: Unity.Reflect.Model.SyncParameter.Visible*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncParameter.Equals(System.Object)
+  commentId: M:Unity.Reflect.Model.SyncParameter.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: SyncParameter.Equals(Object)
+  fullName: Unity.Reflect.Model.SyncParameter.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 7390
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: Unity.Reflect.Model.SyncParameter.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.Model.SyncParameter.Equals(Unity.Reflect.Model.SyncParameter)
+  commentId: M:Unity.Reflect.Model.SyncParameter.Equals(Unity.Reflect.Model.SyncParameter)
+  id: Equals(Unity.Reflect.Model.SyncParameter)
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: Equals(SyncParameter)
+  nameWithType: SyncParameter.Equals(SyncParameter)
+  fullName: Unity.Reflect.Model.SyncParameter.Equals(Unity.Reflect.Model.SyncParameter)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 7395
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public bool Equals(SyncParameter other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.Model.SyncParameter
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As SyncParameter) As Boolean
+  overload: Unity.Reflect.Model.SyncParameter.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncParameter.GetHashCode
+  commentId: M:Unity.Reflect.Model.SyncParameter.GetHashCode
+  id: GetHashCode
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: SyncParameter.GetHashCode()
+  fullName: Unity.Reflect.Model.SyncParameter.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 7409
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: Unity.Reflect.Model.SyncParameter.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.Model.SyncParameter.ToString
+  commentId: M:Unity.Reflect.Model.SyncParameter.ToString
+  id: ToString
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SyncParameter.ToString()
+  fullName: Unity.Reflect.Model.SyncParameter.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 7421
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Unity.Reflect.Model.SyncParameter.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.Model.SyncParameter.WriteTo(pb.CodedOutputStream)
+  commentId: M:Unity.Reflect.Model.SyncParameter.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: SyncParameter.WriteTo(pb.CodedOutputStream)
+  fullName: Unity.Reflect.Model.SyncParameter.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 7426
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: Unity.Reflect.Model.SyncParameter.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncParameter.CalculateSize
+  commentId: M:Unity.Reflect.Model.SyncParameter.CalculateSize
+  id: CalculateSize
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: SyncParameter.CalculateSize()
+  fullName: Unity.Reflect.Model.SyncParameter.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 7445
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: Unity.Reflect.Model.SyncParameter.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncParameter.MergeFrom(Unity.Reflect.Model.SyncParameter)
+  commentId: M:Unity.Reflect.Model.SyncParameter.MergeFrom(Unity.Reflect.Model.SyncParameter)
+  id: MergeFrom(Unity.Reflect.Model.SyncParameter)
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(SyncParameter)
+  nameWithType: SyncParameter.MergeFrom(SyncParameter)
+  fullName: Unity.Reflect.Model.SyncParameter.MergeFrom(Unity.Reflect.Model.SyncParameter)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 7463
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public void MergeFrom(SyncParameter other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.Model.SyncParameter
+    content.vb: Public Sub MergeFrom(other As SyncParameter)
+  overload: Unity.Reflect.Model.SyncParameter.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncParameter.MergeFrom(pb.CodedInputStream)
+  commentId: M:Unity.Reflect.Model.SyncParameter.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: SyncParameter.MergeFrom(pb.CodedInputStream)
+  fullName: Unity.Reflect.Model.SyncParameter.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 7480
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: Unity.Reflect.Model.SyncParameter.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncParameter.#ctor(System.String,System.String,System.Boolean)
+  commentId: M:Unity.Reflect.Model.SyncParameter.#ctor(System.String,System.String,System.Boolean)
+  id: '#ctor(System.String,System.String,System.Boolean)'
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: SyncParameter(String, String, Boolean)
+  nameWithType: SyncParameter.SyncParameter(String, String, Boolean)
+  fullName: Unity.Reflect.Model.SyncParameter.SyncParameter(System.String, System.String, System.Boolean)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 21688
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncParameter(string value, string parameterGroup, bool visible)
+    parameters:
+    - id: value
+      type: System.String
+    - id: parameterGroup
+      type: System.String
+    - id: visible
+      type: System.Boolean
+    content.vb: Public Sub New(value As String, parameterGroup As String, visible As Boolean)
+  overload: Unity.Reflect.Model.SyncParameter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncParameter.Parser
+  commentId: P:Unity.Reflect.Model.SyncParameter.Parser
+  id: Parser
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: SyncParameter.Parser
+  fullName: Unity.Reflect.Model.SyncParameter.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 27483
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public static pb.MessageParser<SyncParameter> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{Unity.Reflect.Model.SyncParameter}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of SyncParameter)
+  overload: Unity.Reflect.Model.SyncParameter.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.Model.SyncParameter.Descriptor
+  commentId: P:Unity.Reflect.Model.SyncParameter.Descriptor
+  id: Descriptor
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: SyncParameter.Descriptor
+  fullName: Unity.Reflect.Model.SyncParameter.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 27486
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: Unity.Reflect.Model.SyncParameter.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.Model.SyncParameter.#ctor
+  commentId: M:Unity.Reflect.Model.SyncParameter.#ctor
+  id: '#ctor'
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: SyncParameter()
+  nameWithType: SyncParameter.SyncParameter()
+  fullName: Unity.Reflect.Model.SyncParameter.SyncParameter()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 27496
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncParameter()
+    content.vb: Public Sub New
+  overload: Unity.Reflect.Model.SyncParameter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncParameter.#ctor(Unity.Reflect.Model.SyncParameter)
+  commentId: M:Unity.Reflect.Model.SyncParameter.#ctor(Unity.Reflect.Model.SyncParameter)
+  id: '#ctor(Unity.Reflect.Model.SyncParameter)'
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: SyncParameter(SyncParameter)
+  nameWithType: SyncParameter.SyncParameter(SyncParameter)
+  fullName: Unity.Reflect.Model.SyncParameter.SyncParameter(Unity.Reflect.Model.SyncParameter)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 27503
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncParameter(SyncParameter other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.Model.SyncParameter
+    content.vb: Public Sub New(other As SyncParameter)
+  overload: Unity.Reflect.Model.SyncParameter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncParameter.Clone
+  commentId: M:Unity.Reflect.Model.SyncParameter.Clone
+  id: Clone
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: SyncParameter.Clone()
+  fullName: Unity.Reflect.Model.SyncParameter.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 27511
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncParameter Clone()
+    return:
+      type: Unity.Reflect.Model.SyncParameter
+    content.vb: Public Function Clone As SyncParameter
+  overload: Unity.Reflect.Model.SyncParameter.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncParameter.ValueFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncParameter.ValueFieldNumber
+  id: ValueFieldNumber
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: ValueFieldNumber
+  nameWithType: SyncParameter.ValueFieldNumber
+  fullName: Unity.Reflect.Model.SyncParameter.ValueFieldNumber
+  type: Field
+  source:
+    id: ValueFieldNumber
+    path: ''
+    startLine: 27517
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;value&quot; field.
+  example: []
+  syntax:
+    content: public const int ValueFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const ValueFieldNumber As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncParameter.Value
+  commentId: P:Unity.Reflect.Model.SyncParameter.Value
+  id: Value
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: SyncParameter.Value
+  fullName: Unity.Reflect.Model.SyncParameter.Value
+  type: Property
+  source:
+    id: Value
+    path: ''
+    startLine: 27519
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Value As String
+  overload: Unity.Reflect.Model.SyncParameter.Value*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncParameter.ParameterGroupFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncParameter.ParameterGroupFieldNumber
+  id: ParameterGroupFieldNumber
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: ParameterGroupFieldNumber
+  nameWithType: SyncParameter.ParameterGroupFieldNumber
+  fullName: Unity.Reflect.Model.SyncParameter.ParameterGroupFieldNumber
+  type: Field
+  source:
+    id: ParameterGroupFieldNumber
+    path: ''
+    startLine: 27528
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;parameterGroup&quot; field.
+  example: []
+  syntax:
+    content: public const int ParameterGroupFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const ParameterGroupFieldNumber As Integer = 2
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncParameter.ParameterGroup
+  commentId: P:Unity.Reflect.Model.SyncParameter.ParameterGroup
+  id: ParameterGroup
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: ParameterGroup
+  nameWithType: SyncParameter.ParameterGroup
+  fullName: Unity.Reflect.Model.SyncParameter.ParameterGroup
+  type: Property
+  source:
+    id: ParameterGroup
+    path: ''
+    startLine: 27530
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public string ParameterGroup { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ParameterGroup As String
+  overload: Unity.Reflect.Model.SyncParameter.ParameterGroup*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncParameter.VisibleFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncParameter.VisibleFieldNumber
+  id: VisibleFieldNumber
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: VisibleFieldNumber
+  nameWithType: SyncParameter.VisibleFieldNumber
+  fullName: Unity.Reflect.Model.SyncParameter.VisibleFieldNumber
+  type: Field
+  source:
+    id: VisibleFieldNumber
+    path: ''
+    startLine: 27539
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;visible&quot; field.
+  example: []
+  syntax:
+    content: public const int VisibleFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const VisibleFieldNumber As Integer = 3
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncParameter.Visible
+  commentId: P:Unity.Reflect.Model.SyncParameter.Visible
+  id: Visible
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: Visible
+  nameWithType: SyncParameter.Visible
+  fullName: Unity.Reflect.Model.SyncParameter.Visible
+  type: Property
+  source:
+    id: Visible
+    path: ''
+    startLine: 27541
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public bool Visible { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Visible As Boolean
+  overload: Unity.Reflect.Model.SyncParameter.Visible*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncParameter.Equals(System.Object)
+  commentId: M:Unity.Reflect.Model.SyncParameter.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: SyncParameter.Equals(Object)
+  fullName: Unity.Reflect.Model.SyncParameter.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 27549
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: Unity.Reflect.Model.SyncParameter.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.Model.SyncParameter.Equals(Unity.Reflect.Model.SyncParameter)
+  commentId: M:Unity.Reflect.Model.SyncParameter.Equals(Unity.Reflect.Model.SyncParameter)
+  id: Equals(Unity.Reflect.Model.SyncParameter)
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: Equals(SyncParameter)
+  nameWithType: SyncParameter.Equals(SyncParameter)
+  fullName: Unity.Reflect.Model.SyncParameter.Equals(Unity.Reflect.Model.SyncParameter)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 27554
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public bool Equals(SyncParameter other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.Model.SyncParameter
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As SyncParameter) As Boolean
+  overload: Unity.Reflect.Model.SyncParameter.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncParameter.GetHashCode
+  commentId: M:Unity.Reflect.Model.SyncParameter.GetHashCode
+  id: GetHashCode
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: SyncParameter.GetHashCode()
+  fullName: Unity.Reflect.Model.SyncParameter.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 27568
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: Unity.Reflect.Model.SyncParameter.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.Model.SyncParameter.ToString
+  commentId: M:Unity.Reflect.Model.SyncParameter.ToString
+  id: ToString
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SyncParameter.ToString()
+  fullName: Unity.Reflect.Model.SyncParameter.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 27580
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Unity.Reflect.Model.SyncParameter.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.Model.SyncParameter.WriteTo(pb.CodedOutputStream)
+  commentId: M:Unity.Reflect.Model.SyncParameter.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: SyncParameter.WriteTo(pb.CodedOutputStream)
+  fullName: Unity.Reflect.Model.SyncParameter.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 27585
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: Unity.Reflect.Model.SyncParameter.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncParameter.CalculateSize
+  commentId: M:Unity.Reflect.Model.SyncParameter.CalculateSize
+  id: CalculateSize
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: SyncParameter.CalculateSize()
+  fullName: Unity.Reflect.Model.SyncParameter.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 27604
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: Unity.Reflect.Model.SyncParameter.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncParameter.MergeFrom(Unity.Reflect.Model.SyncParameter)
+  commentId: M:Unity.Reflect.Model.SyncParameter.MergeFrom(Unity.Reflect.Model.SyncParameter)
+  id: MergeFrom(Unity.Reflect.Model.SyncParameter)
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(SyncParameter)
+  nameWithType: SyncParameter.MergeFrom(SyncParameter)
+  fullName: Unity.Reflect.Model.SyncParameter.MergeFrom(Unity.Reflect.Model.SyncParameter)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 27622
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public void MergeFrom(SyncParameter other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.Model.SyncParameter
+    content.vb: Public Sub MergeFrom(other As SyncParameter)
+  overload: Unity.Reflect.Model.SyncParameter.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncParameter.MergeFrom(pb.CodedInputStream)
+  commentId: M:Unity.Reflect.Model.SyncParameter.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: Unity.Reflect.Model.SyncParameter
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: SyncParameter.MergeFrom(pb.CodedInputStream)
+  fullName: Unity.Reflect.Model.SyncParameter.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 27639
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: Unity.Reflect.Model.SyncParameter.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Unity.Reflect.Model
+  commentId: N:Unity.Reflect.Model
+  name: Unity.Reflect.Model
+  nameWithType: Unity.Reflect.Model
+  fullName: Unity.Reflect.Model
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: pb.IMessage{Unity.Reflect.Model.SyncParameter}
+  commentId: '!:pb.IMessage{Unity.Reflect.Model.SyncParameter}'
+  definition: pb.IMessage`1
+  name: pb.IMessage<SyncParameter>
+  nameWithType: pb.IMessage<SyncParameter>
+  fullName: pb.IMessage<Unity.Reflect.Model.SyncParameter>
+  nameWithType.vb: pb.IMessage(Of SyncParameter)
+  fullName.vb: pb.IMessage(Of Unity.Reflect.Model.SyncParameter)
+  name.vb: pb.IMessage(Of SyncParameter)
+  spec.csharp:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.Model.SyncParameter
+    name: SyncParameter
+    nameWithType: SyncParameter
+    fullName: Unity.Reflect.Model.SyncParameter
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.Model.SyncParameter
+    name: SyncParameter
+    nameWithType: SyncParameter
+    fullName: Unity.Reflect.Model.SyncParameter
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: pb.IMessage`1
+  isExternal: true
+  name: pb.IMessage<>
+  nameWithType: pb.IMessage<>
+  fullName: pb.IMessage<>
+  nameWithType.vb: pb.IMessage(Of )
+  fullName.vb: pb.IMessage(Of )
+  name.vb: pb.IMessage(Of )
+  spec.csharp:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.Model.SyncParameter.#ctor*
+  commentId: Overload:Unity.Reflect.Model.SyncParameter.#ctor
+  name: SyncParameter
+  nameWithType: SyncParameter.SyncParameter
+  fullName: Unity.Reflect.Model.SyncParameter.SyncParameter
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Unity.Reflect.Model.SyncParameter.Parser*
+  commentId: Overload:Unity.Reflect.Model.SyncParameter.Parser
+  name: Parser
+  nameWithType: SyncParameter.Parser
+  fullName: Unity.Reflect.Model.SyncParameter.Parser
+- uid: pb.MessageParser{Unity.Reflect.Model.SyncParameter}
+  commentId: '!:pb.MessageParser{Unity.Reflect.Model.SyncParameter}'
+  definition: pb.MessageParser`1
+  name: pb.MessageParser<SyncParameter>
+  nameWithType: pb.MessageParser<SyncParameter>
+  fullName: pb.MessageParser<Unity.Reflect.Model.SyncParameter>
+  nameWithType.vb: pb.MessageParser(Of SyncParameter)
+  fullName.vb: pb.MessageParser(Of Unity.Reflect.Model.SyncParameter)
+  name.vb: pb.MessageParser(Of SyncParameter)
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.Model.SyncParameter
+    name: SyncParameter
+    nameWithType: SyncParameter
+    fullName: Unity.Reflect.Model.SyncParameter
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.Model.SyncParameter
+    name: SyncParameter
+    nameWithType: SyncParameter
+    fullName: Unity.Reflect.Model.SyncParameter
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pb.MessageParser`1
+  isExternal: true
+  name: pb.MessageParser<>
+  nameWithType: pb.MessageParser<>
+  fullName: pb.MessageParser<>
+  nameWithType.vb: pb.MessageParser(Of )
+  fullName.vb: pb.MessageParser(Of )
+  name.vb: pb.MessageParser(Of )
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.Model.SyncParameter.Descriptor*
+  commentId: Overload:Unity.Reflect.Model.SyncParameter.Descriptor
+  name: Descriptor
+  nameWithType: SyncParameter.Descriptor
+  fullName: Unity.Reflect.Model.SyncParameter.Descriptor
+- uid: pbr.MessageDescriptor
+  isExternal: true
+  name: pbr.MessageDescriptor
+  nameWithType: pbr.MessageDescriptor
+  fullName: pbr.MessageDescriptor
+- uid: Unity.Reflect.Model.SyncParameter
+  commentId: T:Unity.Reflect.Model.SyncParameter
+  parent: Unity.Reflect.Model
+  name: SyncParameter
+  nameWithType: SyncParameter
+  fullName: Unity.Reflect.Model.SyncParameter
+- uid: Unity.Reflect.Model.SyncParameter.Clone*
+  commentId: Overload:Unity.Reflect.Model.SyncParameter.Clone
+  name: Clone
+  nameWithType: SyncParameter.Clone
+  fullName: Unity.Reflect.Model.SyncParameter.Clone
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Unity.Reflect.Model.SyncParameter.Value*
+  commentId: Overload:Unity.Reflect.Model.SyncParameter.Value
+  name: Value
+  nameWithType: SyncParameter.Value
+  fullName: Unity.Reflect.Model.SyncParameter.Value
+- uid: Unity.Reflect.Model.SyncParameter.ParameterGroup*
+  commentId: Overload:Unity.Reflect.Model.SyncParameter.ParameterGroup
+  name: ParameterGroup
+  nameWithType: SyncParameter.ParameterGroup
+  fullName: Unity.Reflect.Model.SyncParameter.ParameterGroup
+- uid: Unity.Reflect.Model.SyncParameter.Visible*
+  commentId: Overload:Unity.Reflect.Model.SyncParameter.Visible
+  name: Visible
+  nameWithType: SyncParameter.Visible
+  fullName: Unity.Reflect.Model.SyncParameter.Visible
+- uid: Unity.Reflect.Model.SyncParameter.Equals*
+  commentId: Overload:Unity.Reflect.Model.SyncParameter.Equals
+  name: Equals
+  nameWithType: SyncParameter.Equals
+  fullName: Unity.Reflect.Model.SyncParameter.Equals
+- uid: Unity.Reflect.Model.SyncParameter.GetHashCode*
+  commentId: Overload:Unity.Reflect.Model.SyncParameter.GetHashCode
+  name: GetHashCode
+  nameWithType: SyncParameter.GetHashCode
+  fullName: Unity.Reflect.Model.SyncParameter.GetHashCode
+- uid: Unity.Reflect.Model.SyncParameter.ToString*
+  commentId: Overload:Unity.Reflect.Model.SyncParameter.ToString
+  name: ToString
+  nameWithType: SyncParameter.ToString
+  fullName: Unity.Reflect.Model.SyncParameter.ToString
+- uid: Unity.Reflect.Model.SyncParameter.WriteTo*
+  commentId: Overload:Unity.Reflect.Model.SyncParameter.WriteTo
+  name: WriteTo
+  nameWithType: SyncParameter.WriteTo
+  fullName: Unity.Reflect.Model.SyncParameter.WriteTo
+- uid: pb.CodedOutputStream
+  isExternal: true
+  name: pb.CodedOutputStream
+  nameWithType: pb.CodedOutputStream
+  fullName: pb.CodedOutputStream
+- uid: Unity.Reflect.Model.SyncParameter.CalculateSize*
+  commentId: Overload:Unity.Reflect.Model.SyncParameter.CalculateSize
+  name: CalculateSize
+  nameWithType: SyncParameter.CalculateSize
+  fullName: Unity.Reflect.Model.SyncParameter.CalculateSize
+- uid: Unity.Reflect.Model.SyncParameter.MergeFrom*
+  commentId: Overload:Unity.Reflect.Model.SyncParameter.MergeFrom
+  name: MergeFrom
+  nameWithType: SyncParameter.MergeFrom
+  fullName: Unity.Reflect.Model.SyncParameter.MergeFrom
+- uid: pb.CodedInputStream
+  isExternal: true
+  name: pb.CodedInputStream
+  nameWithType: pb.CodedInputStream
+  fullName: pb.CodedInputStream

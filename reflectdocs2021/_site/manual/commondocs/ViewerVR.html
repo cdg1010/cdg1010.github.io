@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+  
+  <meta name="robots" content="noindex">
+  
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);  })(window,document,'script','dataLayer','GTM-5V25JL6');</script>
+  
+  
+  <script>
+  $(document).ready(function(){
+    $('#component-select-current-display').click(function(){
+        $('#component-select-current-display').toggleClass('component-select__current--is-active');
+    });
+    $(document).click(function(e){
+        if (!(e.target.id == 'component-select-current-display'))
+            $('#component-select-current-display').removeClass('component-select__current--is-active');
+    });
+     });
+  </script>
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+  
+    <title>VR mode in the Reflect Viewer | Unity Reflect | 2.0 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="VR mode in the Reflect Viewer | Unity Reflect | 2.0 ">
+    <meta name="generator" content="docfx 2.45.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="../../styles/version-switcher.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    <meta property="unity:packageTitle" content="Unity Reflect | 2.0">
+    <meta property="docfx:rel" content="../../">
+    
+  
+  </head>
+  <body data-spy="scroll" data-target="#affix" class="manual">
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5V25JL6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+        
+        		<div class="back-to-unity-group">
+        			<a class="back-to-unity" href="http://docs.unity3d.com/">docs.unity3d.com</a>
+        		</div>
+        
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="subnav navbar navbar-default">
+        <div class="container hide-when-search" id="breadcrumb">
+          <div id="version-switcher-select">
+        <div class="component-select" onclick="onVersionSwitcherClick()">
+        <div id="component-select-current-display" class="component-select__current">
+        Unity Reflect 2.0
+        </div>
+        
+        <ul id="version-switcher-ul" class="component-select__options-container">
+        <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.3/manual/index.html"><li class="component-select__option">
+                    1.3
+                </li></a>
+        <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.2/manual/index.html"><li class="component-select__option">
+                    1.2
+                </li></a>
+        <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.1/manual/index.html"><li class="component-select__option">
+                    1.1
+                </li></a>
+                <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.0/manual/index.html"><li class="component-select__option">
+                            1.0
+                        </li></a>
+        
+        
+                </ul>
+        </div>
+        </div></div>
+      </div></header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10" id="main_content">
+          <div id="breadcrumb_placeholder"></div>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="vr-mode-in-the-reflect-viewer">VR mode in the Reflect Viewer</h1>
+
+<h2 id="enabling-vr">Enabling VR</h2>
+<blockquote><p><strong>Note:</strong> You can only enable VR if your Unity Project is set up for a VR headset. Unity Reflect currently supports the HTC Vive and Oculus Rift. For more information, see <a href="https://docs.unity3d.com/Manual/xr-template-vr.html">the Unity Manual</a>.
+To enable VR mode in the Viewer:</p>
+</blockquote>
+<ol>
+<li><p>Click the button in the lower right corner of the Viewer to expand the device mode menu.</p>
+<p><img style="padding: 1em 0" width="250" alt="Unity Reflect" src="images/1.3/ModeSwitcher2.png"></p>
+</li>
+<li><p>Click the VR button.</p>
+</li>
+</ol>
+<h2 id="using-vr">Using VR</h2>
+<h3 id="htc-vive-controls">HTC Vive controls</h3>
+<ul>
+<li><strong>Teleport</strong>: Use the right trackpad to display the teleport beam and select a location and use the right trigger to teleport.</li>
+<li><strong>Fly</strong>: Use the left trackpad.</li>
+</ul>
+<p><img src="images/1.4/HTCVive.png" alt="HTC Vive"></p>
+<h3 id="oculus-rift-controls">Oculus Rift controls</h3>
+<ul>
+<li><strong>Teleport</strong>: A + right trigger</li>
+<li><strong>Fly</strong>: X</li>
+<li><strong>Turn 45 degrees</strong>: Right thumbstick</li>
+<li><strong>Interact with UI</strong>: Triggers</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2020 Unity Technologies<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+    <script type="text/javascript" src="../../styles/metadata-collector.js"></script>
+    <script type="text/javascript" src="../../styles/version-switcher.js"></script>
+  </div></body>
+</html>

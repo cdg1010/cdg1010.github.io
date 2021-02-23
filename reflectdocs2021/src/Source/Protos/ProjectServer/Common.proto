@@ -1,0 +1,10 @@
+syntax = "proto3";
+package Reflect;
+
+option java_package = "io.grpc.unitysyncservices";
+option java_outer_classname = "Unity.Reflect.ProjectServer.Services";
+option objc_class_prefix = "HLW";
+option csharp_namespace = "Unity.Reflect.ProjectServer.Services";
+
+message Empty {
+}

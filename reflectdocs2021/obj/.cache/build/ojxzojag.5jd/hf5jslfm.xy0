@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+  
+  <meta name="robots" content="noindex">
+  
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);  })(window,document,'script','dataLayer','GTM-5V25JL6');</script>
+  
+  
+  <script>
+  $(document).ready(function(){
+    $('#component-select-current-display').click(function(){
+        $('#component-select-current-display').toggleClass('component-select__current--is-active');
+    });
+    $(document).click(function(e){
+        if (!(e.target.id == 'component-select-current-display'))
+            $('#component-select-current-display').removeClass('component-select__current--is-active');
+    });
+     });
+  </script>
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+  
+    <title>Adding a new dialog | Unity Reflect | 2.0 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Adding a new dialog | Unity Reflect | 2.0 ">
+    <meta name="generator" content="docfx 2.45.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="../../styles/version-switcher.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    <meta property="unity:packageTitle" content="Unity Reflect | 2.0">
+    <meta property="docfx:rel" content="../../">
+    
+  
+  </head>
+  <body data-spy="scroll" data-target="#affix" class="manual">
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5V25JL6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+        
+        		<div class="back-to-unity-group">
+        			<a class="back-to-unity" href="http://docs.unity3d.com/">docs.unity3d.com</a>
+        		</div>
+        
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="subnav navbar navbar-default">
+        <div class="container hide-when-search" id="breadcrumb">
+          <div id="version-switcher-select">
+        <div class="component-select" onclick="onVersionSwitcherClick()">
+        <div id="component-select-current-display" class="component-select__current">
+        Unity Reflect 2.0
+        </div>
+        
+        <ul id="version-switcher-ul" class="component-select__options-container">
+        <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.3/manual/index.html"><li class="component-select__option">
+                    1.3
+                </li></a>
+        <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.2/manual/index.html"><li class="component-select__option">
+                    1.2
+                </li></a>
+        <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.1/manual/index.html"><li class="component-select__option">
+                    1.1
+                </li></a>
+                <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.0/manual/index.html"><li class="component-select__option">
+                            1.0
+                        </li></a>
+        
+        
+                </ul>
+        </div>
+        </div></div>
+      </div></header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10" id="main_content">
+          <div id="breadcrumb_placeholder"></div>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="adding-a-new-dialog" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="1" sourceendlinenumber="1">Adding a new dialog</h1>
+
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="3" sourceendlinenumber="3">This walkthrough shows you how to add a new dialog and respond to a user’s changes in the viewer.</p>
+<h2 id="adding-a-scene-options-dialog" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="5" sourceendlinenumber="5">Adding a Scene Options Dialog</h2>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="7" sourceendlinenumber="7">The example we use adds a Scene Options dialog.</p>
+<h2 id="model-view-controller" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="9" sourceendlinenumber="9">Model, View, Controller</h2>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="11" sourceendlinenumber="11">Reflect Viewer uses the unity.touch-framework package to implement the UI, based on centralized MVC.</p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="13" sourceendlinenumber="13"><img src="../images/1.3/Dialog1.png" alt="Dialog" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="13" sourceendlinenumber="13"></p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="15" sourceendlinenumber="15">We use UGUI as our View framework, MonoBehaviours as the Controller basis, and we have a centralized Model using UIDATA structs. We are also using <a href="https://facebook.github.io/flux/" data-raw-source="[Flux](https://facebook.github.io/flux/)" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="15" sourceendlinenumber="15">Flux</a> C# implementation <a href="https://github.com/samih7/SharpFlux" data-raw-source="[SharpFlux](https://github.com/samih7/SharpFlux)" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="15" sourceendlinenumber="15">SharpFlux</a>  to manipulate the Model.</p>
+<h3 id="model" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="17" sourceendlinenumber="17">Model</h3>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="19" sourceendlinenumber="19">If necessary, create a new UI Data Struct and add to UIStateData, UISessionStateData or UIProjectStateData depending on the data usage. In the example, the SceneOptionData would be in the UIStateData.</p>
+<blockquote sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="21" sourceendlinenumber="21"><p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="21" sourceendlinenumber="21"><strong>Note:</strong> This is a smaller example with only one Boolean variable. Please see the full code in the existing file.</p>
+</blockquote>
+<pre sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="23" sourceendlinenumber="56"><code>[Serializable]
+    public struct SceneOptionData : IEquatable&lt;SceneOptionData&gt;
+    {
+        // View Options
+        public bool enableTexture;
+
+        public bool Equals(SceneOptionData other)
+        {
+            return enableTexture == other.enableTexture;
+        }
+
+        public override bool Equals(object obj)
+        {
+            return obj is SceneOptionData other &amp;&amp; Equals(other);
+        }
+
+        public override int GetHashCode()
+        {
+            return enableTexture.GetHashCode();
+        }
+
+        public static bool operator ==(SceneOptionData a, SceneOptionData b)
+        {
+            return a.Equals(b);
+        }
+
+        public static bool operator !=(SceneOptionData a, SceneOptionData b)
+        {
+            return !(a == b);
+        }
+    }
+</code></pre><p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="57" sourceendlinenumber="57"><em>Path: Assets/Scripts/Data/SceneOptionData.cs</em></p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="59" sourceendlinenumber="59">Add the data to UIStateData which is used in the UIStateManager.cs so we can centralize access to SceneOptionData in the UI callbacks. This will be modified later using Actions.</p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="61" sourceendlinenumber="61"><img src="../images/1.3/Dialog2.png" alt="Dialog" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="61" sourceendlinenumber="61"></p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="63" sourceendlinenumber="63"><em>Path: Assets/Scripts/UI/UIStateData.cs</em></p>
+<h3 id="view" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="65" sourceendlinenumber="65">View</h3>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="67" sourceendlinenumber="67">We need a Scene Options dialog.</p>
+<h4 id="create-dialog-prefab" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="69" sourceendlinenumber="69">Create Dialog Prefab</h4>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="71" sourceendlinenumber="71">Create the prefab and add all the necessary UI controls. You can refer to Scene Options Dialog, Filter Options Dialog, or Camera Options Dialog for ideas. Most widgets are taken from the unity.touch-framework package.</p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="73" sourceendlinenumber="73"><img src="../images/1.3/Dialog3.png" alt="Dialog" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="73" sourceendlinenumber="73"></p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="75" sourceendlinenumber="75">Another way to create a new dialog is to start from another existing dialog: find an existing .prefab file, press ctrl-D (command-D on macOS) to duplicate, and rename the prefab to the desired name.</p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="77" sourceendlinenumber="77"><img src="../images/1.3/Dialog4.png" alt="Dialog" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="77" sourceendlinenumber="77"></p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="79" sourceendlinenumber="79"><em>Path: Assets/Prefabs/UI/Dialogs</em></p>
+<h3 id="controller" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="81" sourceendlinenumber="81">Controller</h3>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="83" sourceendlinenumber="83">Modify an existing ActiveDialogController to support your new dialog.</p>
+<h4 id="add-your-new-dialogtype" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="85" sourceendlinenumber="85">Add your new DialogType</h4>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="87" sourceendlinenumber="87">You need to add a new DialogType here. We like using enums so it is easy to debug later on. This is an extra step, but down the line it will help greatly to debug UI issues.</p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="89" sourceendlinenumber="89"><img src="../images/1.3/Dialog5.png" alt="Dialog" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="89" sourceendlinenumber="89"></p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="91" sourceendlinenumber="91"><em>Path: Assets/Scripts/UI/UIStateData.cs</em></p>
+<h4 id="add-your-new-dialog-to-activedialogcontroller" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="93" sourceendlinenumber="93">Add Your New Dialog to ActiveDialogController</h4>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="95" sourceendlinenumber="95">Open ActiveDialogController.cs and add your new dialog. These are 3 simple steps:</p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="97" sourceendlinenumber="97">Add a new member for your scene options dialog:</p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="99" sourceendlinenumber="99"><img src="../images/1.3/Dialog6.png" alt="Dialog" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="99" sourceendlinenumber="99"></p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="101" sourceendlinenumber="101">Update the OnStateDataChanged() event handler:</p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="103" sourceendlinenumber="103"><img src="../images/1.3/Dialog7.png" alt="Dialog" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="103" sourceendlinenumber="103"></p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="105" sourceendlinenumber="105">Add your switch case for your DialogType:</p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="107" sourceendlinenumber="107"><img src="../images/1.3/Dialog8.png" alt="Dialog" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="107" sourceendlinenumber="107"></p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="109" sourceendlinenumber="109">Now you can create the controller class to handle all the changes and data modifications.</p>
+<h4 id="create-the-sceneoptionsuicontrollercs-class" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="111" sourceendlinenumber="111">Create the SceneOptionsUIController.cs class</h4>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="113" sourceendlinenumber="113">Every dialog has a Controller. Controllers are used to respond to UIData changes, and to support UI user events (button presses, sliders, etc.). This is the basic template of the UI controller class. (Don’t forget to add “[RequireComponent(typeof(DialogWindow))]” ). You can duplicate an existing controller and rename it:</p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="115" sourceendlinenumber="115"><img src="../images/1.3/Dialog9.png" alt="Dialog" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="115" sourceendlinenumber="115"></p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="117" sourceendlinenumber="117"><em>Path: Assets/Scripts/UI/Controllers</em></p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="119" sourceendlinenumber="119">Add member controls for the UI with [SerializeField]. Also add local private members like SceneOptionData to cache it and compare if it has changed or not. See the code below OnStateDataChanged():</p>
+<pre sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="121" sourceendlinenumber="144"><code>using System;
+using SharpFlux;
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace Unity.Reflect.Viewer.UI
+{
+    [RequireComponent(typeof(DialogWindow))]
+    public class SceneOptionsUIController : MonoBehaviour
+    {
+#pragma warning disable 649
+        [SerializeField]
+        Button m_DialogButton;
+        [SerializeField]
+        SlideToggle m_TextureToggle;
+
+#pragma warning restore 649
+
+        DialogWindow m_DialogWindow;
+        Image m_DialogButtonImage;
+        SceneOptionData m_CurrentsSceneOptionData;
+</code></pre><p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="146" sourceendlinenumber="146">Add Listener to UI controls in Start(). When the Dialog is destroyed, all sub UI controls are destroyed too, so we don’t need to RemoveListener in OnDestroy().</p>
+<pre sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="148" sourceendlinenumber="164"><code>        void Awake()
+        {
+            UIStateManager.stateChanged += OnStateDataChanged;
+
+            m_DialogButtonImage = m_DialogButton.GetComponent&lt;Image&gt;();
+            m_DialogWindow = GetComponent&lt;DialogWindow&gt;();
+        }
+
+
+        void Start()
+        {
+            m_DialogButton.onClick.AddListener(OnDialogButtonClicked);
+            m_TextureToggle.onValueChanged.AddListener(OnTextureToggleChanged);
+        }
+</code></pre><p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="166" sourceendlinenumber="166">We can compare cached data to check if it&#39;s changed or not and only update the UI when it’s changed. Be aware that updated UI code in OnStateDataChanged must not call its own valueChanged callback again.</p>
+<pre sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="168" sourceendlinenumber="194"><code>        void OnDialogButtonClicked()
+        {
+            var dialogType = m_DialogWindow.open ? DialogType.None : DialogType.SceneOptions;
+            UIStateManager.current.Dispatcher.Dispatch(Payload&lt;ActionTypes&gt;.From(ActionTypes.OpenDialog, dialogType));
+        }
+
+        void OnTextureToggleChanged(bool on)
+        {
+           // this will be added on “Add an Action to Control and Update UI” section.
+        }
+
+        void OnStateDataChanged(UIStateData data)
+        {
+            m_DialogButtonImage.enabled = data.activeDialog == DialogType.SceneOptions;
+            m_DialogButton.interactable = data.toolbarsEnabled;
+
+            if (m_CurrentsSceneOptionData == data.sceneOptionData)
+                return;
+
+            if (m_CurrentsSceneOptionData.texture != data.sceneOptionData.texture)
+                m_TextureToggle.on = data.sceneOptionData.texture;
+        }
+
+    }
+}
+</code></pre><p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="196" sourceendlinenumber="196"><em>Path: Assets/Scripts/UI/Controllers/SceneOptionsUIController.cs</em></p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="198" sourceendlinenumber="198">At this stage, you can tie everything together.</p>
+<h2 id="add-the-sceneoptionsuicontroller-component-to-the-prefab" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="200" sourceendlinenumber="200">Add the SceneOptionsUIController Component to the Prefab</h2>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="202" sourceendlinenumber="202">Edit the prefab (enter nested prefab edition mode). In the Inspector, add the component:</p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="204" sourceendlinenumber="204"><img src="../images/1.3/Dialog10.png" alt="Dialog" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="204" sourceendlinenumber="204"></p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="206" sourceendlinenumber="206">This automatically adds all required components if missing (Canvas, Canvas Group, Graphic Raycaster, and Dialog Window).</p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="208" sourceendlinenumber="208"><img src="../images/1.3/Dialog11.png" alt="Dialog" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="208" sourceendlinenumber="208"></p>
+<h2 id="put-your-prefab-in-the-scene" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="210" sourceendlinenumber="210">Put your Prefab in the Scene</h2>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="212" sourceendlinenumber="212">Place your Options Dialog under UI Main in the Reflect scene next to other dialog prefabs.</p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="214" sourceendlinenumber="214"><img src="../images/1.3/Dialog12.png" alt="Dialog" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="214" sourceendlinenumber="214"></p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="216" sourceendlinenumber="216">Select “UI Root” GameObject, and there is a “Active Dialog Controller” in the inspector window. Drag and drop the “Scene Options Dialog” to the inspector window to set the value.</p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="218" sourceendlinenumber="218"><img src="../images/1.3/Dialog13.png" alt="Dialog" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="218" sourceendlinenumber="218"></p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="220" sourceendlinenumber="220">Disable the Canvas component to hide the dialog by default. Visibility is controlled by DialogWindow component and the ActiveDialogController.</p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="222" sourceendlinenumber="222"><img src="../images/1.3/Dialog14.png" alt="Dialog" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="222" sourceendlinenumber="222"></p>
+<h4 id="create-the-button-in-the-toolbar-and-link-to-the-dialog" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="224" sourceendlinenumber="224">Create the button in the toolbar and link to the dialog</h4>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="226" sourceendlinenumber="226">Drag and drop the button item into the SceneOptionsController field for Dialog Button.</p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="228" sourceendlinenumber="228"><img src="../images/1.3/Dialog15.png" alt="Dialog" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="228" sourceendlinenumber="228"></p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="230" sourceendlinenumber="230"><img src="../images/1.3/Dialog16.png" alt="Dialog" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="230" sourceendlinenumber="230"></p>
+<h3 id="add-an-action-to-control-and-update-ui" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="232" sourceendlinenumber="232">Add an Action to Control and Update UI</h3>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="234" sourceendlinenumber="235">Here is an example for the “Texture Toggle”
+AddListener to the toggle control.</p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="237" sourceendlinenumber="237"><img src="../images/1.3/Dialog17.png" alt="Dialog" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="237" sourceendlinenumber="237"></p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="239" sourceendlinenumber="239">In the callback method, we dispatch with the ActionType and the UI Data (SceneOptionData):</p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="241" sourceendlinenumber="241"><img src="../images/1.3/Dialog19.png" alt="Dialog" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="241" sourceendlinenumber="241"></p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="243" sourceendlinenumber="243">Add new SetViewOption ActionType in the ActionTypes.cs:</p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="245" sourceendlinenumber="245"><img src="../images/1.3/Dialog20.png" alt="Dialog" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="245" sourceendlinenumber="245"></p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="247" sourceendlinenumber="247">Implement the Action in the UIStateManager.cs.</p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="249" sourceendlinenumber="249">Go to UIStateManager:OnDispatch(Payload<actiontypes> payload) method and add your new action in the switch/case. We need to handle the modification of the centralized data here and Invoke the equivalent stateChanged.<p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="251" sourceendlinenumber="251">This is also where you will usually invoke the <a href="../../viewerapi/index.html" data-raw-source="[Pipeline API](../../viewerapi/index.md)" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="251" sourceendlinenumber="251">Pipeline API</a>.</p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="253" sourceendlinenumber="253"><img src="../images/1.3/Dialog21.png" alt="Dialog" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="253" sourceendlinenumber="253"></p>
+<h2 id="compile-and-run" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="255" sourceendlinenumber="255">Compile and Run</h2>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="257" sourceendlinenumber="257">Compile and run. Check to make sure that the new dialog opens when you click the button. If so, keep going to implement the rest of your UI controller.</p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="259" sourceendlinenumber="259"><img src="../images/1.3/Dialog22.png" alt="Dialog" sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="259" sourceendlinenumber="259"></p>
+<p sourcefile="manual/devguide/NewDialog.md" sourcestartlinenumber="261" sourceendlinenumber="261">Congratulations, you just added your own custom dialog to the Unity Reflect Viewer!</p>
+</actiontypes></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2020 Unity Technologies<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+    <script type="text/javascript" src="../../styles/metadata-collector.js"></script>
+    <script type="text/javascript" src="../../styles/version-switcher.js"></script>
+  </div></body>
+</html>

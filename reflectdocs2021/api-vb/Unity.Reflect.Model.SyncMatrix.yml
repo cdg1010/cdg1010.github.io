@@ -1,0 +1,1856 @@
+### YamlMime:ManagedReference
+items:
+- uid: Unity.Reflect.Model.SyncMatrix
+  commentId: T:Unity.Reflect.Model.SyncMatrix
+  id: SyncMatrix
+  parent: Unity.Reflect.Model
+  children:
+  - Unity.Reflect.Model.SyncMatrix.#ctor
+  - Unity.Reflect.Model.SyncMatrix.#ctor
+  - Unity.Reflect.Model.SyncMatrix.#ctor(Unity.Reflect.Model.SyncFloat4,Unity.Reflect.Model.SyncFloat4,Unity.Reflect.Model.SyncFloat4,Unity.Reflect.Model.SyncFloat4)
+  - Unity.Reflect.Model.SyncMatrix.#ctor(Unity.Reflect.Model.SyncFloat4,Unity.Reflect.Model.SyncFloat4,Unity.Reflect.Model.SyncFloat4,Unity.Reflect.Model.SyncFloat4)
+  - Unity.Reflect.Model.SyncMatrix.#ctor(Unity.Reflect.Model.SyncMatrix)
+  - Unity.Reflect.Model.SyncMatrix.#ctor(Unity.Reflect.Model.SyncMatrix)
+  - Unity.Reflect.Model.SyncMatrix.C0
+  - Unity.Reflect.Model.SyncMatrix.C0
+  - Unity.Reflect.Model.SyncMatrix.C0FieldNumber
+  - Unity.Reflect.Model.SyncMatrix.C0FieldNumber
+  - Unity.Reflect.Model.SyncMatrix.C1
+  - Unity.Reflect.Model.SyncMatrix.C1
+  - Unity.Reflect.Model.SyncMatrix.C1FieldNumber
+  - Unity.Reflect.Model.SyncMatrix.C1FieldNumber
+  - Unity.Reflect.Model.SyncMatrix.C2
+  - Unity.Reflect.Model.SyncMatrix.C2
+  - Unity.Reflect.Model.SyncMatrix.C2FieldNumber
+  - Unity.Reflect.Model.SyncMatrix.C2FieldNumber
+  - Unity.Reflect.Model.SyncMatrix.C3
+  - Unity.Reflect.Model.SyncMatrix.C3
+  - Unity.Reflect.Model.SyncMatrix.C3FieldNumber
+  - Unity.Reflect.Model.SyncMatrix.C3FieldNumber
+  - Unity.Reflect.Model.SyncMatrix.CalculateSize
+  - Unity.Reflect.Model.SyncMatrix.CalculateSize
+  - Unity.Reflect.Model.SyncMatrix.Clone
+  - Unity.Reflect.Model.SyncMatrix.Clone
+  - Unity.Reflect.Model.SyncMatrix.Descriptor
+  - Unity.Reflect.Model.SyncMatrix.Descriptor
+  - Unity.Reflect.Model.SyncMatrix.Equals(System.Object)
+  - Unity.Reflect.Model.SyncMatrix.Equals(System.Object)
+  - Unity.Reflect.Model.SyncMatrix.Equals(Unity.Reflect.Model.SyncMatrix)
+  - Unity.Reflect.Model.SyncMatrix.Equals(Unity.Reflect.Model.SyncMatrix)
+  - Unity.Reflect.Model.SyncMatrix.GetHashCode
+  - Unity.Reflect.Model.SyncMatrix.GetHashCode
+  - Unity.Reflect.Model.SyncMatrix.Identity
+  - Unity.Reflect.Model.SyncMatrix.Identity
+  - Unity.Reflect.Model.SyncMatrix.MergeFrom(pb.CodedInputStream)
+  - Unity.Reflect.Model.SyncMatrix.MergeFrom(pb.CodedInputStream)
+  - Unity.Reflect.Model.SyncMatrix.MergeFrom(Unity.Reflect.Model.SyncMatrix)
+  - Unity.Reflect.Model.SyncMatrix.MergeFrom(Unity.Reflect.Model.SyncMatrix)
+  - Unity.Reflect.Model.SyncMatrix.Parser
+  - Unity.Reflect.Model.SyncMatrix.Parser
+  - Unity.Reflect.Model.SyncMatrix.ToString
+  - Unity.Reflect.Model.SyncMatrix.ToString
+  - Unity.Reflect.Model.SyncMatrix.ToTRS
+  - Unity.Reflect.Model.SyncMatrix.ToTRS
+  - Unity.Reflect.Model.SyncMatrix.WriteTo(pb.CodedOutputStream)
+  - Unity.Reflect.Model.SyncMatrix.WriteTo(pb.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: SyncMatrix
+  nameWithType: SyncMatrix
+  fullName: Unity.Reflect.Model.SyncMatrix
+  type: Class
+  source:
+    id: SyncMatrix
+    path: ''
+    startLine: 25682
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: 'public sealed class SyncMatrix : pb.IMessage<SyncMatrix>, pb.IMessage<SyncMatrix>'
+    content.vb: >-
+      Public NotInheritable Class SyncMatrix
+          Inherits pb.IMessage(Of SyncMatrix)
+          Implements pb.IMessage(Of SyncMatrix)
+  inheritance:
+  - System.Object
+  implements:
+  - pb.IMessage{Unity.Reflect.Model.SyncMatrix}
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Unity.Reflect.Model.SyncMatrix.Identity
+  commentId: M:Unity.Reflect.Model.SyncMatrix.Identity
+  id: Identity
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: Identity()
+  nameWithType: SyncMatrix.Identity()
+  fullName: Unity.Reflect.Model.SyncMatrix.Identity()
+  type: Method
+  source:
+    id: Identity
+    path: ''
+    startLine: 1100
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public static SyncMatrix Identity()
+    return:
+      type: Unity.Reflect.Model.SyncMatrix
+    content.vb: Public Shared Function Identity As SyncMatrix
+  overload: Unity.Reflect.Model.SyncMatrix.Identity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Unity.Reflect.Model.SyncMatrix.#ctor(Unity.Reflect.Model.SyncFloat4,Unity.Reflect.Model.SyncFloat4,Unity.Reflect.Model.SyncFloat4,Unity.Reflect.Model.SyncFloat4)
+  commentId: M:Unity.Reflect.Model.SyncMatrix.#ctor(Unity.Reflect.Model.SyncFloat4,Unity.Reflect.Model.SyncFloat4,Unity.Reflect.Model.SyncFloat4,Unity.Reflect.Model.SyncFloat4)
+  id: '#ctor(Unity.Reflect.Model.SyncFloat4,Unity.Reflect.Model.SyncFloat4,Unity.Reflect.Model.SyncFloat4,Unity.Reflect.Model.SyncFloat4)'
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: SyncMatrix(SyncFloat4, SyncFloat4, SyncFloat4, SyncFloat4)
+  nameWithType: SyncMatrix.SyncMatrix(SyncFloat4, SyncFloat4, SyncFloat4, SyncFloat4)
+  fullName: Unity.Reflect.Model.SyncMatrix.SyncMatrix(Unity.Reflect.Model.SyncFloat4, Unity.Reflect.Model.SyncFloat4, Unity.Reflect.Model.SyncFloat4, Unity.Reflect.Model.SyncFloat4)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1109
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncMatrix(SyncFloat4 c0, SyncFloat4 c1, SyncFloat4 c2, SyncFloat4 c3)
+    parameters:
+    - id: c0
+      type: Unity.Reflect.Model.SyncFloat4
+    - id: c1
+      type: Unity.Reflect.Model.SyncFloat4
+    - id: c2
+      type: Unity.Reflect.Model.SyncFloat4
+    - id: c3
+      type: Unity.Reflect.Model.SyncFloat4
+    content.vb: Public Sub New(c0 As SyncFloat4, c1 As SyncFloat4, c2 As SyncFloat4, c3 As SyncFloat4)
+  overload: Unity.Reflect.Model.SyncMatrix.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.ToTRS
+  commentId: M:Unity.Reflect.Model.SyncMatrix.ToTRS
+  id: ToTRS
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: ToTRS()
+  nameWithType: SyncMatrix.ToTRS()
+  fullName: Unity.Reflect.Model.SyncMatrix.ToTRS()
+  type: Method
+  source:
+    id: ToTRS
+    path: ''
+    startLine: 1117
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncTRS ToTRS()
+    return:
+      type: Unity.Reflect.Model.SyncTRS
+    content.vb: Public Function ToTRS As SyncTRS
+  overload: Unity.Reflect.Model.SyncMatrix.ToTRS*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.Parser
+  commentId: P:Unity.Reflect.Model.SyncMatrix.Parser
+  id: Parser
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: SyncMatrix.Parser
+  fullName: Unity.Reflect.Model.SyncMatrix.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 5526
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public static pb.MessageParser<SyncMatrix> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{Unity.Reflect.Model.SyncMatrix}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of SyncMatrix)
+  overload: Unity.Reflect.Model.SyncMatrix.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.Model.SyncMatrix.Descriptor
+  commentId: P:Unity.Reflect.Model.SyncMatrix.Descriptor
+  id: Descriptor
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: SyncMatrix.Descriptor
+  fullName: Unity.Reflect.Model.SyncMatrix.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 5529
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: Unity.Reflect.Model.SyncMatrix.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.Model.SyncMatrix.#ctor
+  commentId: M:Unity.Reflect.Model.SyncMatrix.#ctor
+  id: '#ctor'
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: SyncMatrix()
+  nameWithType: SyncMatrix.SyncMatrix()
+  fullName: Unity.Reflect.Model.SyncMatrix.SyncMatrix()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5539
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncMatrix()
+    content.vb: Public Sub New
+  overload: Unity.Reflect.Model.SyncMatrix.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.#ctor(Unity.Reflect.Model.SyncMatrix)
+  commentId: M:Unity.Reflect.Model.SyncMatrix.#ctor(Unity.Reflect.Model.SyncMatrix)
+  id: '#ctor(Unity.Reflect.Model.SyncMatrix)'
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: SyncMatrix(SyncMatrix)
+  nameWithType: SyncMatrix.SyncMatrix(SyncMatrix)
+  fullName: Unity.Reflect.Model.SyncMatrix.SyncMatrix(Unity.Reflect.Model.SyncMatrix)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5546
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncMatrix(SyncMatrix other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.Model.SyncMatrix
+    content.vb: Public Sub New(other As SyncMatrix)
+  overload: Unity.Reflect.Model.SyncMatrix.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.Clone
+  commentId: M:Unity.Reflect.Model.SyncMatrix.Clone
+  id: Clone
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: SyncMatrix.Clone()
+  fullName: Unity.Reflect.Model.SyncMatrix.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 5555
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncMatrix Clone()
+    return:
+      type: Unity.Reflect.Model.SyncMatrix
+    content.vb: Public Function Clone As SyncMatrix
+  overload: Unity.Reflect.Model.SyncMatrix.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.C0FieldNumber
+  commentId: F:Unity.Reflect.Model.SyncMatrix.C0FieldNumber
+  id: C0FieldNumber
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: C0FieldNumber
+  nameWithType: SyncMatrix.C0FieldNumber
+  fullName: Unity.Reflect.Model.SyncMatrix.C0FieldNumber
+  type: Field
+  source:
+    id: C0FieldNumber
+    path: ''
+    startLine: 5561
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;c0&quot; field.
+  example: []
+  syntax:
+    content: public const int C0FieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const C0FieldNumber As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncMatrix.C0
+  commentId: P:Unity.Reflect.Model.SyncMatrix.C0
+  id: C0
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: C0
+  nameWithType: SyncMatrix.C0
+  fullName: Unity.Reflect.Model.SyncMatrix.C0
+  type: Property
+  source:
+    id: C0
+    path: ''
+    startLine: 5563
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncFloat4 C0 { get; set; }
+    parameters: []
+    return:
+      type: Unity.Reflect.Model.SyncFloat4
+    content.vb: Public Property C0 As SyncFloat4
+  overload: Unity.Reflect.Model.SyncMatrix.C0*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.C1FieldNumber
+  commentId: F:Unity.Reflect.Model.SyncMatrix.C1FieldNumber
+  id: C1FieldNumber
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: C1FieldNumber
+  nameWithType: SyncMatrix.C1FieldNumber
+  fullName: Unity.Reflect.Model.SyncMatrix.C1FieldNumber
+  type: Field
+  source:
+    id: C1FieldNumber
+    path: ''
+    startLine: 5572
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;c1&quot; field.
+  example: []
+  syntax:
+    content: public const int C1FieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const C1FieldNumber As Integer = 2
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncMatrix.C1
+  commentId: P:Unity.Reflect.Model.SyncMatrix.C1
+  id: C1
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: C1
+  nameWithType: SyncMatrix.C1
+  fullName: Unity.Reflect.Model.SyncMatrix.C1
+  type: Property
+  source:
+    id: C1
+    path: ''
+    startLine: 5574
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncFloat4 C1 { get; set; }
+    parameters: []
+    return:
+      type: Unity.Reflect.Model.SyncFloat4
+    content.vb: Public Property C1 As SyncFloat4
+  overload: Unity.Reflect.Model.SyncMatrix.C1*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.C2FieldNumber
+  commentId: F:Unity.Reflect.Model.SyncMatrix.C2FieldNumber
+  id: C2FieldNumber
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: C2FieldNumber
+  nameWithType: SyncMatrix.C2FieldNumber
+  fullName: Unity.Reflect.Model.SyncMatrix.C2FieldNumber
+  type: Field
+  source:
+    id: C2FieldNumber
+    path: ''
+    startLine: 5583
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;c2&quot; field.
+  example: []
+  syntax:
+    content: public const int C2FieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const C2FieldNumber As Integer = 3
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncMatrix.C2
+  commentId: P:Unity.Reflect.Model.SyncMatrix.C2
+  id: C2
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: C2
+  nameWithType: SyncMatrix.C2
+  fullName: Unity.Reflect.Model.SyncMatrix.C2
+  type: Property
+  source:
+    id: C2
+    path: ''
+    startLine: 5585
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncFloat4 C2 { get; set; }
+    parameters: []
+    return:
+      type: Unity.Reflect.Model.SyncFloat4
+    content.vb: Public Property C2 As SyncFloat4
+  overload: Unity.Reflect.Model.SyncMatrix.C2*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.C3FieldNumber
+  commentId: F:Unity.Reflect.Model.SyncMatrix.C3FieldNumber
+  id: C3FieldNumber
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: C3FieldNumber
+  nameWithType: SyncMatrix.C3FieldNumber
+  fullName: Unity.Reflect.Model.SyncMatrix.C3FieldNumber
+  type: Field
+  source:
+    id: C3FieldNumber
+    path: ''
+    startLine: 5594
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;c3&quot; field.
+  example: []
+  syntax:
+    content: public const int C3FieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const C3FieldNumber As Integer = 4
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncMatrix.C3
+  commentId: P:Unity.Reflect.Model.SyncMatrix.C3
+  id: C3
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: C3
+  nameWithType: SyncMatrix.C3
+  fullName: Unity.Reflect.Model.SyncMatrix.C3
+  type: Property
+  source:
+    id: C3
+    path: ''
+    startLine: 5596
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncFloat4 C3 { get; set; }
+    parameters: []
+    return:
+      type: Unity.Reflect.Model.SyncFloat4
+    content.vb: Public Property C3 As SyncFloat4
+  overload: Unity.Reflect.Model.SyncMatrix.C3*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.Equals(System.Object)
+  commentId: M:Unity.Reflect.Model.SyncMatrix.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: SyncMatrix.Equals(Object)
+  fullName: Unity.Reflect.Model.SyncMatrix.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 5604
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: Unity.Reflect.Model.SyncMatrix.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.Model.SyncMatrix.Equals(Unity.Reflect.Model.SyncMatrix)
+  commentId: M:Unity.Reflect.Model.SyncMatrix.Equals(Unity.Reflect.Model.SyncMatrix)
+  id: Equals(Unity.Reflect.Model.SyncMatrix)
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: Equals(SyncMatrix)
+  nameWithType: SyncMatrix.Equals(SyncMatrix)
+  fullName: Unity.Reflect.Model.SyncMatrix.Equals(Unity.Reflect.Model.SyncMatrix)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 5609
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public bool Equals(SyncMatrix other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.Model.SyncMatrix
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As SyncMatrix) As Boolean
+  overload: Unity.Reflect.Model.SyncMatrix.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.GetHashCode
+  commentId: M:Unity.Reflect.Model.SyncMatrix.GetHashCode
+  id: GetHashCode
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: SyncMatrix.GetHashCode()
+  fullName: Unity.Reflect.Model.SyncMatrix.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 5624
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: Unity.Reflect.Model.SyncMatrix.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.Model.SyncMatrix.ToString
+  commentId: M:Unity.Reflect.Model.SyncMatrix.ToString
+  id: ToString
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SyncMatrix.ToString()
+  fullName: Unity.Reflect.Model.SyncMatrix.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 5637
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Unity.Reflect.Model.SyncMatrix.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.Model.SyncMatrix.WriteTo(pb.CodedOutputStream)
+  commentId: M:Unity.Reflect.Model.SyncMatrix.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: SyncMatrix.WriteTo(pb.CodedOutputStream)
+  fullName: Unity.Reflect.Model.SyncMatrix.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 5642
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: Unity.Reflect.Model.SyncMatrix.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.CalculateSize
+  commentId: M:Unity.Reflect.Model.SyncMatrix.CalculateSize
+  id: CalculateSize
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: SyncMatrix.CalculateSize()
+  fullName: Unity.Reflect.Model.SyncMatrix.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 5665
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: Unity.Reflect.Model.SyncMatrix.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.MergeFrom(Unity.Reflect.Model.SyncMatrix)
+  commentId: M:Unity.Reflect.Model.SyncMatrix.MergeFrom(Unity.Reflect.Model.SyncMatrix)
+  id: MergeFrom(Unity.Reflect.Model.SyncMatrix)
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(SyncMatrix)
+  nameWithType: SyncMatrix.MergeFrom(SyncMatrix)
+  fullName: Unity.Reflect.Model.SyncMatrix.MergeFrom(Unity.Reflect.Model.SyncMatrix)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 5686
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public void MergeFrom(SyncMatrix other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.Model.SyncMatrix
+    content.vb: Public Sub MergeFrom(other As SyncMatrix)
+  overload: Unity.Reflect.Model.SyncMatrix.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.MergeFrom(pb.CodedInputStream)
+  commentId: M:Unity.Reflect.Model.SyncMatrix.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: SyncMatrix.MergeFrom(pb.CodedInputStream)
+  fullName: Unity.Reflect.Model.SyncMatrix.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 5718
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: Unity.Reflect.Model.SyncMatrix.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.Identity
+  commentId: M:Unity.Reflect.Model.SyncMatrix.Identity
+  id: Identity
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: Identity()
+  nameWithType: SyncMatrix.Identity()
+  fullName: Unity.Reflect.Model.SyncMatrix.Identity()
+  type: Method
+  source:
+    id: Identity
+    path: ''
+    startLine: 21259
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public static SyncMatrix Identity()
+    return:
+      type: Unity.Reflect.Model.SyncMatrix
+    content.vb: Public Shared Function Identity As SyncMatrix
+  overload: Unity.Reflect.Model.SyncMatrix.Identity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Unity.Reflect.Model.SyncMatrix.#ctor(Unity.Reflect.Model.SyncFloat4,Unity.Reflect.Model.SyncFloat4,Unity.Reflect.Model.SyncFloat4,Unity.Reflect.Model.SyncFloat4)
+  commentId: M:Unity.Reflect.Model.SyncMatrix.#ctor(Unity.Reflect.Model.SyncFloat4,Unity.Reflect.Model.SyncFloat4,Unity.Reflect.Model.SyncFloat4,Unity.Reflect.Model.SyncFloat4)
+  id: '#ctor(Unity.Reflect.Model.SyncFloat4,Unity.Reflect.Model.SyncFloat4,Unity.Reflect.Model.SyncFloat4,Unity.Reflect.Model.SyncFloat4)'
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: SyncMatrix(SyncFloat4, SyncFloat4, SyncFloat4, SyncFloat4)
+  nameWithType: SyncMatrix.SyncMatrix(SyncFloat4, SyncFloat4, SyncFloat4, SyncFloat4)
+  fullName: Unity.Reflect.Model.SyncMatrix.SyncMatrix(Unity.Reflect.Model.SyncFloat4, Unity.Reflect.Model.SyncFloat4, Unity.Reflect.Model.SyncFloat4, Unity.Reflect.Model.SyncFloat4)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 21268
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncMatrix(SyncFloat4 c0, SyncFloat4 c1, SyncFloat4 c2, SyncFloat4 c3)
+    parameters:
+    - id: c0
+      type: Unity.Reflect.Model.SyncFloat4
+    - id: c1
+      type: Unity.Reflect.Model.SyncFloat4
+    - id: c2
+      type: Unity.Reflect.Model.SyncFloat4
+    - id: c3
+      type: Unity.Reflect.Model.SyncFloat4
+    content.vb: Public Sub New(c0 As SyncFloat4, c1 As SyncFloat4, c2 As SyncFloat4, c3 As SyncFloat4)
+  overload: Unity.Reflect.Model.SyncMatrix.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.ToTRS
+  commentId: M:Unity.Reflect.Model.SyncMatrix.ToTRS
+  id: ToTRS
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: ToTRS()
+  nameWithType: SyncMatrix.ToTRS()
+  fullName: Unity.Reflect.Model.SyncMatrix.ToTRS()
+  type: Method
+  source:
+    id: ToTRS
+    path: ''
+    startLine: 21276
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncTRS ToTRS()
+    return:
+      type: Unity.Reflect.Model.SyncTRS
+    content.vb: Public Function ToTRS As SyncTRS
+  overload: Unity.Reflect.Model.SyncMatrix.ToTRS*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.Parser
+  commentId: P:Unity.Reflect.Model.SyncMatrix.Parser
+  id: Parser
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: SyncMatrix.Parser
+  fullName: Unity.Reflect.Model.SyncMatrix.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 25685
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public static pb.MessageParser<SyncMatrix> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{Unity.Reflect.Model.SyncMatrix}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of SyncMatrix)
+  overload: Unity.Reflect.Model.SyncMatrix.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.Model.SyncMatrix.Descriptor
+  commentId: P:Unity.Reflect.Model.SyncMatrix.Descriptor
+  id: Descriptor
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: SyncMatrix.Descriptor
+  fullName: Unity.Reflect.Model.SyncMatrix.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 25688
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: Unity.Reflect.Model.SyncMatrix.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.Model.SyncMatrix.#ctor
+  commentId: M:Unity.Reflect.Model.SyncMatrix.#ctor
+  id: '#ctor'
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: SyncMatrix()
+  nameWithType: SyncMatrix.SyncMatrix()
+  fullName: Unity.Reflect.Model.SyncMatrix.SyncMatrix()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 25698
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncMatrix()
+    content.vb: Public Sub New
+  overload: Unity.Reflect.Model.SyncMatrix.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.#ctor(Unity.Reflect.Model.SyncMatrix)
+  commentId: M:Unity.Reflect.Model.SyncMatrix.#ctor(Unity.Reflect.Model.SyncMatrix)
+  id: '#ctor(Unity.Reflect.Model.SyncMatrix)'
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: SyncMatrix(SyncMatrix)
+  nameWithType: SyncMatrix.SyncMatrix(SyncMatrix)
+  fullName: Unity.Reflect.Model.SyncMatrix.SyncMatrix(Unity.Reflect.Model.SyncMatrix)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 25705
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncMatrix(SyncMatrix other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.Model.SyncMatrix
+    content.vb: Public Sub New(other As SyncMatrix)
+  overload: Unity.Reflect.Model.SyncMatrix.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.Clone
+  commentId: M:Unity.Reflect.Model.SyncMatrix.Clone
+  id: Clone
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: SyncMatrix.Clone()
+  fullName: Unity.Reflect.Model.SyncMatrix.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 25714
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncMatrix Clone()
+    return:
+      type: Unity.Reflect.Model.SyncMatrix
+    content.vb: Public Function Clone As SyncMatrix
+  overload: Unity.Reflect.Model.SyncMatrix.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.C0FieldNumber
+  commentId: F:Unity.Reflect.Model.SyncMatrix.C0FieldNumber
+  id: C0FieldNumber
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: C0FieldNumber
+  nameWithType: SyncMatrix.C0FieldNumber
+  fullName: Unity.Reflect.Model.SyncMatrix.C0FieldNumber
+  type: Field
+  source:
+    id: C0FieldNumber
+    path: ''
+    startLine: 25720
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;c0&quot; field.
+  example: []
+  syntax:
+    content: public const int C0FieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const C0FieldNumber As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncMatrix.C0
+  commentId: P:Unity.Reflect.Model.SyncMatrix.C0
+  id: C0
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: C0
+  nameWithType: SyncMatrix.C0
+  fullName: Unity.Reflect.Model.SyncMatrix.C0
+  type: Property
+  source:
+    id: C0
+    path: ''
+    startLine: 25722
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncFloat4 C0 { get; set; }
+    parameters: []
+    return:
+      type: Unity.Reflect.Model.SyncFloat4
+    content.vb: Public Property C0 As SyncFloat4
+  overload: Unity.Reflect.Model.SyncMatrix.C0*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.C1FieldNumber
+  commentId: F:Unity.Reflect.Model.SyncMatrix.C1FieldNumber
+  id: C1FieldNumber
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: C1FieldNumber
+  nameWithType: SyncMatrix.C1FieldNumber
+  fullName: Unity.Reflect.Model.SyncMatrix.C1FieldNumber
+  type: Field
+  source:
+    id: C1FieldNumber
+    path: ''
+    startLine: 25731
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;c1&quot; field.
+  example: []
+  syntax:
+    content: public const int C1FieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const C1FieldNumber As Integer = 2
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncMatrix.C1
+  commentId: P:Unity.Reflect.Model.SyncMatrix.C1
+  id: C1
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: C1
+  nameWithType: SyncMatrix.C1
+  fullName: Unity.Reflect.Model.SyncMatrix.C1
+  type: Property
+  source:
+    id: C1
+    path: ''
+    startLine: 25733
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncFloat4 C1 { get; set; }
+    parameters: []
+    return:
+      type: Unity.Reflect.Model.SyncFloat4
+    content.vb: Public Property C1 As SyncFloat4
+  overload: Unity.Reflect.Model.SyncMatrix.C1*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.C2FieldNumber
+  commentId: F:Unity.Reflect.Model.SyncMatrix.C2FieldNumber
+  id: C2FieldNumber
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: C2FieldNumber
+  nameWithType: SyncMatrix.C2FieldNumber
+  fullName: Unity.Reflect.Model.SyncMatrix.C2FieldNumber
+  type: Field
+  source:
+    id: C2FieldNumber
+    path: ''
+    startLine: 25742
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;c2&quot; field.
+  example: []
+  syntax:
+    content: public const int C2FieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const C2FieldNumber As Integer = 3
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncMatrix.C2
+  commentId: P:Unity.Reflect.Model.SyncMatrix.C2
+  id: C2
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: C2
+  nameWithType: SyncMatrix.C2
+  fullName: Unity.Reflect.Model.SyncMatrix.C2
+  type: Property
+  source:
+    id: C2
+    path: ''
+    startLine: 25744
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncFloat4 C2 { get; set; }
+    parameters: []
+    return:
+      type: Unity.Reflect.Model.SyncFloat4
+    content.vb: Public Property C2 As SyncFloat4
+  overload: Unity.Reflect.Model.SyncMatrix.C2*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.C3FieldNumber
+  commentId: F:Unity.Reflect.Model.SyncMatrix.C3FieldNumber
+  id: C3FieldNumber
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: C3FieldNumber
+  nameWithType: SyncMatrix.C3FieldNumber
+  fullName: Unity.Reflect.Model.SyncMatrix.C3FieldNumber
+  type: Field
+  source:
+    id: C3FieldNumber
+    path: ''
+    startLine: 25753
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;c3&quot; field.
+  example: []
+  syntax:
+    content: public const int C3FieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const C3FieldNumber As Integer = 4
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncMatrix.C3
+  commentId: P:Unity.Reflect.Model.SyncMatrix.C3
+  id: C3
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: C3
+  nameWithType: SyncMatrix.C3
+  fullName: Unity.Reflect.Model.SyncMatrix.C3
+  type: Property
+  source:
+    id: C3
+    path: ''
+    startLine: 25755
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncFloat4 C3 { get; set; }
+    parameters: []
+    return:
+      type: Unity.Reflect.Model.SyncFloat4
+    content.vb: Public Property C3 As SyncFloat4
+  overload: Unity.Reflect.Model.SyncMatrix.C3*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.Equals(System.Object)
+  commentId: M:Unity.Reflect.Model.SyncMatrix.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: SyncMatrix.Equals(Object)
+  fullName: Unity.Reflect.Model.SyncMatrix.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 25763
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: Unity.Reflect.Model.SyncMatrix.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.Model.SyncMatrix.Equals(Unity.Reflect.Model.SyncMatrix)
+  commentId: M:Unity.Reflect.Model.SyncMatrix.Equals(Unity.Reflect.Model.SyncMatrix)
+  id: Equals(Unity.Reflect.Model.SyncMatrix)
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: Equals(SyncMatrix)
+  nameWithType: SyncMatrix.Equals(SyncMatrix)
+  fullName: Unity.Reflect.Model.SyncMatrix.Equals(Unity.Reflect.Model.SyncMatrix)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 25768
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public bool Equals(SyncMatrix other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.Model.SyncMatrix
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As SyncMatrix) As Boolean
+  overload: Unity.Reflect.Model.SyncMatrix.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.GetHashCode
+  commentId: M:Unity.Reflect.Model.SyncMatrix.GetHashCode
+  id: GetHashCode
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: SyncMatrix.GetHashCode()
+  fullName: Unity.Reflect.Model.SyncMatrix.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 25783
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: Unity.Reflect.Model.SyncMatrix.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.Model.SyncMatrix.ToString
+  commentId: M:Unity.Reflect.Model.SyncMatrix.ToString
+  id: ToString
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SyncMatrix.ToString()
+  fullName: Unity.Reflect.Model.SyncMatrix.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 25796
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Unity.Reflect.Model.SyncMatrix.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.Model.SyncMatrix.WriteTo(pb.CodedOutputStream)
+  commentId: M:Unity.Reflect.Model.SyncMatrix.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: SyncMatrix.WriteTo(pb.CodedOutputStream)
+  fullName: Unity.Reflect.Model.SyncMatrix.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 25801
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: Unity.Reflect.Model.SyncMatrix.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.CalculateSize
+  commentId: M:Unity.Reflect.Model.SyncMatrix.CalculateSize
+  id: CalculateSize
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: SyncMatrix.CalculateSize()
+  fullName: Unity.Reflect.Model.SyncMatrix.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 25824
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: Unity.Reflect.Model.SyncMatrix.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.MergeFrom(Unity.Reflect.Model.SyncMatrix)
+  commentId: M:Unity.Reflect.Model.SyncMatrix.MergeFrom(Unity.Reflect.Model.SyncMatrix)
+  id: MergeFrom(Unity.Reflect.Model.SyncMatrix)
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(SyncMatrix)
+  nameWithType: SyncMatrix.MergeFrom(SyncMatrix)
+  fullName: Unity.Reflect.Model.SyncMatrix.MergeFrom(Unity.Reflect.Model.SyncMatrix)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 25845
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public void MergeFrom(SyncMatrix other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.Model.SyncMatrix
+    content.vb: Public Sub MergeFrom(other As SyncMatrix)
+  overload: Unity.Reflect.Model.SyncMatrix.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncMatrix.MergeFrom(pb.CodedInputStream)
+  commentId: M:Unity.Reflect.Model.SyncMatrix.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: Unity.Reflect.Model.SyncMatrix
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: SyncMatrix.MergeFrom(pb.CodedInputStream)
+  fullName: Unity.Reflect.Model.SyncMatrix.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 25877
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: Unity.Reflect.Model.SyncMatrix.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Unity.Reflect.Model
+  commentId: N:Unity.Reflect.Model
+  name: Unity.Reflect.Model
+  nameWithType: Unity.Reflect.Model
+  fullName: Unity.Reflect.Model
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: pb.IMessage{Unity.Reflect.Model.SyncMatrix}
+  commentId: '!:pb.IMessage{Unity.Reflect.Model.SyncMatrix}'
+  definition: pb.IMessage`1
+  name: pb.IMessage<SyncMatrix>
+  nameWithType: pb.IMessage<SyncMatrix>
+  fullName: pb.IMessage<Unity.Reflect.Model.SyncMatrix>
+  nameWithType.vb: pb.IMessage(Of SyncMatrix)
+  fullName.vb: pb.IMessage(Of Unity.Reflect.Model.SyncMatrix)
+  name.vb: pb.IMessage(Of SyncMatrix)
+  spec.csharp:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.Model.SyncMatrix
+    name: SyncMatrix
+    nameWithType: SyncMatrix
+    fullName: Unity.Reflect.Model.SyncMatrix
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.Model.SyncMatrix
+    name: SyncMatrix
+    nameWithType: SyncMatrix
+    fullName: Unity.Reflect.Model.SyncMatrix
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: pb.IMessage`1
+  isExternal: true
+  name: pb.IMessage<>
+  nameWithType: pb.IMessage<>
+  fullName: pb.IMessage<>
+  nameWithType.vb: pb.IMessage(Of )
+  fullName.vb: pb.IMessage(Of )
+  name.vb: pb.IMessage(Of )
+  spec.csharp:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.Model.SyncMatrix.Identity*
+  commentId: Overload:Unity.Reflect.Model.SyncMatrix.Identity
+  name: Identity
+  nameWithType: SyncMatrix.Identity
+  fullName: Unity.Reflect.Model.SyncMatrix.Identity
+- uid: Unity.Reflect.Model.SyncMatrix
+  commentId: T:Unity.Reflect.Model.SyncMatrix
+  parent: Unity.Reflect.Model
+  name: SyncMatrix
+  nameWithType: SyncMatrix
+  fullName: Unity.Reflect.Model.SyncMatrix
+- uid: Unity.Reflect.Model.SyncMatrix.#ctor*
+  commentId: Overload:Unity.Reflect.Model.SyncMatrix.#ctor
+  name: SyncMatrix
+  nameWithType: SyncMatrix.SyncMatrix
+  fullName: Unity.Reflect.Model.SyncMatrix.SyncMatrix
+- uid: Unity.Reflect.Model.SyncFloat4
+  commentId: T:Unity.Reflect.Model.SyncFloat4
+  parent: Unity.Reflect.Model
+  name: SyncFloat4
+  nameWithType: SyncFloat4
+  fullName: Unity.Reflect.Model.SyncFloat4
+- uid: Unity.Reflect.Model.SyncMatrix.ToTRS*
+  commentId: Overload:Unity.Reflect.Model.SyncMatrix.ToTRS
+  name: ToTRS
+  nameWithType: SyncMatrix.ToTRS
+  fullName: Unity.Reflect.Model.SyncMatrix.ToTRS
+- uid: Unity.Reflect.Model.SyncTRS
+  commentId: T:Unity.Reflect.Model.SyncTRS
+  parent: Unity.Reflect.Model
+  name: SyncTRS
+  nameWithType: SyncTRS
+  fullName: Unity.Reflect.Model.SyncTRS
+- uid: Unity.Reflect.Model.SyncMatrix.Parser*
+  commentId: Overload:Unity.Reflect.Model.SyncMatrix.Parser
+  name: Parser
+  nameWithType: SyncMatrix.Parser
+  fullName: Unity.Reflect.Model.SyncMatrix.Parser
+- uid: pb.MessageParser{Unity.Reflect.Model.SyncMatrix}
+  commentId: '!:pb.MessageParser{Unity.Reflect.Model.SyncMatrix}'
+  definition: pb.MessageParser`1
+  name: pb.MessageParser<SyncMatrix>
+  nameWithType: pb.MessageParser<SyncMatrix>
+  fullName: pb.MessageParser<Unity.Reflect.Model.SyncMatrix>
+  nameWithType.vb: pb.MessageParser(Of SyncMatrix)
+  fullName.vb: pb.MessageParser(Of Unity.Reflect.Model.SyncMatrix)
+  name.vb: pb.MessageParser(Of SyncMatrix)
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.Model.SyncMatrix
+    name: SyncMatrix
+    nameWithType: SyncMatrix
+    fullName: Unity.Reflect.Model.SyncMatrix
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.Model.SyncMatrix
+    name: SyncMatrix
+    nameWithType: SyncMatrix
+    fullName: Unity.Reflect.Model.SyncMatrix
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pb.MessageParser`1
+  isExternal: true
+  name: pb.MessageParser<>
+  nameWithType: pb.MessageParser<>
+  fullName: pb.MessageParser<>
+  nameWithType.vb: pb.MessageParser(Of )
+  fullName.vb: pb.MessageParser(Of )
+  name.vb: pb.MessageParser(Of )
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.Model.SyncMatrix.Descriptor*
+  commentId: Overload:Unity.Reflect.Model.SyncMatrix.Descriptor
+  name: Descriptor
+  nameWithType: SyncMatrix.Descriptor
+  fullName: Unity.Reflect.Model.SyncMatrix.Descriptor
+- uid: pbr.MessageDescriptor
+  isExternal: true
+  name: pbr.MessageDescriptor
+  nameWithType: pbr.MessageDescriptor
+  fullName: pbr.MessageDescriptor
+- uid: Unity.Reflect.Model.SyncMatrix.Clone*
+  commentId: Overload:Unity.Reflect.Model.SyncMatrix.Clone
+  name: Clone
+  nameWithType: SyncMatrix.Clone
+  fullName: Unity.Reflect.Model.SyncMatrix.Clone
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Unity.Reflect.Model.SyncMatrix.C0*
+  commentId: Overload:Unity.Reflect.Model.SyncMatrix.C0
+  name: C0
+  nameWithType: SyncMatrix.C0
+  fullName: Unity.Reflect.Model.SyncMatrix.C0
+- uid: Unity.Reflect.Model.SyncMatrix.C1*
+  commentId: Overload:Unity.Reflect.Model.SyncMatrix.C1
+  name: C1
+  nameWithType: SyncMatrix.C1
+  fullName: Unity.Reflect.Model.SyncMatrix.C1
+- uid: Unity.Reflect.Model.SyncMatrix.C2*
+  commentId: Overload:Unity.Reflect.Model.SyncMatrix.C2
+  name: C2
+  nameWithType: SyncMatrix.C2
+  fullName: Unity.Reflect.Model.SyncMatrix.C2
+- uid: Unity.Reflect.Model.SyncMatrix.C3*
+  commentId: Overload:Unity.Reflect.Model.SyncMatrix.C3
+  name: C3
+  nameWithType: SyncMatrix.C3
+  fullName: Unity.Reflect.Model.SyncMatrix.C3
+- uid: Unity.Reflect.Model.SyncMatrix.Equals*
+  commentId: Overload:Unity.Reflect.Model.SyncMatrix.Equals
+  name: Equals
+  nameWithType: SyncMatrix.Equals
+  fullName: Unity.Reflect.Model.SyncMatrix.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Unity.Reflect.Model.SyncMatrix.GetHashCode*
+  commentId: Overload:Unity.Reflect.Model.SyncMatrix.GetHashCode
+  name: GetHashCode
+  nameWithType: SyncMatrix.GetHashCode
+  fullName: Unity.Reflect.Model.SyncMatrix.GetHashCode
+- uid: Unity.Reflect.Model.SyncMatrix.ToString*
+  commentId: Overload:Unity.Reflect.Model.SyncMatrix.ToString
+  name: ToString
+  nameWithType: SyncMatrix.ToString
+  fullName: Unity.Reflect.Model.SyncMatrix.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Unity.Reflect.Model.SyncMatrix.WriteTo*
+  commentId: Overload:Unity.Reflect.Model.SyncMatrix.WriteTo
+  name: WriteTo
+  nameWithType: SyncMatrix.WriteTo
+  fullName: Unity.Reflect.Model.SyncMatrix.WriteTo
+- uid: pb.CodedOutputStream
+  isExternal: true
+  name: pb.CodedOutputStream
+  nameWithType: pb.CodedOutputStream
+  fullName: pb.CodedOutputStream
+- uid: Unity.Reflect.Model.SyncMatrix.CalculateSize*
+  commentId: Overload:Unity.Reflect.Model.SyncMatrix.CalculateSize
+  name: CalculateSize
+  nameWithType: SyncMatrix.CalculateSize
+  fullName: Unity.Reflect.Model.SyncMatrix.CalculateSize
+- uid: Unity.Reflect.Model.SyncMatrix.MergeFrom*
+  commentId: Overload:Unity.Reflect.Model.SyncMatrix.MergeFrom
+  name: MergeFrom
+  nameWithType: SyncMatrix.MergeFrom
+  fullName: Unity.Reflect.Model.SyncMatrix.MergeFrom
+- uid: pb.CodedInputStream
+  isExternal: true
+  name: pb.CodedInputStream
+  nameWithType: pb.CodedInputStream
+  fullName: pb.CodedInputStream

@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Unity.Reflect.IO
+  commentId: N:Unity.Reflect.IO
+  id: Unity.Reflect.IO
+  children:
+  - Unity.Reflect.IO.File
+  - Unity.Reflect.IO.LocalStorage
+  - Unity.Reflect.IO.SourceProject
+  langs:
+  - csharp
+  - vb
+  name: Unity.Reflect.IO
+  nameWithType: Unity.Reflect.IO
+  fullName: Unity.Reflect.IO
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Unity.Reflect.IO.File
+  commentId: T:Unity.Reflect.IO.File
+  name: File
+  nameWithType: File
+  fullName: Unity.Reflect.IO.File
+- uid: Unity.Reflect.IO.SourceProject
+  commentId: T:Unity.Reflect.IO.SourceProject
+  name: SourceProject
+  nameWithType: SourceProject
+  fullName: Unity.Reflect.IO.SourceProject
+- uid: Unity.Reflect.IO.LocalStorage
+  commentId: T:Unity.Reflect.IO.LocalStorage
+  name: LocalStorage
+  nameWithType: LocalStorage
+  fullName: Unity.Reflect.IO.LocalStorage

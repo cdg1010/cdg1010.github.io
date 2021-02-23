@@ -1,0 +1,22 @@
+- name: API Overview
+  href: index.md
+- name: Creating a pipeline
+  items:
+    - name: MetadataFilter
+      href: MetadataFilter.md
+    - name: Colliders
+      href: Colliders.md
+    - name: Material replacement
+      href: Material.md
+#    - name: NavMesh generation
+#      href: NavMesh.md
+    - name: Assembling a complex pipeline
+      href: Complex.md
+- name: Creating a custom node
+  items:
+    - name: Choosing the right data type
+      href: DataType.md
+    - name: Implementing IPipelineNode, IStreamInput and IStreamOutput
+      href: CustomNode.md
+    - name: Passing IPipelineSettings via constructor
+      href: Constructor.md

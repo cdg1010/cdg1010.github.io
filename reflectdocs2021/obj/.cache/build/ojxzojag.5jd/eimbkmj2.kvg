@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+  
+  <meta name="robots" content="noindex">
+  
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);  })(window,document,'script','dataLayer','GTM-5V25JL6');</script>
+  
+  
+  <script>
+  $(document).ready(function(){
+    $('#component-select-current-display').click(function(){
+        $('#component-select-current-display').toggleClass('component-select__current--is-active');
+    });
+    $(document).click(function(e){
+        if (!(e.target.id == 'component-select-current-display'))
+            $('#component-select-current-display').removeClass('component-select__current--is-active');
+    });
+     });
+  </script>
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+  
+    <title>Unity Reflect Viewer API | Unity Reflect | 2.0 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Unity Reflect Viewer API | Unity Reflect | 2.0 ">
+    <meta name="generator" content="docfx 2.45.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/version-switcher.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="unity:packageTitle" content="Unity Reflect | 2.0">
+    <meta property="docfx:rel" content="../">
+    
+  
+  </head>
+  <body data-spy="scroll" data-target="#affix" class="">
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5V25JL6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+        
+        		<div class="back-to-unity-group">
+        			<a class="back-to-unity" href="http://docs.unity3d.com/">docs.unity3d.com</a>
+        		</div>
+        
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="subnav navbar navbar-default">
+        <div class="container hide-when-search" id="breadcrumb">
+          <div id="version-switcher-select">
+        <div class="component-select" onclick="onVersionSwitcherClick()">
+        <div id="component-select-current-display" class="component-select__current">
+        Unity Reflect 2.0
+        </div>
+        
+        <ul id="version-switcher-ul" class="component-select__options-container">
+        <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.3/manual/index.html"><li class="component-select__option">
+                    1.3
+                </li></a>
+        <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.2/manual/index.html"><li class="component-select__option">
+                    1.2
+                </li></a>
+        <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.1/manual/index.html"><li class="component-select__option">
+                    1.1
+                </li></a>
+                <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.0/manual/index.html"><li class="component-select__option">
+                            1.0
+                        </li></a>
+        
+        
+                </ul>
+        </div>
+        </div></div>
+      </div></header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10" id="main_content">
+          <div id="breadcrumb_placeholder"></div>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="unity-reflect-viewer-api" sourcefile="viewerapi/index.md" sourcestartlinenumber="1" sourceendlinenumber="1">Unity Reflect Viewer API</h1>
+
+<h2 id="pipeline-overview" sourcefile="viewerapi/index.md" sourcestartlinenumber="3" sourceendlinenumber="3">Pipeline Overview</h2>
+<!--
+<span class="red">[Revit/Naviswork/Sketchup] -> [Reflect Publisher API] -> [SyncService] -> [Reflect Pipeline API] -> [GameObjects] <br> *to replace with image*</span>
+-->
+<p sourcefile="viewerapi/index.md" sourcestartlinenumber="9" sourceendlinenumber="9">The Pipeline API is used to convert Reflect models into Unity GameObjects at runtime. It&#39;s also used to sync any changes happening at the same time to the original CAD model source.</p>
+<p sourcefile="viewerapi/index.md" sourcestartlinenumber="11" sourceendlinenumber="11">Reflect models are represented by different types of ISyncModel:</p>
+<ul sourcefile="viewerapi/index.md" sourcestartlinenumber="13" sourceendlinenumber="14">
+<li sourcefile="viewerapi/index.md" sourcestartlinenumber="13" sourceendlinenumber="13"><strong>SyncObjectInstance</strong> represents an object in the model with its transform and metadata.</li>
+<li sourcefile="viewerapi/index.md" sourcestartlinenumber="14" sourceendlinenumber="14"><strong>SyncMesh</strong>, <strong>SyncTexture</strong> and <strong>SyncMaterials</strong> represent the different types of asset that can be used by a SyncObjectInstance.</li>
+</ul>
+<!--**Note:** For more about the Unity Reflect classes, see <span class="red">tbd</span>-->
+<p sourcefile="viewerapi/index.md" sourcestartlinenumber="18" sourceendlinenumber="18">The Pipeline API uses a node-based approach where each node manipulates Reflect models in order to filter or convert them. As in any node-based API, the pipeline can be extended and customized using new nodes or by changing the pipeline connection structure.</p>
+<p sourcefile="viewerapi/index.md" sourcestartlinenumber="20" sourceendlinenumber="20">Pipelines can be saved into Assets and reused across multiple Scenes and Projects.</p>
+<p sourcefile="viewerapi/index.md" sourcestartlinenumber="22" sourceendlinenumber="22">Nodes communicate between each other using Stream Events:</p>
+<ul sourcefile="viewerapi/index.md" sourcestartlinenumber="24" sourceendlinenumber="26">
+<li sourcefile="viewerapi/index.md" sourcestartlinenumber="24" sourceendlinenumber="24"><strong>StreamBegin</strong>: Beginning of a batch of StreamEvents.</li>
+<li sourcefile="viewerapi/index.md" sourcestartlinenumber="25" sourceendlinenumber="25"><strong>StreamEvents</strong>: Add/Changed/Removed</li>
+<li sourcefile="viewerapi/index.md" sourcestartlinenumber="26" sourceendlinenumber="26"><strong>StreamEnd</strong>: End of the batch</li>
+</ul>
+<p sourcefile="viewerapi/index.md" sourcestartlinenumber="28" sourceendlinenumber="28"><img src="../manual/images/1.3/Pipeline.png" style="width:400px; border: 1px solid #333; margin-top: 20px;"></p>
+<p sourcefile="viewerapi/index.md" sourcestartlinenumber="30" sourceendlinenumber="30"><em>Pipeline diagram</em></p>
+<h3 id="nodes" sourcefile="viewerapi/index.md" sourcestartlinenumber="32" sourceendlinenumber="32">Nodes</h3>
+<table sourcefile="viewerapi/index.md" sourcestartlinenumber="34" sourceendlinenumber="40">
+<thead>
+<tr>
+<th>Node</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ProjectStreamer</strong></td>
+<td>Reads a Reflect Project content and streams the data as lightweight entries (Type, BoundingBox); reacts to live changes in the Reflect Project and streams the deltas.</td>
+</tr>
+<tr>
+<td><strong>SyncInstanceProvider</strong></td>
+<td>Gets a more detailed description of the instance (Transform, Metadata, Dependencies).</td>
+</tr>
+<tr>
+<td><strong>DataProvider</strong></td>
+<td>Loads all the dependencies of a given SyncInstance and streams them to the rest of the pipeline; manages the data so no duplicate information is loaded.<br><br>The dependencies are SyncObjects, SyncMeshes, SyncTextures and SyncMaterials.</td>
+</tr>
+<tr>
+<td><strong>MeshConverter, MaterialConverter, TextureConverter</strong></td>
+<td>Convert the Reflect data into a Unity Object.</td>
+</tr>
+<tr>
+<td><strong>InstanceConverter</strong></td>
+<td>The last node that generates the final GameObject representing the SyncInstance.</td>
+</tr>
+</tbody>
+</table>
+<!--### Example
+
+#### Adding a chair (in Revit)
+
+<div class="red">
+
+1. SendBegin is propagated to all Nodes
+
+2. Stream entry : { Id : 123, Name : Stacking_Chair, BBox }
+
+3. Stream instance : { Id : 123, Name : Stacking_Chair, BBox, Transform, Metadata, ObjectId }
+
+4. SyncInstance dependencies are sent to the Converter nodes
+
+</div>
+
+#### Moving the chair
+
+<div class="red">
+pending
+</div>
+
+## Pipeline settings
+
+<span class="red">tbd</span>
+
+## Scripting API
+
+<span class="red">tbd</span>
+
+### Connections
+
+Strongly typed Input / Output classes
+
+### Pipeline Params
+
+* Ability to send additional
+Data to nodes
+* Share values between nodes
+
+-->
+<h3 id="running-a-reflect-pipeline" sourcefile="viewerapi/index.md" sourcestartlinenumber="84" sourceendlinenumber="84">Running a Reflect Pipeline</h3>
+<p sourcefile="viewerapi/index.md" sourcestartlinenumber="86" sourceendlinenumber="86"><strong>PipelineAsset</strong> is a ScriptableObject that contains the ReflectNodes and connections that describe the Reflect pipeline.</p>
+<p sourcefile="viewerapi/index.md" sourcestartlinenumber="88" sourceendlinenumber="88"><strong>ReflectPipeline</strong> is a MonoBehaviour that takes a PipelineAsset. When assigning a PipelineAsset to the ReflectPipeline, the inspector displays all public and serializable fields found in the pipeline nodes.</p>
+<p sourcefile="viewerapi/index.md" sourcestartlinenumber="90" sourceendlinenumber="90">The method <strong>ReflectPipeline.InitializeAndRefreshPipeline</strong> can start the Pipeline.</p>
+<p sourcefile="viewerapi/index.md" sourcestartlinenumber="92" sourceendlinenumber="92">If there are any changes to the data after the PipelineAsset is started, <strong>ReflectPipeline.RefreshPipeline</strong> can trigger a refresh.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2020 Unity Technologies<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../styles/metadata-collector.js"></script>
+    <script type="text/javascript" src="../styles/version-switcher.js"></script>
+  </div></body>
+</html>

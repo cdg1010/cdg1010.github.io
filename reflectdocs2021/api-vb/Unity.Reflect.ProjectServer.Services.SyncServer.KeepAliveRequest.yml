@@ -1,0 +1,1243 @@
+### YamlMime:ManagedReference
+items:
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  commentId: T:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  id: KeepAliveRequest
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer
+  children:
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.#ctor
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.#ctor
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.#ctor(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.#ctor(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.CalculateSize
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.CalculateSize
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Clone
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Clone
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Descriptor
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Descriptor
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.EndpointAddress
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.EndpointAddress
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.EndpointAddressFieldNumber
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.EndpointAddressFieldNumber
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Equals(System.Object)
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Equals(System.Object)
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Equals(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Equals(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.GetHashCode
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.GetHashCode
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.MergeFrom(pb.CodedInputStream)
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.MergeFrom(pb.CodedInputStream)
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.MergeFrom(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.MergeFrom(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Parser
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Parser
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.ToString
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.ToString
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.WriteTo(pb.CodedOutputStream)
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.WriteTo(pb.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: KeepAliveRequest
+  nameWithType: KeepAliveRequest
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  type: Class
+  source:
+    id: KeepAliveRequest
+    path: ''
+    startLine: 36281
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: 'public sealed class KeepAliveRequest : pb.IMessage<KeepAliveRequest>, pb.IMessage<KeepAliveRequest>'
+    content.vb: >-
+      Public NotInheritable Class KeepAliveRequest
+          Inherits pb.IMessage(Of KeepAliveRequest)
+          Implements pb.IMessage(Of KeepAliveRequest)
+  inheritance:
+  - System.Object
+  implements:
+  - pb.IMessage{Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest}
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Parser
+  commentId: P:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Parser
+  id: Parser
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: KeepAliveRequest.Parser
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 16125
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public static pb.MessageParser<KeepAliveRequest> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of KeepAliveRequest)
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Descriptor
+  commentId: P:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Descriptor
+  id: Descriptor
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: KeepAliveRequest.Descriptor
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 16128
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.#ctor
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.#ctor
+  id: '#ctor'
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: KeepAliveRequest()
+  nameWithType: KeepAliveRequest.KeepAliveRequest()
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.KeepAliveRequest()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 16138
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public KeepAliveRequest()
+    content.vb: Public Sub New
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.#ctor(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.#ctor(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  id: '#ctor(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)'
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: KeepAliveRequest(KeepAliveRequest)
+  nameWithType: KeepAliveRequest.KeepAliveRequest(KeepAliveRequest)
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.KeepAliveRequest(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 16145
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public KeepAliveRequest(KeepAliveRequest other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+    content.vb: Public Sub New(other As KeepAliveRequest)
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Clone
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Clone
+  id: Clone
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: KeepAliveRequest.Clone()
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 16151
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public KeepAliveRequest Clone()
+    return:
+      type: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+    content.vb: Public Function Clone As KeepAliveRequest
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.EndpointAddressFieldNumber
+  commentId: F:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.EndpointAddressFieldNumber
+  id: EndpointAddressFieldNumber
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: EndpointAddressFieldNumber
+  nameWithType: KeepAliveRequest.EndpointAddressFieldNumber
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.EndpointAddressFieldNumber
+  type: Field
+  source:
+    id: EndpointAddressFieldNumber
+    path: ''
+    startLine: 16157
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  summary: Field number for the &quot;endpointAddress&quot; field.
+  example: []
+  syntax:
+    content: public const int EndpointAddressFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const EndpointAddressFieldNumber As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.EndpointAddress
+  commentId: P:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.EndpointAddress
+  id: EndpointAddress
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: EndpointAddress
+  nameWithType: KeepAliveRequest.EndpointAddress
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.EndpointAddress
+  type: Property
+  source:
+    id: EndpointAddress
+    path: ''
+    startLine: 16159
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public string EndpointAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EndpointAddress As String
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.EndpointAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Equals(System.Object)
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: KeepAliveRequest.Equals(Object)
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 16167
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Equals(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Equals(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  id: Equals(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(KeepAliveRequest)
+  nameWithType: KeepAliveRequest.Equals(KeepAliveRequest)
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Equals(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 16172
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public bool Equals(KeepAliveRequest other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As KeepAliveRequest) As Boolean
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.GetHashCode
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.GetHashCode
+  id: GetHashCode
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: KeepAliveRequest.GetHashCode()
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 16184
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.ToString
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.ToString
+  id: ToString
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: KeepAliveRequest.ToString()
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 16194
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.WriteTo(pb.CodedOutputStream)
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: KeepAliveRequest.WriteTo(pb.CodedOutputStream)
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 16199
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.CalculateSize
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.CalculateSize
+  id: CalculateSize
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: KeepAliveRequest.CalculateSize()
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 16210
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.MergeFrom(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.MergeFrom(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  id: MergeFrom(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(KeepAliveRequest)
+  nameWithType: KeepAliveRequest.MergeFrom(KeepAliveRequest)
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.MergeFrom(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 16222
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public void MergeFrom(KeepAliveRequest other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+    content.vb: Public Sub MergeFrom(other As KeepAliveRequest)
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.MergeFrom(pb.CodedInputStream)
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: KeepAliveRequest.MergeFrom(pb.CodedInputStream)
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 16233
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Parser
+  commentId: P:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Parser
+  id: Parser
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: KeepAliveRequest.Parser
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 36284
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public static pb.MessageParser<KeepAliveRequest> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of KeepAliveRequest)
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Descriptor
+  commentId: P:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Descriptor
+  id: Descriptor
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: KeepAliveRequest.Descriptor
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 36287
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.#ctor
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.#ctor
+  id: '#ctor'
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: KeepAliveRequest()
+  nameWithType: KeepAliveRequest.KeepAliveRequest()
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.KeepAliveRequest()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 36297
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public KeepAliveRequest()
+    content.vb: Public Sub New
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.#ctor(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.#ctor(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  id: '#ctor(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)'
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: KeepAliveRequest(KeepAliveRequest)
+  nameWithType: KeepAliveRequest.KeepAliveRequest(KeepAliveRequest)
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.KeepAliveRequest(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 36304
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public KeepAliveRequest(KeepAliveRequest other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+    content.vb: Public Sub New(other As KeepAliveRequest)
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Clone
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Clone
+  id: Clone
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: KeepAliveRequest.Clone()
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 36310
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public KeepAliveRequest Clone()
+    return:
+      type: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+    content.vb: Public Function Clone As KeepAliveRequest
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.EndpointAddressFieldNumber
+  commentId: F:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.EndpointAddressFieldNumber
+  id: EndpointAddressFieldNumber
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: EndpointAddressFieldNumber
+  nameWithType: KeepAliveRequest.EndpointAddressFieldNumber
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.EndpointAddressFieldNumber
+  type: Field
+  source:
+    id: EndpointAddressFieldNumber
+    path: ''
+    startLine: 36316
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  summary: Field number for the &quot;endpointAddress&quot; field.
+  example: []
+  syntax:
+    content: public const int EndpointAddressFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const EndpointAddressFieldNumber As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.EndpointAddress
+  commentId: P:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.EndpointAddress
+  id: EndpointAddress
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: EndpointAddress
+  nameWithType: KeepAliveRequest.EndpointAddress
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.EndpointAddress
+  type: Property
+  source:
+    id: EndpointAddress
+    path: ''
+    startLine: 36318
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public string EndpointAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EndpointAddress As String
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.EndpointAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Equals(System.Object)
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: KeepAliveRequest.Equals(Object)
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 36326
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Equals(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Equals(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  id: Equals(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(KeepAliveRequest)
+  nameWithType: KeepAliveRequest.Equals(KeepAliveRequest)
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Equals(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 36331
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public bool Equals(KeepAliveRequest other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As KeepAliveRequest) As Boolean
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.GetHashCode
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.GetHashCode
+  id: GetHashCode
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: KeepAliveRequest.GetHashCode()
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 36343
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.ToString
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.ToString
+  id: ToString
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: KeepAliveRequest.ToString()
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 36353
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.WriteTo(pb.CodedOutputStream)
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: KeepAliveRequest.WriteTo(pb.CodedOutputStream)
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 36358
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.CalculateSize
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.CalculateSize
+  id: CalculateSize
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: KeepAliveRequest.CalculateSize()
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 36369
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.MergeFrom(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.MergeFrom(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  id: MergeFrom(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(KeepAliveRequest)
+  nameWithType: KeepAliveRequest.MergeFrom(KeepAliveRequest)
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.MergeFrom(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 36381
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public void MergeFrom(KeepAliveRequest other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+    content.vb: Public Sub MergeFrom(other As KeepAliveRequest)
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.MergeFrom(pb.CodedInputStream)
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: KeepAliveRequest.MergeFrom(pb.CodedInputStream)
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 36392
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer
+  commentId: N:Unity.Reflect.ProjectServer.Services.SyncServer
+  name: Unity.Reflect.ProjectServer.Services.SyncServer
+  nameWithType: Unity.Reflect.ProjectServer.Services.SyncServer
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: pb.IMessage{Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest}
+  commentId: '!:pb.IMessage{Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest}'
+  definition: pb.IMessage`1
+  name: pb.IMessage<KeepAliveRequest>
+  nameWithType: pb.IMessage<KeepAliveRequest>
+  fullName: pb.IMessage<Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest>
+  nameWithType.vb: pb.IMessage(Of KeepAliveRequest)
+  fullName.vb: pb.IMessage(Of Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  name.vb: pb.IMessage(Of KeepAliveRequest)
+  spec.csharp:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+    name: KeepAliveRequest
+    nameWithType: KeepAliveRequest
+    fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+    name: KeepAliveRequest
+    nameWithType: KeepAliveRequest
+    fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: pb.IMessage`1
+  isExternal: true
+  name: pb.IMessage<>
+  nameWithType: pb.IMessage<>
+  fullName: pb.IMessage<>
+  nameWithType.vb: pb.IMessage(Of )
+  fullName.vb: pb.IMessage(Of )
+  name.vb: pb.IMessage(Of )
+  spec.csharp:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Parser*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Parser
+  name: Parser
+  nameWithType: KeepAliveRequest.Parser
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Parser
+- uid: pb.MessageParser{Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest}
+  commentId: '!:pb.MessageParser{Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest}'
+  definition: pb.MessageParser`1
+  name: pb.MessageParser<KeepAliveRequest>
+  nameWithType: pb.MessageParser<KeepAliveRequest>
+  fullName: pb.MessageParser<Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest>
+  nameWithType.vb: pb.MessageParser(Of KeepAliveRequest)
+  fullName.vb: pb.MessageParser(Of Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest)
+  name.vb: pb.MessageParser(Of KeepAliveRequest)
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+    name: KeepAliveRequest
+    nameWithType: KeepAliveRequest
+    fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+    name: KeepAliveRequest
+    nameWithType: KeepAliveRequest
+    fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pb.MessageParser`1
+  isExternal: true
+  name: pb.MessageParser<>
+  nameWithType: pb.MessageParser<>
+  fullName: pb.MessageParser<>
+  nameWithType.vb: pb.MessageParser(Of )
+  fullName.vb: pb.MessageParser(Of )
+  name.vb: pb.MessageParser(Of )
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Descriptor*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Descriptor
+  name: Descriptor
+  nameWithType: KeepAliveRequest.Descriptor
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Descriptor
+- uid: pbr.MessageDescriptor
+  isExternal: true
+  name: pbr.MessageDescriptor
+  nameWithType: pbr.MessageDescriptor
+  fullName: pbr.MessageDescriptor
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.#ctor*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.#ctor
+  name: KeepAliveRequest
+  nameWithType: KeepAliveRequest.KeepAliveRequest
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.KeepAliveRequest
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  commentId: T:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer
+  name: KeepAliveRequest
+  nameWithType: KeepAliveRequest
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Clone*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Clone
+  name: Clone
+  nameWithType: KeepAliveRequest.Clone
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Clone
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.EndpointAddress*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.EndpointAddress
+  name: EndpointAddress
+  nameWithType: KeepAliveRequest.EndpointAddress
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.EndpointAddress
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Equals*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Equals
+  name: Equals
+  nameWithType: KeepAliveRequest.Equals
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.GetHashCode*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.GetHashCode
+  name: GetHashCode
+  nameWithType: KeepAliveRequest.GetHashCode
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.GetHashCode
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.ToString*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.ToString
+  name: ToString
+  nameWithType: KeepAliveRequest.ToString
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.ToString
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.WriteTo*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.WriteTo
+  name: WriteTo
+  nameWithType: KeepAliveRequest.WriteTo
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.WriteTo
+- uid: pb.CodedOutputStream
+  isExternal: true
+  name: pb.CodedOutputStream
+  nameWithType: pb.CodedOutputStream
+  fullName: pb.CodedOutputStream
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.CalculateSize*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.CalculateSize
+  name: CalculateSize
+  nameWithType: KeepAliveRequest.CalculateSize
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.CalculateSize
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.MergeFrom*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.MergeFrom
+  name: MergeFrom
+  nameWithType: KeepAliveRequest.MergeFrom
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveRequest.MergeFrom
+- uid: pb.CodedInputStream
+  isExternal: true
+  name: pb.CodedInputStream
+  nameWithType: pb.CodedInputStream
+  fullName: pb.CodedInputStream

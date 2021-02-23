@@ -1,0 +1,585 @@
+### YamlMime:ManagedReference
+items:
+- uid: Unity.Reflect.BaseClient
+  commentId: T:Unity.Reflect.BaseClient
+  id: BaseClient
+  parent: Unity.Reflect
+  children:
+  - Unity.Reflect.BaseClient.CreateClient(System.Boolean,System.String)
+  - Unity.Reflect.BaseClient.CreateClient(System.Boolean,System.String)
+  - Unity.Reflect.BaseClient.CreateClient(Unity.Reflect.TargetChannel,System.Boolean)
+  - Unity.Reflect.BaseClient.CreateClient(Unity.Reflect.TargetChannel,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: BaseClient
+  nameWithType: BaseClient
+  fullName: Unity.Reflect.BaseClient
+  type: Class
+  source:
+    id: BaseClient
+    path: ''
+    startLine: 39389
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  summary: "\nAn <xref href=\"Unity.Reflect.IClient\" data-throw-if-not-resolved=\"false\"></xref> factory.\n"
+  example: []
+  syntax:
+    content: public static class BaseClient
+    content.vb: Public Module BaseClient
+  seealso:
+  - linkId: Unity.Reflect.Publisher
+    commentId: T:Unity.Reflect.Publisher
+  - linkId: Unity.Reflect.Player
+    commentId: T:Unity.Reflect.Player
+  - linkId: Unity.Reflect.Publisher
+    commentId: T:Unity.Reflect.Publisher
+  - linkId: Unity.Reflect.Player
+    commentId: T:Unity.Reflect.Player
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Unity.Reflect.BaseClient.CreateClient(System.Boolean,System.String)
+  commentId: M:Unity.Reflect.BaseClient.CreateClient(System.Boolean,System.String)
+  id: CreateClient(System.Boolean,System.String)
+  parent: Unity.Reflect.BaseClient
+  langs:
+  - csharp
+  - vb
+  name: CreateClient(Boolean, String)
+  nameWithType: BaseClient.CreateClient(Boolean, String)
+  fullName: Unity.Reflect.BaseClient.CreateClient(System.Boolean, System.String)
+  type: Method
+  source:
+    id: CreateClient
+    path: ''
+    startLine: 19239
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  summary: "\nCreates and connects an <xref href=\"Unity.Reflect.IClient\" data-throw-if-not-resolved=\"false\"></xref> to a SyncServer.\n"
+  example: []
+  syntax:
+    content: public static IClient CreateClient(bool autoconnect = true, string channelAddress = null)
+    parameters:
+    - id: autoconnect
+      type: System.Boolean
+      description: Whether the client automatically tries to connect. If false, you can connect it yourself, by using its Connect method.
+    - id: channelAddress
+      type: System.String
+      description: The address of the SyncServer, following the format &quot;XXX.XXX.XXX.XXX:YYYYY&quot;. If null, the client will try to connect to a local SyncServer.
+    return:
+      type: Unity.Reflect.IClient
+      description: 'A client that is connected to the SyncServer. '
+    content.vb: Public Shared Function CreateClient(autoconnect As Boolean = True, channelAddress As String = Nothing) As IClient
+  overload: Unity.Reflect.BaseClient.CreateClient*
+  exceptions:
+  - type: Unity.Reflect.ConnectionException
+    commentId: T:Unity.Reflect.ConnectionException
+    description: If the connection with the SyncServer fails
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Unity.Reflect.BaseClient.CreateClient(Unity.Reflect.TargetChannel,System.Boolean)
+  commentId: M:Unity.Reflect.BaseClient.CreateClient(Unity.Reflect.TargetChannel,System.Boolean)
+  id: CreateClient(Unity.Reflect.TargetChannel,System.Boolean)
+  parent: Unity.Reflect.BaseClient
+  langs:
+  - csharp
+  - vb
+  name: CreateClient(TargetChannel, Boolean)
+  nameWithType: BaseClient.CreateClient(TargetChannel, Boolean)
+  fullName: Unity.Reflect.BaseClient.CreateClient(Unity.Reflect.TargetChannel, System.Boolean)
+  type: Method
+  source:
+    id: CreateClient
+    path: ''
+    startLine: 19252
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  summary: "\nCreates and connects an <xref href=\"Unity.Reflect.IClient\" data-throw-if-not-resolved=\"false\"></xref> to a SyncServer.\n"
+  example: []
+  syntax:
+    content: public static IClient CreateClient(TargetChannel channel, bool autoconnect = true)
+    parameters:
+    - id: channel
+      type: Unity.Reflect.TargetChannel
+      description: The target channel establishing a connection to the SyncServer. Cannot be null.
+    - id: autoconnect
+      type: System.Boolean
+      description: Whether the client automatically tries to connect. If false, you can connect it yourself by using its Connect method.
+    return:
+      type: Unity.Reflect.IClient
+      description: 'A client that is connected to the SyncServer. '
+    content.vb: Public Shared Function CreateClient(channel As TargetChannel, autoconnect As Boolean = True) As IClient
+  overload: Unity.Reflect.BaseClient.CreateClient*
+  exceptions:
+  - type: Unity.Reflect.ConnectionException
+    commentId: T:Unity.Reflect.ConnectionException
+    description: If the connection with the SyncServer fails
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: If the channel is null
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Unity.Reflect.BaseClient.CreateClient(System.Boolean,System.String)
+  commentId: M:Unity.Reflect.BaseClient.CreateClient(System.Boolean,System.String)
+  id: CreateClient(System.Boolean,System.String)
+  parent: Unity.Reflect.BaseClient
+  langs:
+  - csharp
+  - vb
+  name: CreateClient(Boolean, String)
+  nameWithType: BaseClient.CreateClient(Boolean, String)
+  fullName: Unity.Reflect.BaseClient.CreateClient(System.Boolean, System.String)
+  type: Method
+  source:
+    id: CreateClient
+    path: ''
+    startLine: 39398
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  summary: "\nCreates and connects an <xref href=\"Unity.Reflect.IClient\" data-throw-if-not-resolved=\"false\"></xref> to a SyncServer.\n"
+  example: []
+  syntax:
+    content: public static IClient CreateClient(bool autoconnect = true, string channelAddress = null)
+    parameters:
+    - id: autoconnect
+      type: System.Boolean
+      description: Whether the client automatically tries to connect. If false, you can connect it yourself, by using its Connect method.
+    - id: channelAddress
+      type: System.String
+      description: The address of the SyncServer, following the format &quot;XXX.XXX.XXX.XXX:YYYYY&quot;. If null, the client will try to connect to a local SyncServer.
+    return:
+      type: Unity.Reflect.IClient
+      description: 'A client that is connected to the SyncServer. '
+    content.vb: Public Shared Function CreateClient(autoconnect As Boolean = True, channelAddress As String = Nothing) As IClient
+  overload: Unity.Reflect.BaseClient.CreateClient*
+  exceptions:
+  - type: Unity.Reflect.ConnectionException
+    commentId: T:Unity.Reflect.ConnectionException
+    description: If the connection with the SyncServer fails
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Unity.Reflect.BaseClient.CreateClient(Unity.Reflect.TargetChannel,System.Boolean)
+  commentId: M:Unity.Reflect.BaseClient.CreateClient(Unity.Reflect.TargetChannel,System.Boolean)
+  id: CreateClient(Unity.Reflect.TargetChannel,System.Boolean)
+  parent: Unity.Reflect.BaseClient
+  langs:
+  - csharp
+  - vb
+  name: CreateClient(TargetChannel, Boolean)
+  nameWithType: BaseClient.CreateClient(TargetChannel, Boolean)
+  fullName: Unity.Reflect.BaseClient.CreateClient(Unity.Reflect.TargetChannel, System.Boolean)
+  type: Method
+  source:
+    id: CreateClient
+    path: ''
+    startLine: 39411
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  summary: "\nCreates and connects an <xref href=\"Unity.Reflect.IClient\" data-throw-if-not-resolved=\"false\"></xref> to a SyncServer.\n"
+  example: []
+  syntax:
+    content: public static IClient CreateClient(TargetChannel channel, bool autoconnect = true)
+    parameters:
+    - id: channel
+      type: Unity.Reflect.TargetChannel
+      description: The target channel establishing a connection to the SyncServer. Cannot be null.
+    - id: autoconnect
+      type: System.Boolean
+      description: Whether the client automatically tries to connect. If false, you can connect it yourself by using its Connect method.
+    return:
+      type: Unity.Reflect.IClient
+      description: 'A client that is connected to the SyncServer. '
+    content.vb: Public Shared Function CreateClient(channel As TargetChannel, autoconnect As Boolean = True) As IClient
+  overload: Unity.Reflect.BaseClient.CreateClient*
+  exceptions:
+  - type: Unity.Reflect.ConnectionException
+    commentId: T:Unity.Reflect.ConnectionException
+    description: If the connection with the SyncServer fails
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: If the channel is null
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Unity.Reflect.IClient
+  commentId: T:Unity.Reflect.IClient
+  parent: Unity.Reflect
+  name: IClient
+  nameWithType: IClient
+  fullName: Unity.Reflect.IClient
+- uid: Unity.Reflect.Publisher
+  commentId: T:Unity.Reflect.Publisher
+  name: Publisher
+  nameWithType: Publisher
+  fullName: Unity.Reflect.Publisher
+- uid: Unity.Reflect.Player
+  commentId: T:Unity.Reflect.Player
+  name: Player
+  nameWithType: Player
+  fullName: Unity.Reflect.Player
+- uid: Unity.Reflect
+  commentId: N:Unity.Reflect
+  name: Unity.Reflect
+  nameWithType: Unity.Reflect
+  fullName: Unity.Reflect
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Unity.Reflect.ConnectionException
+  commentId: T:Unity.Reflect.ConnectionException
+  name: ConnectionException
+  nameWithType: ConnectionException
+  fullName: Unity.Reflect.ConnectionException
+- uid: Unity.Reflect.BaseClient.CreateClient*
+  commentId: Overload:Unity.Reflect.BaseClient.CreateClient
+  name: CreateClient
+  nameWithType: BaseClient.CreateClient
+  fullName: Unity.Reflect.BaseClient.CreateClient
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  isExternal: true
+- uid: Unity.Reflect.TargetChannel
+  commentId: T:Unity.Reflect.TargetChannel
+  parent: Unity.Reflect
+  name: TargetChannel
+  nameWithType: TargetChannel
+  fullName: Unity.Reflect.TargetChannel

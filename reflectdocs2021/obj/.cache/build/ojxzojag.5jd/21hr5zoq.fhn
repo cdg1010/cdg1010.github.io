@@ -1,0 +1,1 @@
+{"index.md":[{"File":"index.md","LogLevel":"warning","Message":"Unable to resolve \"[!include[index](/manual/index.md)]\n\" at line 1: Absolute path \"/manual/index.md\" is not supported.","Phase":"BuildCommand.BuildCore.Build Document.CompilePhaseHandlerWithIncremental.ConceptualDocumentProcessor.Build.BuildConceptualDocument","Code":"InvalidInclude"}]}

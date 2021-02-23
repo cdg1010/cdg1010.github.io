@@ -1,0 +1,400 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+  
+  <meta name="robots" content="noindex">
+  
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);  })(window,document,'script','dataLayer','GTM-5V25JL6');</script>
+  
+  
+  <script>
+  $(document).ready(function(){
+    $('#component-select-current-display').click(function(){
+        $('#component-select-current-display').toggleClass('component-select__current--is-active');
+    });
+    $(document).click(function(e){
+        if (!(e.target.id == 'component-select-current-display'))
+            $('#component-select-current-display').removeClass('component-select__current--is-active');
+    });
+     });
+  </script>
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+  
+    <title>Class SyncObjectInstance
+   | Unity Reflect | 2.0 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SyncObjectInstance
+   | Unity Reflect | 2.0 ">
+    <meta name="generator" content="docfx 2.45.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/version-switcher.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="unity:packageTitle" content="Unity Reflect | 2.0">
+    <meta property="docfx:rel" content="../">
+    
+  
+  </head>
+  <body data-spy="scroll" data-target="#affix" class="">
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5V25JL6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+        
+        		<div class="back-to-unity-group">
+        			<a class="back-to-unity" href="http://docs.unity3d.com/">docs.unity3d.com</a>
+        		</div>
+        
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="subnav navbar navbar-default">
+        <div class="container hide-when-search" id="breadcrumb">
+          <div id="version-switcher-select">
+        <div class="component-select" onclick="onVersionSwitcherClick()">
+        <div id="component-select-current-display" class="component-select__current">
+        Unity Reflect 2.0
+        </div>
+        
+        <ul id="version-switcher-ul" class="component-select__options-container">
+        <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.3/manual/index.html"><li class="component-select__option">
+                    1.3
+                </li></a>
+        <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.2/manual/index.html"><li class="component-select__option">
+                    1.2
+                </li></a>
+        <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.1/manual/index.html"><li class="component-select__option">
+                    1.1
+                </li></a>
+                <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.0/manual/index.html"><li class="component-select__option">
+                            1.0
+                        </li></a>
+        
+        
+                </ul>
+        </div>
+        </div></div>
+      </div></header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10" id="main_content">
+          <div id="breadcrumb_placeholder"></div>
+            <article class="content wrap" id="_content" data-uid="Unity.Reflect.Model.SyncObjectInstance">
+  
+  
+  <h1 id="Unity_Reflect_Model_SyncObjectInstance" data-uid="Unity.Reflect.Model.SyncObjectInstance">Class SyncObjectInstance
+  </h1>
+  <div class="markdown level0 summary"><p>This class specifies information about a <a class="xref" href="Unity.Reflect.Model.SyncObject.html">SyncObject</a> instance.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">SyncObjectInstance</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Unity.Reflect.Model.html">Unity.Reflect.Model</a></h6>
+  <!--h6><strong>Assembly</strong>: cs.temp.dll.dll</h6-->
+  <h5 id="Unity_Reflect_Model_SyncObjectInstance_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SyncObjectInstance : ISyncModel, ISyncSendable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Unity_Reflect_Model_SyncObjectInstance__ctor_" data-uid="Unity.Reflect.Model.SyncObjectInstance.#ctor*"></a>
+  <h4 id="Unity_Reflect_Model_SyncObjectInstance__ctor" data-uid="Unity.Reflect.Model.SyncObjectInstance.#ctor">SyncObjectInstance()</h4>
+  <div class="markdown level1 summary"><p>Creates an empty SyncObjectInstance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SyncObjectInstance()</code></pre>
+  </div>
+  
+  
+  <a id="Unity_Reflect_Model_SyncObjectInstance__ctor_" data-uid="Unity.Reflect.Model.SyncObjectInstance.#ctor*"></a>
+  <h4 id="Unity_Reflect_Model_SyncObjectInstance__ctor_Unity_Reflect_Model_SyncId_System_String_Unity_Reflect_Model_SyncId_" data-uid="Unity.Reflect.Model.SyncObjectInstance.#ctor(Unity.Reflect.Model.SyncId,System.String,Unity.Reflect.Model.SyncId)">SyncObjectInstance(SyncId, String, SyncId)</h4>
+  <div class="markdown level1 summary"><p>Creates a basic SyncObjectInstance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SyncObjectInstance(SyncId id, string name, SyncId objectId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Reflect.Model.SyncId.html">SyncId</a></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The unique ID of the SyncObjectInstance</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the SyncObjectInstance</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Unity.Reflect.Model.SyncId.html">SyncId</a></td>
+        <td><span class="parametername">objectId</span></td>
+        <td><p>The target object ID</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Unity_Reflect_Model_SyncObjectInstance_Id_" data-uid="Unity.Reflect.Model.SyncObjectInstance.Id*"></a>
+  <h4 id="Unity_Reflect_Model_SyncObjectInstance_Id" data-uid="Unity.Reflect.Model.SyncObjectInstance.Id">Id</h4>
+  <div class="markdown level1 summary"><p>The unique identifier of the object instance.
+Note that it needs to be unique only amongst the other SyncObjectInstances.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SyncId Id { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Reflect.Model.SyncId.html">SyncId</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="implements">Implements</h5>
+      <div><a class="xref" href="Unity.Reflect.Model.ISyncModel.html#Unity_Reflect_Model_ISyncModel_Id">ISyncModel.Id</a></div>
+  
+  
+  <a id="Unity_Reflect_Model_SyncObjectInstance_Metadata_" data-uid="Unity.Reflect.Model.SyncObjectInstance.Metadata*"></a>
+  <h4 id="Unity_Reflect_Model_SyncObjectInstance_Metadata" data-uid="Unity.Reflect.Model.SyncObjectInstance.Metadata">Metadata</h4>
+  <div class="markdown level1 summary"><p>The metadata of the object instance. All the already existing keys in the target <a class="xref" href="Unity.Reflect.Model.SyncObject.html">SyncObject</a>&apos;s <a class="xref" href="Unity.Reflect.Model.SyncObject.html#Unity_Reflect_Model_SyncObject_Metadata">Metadata</a> are overriden.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SyncMetadata Metadata { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Reflect.Model.SyncMetadata.html">SyncMetadata</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unity_Reflect_Model_SyncObjectInstance_Name_" data-uid="Unity.Reflect.Model.SyncObjectInstance.Name*"></a>
+  <h4 id="Unity_Reflect_Model_SyncObjectInstance_Name" data-uid="Unity.Reflect.Model.SyncObjectInstance.Name">Name</h4>
+  <div class="markdown level1 summary"><p>The instance&apos;s name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="implements">Implements</h5>
+      <div><a class="xref" href="Unity.Reflect.Model.ISyncModel.html#Unity_Reflect_Model_ISyncModel_Name">ISyncModel.Name</a></div>
+  
+  
+  <a id="Unity_Reflect_Model_SyncObjectInstance_ObjectId_" data-uid="Unity.Reflect.Model.SyncObjectInstance.ObjectId*"></a>
+  <h4 id="Unity_Reflect_Model_SyncObjectInstance_ObjectId" data-uid="Unity.Reflect.Model.SyncObjectInstance.ObjectId">ObjectId</h4>
+  <div class="markdown level1 summary"><p>The unique ID of the instance&apos;s target <a class="xref" href="Unity.Reflect.Model.SyncObject.html">SyncObject</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SyncId ObjectId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Reflect.Model.SyncId.html">SyncId</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unity_Reflect_Model_SyncObjectInstance_Transform_" data-uid="Unity.Reflect.Model.SyncObjectInstance.Transform*"></a>
+  <h4 id="Unity_Reflect_Model_SyncObjectInstance_Transform" data-uid="Unity.Reflect.Model.SyncObjectInstance.Transform">Transform</h4>
+  <div class="markdown level1 summary"><p>The transform of the object instance. It overrides the target <a class="xref" href="Unity.Reflect.Model.SyncObject.html">SyncObject</a>&apos;s <a class="xref" href="Unity.Reflect.Model.SyncObject.html#Unity_Reflect_Model_SyncObject_Transform">Transform</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SyncTransform Transform { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Reflect.Model.SyncTransform.html">SyncTransform</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2020 Unity Technologies<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../styles/metadata-collector.js"></script>
+    <script type="text/javascript" src="../styles/version-switcher.js"></script>
+  </div></body>
+</html>

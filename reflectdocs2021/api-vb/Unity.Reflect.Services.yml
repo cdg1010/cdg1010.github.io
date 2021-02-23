@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Unity.Reflect.Services
+  commentId: N:Unity.Reflect.Services
+  id: Unity.Reflect.Services
+  children:
+  - Unity.Reflect.Services.ProjectDiscovery
+  - Unity.Reflect.Services.ProjectInfo
+  langs:
+  - csharp
+  - vb
+  name: Unity.Reflect.Services
+  nameWithType: Unity.Reflect.Services
+  fullName: Unity.Reflect.Services
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Unity.Reflect.Services.ProjectInfo
+  commentId: T:Unity.Reflect.Services.ProjectInfo
+  name: ProjectInfo
+  nameWithType: ProjectInfo
+  fullName: Unity.Reflect.Services.ProjectInfo
+- uid: Unity.Reflect.Services.ProjectDiscovery
+  commentId: T:Unity.Reflect.Services.ProjectDiscovery
+  name: ProjectDiscovery
+  nameWithType: ProjectDiscovery
+  fullName: Unity.Reflect.Services.ProjectDiscovery

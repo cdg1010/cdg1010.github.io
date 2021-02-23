@@ -1,0 +1,11 @@
+syntax = "proto3";
+package Reflect;
+
+option csharp_namespace = "Unity.Reflect.Model";
+
+message SyncTexture {
+	string name = 1;
+	bytes source = 2;
+
+	bool convertToNormalMap = 3;
+}

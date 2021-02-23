@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: Unity.Reflect.Model.SyncLight.Types.Shape
+  commentId: T:Unity.Reflect.Model.SyncLight.Types.Shape
+  id: SyncLight.Types.Shape
+  parent: Unity.Reflect.Model
+  children:
+  - Unity.Reflect.Model.SyncLight.Types.Shape.Circle
+  - Unity.Reflect.Model.SyncLight.Types.Shape.Line
+  - Unity.Reflect.Model.SyncLight.Types.Shape.Point
+  - Unity.Reflect.Model.SyncLight.Types.Shape.Rectangle
+  langs:
+  - csharp
+  - vb
+  name: SyncLight.Types.Shape
+  nameWithType: SyncLight.Types.Shape
+  fullName: Unity.Reflect.Model.SyncLight.Types.Shape
+  type: Enum
+  source:
+    id: Shape
+    path: ''
+    startLine: 23233
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public enum Shape
+    content.vb: Public Enum Shape
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Unity.Reflect.Model.SyncLight.Types.Shape.Point
+  commentId: F:Unity.Reflect.Model.SyncLight.Types.Shape.Point
+  id: Point
+  parent: Unity.Reflect.Model.SyncLight.Types.Shape
+  langs:
+  - csharp
+  - vb
+  name: Point
+  nameWithType: SyncLight.Types.Shape.Point
+  fullName: Unity.Reflect.Model.SyncLight.Types.Shape.Point
+  type: Field
+  source:
+    id: Point
+    path: ''
+    startLine: 23234
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: Point = 0
+    return:
+      type: Unity.Reflect.Model.SyncLight.Types.Shape
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.Types.Shape.Line
+  commentId: F:Unity.Reflect.Model.SyncLight.Types.Shape.Line
+  id: Line
+  parent: Unity.Reflect.Model.SyncLight.Types.Shape
+  langs:
+  - csharp
+  - vb
+  name: Line
+  nameWithType: SyncLight.Types.Shape.Line
+  fullName: Unity.Reflect.Model.SyncLight.Types.Shape.Line
+  type: Field
+  source:
+    id: Line
+    path: ''
+    startLine: 23235
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: Line = 1
+    return:
+      type: Unity.Reflect.Model.SyncLight.Types.Shape
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.Types.Shape.Rectangle
+  commentId: F:Unity.Reflect.Model.SyncLight.Types.Shape.Rectangle
+  id: Rectangle
+  parent: Unity.Reflect.Model.SyncLight.Types.Shape
+  langs:
+  - csharp
+  - vb
+  name: Rectangle
+  nameWithType: SyncLight.Types.Shape.Rectangle
+  fullName: Unity.Reflect.Model.SyncLight.Types.Shape.Rectangle
+  type: Field
+  source:
+    id: Rectangle
+    path: ''
+    startLine: 23236
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: Rectangle = 2
+    return:
+      type: Unity.Reflect.Model.SyncLight.Types.Shape
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.Types.Shape.Circle
+  commentId: F:Unity.Reflect.Model.SyncLight.Types.Shape.Circle
+  id: Circle
+  parent: Unity.Reflect.Model.SyncLight.Types.Shape
+  langs:
+  - csharp
+  - vb
+  name: Circle
+  nameWithType: SyncLight.Types.Shape.Circle
+  fullName: Unity.Reflect.Model.SyncLight.Types.Shape.Circle
+  type: Field
+  source:
+    id: Circle
+    path: ''
+    startLine: 23237
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: Circle = 3
+    return:
+      type: Unity.Reflect.Model.SyncLight.Types.Shape
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Unity.Reflect.Model
+  commentId: N:Unity.Reflect.Model
+  name: Unity.Reflect.Model
+  nameWithType: Unity.Reflect.Model
+  fullName: Unity.Reflect.Model
+- uid: Unity.Reflect.Model.SyncLight.Types.Shape
+  commentId: T:Unity.Reflect.Model.SyncLight.Types.Shape
+  parent: Unity.Reflect.Model
+  name: SyncLight.Types.Shape
+  nameWithType: SyncLight.Types.Shape
+  fullName: Unity.Reflect.Model.SyncLight.Types.Shape

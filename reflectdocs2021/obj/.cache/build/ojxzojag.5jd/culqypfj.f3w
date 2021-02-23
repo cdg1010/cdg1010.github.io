@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+  
+  <meta name="robots" content="noindex">
+  
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);  })(window,document,'script','dataLayer','GTM-5V25JL6');</script>
+  
+  
+  <script>
+  $(document).ready(function(){
+    $('#component-select-current-display').click(function(){
+        $('#component-select-current-display').toggleClass('component-select__current--is-active');
+    });
+    $(document).click(function(e){
+        if (!(e.target.id == 'component-select-current-display'))
+            $('#component-select-current-display').removeClass('component-select__current--is-active');
+    });
+     });
+  </script>
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+  
+    <title>Using the Reflect Viewer | Unity Reflect | 2.0 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Using the Reflect Viewer | Unity Reflect | 2.0 ">
+    <meta name="generator" content="docfx 2.45.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="../../styles/version-switcher.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    <meta property="unity:packageTitle" content="Unity Reflect | 2.0">
+    <meta property="docfx:rel" content="../../">
+    
+  
+  </head>
+  <body data-spy="scroll" data-target="#affix" class="manual">
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5V25JL6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+        
+        		<div class="back-to-unity-group">
+        			<a class="back-to-unity" href="http://docs.unity3d.com/">docs.unity3d.com</a>
+        		</div>
+        
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="subnav navbar navbar-default">
+        <div class="container hide-when-search" id="breadcrumb">
+          <div id="version-switcher-select">
+        <div class="component-select" onclick="onVersionSwitcherClick()">
+        <div id="component-select-current-display" class="component-select__current">
+        Unity Reflect 2.0
+        </div>
+        
+        <ul id="version-switcher-ul" class="component-select__options-container">
+        <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.3/manual/index.html"><li class="component-select__option">
+                    1.3
+                </li></a>
+        <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.2/manual/index.html"><li class="component-select__option">
+                    1.2
+                </li></a>
+        <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.1/manual/index.html"><li class="component-select__option">
+                    1.1
+                </li></a>
+                <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.0/manual/index.html"><li class="component-select__option">
+                            1.0
+                        </li></a>
+        
+        
+                </ul>
+        </div>
+        </div></div>
+      </div></header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10" id="main_content">
+          <div id="breadcrumb_placeholder"></div>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="using-the-reflect-viewer" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="1" sourceendlinenumber="1">Using the Reflect Viewer</h1>
+
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="3" sourceendlinenumber="3">This page provides an overview of the default Unity Reflect Viewer.</p>
+<h2 id="opening-a-project" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="5" sourceendlinenumber="5">Opening a project</h2>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="7" sourceendlinenumber="7">The Viewer opens to the Projects screen by default.</p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="9" sourceendlinenumber="9"><img src="images/1.3/Viewer0.png" alt="Viewer interface - Projects" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="9" sourceendlinenumber="9"></p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="11" sourceendlinenumber="11">To refresh the list of projects, click the <strong>Refresh</strong> button (<img src="https://docs.unity3d.com/reflect/1.3/manual/images/1.3//RefreshProjects.png" style="width: 45px; height: 45px; padding: 5px;">) in the top right corner of the screen.</p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="13" sourceendlinenumber="13">To open a project, click its name in the projects list.</p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="15" sourceendlinenumber="15">For more information about the options on the Projects screen and how Reflect projects are stored and synced, see <a href="ManagingStorage.html" data-raw-source="[Managing your storage](ManagingStorage.md)" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="15" sourceendlinenumber="15">Managing your storage</a>.</p>
+<h2 id="the-viewer-interface" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="17" sourceendlinenumber="17">The Viewer interface</h2>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="19" sourceendlinenumber="19"><img src="images/1.3/ViewerFull.png" alt="Viewer interface - Overview" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="19" sourceendlinenumber="19"></p>
+<h3 id="1-main-menu" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="21" sourceendlinenumber="21">1. Main menu</h3>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="23" sourceendlinenumber="23">The main menu is located in the top left corner of the Viewer.</p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="25" sourceendlinenumber="25"><img src="images/1.3/Viewer1.png" alt="Viewer interface" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="25" sourceendlinenumber="25"></p>
+<h4 id="logging-in-or-out" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="27" sourceendlinenumber="27">Logging in or out</h4>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="29" sourceendlinenumber="29">To log in or out or to access the BIM 360 Dashboard, click the <strong>Account</strong> icon.</p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="31" sourceendlinenumber="31"><img src="images/1.3/Account2.png" style="width: 250px; padding: 5px;"></p>
+<h4 id="opening-the-projects-screen" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="33" sourceendlinenumber="33">Opening the Projects screen</h4>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="35" sourceendlinenumber="35">To open the Projects screen, click the <strong>Projects</strong> icon.</p>
+<!--<img src="Projects.png" style="width: 150px; padding: 5px;">-->
+<h4 id="enabling-help-mode" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="39" sourceendlinenumber="39">Enabling Help Mode</h4>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="41" sourceendlinenumber="41">For assistance with the Viewer tools, click the <strong>Help Mode</strong> icon.</p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="43" sourceendlinenumber="43">To return to the Viewer, click the <strong>Help Mode</strong> icon again.</p>
+<h4 id="turning-the-sync-service-on-or-off" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="45" sourceendlinenumber="45">Turning the sync service on or off</h4>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="47" sourceendlinenumber="47">Click the <strong>Sync status</strong> icon to turn the sync service on or off.</p>
+<!--<img src=".png" style="width: 150px; padding: 5px;">-->
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="51" sourceendlinenumber="51">When the service is <strong>active</strong>, the icon looks like this: <img src="https://docs.unity3d.com/reflect/1.3/manual/images/1.3//Enabled.png" style="width: 45px; height: 45px; padding: 5px;"></p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="53" sourceendlinenumber="53">When the service is <strong>inactive</strong>, the icon looks like this: <img src="https://docs.unity3d.com/reflect/1.3/manual/images/1.3//Disabled.png" style="width: 45px; height: 45px; padding: 5px;"></p>
+<h3 id="2-scene-settings" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="55" sourceendlinenumber="55">2. Scene settings</h3>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="57" sourceendlinenumber="57"><img src="images/1.3/Viewer2.png" alt="Viewer interface" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="57" sourceendlinenumber="57"></p>
+<h4 id="filtering-bim-visibility" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="59" sourceendlinenumber="59">Filtering BIM visibility</h4>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="61" sourceendlinenumber="61">Click the <strong>Filters</strong> button (<img src="https://docs.unity3d.com/reflect/1.3/manual/images/1.3/Filters.png" style="width: 35px; height: 35px; padding: 5px;">) to toggle the visibility of BIM data.</p>
+<ul sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="63" sourceendlinenumber="64">
+<li sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="63" sourceendlinenumber="63">Tap the eye icon next to each filter to turn it on or off.</li>
+<li sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="64" sourceendlinenumber="64">To see a different group of filters, click <strong>Category</strong> and select a category from the drop-down menu.</li>
+</ul>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="66" sourceendlinenumber="66"><img src="https://docs.unity3d.com/reflect/1.3/manual/images/1.3/FiltersMenu.png" style="width: 300px; border: 1px solid #222;"></p>
+<h4 id="toggling-texture-and-light-data" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="68" sourceendlinenumber="68">Toggling texture and light data</h4>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="70" sourceendlinenumber="70">Click the <strong>Scene Options</strong> button (<img src="https://docs.unity3d.com/reflect/1.3/manual/images/1.3/SceneOptions.png" style="width: 35px; height: 35px; padding: 5px;">) to turn texture and light data on or off.</p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="72" sourceendlinenumber="72"><img src="https://docs.unity3d.com/reflect/1.3/manual/images/1.3//SceneOptionsMenu.png" style="width: 300px; border: 1px solid #222;"></p>
+<h4 id="adjusting-the-position-of-the-sun" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="74" sourceendlinenumber="74">Adjusting the position of the sun</h4>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="76" sourceendlinenumber="76">The <strong>Sun Study</strong> buttons (<img src="https://docs.unity3d.com/reflect/1.3/manual/images/1.3/SunStudy.png" style="width: 45px; height: 45px; padding: 5px;">) let you adjust the position of the sun based on a specific time, date, and location.</p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="78" sourceendlinenumber="78"><strong>Entering specific values</strong></p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="80" sourceendlinenumber="80">The Sun Study button on the left-hand side of the screen lets you adjust the position of the sun by entering specific values.</p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="82" sourceendlinenumber="82"><img src="https://docs.unity3d.com/reflect/1.3/manual/images/1.3/SunStudyLeft.png" style="width: 300px; border: 1px solid #111;"></p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="84" sourceendlinenumber="84">You can control any of the following parameters:</p>
+<table sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="86" sourceendlinenumber="93">
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Time of Day</td>
+<td>The time of day in 24-hour format.</td>
+</tr>
+<tr>
+<td>Time of Year</td>
+<td>The day and month of the year.</td>
+</tr>
+<tr>
+<td>UTC Offset</td>
+<td>The time difference from UTC in hours and minutes.</td>
+</tr>
+<tr>
+<td>Latitude</td>
+<td>Latitude of the desired location. (0 degrees is the equator, 90 degrees is the North Pole, and -90 degrees is the South Pole.)</td>
+</tr>
+<tr>
+<td>Longitude</td>
+<td>Longitude of the desired location. (0 degrees is Greenwich, with positive values to the east and negative values to the west.)</td>
+</tr>
+<tr>
+<td>North Angle</td>
+<td>The direction of north in degrees.</td>
+</tr>
+</tbody>
+</table>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="95" sourceendlinenumber="95"><strong>Using the radial menu</strong></p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="97" sourceendlinenumber="97">The Sun Study button on the right-hand side of the screen lets you adjust the position of the sun by rotating the radial menu.</p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="99" sourceendlinenumber="100"><img src="https://docs.unity3d.com/reflect/1.3/manual/images/1.3//SunStudyRight.png" style="width: 150px; border: 1px solid #111;">
+<img src="https://docs.unity3d.com/reflect/1.3/manual/images/1.3//SunStudyRight2.png" style="width: 150px; border: 1px solid #111;"></p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="102" sourceendlinenumber="102">Click <img src="https://docs.unity3d.com/reflect/1.3/manual/images/1.3//ClockDial.png" style="width: 35px; height: 35px;"> to switch to the date and time dials. The outer dial sets the date in months and the inner dial sets the time of day in 24-hour format.</p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="104" sourceendlinenumber="105">Click
+<img src="https://docs.unity3d.com/reflect/1.3/manual/images/1.3/CoordinatesDial.png" style="width: 35px; height: 35px;"> to switch to the coordinate dials. The outer dial sets the solar azimuth and the inner dial sets the solar altitude. These coordinates are translated into the directional light’s rotation.</p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="107" sourceendlinenumber="108">Click
+<img src="https://docs.unity3d.com/reflect/1.3/manual/images/1.3/ResetDial.png" style="width: 35px; height: 35px;">to reset the dials to their starting position.</p>
+<h3 id="3-stats-menu" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="110" sourceendlinenumber="110">3. Stats menu</h3>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="112" sourceendlinenumber="112"><img src="images/1.3/Viewer3.png" alt="Viewer interface" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="112" sourceendlinenumber="112"></p>
+<h4 id="showing-the-stats-info-menu" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="114" sourceendlinenumber="114">Showing the Stats Info menu</h4>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="116" sourceendlinenumber="116">To display statistics about your scene, click the <strong>Stats Info</strong> button:</p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="118" sourceendlinenumber="118"><img src="https://docs.unity3d.com/reflect/1.3/manual/images/1.3/StatsInfo.png" style="width: 150px; border: 1px solid #111;"></p>
+<h3 id="4-navigation-cube" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="120" sourceendlinenumber="120">4. Navigation cube</h3>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="122" sourceendlinenumber="122">Click the navigation cube for easy access to left, right, and top views of your model.</p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="124" sourceendlinenumber="124"><img src="images/1.3/NavCube.png" alt="Viewer interface" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="124" sourceendlinenumber="124"></p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="126" sourceendlinenumber="126">Click the house icon to return to the default view.</p>
+<h3 id="5-contextual-menu" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="128" sourceendlinenumber="128">5. Contextual menu</h3>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="130" sourceendlinenumber="130"><img src="images/1.3/Viewer5.png" alt="Viewer interface" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="130" sourceendlinenumber="130"></p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="132" sourceendlinenumber="132">The Reflect Viewer lets you move, orbit, or zoom around your scene. The currently selected navigation control is shown in the right-hand menu.</p>
+<h4 id="move-pan-img-srchttpsdocsunity3dcomreflect13manualimages13panpng-stylewidth-35px-height-35px" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="134" sourceendlinenumber="134">Move (Pan) <img src="https://docs.unity3d.com/reflect/1.3/manual/images/1.3//Pan.png" style="width: 35px; height: 35px;"></h4>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="136" sourceendlinenumber="136">To move the camera from your current position, use the WASD keys to move left/right/forward/backward and the Q and E keys to move up and down.</p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="138" sourceendlinenumber="138">You can also pan the camera freely by clicking and dragging with the middle mouse button or by holding the Alt key while you click and drag.</p>
+<h4 id="orbit-img-srchttpsdocsunity3dcomreflect13manualimages13orbitpng-stylewidth-35px-height-35px" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="140" sourceendlinenumber="140">Orbit <img src="https://docs.unity3d.com/reflect/1.3/manual/images/1.3//Orbit.png" style="width: 35px; height: 35px;"></h4>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="142" sourceendlinenumber="142">To rotate the view around your current position, right-click and drag inside the Viewer.</p>
+<h4 id="zoom-img-srchttpsdocsunity3dcomreflect13manualimages13zoompng-stylewidth-35px-height-35px" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="144" sourceendlinenumber="144">Zoom <img src="https://docs.unity3d.com/reflect/1.3/manual/images/1.3//Zoom.png" style="width: 35px; height: 35px;"></h4>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="146" sourceendlinenumber="146">Use your scroll wheel to zoom in and out. You can also double-click a point inside the Viewer to jump there quickly.</p>
+<h4 id="seeing-bim-information-about-a-particular-object" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="149" sourceendlinenumber="149">Seeing BIM information about a particular object</h4>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="151" sourceendlinenumber="151">Click the <strong>BIM Info</strong> button (<img src="https://docs.unity3d.com/reflect/1.3/manual/images/1.3/BIMInfo.png" style="width: 35px; height: 35px; padding: 5px;">) and click on an object in your scene to highlight it and display its metadata.</p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="153" sourceendlinenumber="153"><img src="images/1.3/BIMInfo1.png" style="width: 400px; border: 1px solid #222;"></p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="155" sourceendlinenumber="155"><img src="images/1.3/BIMInfo2.png" style="width: 400px; border: 1px solid #222;"></p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="157" sourceendlinenumber="157">To switch between metadata categories, click the down arrow:</p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="159" sourceendlinenumber="159"><img src="images/1.3/BimInfo3.png" style="width: 200px; border: 1px solid #222;"></p>
+<h3 id="6-device-menu" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="162" sourceendlinenumber="162">6. Device menu</h3>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="164" sourceendlinenumber="164"><img src="images/1.3/Viewer6.png" alt="Viewer interface" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="164" sourceendlinenumber="164"></p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="166" sourceendlinenumber="166">The button in the lower right corner of the Viewer displays the current device mode. Click this button to expand or collapse the device mode menu.</p>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="168" sourceendlinenumber="168"><img style="padding: 1em 0" width="250" alt="Unity Reflect" src="images/1.3/ModeSwitcher2.png"></p>
+<h4 id="enabling-vr-or-ar-mode" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="170" sourceendlinenumber="170">Enabling VR or AR mode</h4>
+<p sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="172" sourceendlinenumber="172">Click one of the device mode buttons to switch to the corresponding device mode. For more information, see:</p>
+<ul sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="174" sourceendlinenumber="175">
+<li sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="174" sourceendlinenumber="174"><a href="ViewerAR.html" data-raw-source="[Viewer AR](ViewerAR.md)" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="174" sourceendlinenumber="174">Viewer AR</a></li>
+<li sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="175" sourceendlinenumber="175"><a href="ViewerAR.html" data-raw-source="[Viewer VR](ViewerAR.md)" sourcefile="manual/commondocs/ReflectViewer.md" sourcestartlinenumber="175" sourceendlinenumber="175">Viewer VR</a></li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2020 Unity Technologies<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+    <script type="text/javascript" src="../../styles/metadata-collector.js"></script>
+    <script type="text/javascript" src="../../styles/version-switcher.js"></script>
+  </div></body>
+</html>

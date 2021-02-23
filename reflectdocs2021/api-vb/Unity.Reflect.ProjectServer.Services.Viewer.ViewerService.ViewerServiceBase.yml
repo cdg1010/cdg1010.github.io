@@ -1,0 +1,522 @@
+### YamlMime:ManagedReference
+items:
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceBase
+  commentId: T:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceBase
+  id: ViewerService.ViewerServiceBase
+  parent: Unity.Reflect.ProjectServer.Services.Viewer
+  children:
+  - Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceBase.ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.ServerCallContext)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceBase.ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.ServerCallContext)
+  langs:
+  - csharp
+  - vb
+  name: ViewerService.ViewerServiceBase
+  nameWithType: ViewerService.ViewerServiceBase
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceBase
+  type: Class
+  source:
+    id: ViewerServiceBase
+    path: ''
+    startLine: 37436
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  summary: Base class for server-side implementations of ViewerService
+  example: []
+  syntax:
+    content: public abstract class ViewerServiceBase
+    content.vb: Public MustInherit Class ViewerServiceBase
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceBase.ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.ServerCallContext)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceBase.ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.ServerCallContext)
+  id: ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.ServerCallContext)
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceBase
+  langs:
+  - csharp
+  - vb
+  name: ListProjects(Empty, grpc.ServerCallContext)
+  nameWithType: ViewerService.ViewerServiceBase.ListProjects(Empty, grpc.ServerCallContext)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceBase.ListProjects(Unity.Reflect.ProjectServer.Services.Empty, grpc.ServerCallContext)
+  type: Method
+  source:
+    id: ListProjects
+    path: ''
+    startLine: 17280
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public virtual Task<ListProjectsResponse> ListProjects(Empty request, grpc.ServerCallContext context)
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Empty
+    - id: context
+      type: grpc.ServerCallContext
+    return:
+      type: System.Threading.Tasks.Task{Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse}
+    content.vb: Public Overridable Function ListProjects(request As Empty, context As grpc.ServerCallContext) As Task(Of ListProjectsResponse)
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceBase.ListProjects*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceBase.ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.ServerCallContext)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceBase.ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.ServerCallContext)
+  id: ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.ServerCallContext)
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceBase
+  langs:
+  - csharp
+  - vb
+  name: ListProjects(Empty, grpc.ServerCallContext)
+  nameWithType: ViewerService.ViewerServiceBase.ListProjects(Empty, grpc.ServerCallContext)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceBase.ListProjects(Unity.Reflect.ProjectServer.Services.Empty, grpc.ServerCallContext)
+  type: Method
+  source:
+    id: ListProjects
+    path: ''
+    startLine: 37439
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public virtual Task<ListProjectsResponse> ListProjects(Empty request, grpc.ServerCallContext context)
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Empty
+    - id: context
+      type: grpc.ServerCallContext
+    return:
+      type: System.Threading.Tasks.Task{Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse}
+    content.vb: Public Overridable Function ListProjects(request As Empty, context As grpc.ServerCallContext) As Task(Of ListProjectsResponse)
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceBase.ListProjects*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: Unity.Reflect.ProjectServer.Services.Viewer
+  commentId: N:Unity.Reflect.ProjectServer.Services.Viewer
+  name: Unity.Reflect.ProjectServer.Services.Viewer
+  nameWithType: Unity.Reflect.ProjectServer.Services.Viewer
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceBase.ListProjects*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceBase.ListProjects
+  name: ListProjects
+  nameWithType: ViewerService.ViewerServiceBase.ListProjects
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ViewerService.ViewerServiceBase.ListProjects
+- uid: Unity.Reflect.ProjectServer.Services.Empty
+  commentId: T:Unity.Reflect.ProjectServer.Services.Empty
+  parent: Unity.Reflect.ProjectServer.Services
+  name: Empty
+  nameWithType: Empty
+  fullName: Unity.Reflect.ProjectServer.Services.Empty
+- uid: grpc.ServerCallContext
+  isExternal: true
+  name: grpc.ServerCallContext
+  nameWithType: grpc.ServerCallContext
+  fullName: grpc.ServerCallContext
+- uid: System.Threading.Tasks.Task{Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse}
+  commentId: T:System.Threading.Tasks.Task{Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ListProjectsResponse>
+  nameWithType: Task<ListProjectsResponse>
+  fullName: System.Threading.Tasks.Task<Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse>
+  nameWithType.vb: Task(Of ListProjectsResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse)
+  name.vb: Task(Of ListProjectsResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse
+    name: ListProjectsResponse
+    nameWithType: ListProjectsResponse
+    fullName: Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse
+    name: ListProjectsResponse
+    nameWithType: ListProjectsResponse
+    fullName: Unity.Reflect.ProjectServer.Services.Viewer.ListProjectsResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.ProjectServer.Services
+  commentId: N:Unity.Reflect.ProjectServer.Services
+  name: Unity.Reflect.ProjectServer.Services
+  nameWithType: Unity.Reflect.ProjectServer.Services
+  fullName: Unity.Reflect.ProjectServer.Services
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

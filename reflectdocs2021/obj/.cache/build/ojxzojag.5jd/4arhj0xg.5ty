@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+  
+  <meta name="robots" content="noindex">
+  
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);  })(window,document,'script','dataLayer','GTM-5V25JL6');</script>
+  
+  
+  <script>
+  $(document).ready(function(){
+    $('#component-select-current-display').click(function(){
+        $('#component-select-current-display').toggleClass('component-select__current--is-active');
+    });
+    $(document).click(function(e){
+        if (!(e.target.id == 'component-select-current-display'))
+            $('#component-select-current-display').removeClass('component-select__current--is-active');
+    });
+     });
+  </script>
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+  
+    <title>Start coding with Unity Reflect | Unity Reflect | 2.0 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Start coding with Unity Reflect | Unity Reflect | 2.0 ">
+    <meta name="generator" content="docfx 2.45.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="../../styles/version-switcher.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    <meta property="unity:packageTitle" content="Unity Reflect | 2.0">
+    <meta property="docfx:rel" content="../../">
+    
+  
+  </head>
+  <body data-spy="scroll" data-target="#affix" class="manual">
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5V25JL6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+        
+        		<div class="back-to-unity-group">
+        			<a class="back-to-unity" href="http://docs.unity3d.com/">docs.unity3d.com</a>
+        		</div>
+        
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="subnav navbar navbar-default">
+        <div class="container hide-when-search" id="breadcrumb">
+          <div id="version-switcher-select">
+        <div class="component-select" onclick="onVersionSwitcherClick()">
+        <div id="component-select-current-display" class="component-select__current">
+        Unity Reflect 2.0
+        </div>
+        
+        <ul id="version-switcher-ul" class="component-select__options-container">
+        <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.3/manual/index.html"><li class="component-select__option">
+                    1.3
+                </li></a>
+        <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.2/manual/index.html"><li class="component-select__option">
+                    1.2
+                </li></a>
+        <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.1/manual/index.html"><li class="component-select__option">
+                    1.1
+                </li></a>
+                <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.0/manual/index.html"><li class="component-select__option">
+                            1.0
+                        </li></a>
+        
+        
+                </ul>
+        </div>
+        </div></div>
+      </div></header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10" id="main_content">
+          <div id="breadcrumb_placeholder"></div>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="start-coding-with-unity-reflect" sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="1" sourceendlinenumber="1">Start coding with Unity Reflect</h1>
+
+<p sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="3" sourceendlinenumber="3">This document provides the first steps to set up your environment to code with Unity Reflect.</p>
+<h2 id="cloning-the-repository" sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="5" sourceendlinenumber="5">Cloning the repository</h2>
+<p sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="7" sourceendlinenumber="7">Create a local clone of the following Git repository: <a href="https://github.com/Unity-Technologies/com.unity.reflect.viewer" data-raw-source="https://github.com/Unity-Technologies/com.unity.reflect.viewer" sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="7" sourceendlinenumber="7">https://github.com/Unity-Technologies/com.unity.reflect.viewer</a></p>
+<p sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="9" sourceendlinenumber="9"><img src="../images/1.4/DevIntro1.png" alt="Cloning the repository" sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="9" sourceendlinenumber="9"></p>
+<p sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="11" sourceendlinenumber="11">For more information about how to clone a repository, refer to the <a href="https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository" data-raw-source="[GitHub documentation](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)" sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="11" sourceendlinenumber="11">GitHub documentation</a>.</p>
+<h2 id="opening-a-reflect-project-in-the-unity-hub" sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="13" sourceendlinenumber="13">Opening a Reflect project in the Unity Hub</h2>
+<ol sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="15" sourceendlinenumber="21">
+<li sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="15" sourceendlinenumber="17"><p sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="15" sourceendlinenumber="15">Open the Unity Hub and click <strong>Add</strong>.</p>
+<p sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="17" sourceendlinenumber="17"><img src="../images/1.4/DevIntro2.png" alt="Opening in Hub" sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="17" sourceendlinenumber="17"></p>
+</li>
+<li sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="19" sourceendlinenumber="19"><p sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="19" sourceendlinenumber="19">Browse to the <code>UnityReflect</code> folder you created in <a href="#cloning-the-repository" data-raw-source="[Cloning the repository](#cloning-the-repository)" sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="19" sourceendlinenumber="19">Cloning the repository</a>.</p>
+</li>
+<li sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="21" sourceendlinenumber="21"><p sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="21" sourceendlinenumber="21">Double-click on the project to open it.</p>
+</li>
+</ol>
+<h2 id="open-a-reflect-scene-in-the-unity-editor" sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="23" sourceendlinenumber="23">Open a Reflect scene in the Unity Editor</h2>
+<ol sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="25" sourceendlinenumber="27">
+<li sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="25" sourceendlinenumber="27"><p sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="25" sourceendlinenumber="25">Open the Reflect scene inside the Unity Editor hierarchy.</p>
+<p sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="27" sourceendlinenumber="27"><img src="../images/1.4/DevIntro3.png" alt="" sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="27" sourceendlinenumber="27"></p>
+</li>
+</ol>
+<p sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="29" sourceendlinenumber="29">You can now click Play and upload new projects.</p>
+<h2 id="open-a-c-project-in-the-unity-editor" sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="31" sourceendlinenumber="31">Open a C# project in the Unity Editor</h2>
+<p sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="33" sourceendlinenumber="33">Click <strong>Assets</strong> &gt; <strong>Open C# Project.</strong></p>
+<p sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="35" sourceendlinenumber="35">  <img src="../images/1.4/DevIntro4.png" alt="" sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="35" sourceendlinenumber="35"></p>
+<blockquote sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="37" sourceendlinenumber="37"><p sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="37" sourceendlinenumber="37"><strong>Note</strong>: Make sure that you have selected the correct External Script Editor in <strong>Edit</strong> &gt; <strong>Preferences</strong> &gt; <strong>External Tools</strong>.</p>
+</blockquote>
+<p sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="39" sourceendlinenumber="39">You can now access the whole scripts hierarchy and start making changes to the Reflect viewer. When you save your changes, Unity automatically recompiles it inside the Editor and show you any compiling errors in the Console (<strong>Window</strong> &gt; <strong>General</strong> &gt; <strong>Console</strong>).</p>
+<h2 id="make-a-build" sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="41" sourceendlinenumber="41">Make a build</h2>
+<p sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="43" sourceendlinenumber="43">Go to <strong>File</strong> &gt; <strong>Build Settings</strong> (or use the shortcut Ctrl-Alt-B) to access the Build Settings dialog.</p>
+<p sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="45" sourceendlinenumber="45">Be sure to set up your target in Standalone. You can also select options for Development Build and Script Debugging.</p>
+<p sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="47" sourceendlinenumber="47">  <img src="../images/1.4/DevIntro5.png" alt="" sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="47" sourceendlinenumber="47"></p>
+<p sourcefile="manual/devguide/DevIntro.md" sourcestartlinenumber="49" sourceendlinenumber="49">You&#39;re ready to begin updating your custom Reflect viewer.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2020 Unity Technologies<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+    <script type="text/javascript" src="../../styles/metadata-collector.js"></script>
+    <script type="text/javascript" src="../../styles/version-switcher.js"></script>
+  </div></body>
+</html>

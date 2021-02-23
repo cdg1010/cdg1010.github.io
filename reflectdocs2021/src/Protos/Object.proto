@@ -1,0 +1,35 @@
+syntax = "proto3";
+package Reflect;
+
+option csharp_namespace = "Unity.Reflect.Model";
+import "Light.proto";
+import "Rpc.proto";
+import "Camera.proto";
+import "Parameter.proto";
+import "Mathematics.proto";
+
+message SyncObject {
+	string name = 1;
+	SyncTransform transform = 2;
+	string mesh = 3;
+
+	repeated string materials = 4;
+	repeated SyncLight lights = 5;
+	repeated SyncRPC rpcs = 6;
+	repeated SyncCamera cameras = 7;
+	map<string, SyncParameter> metadata = 8;
+	repeated SyncObject children = 9;
+}
+
+message SyncObjectInstance {
+	string object = 1;
+	string name = 2;
+	SyncTransform transform = 3;
+	map<string, SyncParameter> metadata = 4;
+}
+
+message SyncPrefab {
+	string name = 1;
+	string key = 2;
+	repeated SyncObjectInstance instances = 3;
+}

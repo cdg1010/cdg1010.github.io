@@ -1,0 +1,1515 @@
+### YamlMime:ManagedReference
+items:
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  commentId: T:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  id: ProjectAccessTokenRequest
+  parent: Unity.Reflect.ProjectServer.Services.Authentication
+  children:
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.#ctor
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.#ctor
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.#ctor(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.#ctor(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.AccessType
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.AccessType
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.AccessTypeFieldNumber
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.AccessTypeFieldNumber
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.CalculateSize
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.CalculateSize
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Clone
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Clone
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Descriptor
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Descriptor
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Equals(System.Object)
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Equals(System.Object)
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Equals(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Equals(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.GetHashCode
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.GetHashCode
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.HostAddress
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.HostAddress
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.HostAddressFieldNumber
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.HostAddressFieldNumber
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.MergeFrom(pb.CodedInputStream)
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.MergeFrom(pb.CodedInputStream)
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.MergeFrom(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.MergeFrom(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Parser
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Parser
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectId
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectId
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectIdFieldNumber
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectIdFieldNumber
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ToString
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ToString
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.WriteTo(pb.CodedOutputStream)
+  - Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.WriteTo(pb.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: ProjectAccessTokenRequest
+  nameWithType: ProjectAccessTokenRequest
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  type: Class
+  source:
+    id: ProjectAccessTokenRequest
+    path: ''
+    startLine: 34408
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: 'public sealed class ProjectAccessTokenRequest : pb.IMessage<ProjectAccessTokenRequest>, pb.IMessage<ProjectAccessTokenRequest>'
+    content.vb: >-
+      Public NotInheritable Class ProjectAccessTokenRequest
+          Inherits pb.IMessage(Of ProjectAccessTokenRequest)
+          Implements pb.IMessage(Of ProjectAccessTokenRequest)
+  inheritance:
+  - System.Object
+  implements:
+  - pb.IMessage{Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest}
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Parser
+  commentId: P:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Parser
+  id: Parser
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: ProjectAccessTokenRequest.Parser
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 14252
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public static pb.MessageParser<ProjectAccessTokenRequest> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of ProjectAccessTokenRequest)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Descriptor
+  commentId: P:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Descriptor
+  id: Descriptor
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: ProjectAccessTokenRequest.Descriptor
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 14255
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.#ctor
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.#ctor
+  id: '#ctor'
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: ProjectAccessTokenRequest()
+  nameWithType: ProjectAccessTokenRequest.ProjectAccessTokenRequest()
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectAccessTokenRequest()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 14265
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public ProjectAccessTokenRequest()
+    content.vb: Public Sub New
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.#ctor(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.#ctor(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  id: '#ctor(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)'
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: ProjectAccessTokenRequest(ProjectAccessTokenRequest)
+  nameWithType: ProjectAccessTokenRequest.ProjectAccessTokenRequest(ProjectAccessTokenRequest)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectAccessTokenRequest(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 14272
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public ProjectAccessTokenRequest(ProjectAccessTokenRequest other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+    content.vb: Public Sub New(other As ProjectAccessTokenRequest)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Clone
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Clone
+  id: Clone
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: ProjectAccessTokenRequest.Clone()
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 14280
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public ProjectAccessTokenRequest Clone()
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+    content.vb: Public Function Clone As ProjectAccessTokenRequest
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectIdFieldNumber
+  commentId: F:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectIdFieldNumber
+  id: ProjectIdFieldNumber
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: ProjectIdFieldNumber
+  nameWithType: ProjectAccessTokenRequest.ProjectIdFieldNumber
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectIdFieldNumber
+  type: Field
+  source:
+    id: ProjectIdFieldNumber
+    path: ''
+    startLine: 14286
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  summary: Field number for the &quot;projectId&quot; field.
+  example: []
+  syntax:
+    content: public const int ProjectIdFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const ProjectIdFieldNumber As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectId
+  commentId: P:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectId
+  id: ProjectId
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: ProjectAccessTokenRequest.ProjectId
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectId
+  type: Property
+  source:
+    id: ProjectId
+    path: ''
+    startLine: 14288
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public string ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProjectId As String
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.HostAddressFieldNumber
+  commentId: F:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.HostAddressFieldNumber
+  id: HostAddressFieldNumber
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: HostAddressFieldNumber
+  nameWithType: ProjectAccessTokenRequest.HostAddressFieldNumber
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.HostAddressFieldNumber
+  type: Field
+  source:
+    id: HostAddressFieldNumber
+    path: ''
+    startLine: 14297
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  summary: Field number for the &quot;hostAddress&quot; field.
+  example: []
+  syntax:
+    content: public const int HostAddressFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const HostAddressFieldNumber As Integer = 2
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.HostAddress
+  commentId: P:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.HostAddress
+  id: HostAddress
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: HostAddress
+  nameWithType: ProjectAccessTokenRequest.HostAddress
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.HostAddress
+  type: Property
+  source:
+    id: HostAddress
+    path: ''
+    startLine: 14299
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public string HostAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HostAddress As String
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.HostAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.AccessTypeFieldNumber
+  commentId: F:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.AccessTypeFieldNumber
+  id: AccessTypeFieldNumber
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: AccessTypeFieldNumber
+  nameWithType: ProjectAccessTokenRequest.AccessTypeFieldNumber
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.AccessTypeFieldNumber
+  type: Field
+  source:
+    id: AccessTypeFieldNumber
+    path: ''
+    startLine: 14308
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  summary: Field number for the &quot;accessType&quot; field.
+  example: []
+  syntax:
+    content: public const int AccessTypeFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const AccessTypeFieldNumber As Integer = 3
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.AccessType
+  commentId: P:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.AccessType
+  id: AccessType
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: AccessType
+  nameWithType: ProjectAccessTokenRequest.AccessType
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.AccessType
+  type: Property
+  source:
+    id: AccessType
+    path: ''
+    startLine: 14310
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public ProjectAccessType AccessType { get; set; }
+    parameters: []
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessType
+    content.vb: Public Property AccessType As ProjectAccessType
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.AccessType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Equals(System.Object)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: ProjectAccessTokenRequest.Equals(Object)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 14318
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Equals(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Equals(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  id: Equals(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(ProjectAccessTokenRequest)
+  nameWithType: ProjectAccessTokenRequest.Equals(ProjectAccessTokenRequest)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Equals(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 14323
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public bool Equals(ProjectAccessTokenRequest other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As ProjectAccessTokenRequest) As Boolean
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.GetHashCode
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.GetHashCode
+  id: GetHashCode
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ProjectAccessTokenRequest.GetHashCode()
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 14337
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ToString
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ToString
+  id: ToString
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ProjectAccessTokenRequest.ToString()
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 14349
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.WriteTo(pb.CodedOutputStream)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: ProjectAccessTokenRequest.WriteTo(pb.CodedOutputStream)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 14354
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.CalculateSize
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.CalculateSize
+  id: CalculateSize
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: ProjectAccessTokenRequest.CalculateSize()
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 14373
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.MergeFrom(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.MergeFrom(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  id: MergeFrom(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(ProjectAccessTokenRequest)
+  nameWithType: ProjectAccessTokenRequest.MergeFrom(ProjectAccessTokenRequest)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.MergeFrom(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 14391
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public void MergeFrom(ProjectAccessTokenRequest other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+    content.vb: Public Sub MergeFrom(other As ProjectAccessTokenRequest)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.MergeFrom(pb.CodedInputStream)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: ProjectAccessTokenRequest.MergeFrom(pb.CodedInputStream)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 14408
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Parser
+  commentId: P:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Parser
+  id: Parser
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: ProjectAccessTokenRequest.Parser
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 34411
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public static pb.MessageParser<ProjectAccessTokenRequest> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of ProjectAccessTokenRequest)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Descriptor
+  commentId: P:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Descriptor
+  id: Descriptor
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: ProjectAccessTokenRequest.Descriptor
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 34414
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.#ctor
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.#ctor
+  id: '#ctor'
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: ProjectAccessTokenRequest()
+  nameWithType: ProjectAccessTokenRequest.ProjectAccessTokenRequest()
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectAccessTokenRequest()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 34424
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public ProjectAccessTokenRequest()
+    content.vb: Public Sub New
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.#ctor(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.#ctor(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  id: '#ctor(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)'
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: ProjectAccessTokenRequest(ProjectAccessTokenRequest)
+  nameWithType: ProjectAccessTokenRequest.ProjectAccessTokenRequest(ProjectAccessTokenRequest)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectAccessTokenRequest(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 34431
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public ProjectAccessTokenRequest(ProjectAccessTokenRequest other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+    content.vb: Public Sub New(other As ProjectAccessTokenRequest)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Clone
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Clone
+  id: Clone
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: ProjectAccessTokenRequest.Clone()
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 34439
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public ProjectAccessTokenRequest Clone()
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+    content.vb: Public Function Clone As ProjectAccessTokenRequest
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectIdFieldNumber
+  commentId: F:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectIdFieldNumber
+  id: ProjectIdFieldNumber
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: ProjectIdFieldNumber
+  nameWithType: ProjectAccessTokenRequest.ProjectIdFieldNumber
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectIdFieldNumber
+  type: Field
+  source:
+    id: ProjectIdFieldNumber
+    path: ''
+    startLine: 34445
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  summary: Field number for the &quot;projectId&quot; field.
+  example: []
+  syntax:
+    content: public const int ProjectIdFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const ProjectIdFieldNumber As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectId
+  commentId: P:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectId
+  id: ProjectId
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: ProjectAccessTokenRequest.ProjectId
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectId
+  type: Property
+  source:
+    id: ProjectId
+    path: ''
+    startLine: 34447
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public string ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProjectId As String
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.HostAddressFieldNumber
+  commentId: F:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.HostAddressFieldNumber
+  id: HostAddressFieldNumber
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: HostAddressFieldNumber
+  nameWithType: ProjectAccessTokenRequest.HostAddressFieldNumber
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.HostAddressFieldNumber
+  type: Field
+  source:
+    id: HostAddressFieldNumber
+    path: ''
+    startLine: 34456
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  summary: Field number for the &quot;hostAddress&quot; field.
+  example: []
+  syntax:
+    content: public const int HostAddressFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const HostAddressFieldNumber As Integer = 2
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.HostAddress
+  commentId: P:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.HostAddress
+  id: HostAddress
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: HostAddress
+  nameWithType: ProjectAccessTokenRequest.HostAddress
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.HostAddress
+  type: Property
+  source:
+    id: HostAddress
+    path: ''
+    startLine: 34458
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public string HostAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HostAddress As String
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.HostAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.AccessTypeFieldNumber
+  commentId: F:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.AccessTypeFieldNumber
+  id: AccessTypeFieldNumber
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: AccessTypeFieldNumber
+  nameWithType: ProjectAccessTokenRequest.AccessTypeFieldNumber
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.AccessTypeFieldNumber
+  type: Field
+  source:
+    id: AccessTypeFieldNumber
+    path: ''
+    startLine: 34467
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  summary: Field number for the &quot;accessType&quot; field.
+  example: []
+  syntax:
+    content: public const int AccessTypeFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const AccessTypeFieldNumber As Integer = 3
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.AccessType
+  commentId: P:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.AccessType
+  id: AccessType
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: AccessType
+  nameWithType: ProjectAccessTokenRequest.AccessType
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.AccessType
+  type: Property
+  source:
+    id: AccessType
+    path: ''
+    startLine: 34469
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public ProjectAccessType AccessType { get; set; }
+    parameters: []
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessType
+    content.vb: Public Property AccessType As ProjectAccessType
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.AccessType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Equals(System.Object)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: ProjectAccessTokenRequest.Equals(Object)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 34477
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Equals(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Equals(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  id: Equals(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(ProjectAccessTokenRequest)
+  nameWithType: ProjectAccessTokenRequest.Equals(ProjectAccessTokenRequest)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Equals(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 34482
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public bool Equals(ProjectAccessTokenRequest other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As ProjectAccessTokenRequest) As Boolean
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.GetHashCode
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.GetHashCode
+  id: GetHashCode
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ProjectAccessTokenRequest.GetHashCode()
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 34496
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ToString
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ToString
+  id: ToString
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ProjectAccessTokenRequest.ToString()
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 34508
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.WriteTo(pb.CodedOutputStream)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: ProjectAccessTokenRequest.WriteTo(pb.CodedOutputStream)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 34513
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.CalculateSize
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.CalculateSize
+  id: CalculateSize
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: ProjectAccessTokenRequest.CalculateSize()
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 34532
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.MergeFrom(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.MergeFrom(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  id: MergeFrom(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(ProjectAccessTokenRequest)
+  nameWithType: ProjectAccessTokenRequest.MergeFrom(ProjectAccessTokenRequest)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.MergeFrom(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 34550
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public void MergeFrom(ProjectAccessTokenRequest other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+    content.vb: Public Sub MergeFrom(other As ProjectAccessTokenRequest)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.MergeFrom(pb.CodedInputStream)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: ProjectAccessTokenRequest.MergeFrom(pb.CodedInputStream)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 34567
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Unity.Reflect.ProjectServer.Services.Authentication
+  commentId: N:Unity.Reflect.ProjectServer.Services.Authentication
+  name: Unity.Reflect.ProjectServer.Services.Authentication
+  nameWithType: Unity.Reflect.ProjectServer.Services.Authentication
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: pb.IMessage{Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest}
+  commentId: '!:pb.IMessage{Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest}'
+  definition: pb.IMessage`1
+  name: pb.IMessage<ProjectAccessTokenRequest>
+  nameWithType: pb.IMessage<ProjectAccessTokenRequest>
+  fullName: pb.IMessage<Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest>
+  nameWithType.vb: pb.IMessage(Of ProjectAccessTokenRequest)
+  fullName.vb: pb.IMessage(Of Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  name.vb: pb.IMessage(Of ProjectAccessTokenRequest)
+  spec.csharp:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+    name: ProjectAccessTokenRequest
+    nameWithType: ProjectAccessTokenRequest
+    fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+    name: ProjectAccessTokenRequest
+    nameWithType: ProjectAccessTokenRequest
+    fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: pb.IMessage`1
+  isExternal: true
+  name: pb.IMessage<>
+  nameWithType: pb.IMessage<>
+  fullName: pb.IMessage<>
+  nameWithType.vb: pb.IMessage(Of )
+  fullName.vb: pb.IMessage(Of )
+  name.vb: pb.IMessage(Of )
+  spec.csharp:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Parser*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Parser
+  name: Parser
+  nameWithType: ProjectAccessTokenRequest.Parser
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Parser
+- uid: pb.MessageParser{Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest}
+  commentId: '!:pb.MessageParser{Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest}'
+  definition: pb.MessageParser`1
+  name: pb.MessageParser<ProjectAccessTokenRequest>
+  nameWithType: pb.MessageParser<ProjectAccessTokenRequest>
+  fullName: pb.MessageParser<Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest>
+  nameWithType.vb: pb.MessageParser(Of ProjectAccessTokenRequest)
+  fullName.vb: pb.MessageParser(Of Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest)
+  name.vb: pb.MessageParser(Of ProjectAccessTokenRequest)
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+    name: ProjectAccessTokenRequest
+    nameWithType: ProjectAccessTokenRequest
+    fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+    name: ProjectAccessTokenRequest
+    nameWithType: ProjectAccessTokenRequest
+    fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pb.MessageParser`1
+  isExternal: true
+  name: pb.MessageParser<>
+  nameWithType: pb.MessageParser<>
+  fullName: pb.MessageParser<>
+  nameWithType.vb: pb.MessageParser(Of )
+  fullName.vb: pb.MessageParser(Of )
+  name.vb: pb.MessageParser(Of )
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Descriptor*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Descriptor
+  name: Descriptor
+  nameWithType: ProjectAccessTokenRequest.Descriptor
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Descriptor
+- uid: pbr.MessageDescriptor
+  isExternal: true
+  name: pbr.MessageDescriptor
+  nameWithType: pbr.MessageDescriptor
+  fullName: pbr.MessageDescriptor
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.#ctor*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.#ctor
+  name: ProjectAccessTokenRequest
+  nameWithType: ProjectAccessTokenRequest.ProjectAccessTokenRequest
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectAccessTokenRequest
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  commentId: T:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  parent: Unity.Reflect.ProjectServer.Services.Authentication
+  name: ProjectAccessTokenRequest
+  nameWithType: ProjectAccessTokenRequest
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Clone*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Clone
+  name: Clone
+  nameWithType: ProjectAccessTokenRequest.Clone
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Clone
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectId*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectId
+  name: ProjectId
+  nameWithType: ProjectAccessTokenRequest.ProjectId
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ProjectId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.HostAddress*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.HostAddress
+  name: HostAddress
+  nameWithType: ProjectAccessTokenRequest.HostAddress
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.HostAddress
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.AccessType*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.AccessType
+  name: AccessType
+  nameWithType: ProjectAccessTokenRequest.AccessType
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.AccessType
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessType
+  commentId: T:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessType
+  parent: Unity.Reflect.ProjectServer.Services.Authentication
+  name: ProjectAccessType
+  nameWithType: ProjectAccessType
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessType
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Equals*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Equals
+  name: Equals
+  nameWithType: ProjectAccessTokenRequest.Equals
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.GetHashCode*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.GetHashCode
+  name: GetHashCode
+  nameWithType: ProjectAccessTokenRequest.GetHashCode
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.GetHashCode
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ToString*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ToString
+  name: ToString
+  nameWithType: ProjectAccessTokenRequest.ToString
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.ToString
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.WriteTo*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.WriteTo
+  name: WriteTo
+  nameWithType: ProjectAccessTokenRequest.WriteTo
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.WriteTo
+- uid: pb.CodedOutputStream
+  isExternal: true
+  name: pb.CodedOutputStream
+  nameWithType: pb.CodedOutputStream
+  fullName: pb.CodedOutputStream
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.CalculateSize*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.CalculateSize
+  name: CalculateSize
+  nameWithType: ProjectAccessTokenRequest.CalculateSize
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.CalculateSize
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.MergeFrom*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.MergeFrom
+  name: MergeFrom
+  nameWithType: ProjectAccessTokenRequest.MergeFrom
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest.MergeFrom
+- uid: pb.CodedInputStream
+  isExternal: true
+  name: pb.CodedInputStream
+  nameWithType: pb.CodedInputStream
+  fullName: pb.CodedInputStream

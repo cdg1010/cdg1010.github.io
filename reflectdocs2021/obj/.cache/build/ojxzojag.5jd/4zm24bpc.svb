@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+  
+  <meta name="robots" content="noindex">
+  
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);  })(window,document,'script','dataLayer','GTM-5V25JL6');</script>
+  
+  
+  <script>
+  $(document).ready(function(){
+    $('#component-select-current-display').click(function(){
+        $('#component-select-current-display').toggleClass('component-select__current--is-active');
+    });
+    $(document).click(function(e){
+        if (!(e.target.id == 'component-select-current-display'))
+            $('#component-select-current-display').removeClass('component-select__current--is-active');
+    });
+     });
+  </script>
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+  
+    <title>Table of Content | Unity Reflect | 2.0 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Table of Content | Unity Reflect | 2.0 ">
+    <meta name="generator" content="docfx 2.45.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/version-switcher.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="unity:packageTitle" content="Unity Reflect | 2.0">
+    <meta property="docfx:rel" content="../">
+    
+  
+  </head>
+  <body data-spy="scroll" data-target="#affix" class="">
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5V25JL6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+        
+        		<div class="back-to-unity-group">
+        			<a class="back-to-unity" href="http://docs.unity3d.com/">docs.unity3d.com</a>
+        		</div>
+        
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="subnav navbar navbar-default">
+        <div class="container hide-when-search" id="breadcrumb">
+          <div id="version-switcher-select">
+        <div class="component-select" onclick="onVersionSwitcherClick()">
+        <div id="component-select-current-display" class="component-select__current">
+        Unity Reflect 2.0
+        </div>
+        
+        <ul id="version-switcher-ul" class="component-select__options-container">
+        <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.3/manual/index.html"><li class="component-select__option">
+                    1.3
+                </li></a>
+        <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.2/manual/index.html"><li class="component-select__option">
+                    1.2
+                </li></a>
+        <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.1/manual/index.html"><li class="component-select__option">
+                    1.1
+                </li></a>
+                <a style="color:#000;" href="https://docs.unity3d.com/reflect/1.0/manual/index.html"><li class="component-select__option">
+                            1.0
+                        </li></a>
+        
+        
+                </ul>
+        </div>
+        </div></div>
+      </div></header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10" id="main_content">
+          <div id="breadcrumb_placeholder"></div>
+            <article class="content wrap" id="_content" data-uid="">
+<div id="sidetoggle">
+  <div>
+    <div class="sidefilter">
+      <form class="toc-filter">
+        <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear"></span>
+        <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+      </form>
+    </div>
+    <div class="sidetoc">
+      <div class="toc" id="toc">
+          <ul class="nav level1">
+            <li>
+                  <span class="expand-stub"></span>
+                  <a href="Unity.Reflect.html" name="" title="Unity.Reflect">Unity.Reflect</a>
+                  <ul class="nav level2">
+                    <li>
+                          <a href="Unity.Reflect.AxisInversion.html" name="" title="AxisInversion">AxisInversion</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.ConnectionException.html" name="" title="ConnectionException">ConnectionException</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.ConnectionStatus.html" name="" title="ConnectionStatus">ConnectionStatus</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.IPlayerClient.html" name="" title="IPlayerClient">IPlayerClient</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.IPublisherClient.html" name="" title="IPublisherClient">IPublisherClient</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.LengthUnit.html" name="" title="LengthUnit">LengthUnit</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.ManifestAsset.html" name="" title="ManifestAsset">ManifestAsset</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.ManifestUpdatedEventArgs.html" name="" title="ManifestUpdatedEventArgs">ManifestUpdatedEventArgs</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.NoTransactionPendingException.html" name="" title="NoTransactionPendingException">NoTransactionPendingException</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Player.html" name="" title="Player">Player</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.ProjectServerClient.html" name="" title="ProjectServerClient">ProjectServerClient</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.ProjectServerClient.CloudEnvironment.html" name="" title="ProjectServerClient.CloudEnvironment">ProjectServerClient.CloudEnvironment</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Publisher.html" name="" title="Publisher">Publisher</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.PublisherSettings.html" name="" title="PublisherSettings">PublisherSettings</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.SessionClosedException.html" name="" title="SessionClosedException">SessionClosedException</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.TransactionAlreadyPendingException.html" name="" title="TransactionAlreadyPendingException">TransactionAlreadyPendingException</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.UnityProject.html" name="" title="UnityProject">UnityProject</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.UnityProject.SourceOption.html" name="" title="UnityProject.SourceOption">UnityProject.SourceOption</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.UnityProjectCollection.html" name="" title="UnityProjectCollection">UnityProjectCollection</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.UnityProjectCollection.StatusOption.html" name="" title="UnityProjectCollection.StatusOption">UnityProjectCollection.StatusOption</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.UnityProjectHost.html" name="" title="UnityProjectHost">UnityProjectHost</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.UnityUser.html" name="" title="UnityUser">UnityUser</a>
+                    </li>
+                  </ul>
+            </li>
+            <li>
+                  <span class="expand-stub"></span>
+                  <a href="Unity.Reflect.Data.html" name="" title="Unity.Reflect.Data">Unity.Reflect.Data</a>
+                  <ul class="nav level2">
+                    <li>
+                          <a href="Unity.Reflect.Data.ManifestEntry.html" name="" title="ManifestEntry">ManifestEntry</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Data.PersistentKey.html" name="" title="PersistentKey">PersistentKey</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Data.SyncManifest.html" name="" title="SyncManifest">SyncManifest</a>
+                    </li>
+                  </ul>
+            </li>
+            <li>
+                  <span class="expand-stub"></span>
+                  <a href="Unity.Reflect.IO.html" name="" title="Unity.Reflect.IO">Unity.Reflect.IO</a>
+                  <ul class="nav level2">
+                    <li>
+                          <a href="Unity.Reflect.IO.File.html" name="" title="File">File</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.IO.LocalStorage.html" name="" title="LocalStorage">LocalStorage</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.IO.ReflectVersionException.html" name="" title="ReflectVersionException">ReflectVersionException</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.IO.SourceProject.html" name="" title="SourceProject">SourceProject</a>
+                    </li>
+                  </ul>
+            </li>
+            <li>
+                  <span class="expand-stub"></span>
+                  <a href="Unity.Reflect.Model.html" name="" title="Unity.Reflect.Model">Unity.Reflect.Model</a>
+                  <ul class="nav level2">
+                    <li>
+                          <a href="Unity.Reflect.Model.ColorData.html" name="" title="ColorData">ColorData</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Model.ColorReflection.html" name="" title="ColorReflection">ColorReflection</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Model.ISyncModel.html" name="" title="ISyncModel">ISyncModel</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Model.SyncBoundingBox.html" name="" title="SyncBoundingBox">SyncBoundingBox</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Model.SyncCamera.html" name="" title="SyncCamera">SyncCamera</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Model.SyncColor.html" name="" title="SyncColor">SyncColor</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Model.SyncId.html" name="" title="SyncId">SyncId</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Model.SyncLight.html" name="" title="SyncLight">SyncLight</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Model.SyncLightIntensityUnit.html" name="" title="SyncLightIntensityUnit">SyncLightIntensityUnit</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Model.SyncLightType.html" name="" title="SyncLightType">SyncLightType</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Model.SyncMap.html" name="" title="SyncMap">SyncMap</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Model.SyncMaterial.html" name="" title="SyncMaterial">SyncMaterial</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Model.SyncMesh.html" name="" title="SyncMesh">SyncMesh</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Model.SyncMetadata.html" name="" title="SyncMetadata">SyncMetadata</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Model.SyncObject.html" name="" title="SyncObject">SyncObject</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Model.SyncObjectInstance.html" name="" title="SyncObjectInstance">SyncObjectInstance</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Model.SyncParameter.html" name="" title="SyncParameter">SyncParameter</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Model.SyncPrefab.html" name="" title="SyncPrefab">SyncPrefab</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Model.SyncRPC.html" name="" title="SyncRPC">SyncRPC</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Model.SyncSubMesh.html" name="" title="SyncSubMesh">SyncSubMesh</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Model.SyncTexture.html" name="" title="SyncTexture">SyncTexture</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Model.SyncTransform.html" name="" title="SyncTransform">SyncTransform</a>
+                    </li>
+                  </ul>
+            </li>
+            <li>
+                  <span class="expand-stub"></span>
+                  <a href="Unity.Reflect.UI.html" name="" title="Unity.Reflect.UI">Unity.Reflect.UI</a>
+                  <ul class="nav level2">
+                    <li>
+                          <a href="Unity.Reflect.UI.UI.html" name="" title="UI">UI</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.UI.WebviewForm.html" name="" title="WebviewForm">WebviewForm</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.UI.WebviewForm.DpiType.html" name="" title="WebviewForm.DpiType">WebviewForm.DpiType</a>
+                    </li>
+                  </ul>
+            </li>
+            <li>
+                  <span class="expand-stub"></span>
+                  <a href="Unity.Reflect.Utils.html" name="" title="Unity.Reflect.Utils">Unity.Reflect.Utils</a>
+                  <ul class="nav level2">
+                    <li>
+                          <a href="Unity.Reflect.Utils.FileLogReceiver.html" name="" title="FileLogReceiver">FileLogReceiver</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Utils.FileUtils.html" name="" title="FileUtils">FileUtils</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Utils.ILogReceiver.html" name="" title="ILogReceiver">ILogReceiver</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Utils.Logger.html" name="" title="Logger">Logger</a>
+                    </li>
+                    <li>
+                          <a href="Unity.Reflect.Utils.Logger.Level.html" name="" title="Logger.Level">Logger.Level</a>
+                    </li>
+                  </ul>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2020 Unity Technologies<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../styles/metadata-collector.js"></script>
+    <script type="text/javascript" src="../styles/version-switcher.js"></script>
+  </div></body>
+</html>

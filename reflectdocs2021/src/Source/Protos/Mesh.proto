@@ -1,0 +1,19 @@
+syntax = "proto3";
+package Reflect;
+
+option csharp_namespace = "Unity.Reflect.Model";
+import "Mathematics.proto";
+
+message SyncMesh {
+	string name = 1;
+
+	repeated SyncFloat3 vertices = 2;
+	repeated SyncFloat3 normals = 3;
+	repeated SyncFloat2 uvs = 4;
+
+	repeated SyncSubMesh submeshes = 5;
+}
+
+message SyncSubMesh {
+	repeated int32 triangles = 1;
+}

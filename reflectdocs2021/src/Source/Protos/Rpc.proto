@@ -1,0 +1,10 @@
+syntax = "proto3";
+package Reflect;
+
+option csharp_namespace = "Unity.Reflect.Model";
+import "Mathematics.proto";
+
+message SyncRPC {
+	string name = 1;
+	SyncTransform transform = 2;
+}

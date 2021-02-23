@@ -1,0 +1,766 @@
+### YamlMime:ManagedReference
+items:
+- uid: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase
+  commentId: T:Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase
+  id: PublisherService.PublisherServiceBase
+  parent: Unity.Reflect.ProjectServer.Services.Publisher
+  children:
+  - Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.CreateProject(Unity.Reflect.ProjectServer.Services.Publisher.CreateProjectRequest,grpc.ServerCallContext)
+  - Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.CreateProject(Unity.Reflect.ProjectServer.Services.Publisher.CreateProjectRequest,grpc.ServerCallContext)
+  - Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.ServerCallContext)
+  - Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.ServerCallContext)
+  - Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListSyncServers(Unity.Reflect.ProjectServer.Services.Empty,grpc.ServerCallContext)
+  - Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListSyncServers(Unity.Reflect.ProjectServer.Services.Empty,grpc.ServerCallContext)
+  langs:
+  - csharp
+  - vb
+  name: PublisherService.PublisherServiceBase
+  nameWithType: PublisherService.PublisherServiceBase
+  fullName: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase
+  type: Class
+  source:
+    id: PublisherServiceBase
+    path: ''
+    startLine: 35926
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Publisher
+  summary: Base class for server-side implementations of PublisherService
+  example: []
+  syntax:
+    content: public abstract class PublisherServiceBase
+    content.vb: Public MustInherit Class PublisherServiceBase
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.CreateProject(Unity.Reflect.ProjectServer.Services.Publisher.CreateProjectRequest,grpc.ServerCallContext)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.CreateProject(Unity.Reflect.ProjectServer.Services.Publisher.CreateProjectRequest,grpc.ServerCallContext)
+  id: CreateProject(Unity.Reflect.ProjectServer.Services.Publisher.CreateProjectRequest,grpc.ServerCallContext)
+  parent: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase
+  langs:
+  - csharp
+  - vb
+  name: CreateProject(CreateProjectRequest, grpc.ServerCallContext)
+  nameWithType: PublisherService.PublisherServiceBase.CreateProject(CreateProjectRequest, grpc.ServerCallContext)
+  fullName: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.CreateProject(Unity.Reflect.ProjectServer.Services.Publisher.CreateProjectRequest, grpc.ServerCallContext)
+  type: Method
+  source:
+    id: CreateProject
+    path: ''
+    startLine: 15770
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Publisher
+  syntax:
+    content: public virtual Task<Project> CreateProject(CreateProjectRequest request, grpc.ServerCallContext context)
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Publisher.CreateProjectRequest
+    - id: context
+      type: grpc.ServerCallContext
+    return:
+      type: System.Threading.Tasks.Task{Unity.Reflect.ProjectServer.Services.Publisher.Project}
+    content.vb: Public Overridable Function CreateProject(request As CreateProjectRequest, context As grpc.ServerCallContext) As Task(Of Project)
+  overload: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.CreateProject*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.ServerCallContext)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.ServerCallContext)
+  id: ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.ServerCallContext)
+  parent: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase
+  langs:
+  - csharp
+  - vb
+  name: ListProjects(Empty, grpc.ServerCallContext)
+  nameWithType: PublisherService.PublisherServiceBase.ListProjects(Empty, grpc.ServerCallContext)
+  fullName: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListProjects(Unity.Reflect.ProjectServer.Services.Empty, grpc.ServerCallContext)
+  type: Method
+  source:
+    id: ListProjects
+    path: ''
+    startLine: 15775
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Publisher
+  syntax:
+    content: public virtual Task<ListProjectsResponse> ListProjects(Empty request, grpc.ServerCallContext context)
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Empty
+    - id: context
+      type: grpc.ServerCallContext
+    return:
+      type: System.Threading.Tasks.Task{Unity.Reflect.ProjectServer.Services.Publisher.ListProjectsResponse}
+    content.vb: Public Overridable Function ListProjects(request As Empty, context As grpc.ServerCallContext) As Task(Of ListProjectsResponse)
+  overload: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListProjects*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListSyncServers(Unity.Reflect.ProjectServer.Services.Empty,grpc.ServerCallContext)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListSyncServers(Unity.Reflect.ProjectServer.Services.Empty,grpc.ServerCallContext)
+  id: ListSyncServers(Unity.Reflect.ProjectServer.Services.Empty,grpc.ServerCallContext)
+  parent: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase
+  langs:
+  - csharp
+  - vb
+  name: ListSyncServers(Empty, grpc.ServerCallContext)
+  nameWithType: PublisherService.PublisherServiceBase.ListSyncServers(Empty, grpc.ServerCallContext)
+  fullName: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListSyncServers(Unity.Reflect.ProjectServer.Services.Empty, grpc.ServerCallContext)
+  type: Method
+  source:
+    id: ListSyncServers
+    path: ''
+    startLine: 15780
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Publisher
+  syntax:
+    content: public virtual Task<ListSyncServersResponse> ListSyncServers(Empty request, grpc.ServerCallContext context)
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Empty
+    - id: context
+      type: grpc.ServerCallContext
+    return:
+      type: System.Threading.Tasks.Task{Unity.Reflect.ProjectServer.Services.Publisher.ListSyncServersResponse}
+    content.vb: Public Overridable Function ListSyncServers(request As Empty, context As grpc.ServerCallContext) As Task(Of ListSyncServersResponse)
+  overload: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListSyncServers*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.CreateProject(Unity.Reflect.ProjectServer.Services.Publisher.CreateProjectRequest,grpc.ServerCallContext)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.CreateProject(Unity.Reflect.ProjectServer.Services.Publisher.CreateProjectRequest,grpc.ServerCallContext)
+  id: CreateProject(Unity.Reflect.ProjectServer.Services.Publisher.CreateProjectRequest,grpc.ServerCallContext)
+  parent: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase
+  langs:
+  - csharp
+  - vb
+  name: CreateProject(CreateProjectRequest, grpc.ServerCallContext)
+  nameWithType: PublisherService.PublisherServiceBase.CreateProject(CreateProjectRequest, grpc.ServerCallContext)
+  fullName: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.CreateProject(Unity.Reflect.ProjectServer.Services.Publisher.CreateProjectRequest, grpc.ServerCallContext)
+  type: Method
+  source:
+    id: CreateProject
+    path: ''
+    startLine: 35929
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Publisher
+  syntax:
+    content: public virtual Task<Project> CreateProject(CreateProjectRequest request, grpc.ServerCallContext context)
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Publisher.CreateProjectRequest
+    - id: context
+      type: grpc.ServerCallContext
+    return:
+      type: System.Threading.Tasks.Task{Unity.Reflect.ProjectServer.Services.Publisher.Project}
+    content.vb: Public Overridable Function CreateProject(request As CreateProjectRequest, context As grpc.ServerCallContext) As Task(Of Project)
+  overload: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.CreateProject*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.ServerCallContext)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.ServerCallContext)
+  id: ListProjects(Unity.Reflect.ProjectServer.Services.Empty,grpc.ServerCallContext)
+  parent: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase
+  langs:
+  - csharp
+  - vb
+  name: ListProjects(Empty, grpc.ServerCallContext)
+  nameWithType: PublisherService.PublisherServiceBase.ListProjects(Empty, grpc.ServerCallContext)
+  fullName: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListProjects(Unity.Reflect.ProjectServer.Services.Empty, grpc.ServerCallContext)
+  type: Method
+  source:
+    id: ListProjects
+    path: ''
+    startLine: 35934
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Publisher
+  syntax:
+    content: public virtual Task<ListProjectsResponse> ListProjects(Empty request, grpc.ServerCallContext context)
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Empty
+    - id: context
+      type: grpc.ServerCallContext
+    return:
+      type: System.Threading.Tasks.Task{Unity.Reflect.ProjectServer.Services.Publisher.ListProjectsResponse}
+    content.vb: Public Overridable Function ListProjects(request As Empty, context As grpc.ServerCallContext) As Task(Of ListProjectsResponse)
+  overload: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListProjects*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListSyncServers(Unity.Reflect.ProjectServer.Services.Empty,grpc.ServerCallContext)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListSyncServers(Unity.Reflect.ProjectServer.Services.Empty,grpc.ServerCallContext)
+  id: ListSyncServers(Unity.Reflect.ProjectServer.Services.Empty,grpc.ServerCallContext)
+  parent: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase
+  langs:
+  - csharp
+  - vb
+  name: ListSyncServers(Empty, grpc.ServerCallContext)
+  nameWithType: PublisherService.PublisherServiceBase.ListSyncServers(Empty, grpc.ServerCallContext)
+  fullName: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListSyncServers(Unity.Reflect.ProjectServer.Services.Empty, grpc.ServerCallContext)
+  type: Method
+  source:
+    id: ListSyncServers
+    path: ''
+    startLine: 35939
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Publisher
+  syntax:
+    content: public virtual Task<ListSyncServersResponse> ListSyncServers(Empty request, grpc.ServerCallContext context)
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Empty
+    - id: context
+      type: grpc.ServerCallContext
+    return:
+      type: System.Threading.Tasks.Task{Unity.Reflect.ProjectServer.Services.Publisher.ListSyncServersResponse}
+    content.vb: Public Overridable Function ListSyncServers(request As Empty, context As grpc.ServerCallContext) As Task(Of ListSyncServersResponse)
+  overload: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListSyncServers*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: Unity.Reflect.ProjectServer.Services.Publisher
+  commentId: N:Unity.Reflect.ProjectServer.Services.Publisher
+  name: Unity.Reflect.ProjectServer.Services.Publisher
+  nameWithType: Unity.Reflect.ProjectServer.Services.Publisher
+  fullName: Unity.Reflect.ProjectServer.Services.Publisher
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.CreateProject*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.CreateProject
+  name: CreateProject
+  nameWithType: PublisherService.PublisherServiceBase.CreateProject
+  fullName: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.CreateProject
+- uid: Unity.Reflect.ProjectServer.Services.Publisher.CreateProjectRequest
+  commentId: T:Unity.Reflect.ProjectServer.Services.Publisher.CreateProjectRequest
+  parent: Unity.Reflect.ProjectServer.Services.Publisher
+  name: CreateProjectRequest
+  nameWithType: CreateProjectRequest
+  fullName: Unity.Reflect.ProjectServer.Services.Publisher.CreateProjectRequest
+- uid: grpc.ServerCallContext
+  isExternal: true
+  name: grpc.ServerCallContext
+  nameWithType: grpc.ServerCallContext
+  fullName: grpc.ServerCallContext
+- uid: System.Threading.Tasks.Task{Unity.Reflect.ProjectServer.Services.Publisher.Project}
+  commentId: T:System.Threading.Tasks.Task{Unity.Reflect.ProjectServer.Services.Publisher.Project}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Project>
+  nameWithType: Task<Project>
+  fullName: System.Threading.Tasks.Task<Unity.Reflect.ProjectServer.Services.Publisher.Project>
+  nameWithType.vb: Task(Of Project)
+  fullName.vb: System.Threading.Tasks.Task(Of Unity.Reflect.ProjectServer.Services.Publisher.Project)
+  name.vb: Task(Of Project)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.ProjectServer.Services.Publisher.Project
+    name: Project
+    nameWithType: Project
+    fullName: Unity.Reflect.ProjectServer.Services.Publisher.Project
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.ProjectServer.Services.Publisher.Project
+    name: Project
+    nameWithType: Project
+    fullName: Unity.Reflect.ProjectServer.Services.Publisher.Project
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListProjects*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListProjects
+  name: ListProjects
+  nameWithType: PublisherService.PublisherServiceBase.ListProjects
+  fullName: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListProjects
+- uid: Unity.Reflect.ProjectServer.Services.Empty
+  commentId: T:Unity.Reflect.ProjectServer.Services.Empty
+  parent: Unity.Reflect.ProjectServer.Services
+  name: Empty
+  nameWithType: Empty
+  fullName: Unity.Reflect.ProjectServer.Services.Empty
+- uid: System.Threading.Tasks.Task{Unity.Reflect.ProjectServer.Services.Publisher.ListProjectsResponse}
+  commentId: T:System.Threading.Tasks.Task{Unity.Reflect.ProjectServer.Services.Publisher.ListProjectsResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ListProjectsResponse>
+  nameWithType: Task<ListProjectsResponse>
+  fullName: System.Threading.Tasks.Task<Unity.Reflect.ProjectServer.Services.Publisher.ListProjectsResponse>
+  nameWithType.vb: Task(Of ListProjectsResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of Unity.Reflect.ProjectServer.Services.Publisher.ListProjectsResponse)
+  name.vb: Task(Of ListProjectsResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.ProjectServer.Services.Publisher.ListProjectsResponse
+    name: ListProjectsResponse
+    nameWithType: ListProjectsResponse
+    fullName: Unity.Reflect.ProjectServer.Services.Publisher.ListProjectsResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.ProjectServer.Services.Publisher.ListProjectsResponse
+    name: ListProjectsResponse
+    nameWithType: ListProjectsResponse
+    fullName: Unity.Reflect.ProjectServer.Services.Publisher.ListProjectsResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.ProjectServer.Services
+  commentId: N:Unity.Reflect.ProjectServer.Services
+  name: Unity.Reflect.ProjectServer.Services
+  nameWithType: Unity.Reflect.ProjectServer.Services
+  fullName: Unity.Reflect.ProjectServer.Services
+- uid: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListSyncServers*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListSyncServers
+  name: ListSyncServers
+  nameWithType: PublisherService.PublisherServiceBase.ListSyncServers
+  fullName: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase.ListSyncServers
+- uid: System.Threading.Tasks.Task{Unity.Reflect.ProjectServer.Services.Publisher.ListSyncServersResponse}
+  commentId: T:System.Threading.Tasks.Task{Unity.Reflect.ProjectServer.Services.Publisher.ListSyncServersResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ListSyncServersResponse>
+  nameWithType: Task<ListSyncServersResponse>
+  fullName: System.Threading.Tasks.Task<Unity.Reflect.ProjectServer.Services.Publisher.ListSyncServersResponse>
+  nameWithType.vb: Task(Of ListSyncServersResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of Unity.Reflect.ProjectServer.Services.Publisher.ListSyncServersResponse)
+  name.vb: Task(Of ListSyncServersResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.ProjectServer.Services.Publisher.ListSyncServersResponse
+    name: ListSyncServersResponse
+    nameWithType: ListSyncServersResponse
+    fullName: Unity.Reflect.ProjectServer.Services.Publisher.ListSyncServersResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.ProjectServer.Services.Publisher.ListSyncServersResponse
+    name: ListSyncServersResponse
+    nameWithType: ListSyncServersResponse
+    fullName: Unity.Reflect.ProjectServer.Services.Publisher.ListSyncServersResponse
+  - name: )
+    nameWithType: )
+    fullName: )

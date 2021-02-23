@@ -1,0 +1,1243 @@
+### YamlMime:ManagedReference
+items:
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  commentId: T:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  id: PublicKeyRequest
+  parent: Unity.Reflect.ProjectServer.Services.Authentication
+  children:
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.#ctor
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.#ctor
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.#ctor(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.#ctor(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.CalculateSize
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.CalculateSize
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Clone
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Clone
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Descriptor
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Descriptor
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Equals(System.Object)
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Equals(System.Object)
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Equals(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Equals(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.GetHashCode
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.GetHashCode
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Kid
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Kid
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.KidFieldNumber
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.KidFieldNumber
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.MergeFrom(pb.CodedInputStream)
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.MergeFrom(pb.CodedInputStream)
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.MergeFrom(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.MergeFrom(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Parser
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Parser
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.ToString
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.ToString
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.WriteTo(pb.CodedOutputStream)
+  - Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.WriteTo(pb.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: PublicKeyRequest
+  nameWithType: PublicKeyRequest
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  type: Class
+  source:
+    id: PublicKeyRequest
+    path: ''
+    startLine: 34122
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: 'public sealed class PublicKeyRequest : pb.IMessage<PublicKeyRequest>, pb.IMessage<PublicKeyRequest>'
+    content.vb: >-
+      Public NotInheritable Class PublicKeyRequest
+          Inherits pb.IMessage(Of PublicKeyRequest)
+          Implements pb.IMessage(Of PublicKeyRequest)
+  inheritance:
+  - System.Object
+  implements:
+  - pb.IMessage{Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest}
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Parser
+  commentId: P:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Parser
+  id: Parser
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: PublicKeyRequest.Parser
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 13966
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public static pb.MessageParser<PublicKeyRequest> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of PublicKeyRequest)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Descriptor
+  commentId: P:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Descriptor
+  id: Descriptor
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: PublicKeyRequest.Descriptor
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 13969
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.#ctor
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.#ctor
+  id: '#ctor'
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: PublicKeyRequest()
+  nameWithType: PublicKeyRequest.PublicKeyRequest()
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.PublicKeyRequest()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 13979
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public PublicKeyRequest()
+    content.vb: Public Sub New
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.#ctor(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.#ctor(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  id: '#ctor(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)'
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: PublicKeyRequest(PublicKeyRequest)
+  nameWithType: PublicKeyRequest.PublicKeyRequest(PublicKeyRequest)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.PublicKeyRequest(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 13986
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public PublicKeyRequest(PublicKeyRequest other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+    content.vb: Public Sub New(other As PublicKeyRequest)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Clone
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Clone
+  id: Clone
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: PublicKeyRequest.Clone()
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 13992
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public PublicKeyRequest Clone()
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+    content.vb: Public Function Clone As PublicKeyRequest
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.KidFieldNumber
+  commentId: F:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.KidFieldNumber
+  id: KidFieldNumber
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: KidFieldNumber
+  nameWithType: PublicKeyRequest.KidFieldNumber
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.KidFieldNumber
+  type: Field
+  source:
+    id: KidFieldNumber
+    path: ''
+    startLine: 13998
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  summary: Field number for the &quot;kid&quot; field.
+  example: []
+  syntax:
+    content: public const int KidFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const KidFieldNumber As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Kid
+  commentId: P:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Kid
+  id: Kid
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: Kid
+  nameWithType: PublicKeyRequest.Kid
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Kid
+  type: Property
+  source:
+    id: Kid
+    path: ''
+    startLine: 14000
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public string Kid { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Kid As String
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Kid*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Equals(System.Object)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: PublicKeyRequest.Equals(Object)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 14008
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Equals(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Equals(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  id: Equals(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(PublicKeyRequest)
+  nameWithType: PublicKeyRequest.Equals(PublicKeyRequest)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Equals(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 14013
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public bool Equals(PublicKeyRequest other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As PublicKeyRequest) As Boolean
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.GetHashCode
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.GetHashCode
+  id: GetHashCode
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: PublicKeyRequest.GetHashCode()
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 14025
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.ToString
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.ToString
+  id: ToString
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: PublicKeyRequest.ToString()
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 14035
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.WriteTo(pb.CodedOutputStream)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: PublicKeyRequest.WriteTo(pb.CodedOutputStream)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 14040
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.CalculateSize
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.CalculateSize
+  id: CalculateSize
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: PublicKeyRequest.CalculateSize()
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 14051
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.MergeFrom(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.MergeFrom(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  id: MergeFrom(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(PublicKeyRequest)
+  nameWithType: PublicKeyRequest.MergeFrom(PublicKeyRequest)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.MergeFrom(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 14063
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public void MergeFrom(PublicKeyRequest other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+    content.vb: Public Sub MergeFrom(other As PublicKeyRequest)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.MergeFrom(pb.CodedInputStream)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: PublicKeyRequest.MergeFrom(pb.CodedInputStream)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 14074
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Parser
+  commentId: P:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Parser
+  id: Parser
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: PublicKeyRequest.Parser
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 34125
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public static pb.MessageParser<PublicKeyRequest> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of PublicKeyRequest)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Descriptor
+  commentId: P:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Descriptor
+  id: Descriptor
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: PublicKeyRequest.Descriptor
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 34128
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.#ctor
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.#ctor
+  id: '#ctor'
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: PublicKeyRequest()
+  nameWithType: PublicKeyRequest.PublicKeyRequest()
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.PublicKeyRequest()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 34138
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public PublicKeyRequest()
+    content.vb: Public Sub New
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.#ctor(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.#ctor(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  id: '#ctor(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)'
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: PublicKeyRequest(PublicKeyRequest)
+  nameWithType: PublicKeyRequest.PublicKeyRequest(PublicKeyRequest)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.PublicKeyRequest(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 34145
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public PublicKeyRequest(PublicKeyRequest other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+    content.vb: Public Sub New(other As PublicKeyRequest)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Clone
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Clone
+  id: Clone
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: PublicKeyRequest.Clone()
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 34151
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public PublicKeyRequest Clone()
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+    content.vb: Public Function Clone As PublicKeyRequest
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.KidFieldNumber
+  commentId: F:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.KidFieldNumber
+  id: KidFieldNumber
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: KidFieldNumber
+  nameWithType: PublicKeyRequest.KidFieldNumber
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.KidFieldNumber
+  type: Field
+  source:
+    id: KidFieldNumber
+    path: ''
+    startLine: 34157
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  summary: Field number for the &quot;kid&quot; field.
+  example: []
+  syntax:
+    content: public const int KidFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const KidFieldNumber As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Kid
+  commentId: P:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Kid
+  id: Kid
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: Kid
+  nameWithType: PublicKeyRequest.Kid
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Kid
+  type: Property
+  source:
+    id: Kid
+    path: ''
+    startLine: 34159
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public string Kid { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Kid As String
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Kid*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Equals(System.Object)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: PublicKeyRequest.Equals(Object)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 34167
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Equals(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Equals(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  id: Equals(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(PublicKeyRequest)
+  nameWithType: PublicKeyRequest.Equals(PublicKeyRequest)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Equals(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 34172
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public bool Equals(PublicKeyRequest other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As PublicKeyRequest) As Boolean
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.GetHashCode
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.GetHashCode
+  id: GetHashCode
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: PublicKeyRequest.GetHashCode()
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 34184
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.ToString
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.ToString
+  id: ToString
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: PublicKeyRequest.ToString()
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 34194
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.WriteTo(pb.CodedOutputStream)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: PublicKeyRequest.WriteTo(pb.CodedOutputStream)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 34199
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.CalculateSize
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.CalculateSize
+  id: CalculateSize
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: PublicKeyRequest.CalculateSize()
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 34210
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.MergeFrom(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.MergeFrom(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  id: MergeFrom(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(PublicKeyRequest)
+  nameWithType: PublicKeyRequest.MergeFrom(PublicKeyRequest)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.MergeFrom(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 34222
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public void MergeFrom(PublicKeyRequest other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+    content.vb: Public Sub MergeFrom(other As PublicKeyRequest)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.MergeFrom(pb.CodedInputStream)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: PublicKeyRequest.MergeFrom(pb.CodedInputStream)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 34233
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Unity.Reflect.ProjectServer.Services.Authentication
+  commentId: N:Unity.Reflect.ProjectServer.Services.Authentication
+  name: Unity.Reflect.ProjectServer.Services.Authentication
+  nameWithType: Unity.Reflect.ProjectServer.Services.Authentication
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: pb.IMessage{Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest}
+  commentId: '!:pb.IMessage{Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest}'
+  definition: pb.IMessage`1
+  name: pb.IMessage<PublicKeyRequest>
+  nameWithType: pb.IMessage<PublicKeyRequest>
+  fullName: pb.IMessage<Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest>
+  nameWithType.vb: pb.IMessage(Of PublicKeyRequest)
+  fullName.vb: pb.IMessage(Of Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  name.vb: pb.IMessage(Of PublicKeyRequest)
+  spec.csharp:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+    name: PublicKeyRequest
+    nameWithType: PublicKeyRequest
+    fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+    name: PublicKeyRequest
+    nameWithType: PublicKeyRequest
+    fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: pb.IMessage`1
+  isExternal: true
+  name: pb.IMessage<>
+  nameWithType: pb.IMessage<>
+  fullName: pb.IMessage<>
+  nameWithType.vb: pb.IMessage(Of )
+  fullName.vb: pb.IMessage(Of )
+  name.vb: pb.IMessage(Of )
+  spec.csharp:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Parser*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Parser
+  name: Parser
+  nameWithType: PublicKeyRequest.Parser
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Parser
+- uid: pb.MessageParser{Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest}
+  commentId: '!:pb.MessageParser{Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest}'
+  definition: pb.MessageParser`1
+  name: pb.MessageParser<PublicKeyRequest>
+  nameWithType: pb.MessageParser<PublicKeyRequest>
+  fullName: pb.MessageParser<Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest>
+  nameWithType.vb: pb.MessageParser(Of PublicKeyRequest)
+  fullName.vb: pb.MessageParser(Of Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest)
+  name.vb: pb.MessageParser(Of PublicKeyRequest)
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+    name: PublicKeyRequest
+    nameWithType: PublicKeyRequest
+    fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+    name: PublicKeyRequest
+    nameWithType: PublicKeyRequest
+    fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pb.MessageParser`1
+  isExternal: true
+  name: pb.MessageParser<>
+  nameWithType: pb.MessageParser<>
+  fullName: pb.MessageParser<>
+  nameWithType.vb: pb.MessageParser(Of )
+  fullName.vb: pb.MessageParser(Of )
+  name.vb: pb.MessageParser(Of )
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Descriptor*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Descriptor
+  name: Descriptor
+  nameWithType: PublicKeyRequest.Descriptor
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Descriptor
+- uid: pbr.MessageDescriptor
+  isExternal: true
+  name: pbr.MessageDescriptor
+  nameWithType: pbr.MessageDescriptor
+  fullName: pbr.MessageDescriptor
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.#ctor*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.#ctor
+  name: PublicKeyRequest
+  nameWithType: PublicKeyRequest.PublicKeyRequest
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.PublicKeyRequest
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  commentId: T:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  parent: Unity.Reflect.ProjectServer.Services.Authentication
+  name: PublicKeyRequest
+  nameWithType: PublicKeyRequest
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Clone*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Clone
+  name: Clone
+  nameWithType: PublicKeyRequest.Clone
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Clone
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Kid*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Kid
+  name: Kid
+  nameWithType: PublicKeyRequest.Kid
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Kid
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Equals*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Equals
+  name: Equals
+  nameWithType: PublicKeyRequest.Equals
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.GetHashCode*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.GetHashCode
+  name: GetHashCode
+  nameWithType: PublicKeyRequest.GetHashCode
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.GetHashCode
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.ToString*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.ToString
+  name: ToString
+  nameWithType: PublicKeyRequest.ToString
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.ToString
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.WriteTo*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.WriteTo
+  name: WriteTo
+  nameWithType: PublicKeyRequest.WriteTo
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.WriteTo
+- uid: pb.CodedOutputStream
+  isExternal: true
+  name: pb.CodedOutputStream
+  nameWithType: pb.CodedOutputStream
+  fullName: pb.CodedOutputStream
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.CalculateSize*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.CalculateSize
+  name: CalculateSize
+  nameWithType: PublicKeyRequest.CalculateSize
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.CalculateSize
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.MergeFrom*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.MergeFrom
+  name: MergeFrom
+  nameWithType: PublicKeyRequest.MergeFrom
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest.MergeFrom
+- uid: pb.CodedInputStream
+  isExternal: true
+  name: pb.CodedInputStream
+  nameWithType: pb.CodedInputStream
+  fullName: pb.CodedInputStream

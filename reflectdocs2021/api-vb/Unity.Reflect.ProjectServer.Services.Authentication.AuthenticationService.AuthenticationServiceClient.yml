@@ -1,0 +1,1782 @@
+### YamlMime:ManagedReference
+items:
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  commentId: T:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  id: AuthenticationService.AuthenticationServiceClient
+  parent: Unity.Reflect.ProjectServer.Services.Authentication
+  children:
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor(ClientBaseConfiguration)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor(ClientBaseConfiguration)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor(grpc.CallInvoker)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor(grpc.CallInvoker)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor(grpc.Channel)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor(grpc.Channel)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.CallOptions)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.CallOptions)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.CallOptions)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.CallOptions)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.CallOptions)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.CallOptions)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.CallOptions)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.CallOptions)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.NewInstance(ClientBaseConfiguration)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.NewInstance(ClientBaseConfiguration)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  - Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: AuthenticationService.AuthenticationServiceClient
+  nameWithType: AuthenticationService.AuthenticationServiceClient
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  type: Class
+  source:
+    id: AuthenticationServiceClient
+    path: ''
+    startLine: 34801
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  summary: Client for AuthenticationService
+  example: []
+  syntax:
+    content: 'public class AuthenticationServiceClient : grpc.ClientBase<AuthenticationService.AuthenticationServiceClient>, grpc.ClientBase<AuthenticationService.AuthenticationServiceClient>'
+    content.vb: >-
+      Public Class AuthenticationServiceClient
+          Inherits grpc.ClientBase(Of AuthenticationService.AuthenticationServiceClient)
+          Implements grpc.ClientBase(Of AuthenticationService.AuthenticationServiceClient)
+  inheritance:
+  - System.Object
+  implements:
+  - grpc.ClientBase{Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient}
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor(grpc.Channel)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor(grpc.Channel)
+  id: '#ctor(grpc.Channel)'
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: AuthenticationServiceClient(grpc.Channel)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.AuthenticationServiceClient(grpc.Channel)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.AuthenticationServiceClient(grpc.Channel)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 14646
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  summary: Creates a new client for AuthenticationService
+  example: []
+  syntax:
+    content: public AuthenticationServiceClient(grpc.Channel channel)
+    parameters:
+    - id: channel
+      type: grpc.Channel
+      description: The channel to use to make remote calls.
+    content.vb: Public Sub New(channel As grpc.Channel)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor(grpc.CallInvoker)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor(grpc.CallInvoker)
+  id: '#ctor(grpc.CallInvoker)'
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: AuthenticationServiceClient(grpc.CallInvoker)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.AuthenticationServiceClient(grpc.CallInvoker)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.AuthenticationServiceClient(grpc.CallInvoker)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 14651
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  summary: Creates a new client for AuthenticationService that uses a custom <code>CallInvoker</code>.
+  example: []
+  syntax:
+    content: public AuthenticationServiceClient(grpc.CallInvoker callInvoker)
+    parameters:
+    - id: callInvoker
+      type: grpc.CallInvoker
+      description: The callInvoker to use to make remote calls.
+    content.vb: Public Sub New(callInvoker As grpc.CallInvoker)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor
+  id: '#ctor'
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: AuthenticationServiceClient()
+  nameWithType: AuthenticationService.AuthenticationServiceClient.AuthenticationServiceClient()
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.AuthenticationServiceClient()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 14655
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  summary: Protected parameterless constructor to allow creation of test doubles.
+  example: []
+  syntax:
+    content: protected AuthenticationServiceClient()
+    content.vb: Protected Sub New
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor(ClientBaseConfiguration)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor(ClientBaseConfiguration)
+  id: '#ctor(ClientBaseConfiguration)'
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: AuthenticationServiceClient(ClientBaseConfiguration)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.AuthenticationServiceClient(ClientBaseConfiguration)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.AuthenticationServiceClient(ClientBaseConfiguration)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 14660
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  summary: Protected constructor to allow creation of configured clients.
+  example: []
+  syntax:
+    content: protected AuthenticationServiceClient(ClientBaseConfiguration configuration)
+    parameters:
+    - id: configuration
+      type: ClientBaseConfiguration
+      description: The client configuration.
+    content.vb: Protected Sub New(configuration As ClientBaseConfiguration)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  id: Signin(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: Signin(Empty, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.Signin(Empty, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin(Unity.Reflect.ProjectServer.Services.Empty, grpc.Metadata, System.Nullable<System.DateTime>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: Signin
+    path: ''
+    startLine: 14664
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public virtual SigninResponse Signin(Empty request, grpc.Metadata headers = null, DateTime? deadline = default(DateTime? ), CancellationToken cancellationToken = default(CancellationToken))
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Empty
+    - id: headers
+      type: grpc.Metadata
+    - id: deadline
+      type: System.Nullable{System.DateTime}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Authentication.SigninResponse
+    content.vb: Public Overridable Function Signin(request As Empty, headers As grpc.Metadata = Nothing, deadline As Date? = Nothing, cancellationToken As CancellationToken = Nothing) As SigninResponse
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin*
+  nameWithType.vb: AuthenticationService.AuthenticationServiceClient.Signin(Empty, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin(Unity.Reflect.ProjectServer.Services.Empty, grpc.Metadata, System.Nullable(Of System.DateTime), System.Threading.CancellationToken)
+  name.vb: Signin(Empty, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  id: Signin(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: Signin(Empty, grpc.CallOptions)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.Signin(Empty, grpc.CallOptions)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin(Unity.Reflect.ProjectServer.Services.Empty, grpc.CallOptions)
+  type: Method
+  source:
+    id: Signin
+    path: ''
+    startLine: 14668
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public virtual SigninResponse Signin(Empty request, grpc.CallOptions options)
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Empty
+    - id: options
+      type: grpc.CallOptions
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Authentication.SigninResponse
+    content.vb: Public Overridable Function Signin(request As Empty, options As grpc.CallOptions) As SigninResponse
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  id: SigninAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: SigninAsync(Empty, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.SigninAsync(Empty, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync(Unity.Reflect.ProjectServer.Services.Empty, grpc.Metadata, System.Nullable<System.DateTime>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: SigninAsync
+    path: ''
+    startLine: 14672
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public virtual grpc.AsyncUnaryCall<SigninResponse> SigninAsync(Empty request, grpc.Metadata headers = null, DateTime? deadline = default(DateTime? ), CancellationToken cancellationToken = default(CancellationToken))
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Empty
+    - id: headers
+      type: grpc.Metadata
+    - id: deadline
+      type: System.Nullable{System.DateTime}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: grpc.AsyncUnaryCall{Unity.Reflect.ProjectServer.Services.Authentication.SigninResponse}
+    content.vb: Public Overridable Function SigninAsync(request As Empty, headers As grpc.Metadata = Nothing, deadline As Date? = Nothing, cancellationToken As CancellationToken = Nothing) As grpc.AsyncUnaryCall(Of SigninResponse)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync*
+  nameWithType.vb: AuthenticationService.AuthenticationServiceClient.SigninAsync(Empty, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync(Unity.Reflect.ProjectServer.Services.Empty, grpc.Metadata, System.Nullable(Of System.DateTime), System.Threading.CancellationToken)
+  name.vb: SigninAsync(Empty, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  id: SigninAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: SigninAsync(Empty, grpc.CallOptions)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.SigninAsync(Empty, grpc.CallOptions)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync(Unity.Reflect.ProjectServer.Services.Empty, grpc.CallOptions)
+  type: Method
+  source:
+    id: SigninAsync
+    path: ''
+    startLine: 14676
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public virtual grpc.AsyncUnaryCall<SigninResponse> SigninAsync(Empty request, grpc.CallOptions options)
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Empty
+    - id: options
+      type: grpc.CallOptions
+    return:
+      type: grpc.AsyncUnaryCall{Unity.Reflect.ProjectServer.Services.Authentication.SigninResponse}
+    content.vb: Public Overridable Function SigninAsync(request As Empty, options As grpc.CallOptions) As grpc.AsyncUnaryCall(Of SigninResponse)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  id: GetPublicKey(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: GetPublicKey(PublicKeyRequest, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.GetPublicKey(PublicKeyRequest, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest, grpc.Metadata, System.Nullable<System.DateTime>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: GetPublicKey
+    path: ''
+    startLine: 14680
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public virtual PublicKeyResponse GetPublicKey(PublicKeyRequest request, grpc.Metadata headers = null, DateTime? deadline = default(DateTime? ), CancellationToken cancellationToken = default(CancellationToken))
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+    - id: headers
+      type: grpc.Metadata
+    - id: deadline
+      type: System.Nullable{System.DateTime}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyResponse
+    content.vb: Public Overridable Function GetPublicKey(request As PublicKeyRequest, headers As grpc.Metadata = Nothing, deadline As Date? = Nothing, cancellationToken As CancellationToken = Nothing) As PublicKeyResponse
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey*
+  nameWithType.vb: AuthenticationService.AuthenticationServiceClient.GetPublicKey(PublicKeyRequest, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest, grpc.Metadata, System.Nullable(Of System.DateTime), System.Threading.CancellationToken)
+  name.vb: GetPublicKey(PublicKeyRequest, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.CallOptions)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.CallOptions)
+  id: GetPublicKey(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.CallOptions)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: GetPublicKey(PublicKeyRequest, grpc.CallOptions)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.GetPublicKey(PublicKeyRequest, grpc.CallOptions)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest, grpc.CallOptions)
+  type: Method
+  source:
+    id: GetPublicKey
+    path: ''
+    startLine: 14684
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public virtual PublicKeyResponse GetPublicKey(PublicKeyRequest request, grpc.CallOptions options)
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+    - id: options
+      type: grpc.CallOptions
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyResponse
+    content.vb: Public Overridable Function GetPublicKey(request As PublicKeyRequest, options As grpc.CallOptions) As PublicKeyResponse
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  id: GetPublicKeyAsync(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: GetPublicKeyAsync(PublicKeyRequest, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync(PublicKeyRequest, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest, grpc.Metadata, System.Nullable<System.DateTime>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: GetPublicKeyAsync
+    path: ''
+    startLine: 14688
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public virtual grpc.AsyncUnaryCall<PublicKeyResponse> GetPublicKeyAsync(PublicKeyRequest request, grpc.Metadata headers = null, DateTime? deadline = default(DateTime? ), CancellationToken cancellationToken = default(CancellationToken))
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+    - id: headers
+      type: grpc.Metadata
+    - id: deadline
+      type: System.Nullable{System.DateTime}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: grpc.AsyncUnaryCall{Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyResponse}
+    content.vb: Public Overridable Function GetPublicKeyAsync(request As PublicKeyRequest, headers As grpc.Metadata = Nothing, deadline As Date? = Nothing, cancellationToken As CancellationToken = Nothing) As grpc.AsyncUnaryCall(Of PublicKeyResponse)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync*
+  nameWithType.vb: AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync(PublicKeyRequest, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest, grpc.Metadata, System.Nullable(Of System.DateTime), System.Threading.CancellationToken)
+  name.vb: GetPublicKeyAsync(PublicKeyRequest, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.CallOptions)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.CallOptions)
+  id: GetPublicKeyAsync(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.CallOptions)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: GetPublicKeyAsync(PublicKeyRequest, grpc.CallOptions)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync(PublicKeyRequest, grpc.CallOptions)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest, grpc.CallOptions)
+  type: Method
+  source:
+    id: GetPublicKeyAsync
+    path: ''
+    startLine: 14692
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public virtual grpc.AsyncUnaryCall<PublicKeyResponse> GetPublicKeyAsync(PublicKeyRequest request, grpc.CallOptions options)
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+    - id: options
+      type: grpc.CallOptions
+    return:
+      type: grpc.AsyncUnaryCall{Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyResponse}
+    content.vb: Public Overridable Function GetPublicKeyAsync(request As PublicKeyRequest, options As grpc.CallOptions) As grpc.AsyncUnaryCall(Of PublicKeyResponse)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  id: GetProjectAccessToken(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: GetProjectAccessToken(ProjectAccessTokenRequest, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken(ProjectAccessTokenRequest, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest, grpc.Metadata, System.Nullable<System.DateTime>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: GetProjectAccessToken
+    path: ''
+    startLine: 14696
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public virtual ProjectAccessTokenResponse GetProjectAccessToken(ProjectAccessTokenRequest request, grpc.Metadata headers = null, DateTime? deadline = default(DateTime? ), CancellationToken cancellationToken = default(CancellationToken))
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+    - id: headers
+      type: grpc.Metadata
+    - id: deadline
+      type: System.Nullable{System.DateTime}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenResponse
+    content.vb: Public Overridable Function GetProjectAccessToken(request As ProjectAccessTokenRequest, headers As grpc.Metadata = Nothing, deadline As Date? = Nothing, cancellationToken As CancellationToken = Nothing) As ProjectAccessTokenResponse
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken*
+  nameWithType.vb: AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken(ProjectAccessTokenRequest, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest, grpc.Metadata, System.Nullable(Of System.DateTime), System.Threading.CancellationToken)
+  name.vb: GetProjectAccessToken(ProjectAccessTokenRequest, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.CallOptions)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.CallOptions)
+  id: GetProjectAccessToken(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.CallOptions)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: GetProjectAccessToken(ProjectAccessTokenRequest, grpc.CallOptions)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken(ProjectAccessTokenRequest, grpc.CallOptions)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest, grpc.CallOptions)
+  type: Method
+  source:
+    id: GetProjectAccessToken
+    path: ''
+    startLine: 14700
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public virtual ProjectAccessTokenResponse GetProjectAccessToken(ProjectAccessTokenRequest request, grpc.CallOptions options)
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+    - id: options
+      type: grpc.CallOptions
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenResponse
+    content.vb: Public Overridable Function GetProjectAccessToken(request As ProjectAccessTokenRequest, options As grpc.CallOptions) As ProjectAccessTokenResponse
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  id: GetProjectAccessTokenAsync(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: GetProjectAccessTokenAsync(ProjectAccessTokenRequest, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync(ProjectAccessTokenRequest, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest, grpc.Metadata, System.Nullable<System.DateTime>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: GetProjectAccessTokenAsync
+    path: ''
+    startLine: 14704
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public virtual grpc.AsyncUnaryCall<ProjectAccessTokenResponse> GetProjectAccessTokenAsync(ProjectAccessTokenRequest request, grpc.Metadata headers = null, DateTime? deadline = default(DateTime? ), CancellationToken cancellationToken = default(CancellationToken))
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+    - id: headers
+      type: grpc.Metadata
+    - id: deadline
+      type: System.Nullable{System.DateTime}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: grpc.AsyncUnaryCall{Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenResponse}
+    content.vb: Public Overridable Function GetProjectAccessTokenAsync(request As ProjectAccessTokenRequest, headers As grpc.Metadata = Nothing, deadline As Date? = Nothing, cancellationToken As CancellationToken = Nothing) As grpc.AsyncUnaryCall(Of ProjectAccessTokenResponse)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync*
+  nameWithType.vb: AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync(ProjectAccessTokenRequest, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest, grpc.Metadata, System.Nullable(Of System.DateTime), System.Threading.CancellationToken)
+  name.vb: GetProjectAccessTokenAsync(ProjectAccessTokenRequest, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.CallOptions)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.CallOptions)
+  id: GetProjectAccessTokenAsync(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.CallOptions)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: GetProjectAccessTokenAsync(ProjectAccessTokenRequest, grpc.CallOptions)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync(ProjectAccessTokenRequest, grpc.CallOptions)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest, grpc.CallOptions)
+  type: Method
+  source:
+    id: GetProjectAccessTokenAsync
+    path: ''
+    startLine: 14708
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public virtual grpc.AsyncUnaryCall<ProjectAccessTokenResponse> GetProjectAccessTokenAsync(ProjectAccessTokenRequest request, grpc.CallOptions options)
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+    - id: options
+      type: grpc.CallOptions
+    return:
+      type: grpc.AsyncUnaryCall{Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenResponse}
+    content.vb: Public Overridable Function GetProjectAccessTokenAsync(request As ProjectAccessTokenRequest, options As grpc.CallOptions) As grpc.AsyncUnaryCall(Of ProjectAccessTokenResponse)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.NewInstance(ClientBaseConfiguration)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.NewInstance(ClientBaseConfiguration)
+  id: NewInstance(ClientBaseConfiguration)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: NewInstance(ClientBaseConfiguration)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.NewInstance(ClientBaseConfiguration)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.NewInstance(ClientBaseConfiguration)
+  type: Method
+  source:
+    id: NewInstance
+    path: ''
+    startLine: 14713
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  summary: Creates a new instance of client from given <code>ClientBaseConfiguration</code>.
+  example: []
+  syntax:
+    content: protected override AuthenticationService.AuthenticationServiceClient NewInstance(ClientBaseConfiguration configuration)
+    parameters:
+    - id: configuration
+      type: ClientBaseConfiguration
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+    content.vb: Protected Overrides Function NewInstance(configuration As ClientBaseConfiguration) As AuthenticationService.AuthenticationServiceClient
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.NewInstance*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor(grpc.Channel)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor(grpc.Channel)
+  id: '#ctor(grpc.Channel)'
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: AuthenticationServiceClient(grpc.Channel)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.AuthenticationServiceClient(grpc.Channel)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.AuthenticationServiceClient(grpc.Channel)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 34805
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  summary: Creates a new client for AuthenticationService
+  example: []
+  syntax:
+    content: public AuthenticationServiceClient(grpc.Channel channel)
+    parameters:
+    - id: channel
+      type: grpc.Channel
+      description: The channel to use to make remote calls.
+    content.vb: Public Sub New(channel As grpc.Channel)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor(grpc.CallInvoker)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor(grpc.CallInvoker)
+  id: '#ctor(grpc.CallInvoker)'
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: AuthenticationServiceClient(grpc.CallInvoker)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.AuthenticationServiceClient(grpc.CallInvoker)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.AuthenticationServiceClient(grpc.CallInvoker)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 34810
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  summary: Creates a new client for AuthenticationService that uses a custom <code>CallInvoker</code>.
+  example: []
+  syntax:
+    content: public AuthenticationServiceClient(grpc.CallInvoker callInvoker)
+    parameters:
+    - id: callInvoker
+      type: grpc.CallInvoker
+      description: The callInvoker to use to make remote calls.
+    content.vb: Public Sub New(callInvoker As grpc.CallInvoker)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor
+  id: '#ctor'
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: AuthenticationServiceClient()
+  nameWithType: AuthenticationService.AuthenticationServiceClient.AuthenticationServiceClient()
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.AuthenticationServiceClient()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 34814
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  summary: Protected parameterless constructor to allow creation of test doubles.
+  example: []
+  syntax:
+    content: protected AuthenticationServiceClient()
+    content.vb: Protected Sub New
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor(ClientBaseConfiguration)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor(ClientBaseConfiguration)
+  id: '#ctor(ClientBaseConfiguration)'
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: AuthenticationServiceClient(ClientBaseConfiguration)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.AuthenticationServiceClient(ClientBaseConfiguration)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.AuthenticationServiceClient(ClientBaseConfiguration)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 34819
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  summary: Protected constructor to allow creation of configured clients.
+  example: []
+  syntax:
+    content: protected AuthenticationServiceClient(ClientBaseConfiguration configuration)
+    parameters:
+    - id: configuration
+      type: ClientBaseConfiguration
+      description: The client configuration.
+    content.vb: Protected Sub New(configuration As ClientBaseConfiguration)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  id: Signin(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: Signin(Empty, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.Signin(Empty, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin(Unity.Reflect.ProjectServer.Services.Empty, grpc.Metadata, System.Nullable<System.DateTime>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: Signin
+    path: ''
+    startLine: 34823
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public virtual SigninResponse Signin(Empty request, grpc.Metadata headers = null, DateTime? deadline = default(DateTime? ), CancellationToken cancellationToken = default(CancellationToken))
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Empty
+    - id: headers
+      type: grpc.Metadata
+    - id: deadline
+      type: System.Nullable{System.DateTime}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Authentication.SigninResponse
+    content.vb: Public Overridable Function Signin(request As Empty, headers As grpc.Metadata = Nothing, deadline As Date? = Nothing, cancellationToken As CancellationToken = Nothing) As SigninResponse
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin*
+  nameWithType.vb: AuthenticationService.AuthenticationServiceClient.Signin(Empty, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin(Unity.Reflect.ProjectServer.Services.Empty, grpc.Metadata, System.Nullable(Of System.DateTime), System.Threading.CancellationToken)
+  name.vb: Signin(Empty, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  id: Signin(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: Signin(Empty, grpc.CallOptions)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.Signin(Empty, grpc.CallOptions)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin(Unity.Reflect.ProjectServer.Services.Empty, grpc.CallOptions)
+  type: Method
+  source:
+    id: Signin
+    path: ''
+    startLine: 34827
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public virtual SigninResponse Signin(Empty request, grpc.CallOptions options)
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Empty
+    - id: options
+      type: grpc.CallOptions
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Authentication.SigninResponse
+    content.vb: Public Overridable Function Signin(request As Empty, options As grpc.CallOptions) As SigninResponse
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  id: SigninAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: SigninAsync(Empty, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.SigninAsync(Empty, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync(Unity.Reflect.ProjectServer.Services.Empty, grpc.Metadata, System.Nullable<System.DateTime>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: SigninAsync
+    path: ''
+    startLine: 34831
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public virtual grpc.AsyncUnaryCall<SigninResponse> SigninAsync(Empty request, grpc.Metadata headers = null, DateTime? deadline = default(DateTime? ), CancellationToken cancellationToken = default(CancellationToken))
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Empty
+    - id: headers
+      type: grpc.Metadata
+    - id: deadline
+      type: System.Nullable{System.DateTime}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: grpc.AsyncUnaryCall{Unity.Reflect.ProjectServer.Services.Authentication.SigninResponse}
+    content.vb: Public Overridable Function SigninAsync(request As Empty, headers As grpc.Metadata = Nothing, deadline As Date? = Nothing, cancellationToken As CancellationToken = Nothing) As grpc.AsyncUnaryCall(Of SigninResponse)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync*
+  nameWithType.vb: AuthenticationService.AuthenticationServiceClient.SigninAsync(Empty, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync(Unity.Reflect.ProjectServer.Services.Empty, grpc.Metadata, System.Nullable(Of System.DateTime), System.Threading.CancellationToken)
+  name.vb: SigninAsync(Empty, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  id: SigninAsync(Unity.Reflect.ProjectServer.Services.Empty,grpc.CallOptions)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: SigninAsync(Empty, grpc.CallOptions)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.SigninAsync(Empty, grpc.CallOptions)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync(Unity.Reflect.ProjectServer.Services.Empty, grpc.CallOptions)
+  type: Method
+  source:
+    id: SigninAsync
+    path: ''
+    startLine: 34835
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public virtual grpc.AsyncUnaryCall<SigninResponse> SigninAsync(Empty request, grpc.CallOptions options)
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Empty
+    - id: options
+      type: grpc.CallOptions
+    return:
+      type: grpc.AsyncUnaryCall{Unity.Reflect.ProjectServer.Services.Authentication.SigninResponse}
+    content.vb: Public Overridable Function SigninAsync(request As Empty, options As grpc.CallOptions) As grpc.AsyncUnaryCall(Of SigninResponse)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  id: GetPublicKey(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: GetPublicKey(PublicKeyRequest, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.GetPublicKey(PublicKeyRequest, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest, grpc.Metadata, System.Nullable<System.DateTime>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: GetPublicKey
+    path: ''
+    startLine: 34839
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public virtual PublicKeyResponse GetPublicKey(PublicKeyRequest request, grpc.Metadata headers = null, DateTime? deadline = default(DateTime? ), CancellationToken cancellationToken = default(CancellationToken))
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+    - id: headers
+      type: grpc.Metadata
+    - id: deadline
+      type: System.Nullable{System.DateTime}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyResponse
+    content.vb: Public Overridable Function GetPublicKey(request As PublicKeyRequest, headers As grpc.Metadata = Nothing, deadline As Date? = Nothing, cancellationToken As CancellationToken = Nothing) As PublicKeyResponse
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey*
+  nameWithType.vb: AuthenticationService.AuthenticationServiceClient.GetPublicKey(PublicKeyRequest, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest, grpc.Metadata, System.Nullable(Of System.DateTime), System.Threading.CancellationToken)
+  name.vb: GetPublicKey(PublicKeyRequest, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.CallOptions)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.CallOptions)
+  id: GetPublicKey(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.CallOptions)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: GetPublicKey(PublicKeyRequest, grpc.CallOptions)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.GetPublicKey(PublicKeyRequest, grpc.CallOptions)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest, grpc.CallOptions)
+  type: Method
+  source:
+    id: GetPublicKey
+    path: ''
+    startLine: 34843
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public virtual PublicKeyResponse GetPublicKey(PublicKeyRequest request, grpc.CallOptions options)
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+    - id: options
+      type: grpc.CallOptions
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyResponse
+    content.vb: Public Overridable Function GetPublicKey(request As PublicKeyRequest, options As grpc.CallOptions) As PublicKeyResponse
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  id: GetPublicKeyAsync(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: GetPublicKeyAsync(PublicKeyRequest, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync(PublicKeyRequest, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest, grpc.Metadata, System.Nullable<System.DateTime>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: GetPublicKeyAsync
+    path: ''
+    startLine: 34847
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public virtual grpc.AsyncUnaryCall<PublicKeyResponse> GetPublicKeyAsync(PublicKeyRequest request, grpc.Metadata headers = null, DateTime? deadline = default(DateTime? ), CancellationToken cancellationToken = default(CancellationToken))
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+    - id: headers
+      type: grpc.Metadata
+    - id: deadline
+      type: System.Nullable{System.DateTime}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: grpc.AsyncUnaryCall{Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyResponse}
+    content.vb: Public Overridable Function GetPublicKeyAsync(request As PublicKeyRequest, headers As grpc.Metadata = Nothing, deadline As Date? = Nothing, cancellationToken As CancellationToken = Nothing) As grpc.AsyncUnaryCall(Of PublicKeyResponse)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync*
+  nameWithType.vb: AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync(PublicKeyRequest, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest, grpc.Metadata, System.Nullable(Of System.DateTime), System.Threading.CancellationToken)
+  name.vb: GetPublicKeyAsync(PublicKeyRequest, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.CallOptions)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.CallOptions)
+  id: GetPublicKeyAsync(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest,grpc.CallOptions)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: GetPublicKeyAsync(PublicKeyRequest, grpc.CallOptions)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync(PublicKeyRequest, grpc.CallOptions)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync(Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest, grpc.CallOptions)
+  type: Method
+  source:
+    id: GetPublicKeyAsync
+    path: ''
+    startLine: 34851
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public virtual grpc.AsyncUnaryCall<PublicKeyResponse> GetPublicKeyAsync(PublicKeyRequest request, grpc.CallOptions options)
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+    - id: options
+      type: grpc.CallOptions
+    return:
+      type: grpc.AsyncUnaryCall{Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyResponse}
+    content.vb: Public Overridable Function GetPublicKeyAsync(request As PublicKeyRequest, options As grpc.CallOptions) As grpc.AsyncUnaryCall(Of PublicKeyResponse)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  id: GetProjectAccessToken(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: GetProjectAccessToken(ProjectAccessTokenRequest, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken(ProjectAccessTokenRequest, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest, grpc.Metadata, System.Nullable<System.DateTime>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: GetProjectAccessToken
+    path: ''
+    startLine: 34855
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public virtual ProjectAccessTokenResponse GetProjectAccessToken(ProjectAccessTokenRequest request, grpc.Metadata headers = null, DateTime? deadline = default(DateTime? ), CancellationToken cancellationToken = default(CancellationToken))
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+    - id: headers
+      type: grpc.Metadata
+    - id: deadline
+      type: System.Nullable{System.DateTime}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenResponse
+    content.vb: Public Overridable Function GetProjectAccessToken(request As ProjectAccessTokenRequest, headers As grpc.Metadata = Nothing, deadline As Date? = Nothing, cancellationToken As CancellationToken = Nothing) As ProjectAccessTokenResponse
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken*
+  nameWithType.vb: AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken(ProjectAccessTokenRequest, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest, grpc.Metadata, System.Nullable(Of System.DateTime), System.Threading.CancellationToken)
+  name.vb: GetProjectAccessToken(ProjectAccessTokenRequest, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.CallOptions)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.CallOptions)
+  id: GetProjectAccessToken(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.CallOptions)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: GetProjectAccessToken(ProjectAccessTokenRequest, grpc.CallOptions)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken(ProjectAccessTokenRequest, grpc.CallOptions)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest, grpc.CallOptions)
+  type: Method
+  source:
+    id: GetProjectAccessToken
+    path: ''
+    startLine: 34859
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public virtual ProjectAccessTokenResponse GetProjectAccessToken(ProjectAccessTokenRequest request, grpc.CallOptions options)
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+    - id: options
+      type: grpc.CallOptions
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenResponse
+    content.vb: Public Overridable Function GetProjectAccessToken(request As ProjectAccessTokenRequest, options As grpc.CallOptions) As ProjectAccessTokenResponse
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  id: GetProjectAccessTokenAsync(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: GetProjectAccessTokenAsync(ProjectAccessTokenRequest, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync(ProjectAccessTokenRequest, grpc.Metadata, Nullable<DateTime>, CancellationToken)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest, grpc.Metadata, System.Nullable<System.DateTime>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: GetProjectAccessTokenAsync
+    path: ''
+    startLine: 34863
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public virtual grpc.AsyncUnaryCall<ProjectAccessTokenResponse> GetProjectAccessTokenAsync(ProjectAccessTokenRequest request, grpc.Metadata headers = null, DateTime? deadline = default(DateTime? ), CancellationToken cancellationToken = default(CancellationToken))
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+    - id: headers
+      type: grpc.Metadata
+    - id: deadline
+      type: System.Nullable{System.DateTime}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: grpc.AsyncUnaryCall{Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenResponse}
+    content.vb: Public Overridable Function GetProjectAccessTokenAsync(request As ProjectAccessTokenRequest, headers As grpc.Metadata = Nothing, deadline As Date? = Nothing, cancellationToken As CancellationToken = Nothing) As grpc.AsyncUnaryCall(Of ProjectAccessTokenResponse)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync*
+  nameWithType.vb: AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync(ProjectAccessTokenRequest, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest, grpc.Metadata, System.Nullable(Of System.DateTime), System.Threading.CancellationToken)
+  name.vb: GetProjectAccessTokenAsync(ProjectAccessTokenRequest, grpc.Metadata, Nullable(Of DateTime), CancellationToken)
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.CallOptions)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.CallOptions)
+  id: GetProjectAccessTokenAsync(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest,grpc.CallOptions)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: GetProjectAccessTokenAsync(ProjectAccessTokenRequest, grpc.CallOptions)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync(ProjectAccessTokenRequest, grpc.CallOptions)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync(Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest, grpc.CallOptions)
+  type: Method
+  source:
+    id: GetProjectAccessTokenAsync
+    path: ''
+    startLine: 34867
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  syntax:
+    content: public virtual grpc.AsyncUnaryCall<ProjectAccessTokenResponse> GetProjectAccessTokenAsync(ProjectAccessTokenRequest request, grpc.CallOptions options)
+    parameters:
+    - id: request
+      type: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+    - id: options
+      type: grpc.CallOptions
+    return:
+      type: grpc.AsyncUnaryCall{Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenResponse}
+    content.vb: Public Overridable Function GetProjectAccessTokenAsync(request As ProjectAccessTokenRequest, options As grpc.CallOptions) As grpc.AsyncUnaryCall(Of ProjectAccessTokenResponse)
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.NewInstance(ClientBaseConfiguration)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.NewInstance(ClientBaseConfiguration)
+  id: NewInstance(ClientBaseConfiguration)
+  parent: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  langs:
+  - csharp
+  - vb
+  name: NewInstance(ClientBaseConfiguration)
+  nameWithType: AuthenticationService.AuthenticationServiceClient.NewInstance(ClientBaseConfiguration)
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.NewInstance(ClientBaseConfiguration)
+  type: Method
+  source:
+    id: NewInstance
+    path: ''
+    startLine: 34872
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Authentication
+  summary: Creates a new instance of client from given <code>ClientBaseConfiguration</code>.
+  example: []
+  syntax:
+    content: protected override AuthenticationService.AuthenticationServiceClient NewInstance(ClientBaseConfiguration configuration)
+    parameters:
+    - id: configuration
+      type: ClientBaseConfiguration
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+    content.vb: Protected Overrides Function NewInstance(configuration As ClientBaseConfiguration) As AuthenticationService.AuthenticationServiceClient
+  overload: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.NewInstance*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Unity.Reflect.ProjectServer.Services.Authentication
+  commentId: N:Unity.Reflect.ProjectServer.Services.Authentication
+  name: Unity.Reflect.ProjectServer.Services.Authentication
+  nameWithType: Unity.Reflect.ProjectServer.Services.Authentication
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: grpc.ClientBase{Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient}
+  commentId: '!:grpc.ClientBase{Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient}'
+  definition: grpc.ClientBase`1
+  name: grpc.ClientBase<AuthenticationService.AuthenticationServiceClient>
+  nameWithType: grpc.ClientBase<AuthenticationService.AuthenticationServiceClient>
+  fullName: grpc.ClientBase<Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient>
+  nameWithType.vb: grpc.ClientBase(Of AuthenticationService.AuthenticationServiceClient)
+  fullName.vb: grpc.ClientBase(Of Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient)
+  name.vb: grpc.ClientBase(Of AuthenticationService.AuthenticationServiceClient)
+  spec.csharp:
+  - uid: grpc.ClientBase`1
+    name: grpc.ClientBase
+    nameWithType: grpc.ClientBase
+    fullName: grpc.ClientBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+    name: AuthenticationService.AuthenticationServiceClient
+    nameWithType: AuthenticationService.AuthenticationServiceClient
+    fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: grpc.ClientBase`1
+    name: grpc.ClientBase
+    nameWithType: grpc.ClientBase
+    fullName: grpc.ClientBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+    name: AuthenticationService.AuthenticationServiceClient
+    nameWithType: AuthenticationService.AuthenticationServiceClient
+    fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: grpc.ClientBase`1
+  isExternal: true
+  name: grpc.ClientBase<>
+  nameWithType: grpc.ClientBase<>
+  fullName: grpc.ClientBase<>
+  nameWithType.vb: grpc.ClientBase(Of )
+  fullName.vb: grpc.ClientBase(Of )
+  name.vb: grpc.ClientBase(Of )
+  spec.csharp:
+  - uid: grpc.ClientBase`1
+    name: grpc.ClientBase
+    nameWithType: grpc.ClientBase
+    fullName: grpc.ClientBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: grpc.ClientBase`1
+    name: grpc.ClientBase
+    nameWithType: grpc.ClientBase
+    fullName: grpc.ClientBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.#ctor
+  name: AuthenticationServiceClient
+  nameWithType: AuthenticationService.AuthenticationServiceClient.AuthenticationServiceClient
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.AuthenticationServiceClient
+- uid: grpc.Channel
+  isExternal: true
+  name: grpc.Channel
+  nameWithType: grpc.Channel
+  fullName: grpc.Channel
+- uid: grpc.CallInvoker
+  isExternal: true
+  name: grpc.CallInvoker
+  nameWithType: grpc.CallInvoker
+  fullName: grpc.CallInvoker
+- uid: ClientBaseConfiguration
+  isExternal: true
+  name: ClientBaseConfiguration
+  nameWithType: ClientBaseConfiguration
+  fullName: ClientBaseConfiguration
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin
+  name: Signin
+  nameWithType: AuthenticationService.AuthenticationServiceClient.Signin
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.Signin
+- uid: Unity.Reflect.ProjectServer.Services.Empty
+  commentId: T:Unity.Reflect.ProjectServer.Services.Empty
+  parent: Unity.Reflect.ProjectServer.Services
+  name: Empty
+  nameWithType: Empty
+  fullName: Unity.Reflect.ProjectServer.Services.Empty
+- uid: grpc.Metadata
+  isExternal: true
+  name: grpc.Metadata
+  nameWithType: grpc.Metadata
+  fullName: grpc.Metadata
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.SigninResponse
+  commentId: T:Unity.Reflect.ProjectServer.Services.Authentication.SigninResponse
+  parent: Unity.Reflect.ProjectServer.Services.Authentication
+  name: SigninResponse
+  nameWithType: SigninResponse
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.SigninResponse
+- uid: Unity.Reflect.ProjectServer.Services
+  commentId: N:Unity.Reflect.ProjectServer.Services
+  name: Unity.Reflect.ProjectServer.Services
+  nameWithType: Unity.Reflect.ProjectServer.Services
+  fullName: Unity.Reflect.ProjectServer.Services
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+- uid: grpc.CallOptions
+  isExternal: true
+  name: grpc.CallOptions
+  nameWithType: grpc.CallOptions
+  fullName: grpc.CallOptions
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync
+  name: SigninAsync
+  nameWithType: AuthenticationService.AuthenticationServiceClient.SigninAsync
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.SigninAsync
+- uid: grpc.AsyncUnaryCall{Unity.Reflect.ProjectServer.Services.Authentication.SigninResponse}
+  commentId: '!:grpc.AsyncUnaryCall{Unity.Reflect.ProjectServer.Services.Authentication.SigninResponse}'
+  definition: grpc.AsyncUnaryCall`1
+  name: grpc.AsyncUnaryCall<SigninResponse>
+  nameWithType: grpc.AsyncUnaryCall<SigninResponse>
+  fullName: grpc.AsyncUnaryCall<Unity.Reflect.ProjectServer.Services.Authentication.SigninResponse>
+  nameWithType.vb: grpc.AsyncUnaryCall(Of SigninResponse)
+  fullName.vb: grpc.AsyncUnaryCall(Of Unity.Reflect.ProjectServer.Services.Authentication.SigninResponse)
+  name.vb: grpc.AsyncUnaryCall(Of SigninResponse)
+  spec.csharp:
+  - uid: grpc.AsyncUnaryCall`1
+    name: grpc.AsyncUnaryCall
+    nameWithType: grpc.AsyncUnaryCall
+    fullName: grpc.AsyncUnaryCall
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.ProjectServer.Services.Authentication.SigninResponse
+    name: SigninResponse
+    nameWithType: SigninResponse
+    fullName: Unity.Reflect.ProjectServer.Services.Authentication.SigninResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: grpc.AsyncUnaryCall`1
+    name: grpc.AsyncUnaryCall
+    nameWithType: grpc.AsyncUnaryCall
+    fullName: grpc.AsyncUnaryCall
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.ProjectServer.Services.Authentication.SigninResponse
+    name: SigninResponse
+    nameWithType: SigninResponse
+    fullName: Unity.Reflect.ProjectServer.Services.Authentication.SigninResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: grpc.AsyncUnaryCall`1
+  isExternal: true
+  name: grpc.AsyncUnaryCall<>
+  nameWithType: grpc.AsyncUnaryCall<>
+  fullName: grpc.AsyncUnaryCall<>
+  nameWithType.vb: grpc.AsyncUnaryCall(Of )
+  fullName.vb: grpc.AsyncUnaryCall(Of )
+  name.vb: grpc.AsyncUnaryCall(Of )
+  spec.csharp:
+  - uid: grpc.AsyncUnaryCall`1
+    name: grpc.AsyncUnaryCall
+    nameWithType: grpc.AsyncUnaryCall
+    fullName: grpc.AsyncUnaryCall
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: grpc.AsyncUnaryCall`1
+    name: grpc.AsyncUnaryCall
+    nameWithType: grpc.AsyncUnaryCall
+    fullName: grpc.AsyncUnaryCall
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey
+  name: GetPublicKey
+  nameWithType: AuthenticationService.AuthenticationServiceClient.GetPublicKey
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKey
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  commentId: T:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+  parent: Unity.Reflect.ProjectServer.Services.Authentication
+  name: PublicKeyRequest
+  nameWithType: PublicKeyRequest
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyRequest
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyResponse
+  commentId: T:Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyResponse
+  parent: Unity.Reflect.ProjectServer.Services.Authentication
+  name: PublicKeyResponse
+  nameWithType: PublicKeyResponse
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyResponse
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync
+  name: GetPublicKeyAsync
+  nameWithType: AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetPublicKeyAsync
+- uid: grpc.AsyncUnaryCall{Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyResponse}
+  commentId: '!:grpc.AsyncUnaryCall{Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyResponse}'
+  definition: grpc.AsyncUnaryCall`1
+  name: grpc.AsyncUnaryCall<PublicKeyResponse>
+  nameWithType: grpc.AsyncUnaryCall<PublicKeyResponse>
+  fullName: grpc.AsyncUnaryCall<Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyResponse>
+  nameWithType.vb: grpc.AsyncUnaryCall(Of PublicKeyResponse)
+  fullName.vb: grpc.AsyncUnaryCall(Of Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyResponse)
+  name.vb: grpc.AsyncUnaryCall(Of PublicKeyResponse)
+  spec.csharp:
+  - uid: grpc.AsyncUnaryCall`1
+    name: grpc.AsyncUnaryCall
+    nameWithType: grpc.AsyncUnaryCall
+    fullName: grpc.AsyncUnaryCall
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyResponse
+    name: PublicKeyResponse
+    nameWithType: PublicKeyResponse
+    fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: grpc.AsyncUnaryCall`1
+    name: grpc.AsyncUnaryCall
+    nameWithType: grpc.AsyncUnaryCall
+    fullName: grpc.AsyncUnaryCall
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyResponse
+    name: PublicKeyResponse
+    nameWithType: PublicKeyResponse
+    fullName: Unity.Reflect.ProjectServer.Services.Authentication.PublicKeyResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken
+  name: GetProjectAccessToken
+  nameWithType: AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessToken
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  commentId: T:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+  parent: Unity.Reflect.ProjectServer.Services.Authentication
+  name: ProjectAccessTokenRequest
+  nameWithType: ProjectAccessTokenRequest
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenRequest
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenResponse
+  commentId: T:Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenResponse
+  parent: Unity.Reflect.ProjectServer.Services.Authentication
+  name: ProjectAccessTokenResponse
+  nameWithType: ProjectAccessTokenResponse
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenResponse
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync
+  name: GetProjectAccessTokenAsync
+  nameWithType: AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.GetProjectAccessTokenAsync
+- uid: grpc.AsyncUnaryCall{Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenResponse}
+  commentId: '!:grpc.AsyncUnaryCall{Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenResponse}'
+  definition: grpc.AsyncUnaryCall`1
+  name: grpc.AsyncUnaryCall<ProjectAccessTokenResponse>
+  nameWithType: grpc.AsyncUnaryCall<ProjectAccessTokenResponse>
+  fullName: grpc.AsyncUnaryCall<Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenResponse>
+  nameWithType.vb: grpc.AsyncUnaryCall(Of ProjectAccessTokenResponse)
+  fullName.vb: grpc.AsyncUnaryCall(Of Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenResponse)
+  name.vb: grpc.AsyncUnaryCall(Of ProjectAccessTokenResponse)
+  spec.csharp:
+  - uid: grpc.AsyncUnaryCall`1
+    name: grpc.AsyncUnaryCall
+    nameWithType: grpc.AsyncUnaryCall
+    fullName: grpc.AsyncUnaryCall
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenResponse
+    name: ProjectAccessTokenResponse
+    nameWithType: ProjectAccessTokenResponse
+    fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: grpc.AsyncUnaryCall`1
+    name: grpc.AsyncUnaryCall
+    nameWithType: grpc.AsyncUnaryCall
+    fullName: grpc.AsyncUnaryCall
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenResponse
+    name: ProjectAccessTokenResponse
+    nameWithType: ProjectAccessTokenResponse
+    fullName: Unity.Reflect.ProjectServer.Services.Authentication.ProjectAccessTokenResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.NewInstance*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.NewInstance
+  name: NewInstance
+  nameWithType: AuthenticationService.AuthenticationServiceClient.NewInstance
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient.NewInstance
+- uid: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  commentId: T:Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient
+  parent: Unity.Reflect.ProjectServer.Services.Authentication
+  name: AuthenticationService.AuthenticationServiceClient
+  nameWithType: AuthenticationService.AuthenticationServiceClient
+  fullName: Unity.Reflect.ProjectServer.Services.Authentication.AuthenticationService.AuthenticationServiceClient

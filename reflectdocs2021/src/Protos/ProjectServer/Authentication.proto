@@ -1,0 +1,46 @@
+syntax = "proto3";
+package Reflect;
+
+option java_multiple_files = true;
+option java_package = "io.grpc.unitysyncservices";
+option java_outer_classname = "Unity.Reflect.ProjectServer.Services.Authentication";
+option objc_class_prefix = "HLW";
+option csharp_namespace = "Unity.Reflect.ProjectServer.Services.Authentication";
+
+import "ProjectServer/Common.proto";
+
+// This service can be called anonymously
+service AuthenticationService
+{
+    rpc Signin (Empty) returns (SigninResponse) {}
+    rpc GetPublicKey (PublicKeyRequest) returns (PublicKeyResponse) {}
+    rpc GetProjectAccessToken(ProjectAccessTokenRequest) returns (ProjectAccessTokenResponse) {}
+}
+
+message SigninResponse {
+    string token = 1;
+}
+
+message PublicKeyRequest {
+    string kid = 1;
+}
+
+message PublicKeyResponse {
+    bytes modulus = 1;
+    bytes exponent = 2;    
+}
+
+message ProjectAccessTokenRequest {
+    string projectId = 1;
+    string hostAddress = 2;
+    ProjectAccessType accessType = 3;
+}
+
+message ProjectAccessTokenResponse {
+    string token = 1;
+}
+
+enum ProjectAccessType {
+	VIEW = 0;
+    PUBLISH = 1;
+}

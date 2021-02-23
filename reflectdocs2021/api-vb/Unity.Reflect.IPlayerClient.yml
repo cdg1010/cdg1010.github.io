@@ -1,0 +1,870 @@
+### YamlMime:ManagedReference
+items:
+- uid: Unity.Reflect.IPlayerClient
+  commentId: T:Unity.Reflect.IPlayerClient
+  id: IPlayerClient
+  parent: Unity.Reflect
+  children:
+  - Unity.Reflect.IPlayerClient.GetManifest(System.String,System.String)
+  - Unity.Reflect.IPlayerClient.GetManifest(System.String,System.String)
+  - Unity.Reflect.IPlayerClient.GetManifests(System.String)
+  - Unity.Reflect.IPlayerClient.GetManifests(System.String)
+  - Unity.Reflect.IPlayerClient.GetSyncModel(System.String,System.String,System.String)
+  - Unity.Reflect.IPlayerClient.GetSyncModel(System.String,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IPlayerClient
+  nameWithType: IPlayerClient
+  fullName: Unity.Reflect.IPlayerClient
+  type: Interface
+  source:
+    id: IPlayerClient
+    path: ''
+    startLine: 39701
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  syntax:
+    content: 'public interface IPlayerClient : IClient'
+    content.vb: >-
+      Public Interface IPlayerClient
+          Inherits IClient
+  inheritedMembers:
+  - Unity.Reflect.IClient.OnConnectionStatusChanged
+  - Unity.Reflect.IClient.OnUnityProjectListUpdate
+  - Unity.Reflect.IClient.OnUserUpdate
+  - Unity.Reflect.IClient.OnSessionBegin
+  - Unity.Reflect.IClient.OnSessionEnd
+  - Unity.Reflect.IClient.OnManifestUpdate
+  - Unity.Reflect.IClient.ObserveUnityProjectListUpdate
+  - Unity.Reflect.IClient.ObserveUserUpdate
+  - Unity.Reflect.IClient.ObserveSessionBegin(System.String[])
+  - Unity.Reflect.IClient.ObserveSessionEnd(System.String[])
+  - Unity.Reflect.IClient.ObserveManifestUpdate(System.String[])
+  - Unity.Reflect.IClient.ReleaseUnityProjectListUpdate
+  - Unity.Reflect.IClient.ReleaseUserUpdate
+  - Unity.Reflect.IClient.ReleaseSessionBegin(System.String[])
+  - Unity.Reflect.IClient.ReleaseSessionEnd(System.String[])
+  - Unity.Reflect.IClient.ReleaseManifestUpdate(System.String[])
+  - Unity.Reflect.IClient.Connected
+  - Unity.Reflect.IClient.Connect
+  - Unity.Reflect.IClient.Disconnect(System.Boolean)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Unity.Reflect.IPlayerClient.GetManifests(System.String)
+  commentId: M:Unity.Reflect.IPlayerClient.GetManifests(System.String)
+  id: GetManifests(System.String)
+  parent: Unity.Reflect.IPlayerClient
+  langs:
+  - csharp
+  - vb
+  name: GetManifests(String)
+  nameWithType: IPlayerClient.GetManifests(String)
+  fullName: Unity.Reflect.IPlayerClient.GetManifests(System.String)
+  type: Method
+  source:
+    id: GetManifests
+    path: ''
+    startLine: 19544
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  syntax:
+    content: IEnumerable<ManifestAsset> GetManifests(string projectId)
+    parameters:
+    - id: projectId
+      type: System.String
+    return:
+      type: IEnumerable{Unity.Reflect.ManifestAsset}
+    content.vb: Function GetManifests(projectId As String) As IEnumerable(Of ManifestAsset)
+  overload: Unity.Reflect.IPlayerClient.GetManifests*
+- uid: Unity.Reflect.IPlayerClient.GetManifest(System.String,System.String)
+  commentId: M:Unity.Reflect.IPlayerClient.GetManifest(System.String,System.String)
+  id: GetManifest(System.String,System.String)
+  parent: Unity.Reflect.IPlayerClient
+  langs:
+  - csharp
+  - vb
+  name: GetManifest(String, String)
+  nameWithType: IPlayerClient.GetManifest(String, String)
+  fullName: Unity.Reflect.IPlayerClient.GetManifest(System.String, System.String)
+  type: Method
+  source:
+    id: GetManifest
+    path: ''
+    startLine: 19545
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  syntax:
+    content: SyncManifest GetManifest(string projectId, string sourceId)
+    parameters:
+    - id: projectId
+      type: System.String
+    - id: sourceId
+      type: System.String
+    return:
+      type: SyncManifest
+    content.vb: Function GetManifest(projectId As String, sourceId As String) As SyncManifest
+  overload: Unity.Reflect.IPlayerClient.GetManifest*
+- uid: Unity.Reflect.IPlayerClient.GetSyncModel(System.String,System.String,System.String)
+  commentId: M:Unity.Reflect.IPlayerClient.GetSyncModel(System.String,System.String,System.String)
+  id: GetSyncModel(System.String,System.String,System.String)
+  parent: Unity.Reflect.IPlayerClient
+  langs:
+  - csharp
+  - vb
+  name: GetSyncModel(String, String, String)
+  nameWithType: IPlayerClient.GetSyncModel(String, String, String)
+  fullName: Unity.Reflect.IPlayerClient.GetSyncModel(System.String, System.String, System.String)
+  type: Method
+  source:
+    id: GetSyncModel
+    path: ''
+    startLine: 19546
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  syntax:
+    content: ISyncModel GetSyncModel(string projectId, string sourceId, string relativePath)
+    parameters:
+    - id: projectId
+      type: System.String
+    - id: sourceId
+      type: System.String
+    - id: relativePath
+      type: System.String
+    return:
+      type: ISyncModel
+    content.vb: Function GetSyncModel(projectId As String, sourceId As String, relativePath As String) As ISyncModel
+  overload: Unity.Reflect.IPlayerClient.GetSyncModel*
+- uid: Unity.Reflect.IPlayerClient.GetManifests(System.String)
+  commentId: M:Unity.Reflect.IPlayerClient.GetManifests(System.String)
+  id: GetManifests(System.String)
+  parent: Unity.Reflect.IPlayerClient
+  langs:
+  - csharp
+  - vb
+  name: GetManifests(String)
+  nameWithType: IPlayerClient.GetManifests(String)
+  fullName: Unity.Reflect.IPlayerClient.GetManifests(System.String)
+  type: Method
+  source:
+    id: GetManifests
+    path: ''
+    startLine: 39703
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  syntax:
+    content: IEnumerable<ManifestAsset> GetManifests(string projectId)
+    parameters:
+    - id: projectId
+      type: System.String
+    return:
+      type: IEnumerable{Unity.Reflect.ManifestAsset}
+    content.vb: Function GetManifests(projectId As String) As IEnumerable(Of ManifestAsset)
+  overload: Unity.Reflect.IPlayerClient.GetManifests*
+- uid: Unity.Reflect.IPlayerClient.GetManifest(System.String,System.String)
+  commentId: M:Unity.Reflect.IPlayerClient.GetManifest(System.String,System.String)
+  id: GetManifest(System.String,System.String)
+  parent: Unity.Reflect.IPlayerClient
+  langs:
+  - csharp
+  - vb
+  name: GetManifest(String, String)
+  nameWithType: IPlayerClient.GetManifest(String, String)
+  fullName: Unity.Reflect.IPlayerClient.GetManifest(System.String, System.String)
+  type: Method
+  source:
+    id: GetManifest
+    path: ''
+    startLine: 39704
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  syntax:
+    content: SyncManifest GetManifest(string projectId, string sourceId)
+    parameters:
+    - id: projectId
+      type: System.String
+    - id: sourceId
+      type: System.String
+    return:
+      type: SyncManifest
+    content.vb: Function GetManifest(projectId As String, sourceId As String) As SyncManifest
+  overload: Unity.Reflect.IPlayerClient.GetManifest*
+- uid: Unity.Reflect.IPlayerClient.GetSyncModel(System.String,System.String,System.String)
+  commentId: M:Unity.Reflect.IPlayerClient.GetSyncModel(System.String,System.String,System.String)
+  id: GetSyncModel(System.String,System.String,System.String)
+  parent: Unity.Reflect.IPlayerClient
+  langs:
+  - csharp
+  - vb
+  name: GetSyncModel(String, String, String)
+  nameWithType: IPlayerClient.GetSyncModel(String, String, String)
+  fullName: Unity.Reflect.IPlayerClient.GetSyncModel(System.String, System.String, System.String)
+  type: Method
+  source:
+    id: GetSyncModel
+    path: ''
+    startLine: 39705
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  syntax:
+    content: ISyncModel GetSyncModel(string projectId, string sourceId, string relativePath)
+    parameters:
+    - id: projectId
+      type: System.String
+    - id: sourceId
+      type: System.String
+    - id: relativePath
+      type: System.String
+    return:
+      type: ISyncModel
+    content.vb: Function GetSyncModel(projectId As String, sourceId As String, relativePath As String) As ISyncModel
+  overload: Unity.Reflect.IPlayerClient.GetSyncModel*
+references:
+- uid: Unity.Reflect
+  commentId: N:Unity.Reflect
+  name: Unity.Reflect
+  nameWithType: Unity.Reflect
+  fullName: Unity.Reflect
+- uid: Unity.Reflect.IClient.OnConnectionStatusChanged
+  commentId: E:Unity.Reflect.IClient.OnConnectionStatusChanged
+  parent: Unity.Reflect.IClient
+  name: OnConnectionStatusChanged
+  nameWithType: IClient.OnConnectionStatusChanged
+  fullName: Unity.Reflect.IClient.OnConnectionStatusChanged
+- uid: Unity.Reflect.IClient.OnUnityProjectListUpdate
+  commentId: E:Unity.Reflect.IClient.OnUnityProjectListUpdate
+  parent: Unity.Reflect.IClient
+  name: OnUnityProjectListUpdate
+  nameWithType: IClient.OnUnityProjectListUpdate
+  fullName: Unity.Reflect.IClient.OnUnityProjectListUpdate
+- uid: Unity.Reflect.IClient.OnUserUpdate
+  commentId: E:Unity.Reflect.IClient.OnUserUpdate
+  parent: Unity.Reflect.IClient
+  name: OnUserUpdate
+  nameWithType: IClient.OnUserUpdate
+  fullName: Unity.Reflect.IClient.OnUserUpdate
+- uid: Unity.Reflect.IClient.OnSessionBegin
+  commentId: E:Unity.Reflect.IClient.OnSessionBegin
+  parent: Unity.Reflect.IClient
+  name: OnSessionBegin
+  nameWithType: IClient.OnSessionBegin
+  fullName: Unity.Reflect.IClient.OnSessionBegin
+- uid: Unity.Reflect.IClient.OnSessionEnd
+  commentId: E:Unity.Reflect.IClient.OnSessionEnd
+  parent: Unity.Reflect.IClient
+  name: OnSessionEnd
+  nameWithType: IClient.OnSessionEnd
+  fullName: Unity.Reflect.IClient.OnSessionEnd
+- uid: Unity.Reflect.IClient.OnManifestUpdate
+  commentId: E:Unity.Reflect.IClient.OnManifestUpdate
+  parent: Unity.Reflect.IClient
+  name: OnManifestUpdate
+  nameWithType: IClient.OnManifestUpdate
+  fullName: Unity.Reflect.IClient.OnManifestUpdate
+- uid: Unity.Reflect.IClient.ObserveUnityProjectListUpdate
+  commentId: M:Unity.Reflect.IClient.ObserveUnityProjectListUpdate
+  parent: Unity.Reflect.IClient
+  name: ObserveUnityProjectListUpdate()
+  nameWithType: IClient.ObserveUnityProjectListUpdate()
+  fullName: Unity.Reflect.IClient.ObserveUnityProjectListUpdate()
+  spec.csharp:
+  - uid: Unity.Reflect.IClient.ObserveUnityProjectListUpdate
+    name: ObserveUnityProjectListUpdate
+    nameWithType: IClient.ObserveUnityProjectListUpdate
+    fullName: Unity.Reflect.IClient.ObserveUnityProjectListUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Unity.Reflect.IClient.ObserveUnityProjectListUpdate
+    name: ObserveUnityProjectListUpdate
+    nameWithType: IClient.ObserveUnityProjectListUpdate
+    fullName: Unity.Reflect.IClient.ObserveUnityProjectListUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.IClient.ObserveUserUpdate
+  commentId: M:Unity.Reflect.IClient.ObserveUserUpdate
+  parent: Unity.Reflect.IClient
+  name: ObserveUserUpdate()
+  nameWithType: IClient.ObserveUserUpdate()
+  fullName: Unity.Reflect.IClient.ObserveUserUpdate()
+  spec.csharp:
+  - uid: Unity.Reflect.IClient.ObserveUserUpdate
+    name: ObserveUserUpdate
+    nameWithType: IClient.ObserveUserUpdate
+    fullName: Unity.Reflect.IClient.ObserveUserUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Unity.Reflect.IClient.ObserveUserUpdate
+    name: ObserveUserUpdate
+    nameWithType: IClient.ObserveUserUpdate
+    fullName: Unity.Reflect.IClient.ObserveUserUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.IClient.ObserveSessionBegin(System.String[])
+  commentId: M:Unity.Reflect.IClient.ObserveSessionBegin(System.String[])
+  parent: Unity.Reflect.IClient
+  isExternal: true
+  name: ObserveSessionBegin(String[])
+  nameWithType: IClient.ObserveSessionBegin(String[])
+  fullName: Unity.Reflect.IClient.ObserveSessionBegin(System.String[])
+  nameWithType.vb: IClient.ObserveSessionBegin(String())
+  fullName.vb: Unity.Reflect.IClient.ObserveSessionBegin(System.String())
+  name.vb: ObserveSessionBegin(String())
+  spec.csharp:
+  - uid: Unity.Reflect.IClient.ObserveSessionBegin(System.String[])
+    name: ObserveSessionBegin
+    nameWithType: IClient.ObserveSessionBegin
+    fullName: Unity.Reflect.IClient.ObserveSessionBegin
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Unity.Reflect.IClient.ObserveSessionBegin(System.String[])
+    name: ObserveSessionBegin
+    nameWithType: IClient.ObserveSessionBegin
+    fullName: Unity.Reflect.IClient.ObserveSessionBegin
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.IClient.ObserveSessionEnd(System.String[])
+  commentId: M:Unity.Reflect.IClient.ObserveSessionEnd(System.String[])
+  parent: Unity.Reflect.IClient
+  isExternal: true
+  name: ObserveSessionEnd(String[])
+  nameWithType: IClient.ObserveSessionEnd(String[])
+  fullName: Unity.Reflect.IClient.ObserveSessionEnd(System.String[])
+  nameWithType.vb: IClient.ObserveSessionEnd(String())
+  fullName.vb: Unity.Reflect.IClient.ObserveSessionEnd(System.String())
+  name.vb: ObserveSessionEnd(String())
+  spec.csharp:
+  - uid: Unity.Reflect.IClient.ObserveSessionEnd(System.String[])
+    name: ObserveSessionEnd
+    nameWithType: IClient.ObserveSessionEnd
+    fullName: Unity.Reflect.IClient.ObserveSessionEnd
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Unity.Reflect.IClient.ObserveSessionEnd(System.String[])
+    name: ObserveSessionEnd
+    nameWithType: IClient.ObserveSessionEnd
+    fullName: Unity.Reflect.IClient.ObserveSessionEnd
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.IClient.ObserveManifestUpdate(System.String[])
+  commentId: M:Unity.Reflect.IClient.ObserveManifestUpdate(System.String[])
+  parent: Unity.Reflect.IClient
+  isExternal: true
+  name: ObserveManifestUpdate(String[])
+  nameWithType: IClient.ObserveManifestUpdate(String[])
+  fullName: Unity.Reflect.IClient.ObserveManifestUpdate(System.String[])
+  nameWithType.vb: IClient.ObserveManifestUpdate(String())
+  fullName.vb: Unity.Reflect.IClient.ObserveManifestUpdate(System.String())
+  name.vb: ObserveManifestUpdate(String())
+  spec.csharp:
+  - uid: Unity.Reflect.IClient.ObserveManifestUpdate(System.String[])
+    name: ObserveManifestUpdate
+    nameWithType: IClient.ObserveManifestUpdate
+    fullName: Unity.Reflect.IClient.ObserveManifestUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Unity.Reflect.IClient.ObserveManifestUpdate(System.String[])
+    name: ObserveManifestUpdate
+    nameWithType: IClient.ObserveManifestUpdate
+    fullName: Unity.Reflect.IClient.ObserveManifestUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.IClient.ReleaseUnityProjectListUpdate
+  commentId: M:Unity.Reflect.IClient.ReleaseUnityProjectListUpdate
+  parent: Unity.Reflect.IClient
+  name: ReleaseUnityProjectListUpdate()
+  nameWithType: IClient.ReleaseUnityProjectListUpdate()
+  fullName: Unity.Reflect.IClient.ReleaseUnityProjectListUpdate()
+  spec.csharp:
+  - uid: Unity.Reflect.IClient.ReleaseUnityProjectListUpdate
+    name: ReleaseUnityProjectListUpdate
+    nameWithType: IClient.ReleaseUnityProjectListUpdate
+    fullName: Unity.Reflect.IClient.ReleaseUnityProjectListUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Unity.Reflect.IClient.ReleaseUnityProjectListUpdate
+    name: ReleaseUnityProjectListUpdate
+    nameWithType: IClient.ReleaseUnityProjectListUpdate
+    fullName: Unity.Reflect.IClient.ReleaseUnityProjectListUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.IClient.ReleaseUserUpdate
+  commentId: M:Unity.Reflect.IClient.ReleaseUserUpdate
+  parent: Unity.Reflect.IClient
+  name: ReleaseUserUpdate()
+  nameWithType: IClient.ReleaseUserUpdate()
+  fullName: Unity.Reflect.IClient.ReleaseUserUpdate()
+  spec.csharp:
+  - uid: Unity.Reflect.IClient.ReleaseUserUpdate
+    name: ReleaseUserUpdate
+    nameWithType: IClient.ReleaseUserUpdate
+    fullName: Unity.Reflect.IClient.ReleaseUserUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Unity.Reflect.IClient.ReleaseUserUpdate
+    name: ReleaseUserUpdate
+    nameWithType: IClient.ReleaseUserUpdate
+    fullName: Unity.Reflect.IClient.ReleaseUserUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.IClient.ReleaseSessionBegin(System.String[])
+  commentId: M:Unity.Reflect.IClient.ReleaseSessionBegin(System.String[])
+  parent: Unity.Reflect.IClient
+  isExternal: true
+  name: ReleaseSessionBegin(String[])
+  nameWithType: IClient.ReleaseSessionBegin(String[])
+  fullName: Unity.Reflect.IClient.ReleaseSessionBegin(System.String[])
+  nameWithType.vb: IClient.ReleaseSessionBegin(String())
+  fullName.vb: Unity.Reflect.IClient.ReleaseSessionBegin(System.String())
+  name.vb: ReleaseSessionBegin(String())
+  spec.csharp:
+  - uid: Unity.Reflect.IClient.ReleaseSessionBegin(System.String[])
+    name: ReleaseSessionBegin
+    nameWithType: IClient.ReleaseSessionBegin
+    fullName: Unity.Reflect.IClient.ReleaseSessionBegin
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Unity.Reflect.IClient.ReleaseSessionBegin(System.String[])
+    name: ReleaseSessionBegin
+    nameWithType: IClient.ReleaseSessionBegin
+    fullName: Unity.Reflect.IClient.ReleaseSessionBegin
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.IClient.ReleaseSessionEnd(System.String[])
+  commentId: M:Unity.Reflect.IClient.ReleaseSessionEnd(System.String[])
+  parent: Unity.Reflect.IClient
+  isExternal: true
+  name: ReleaseSessionEnd(String[])
+  nameWithType: IClient.ReleaseSessionEnd(String[])
+  fullName: Unity.Reflect.IClient.ReleaseSessionEnd(System.String[])
+  nameWithType.vb: IClient.ReleaseSessionEnd(String())
+  fullName.vb: Unity.Reflect.IClient.ReleaseSessionEnd(System.String())
+  name.vb: ReleaseSessionEnd(String())
+  spec.csharp:
+  - uid: Unity.Reflect.IClient.ReleaseSessionEnd(System.String[])
+    name: ReleaseSessionEnd
+    nameWithType: IClient.ReleaseSessionEnd
+    fullName: Unity.Reflect.IClient.ReleaseSessionEnd
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Unity.Reflect.IClient.ReleaseSessionEnd(System.String[])
+    name: ReleaseSessionEnd
+    nameWithType: IClient.ReleaseSessionEnd
+    fullName: Unity.Reflect.IClient.ReleaseSessionEnd
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.IClient.ReleaseManifestUpdate(System.String[])
+  commentId: M:Unity.Reflect.IClient.ReleaseManifestUpdate(System.String[])
+  parent: Unity.Reflect.IClient
+  isExternal: true
+  name: ReleaseManifestUpdate(String[])
+  nameWithType: IClient.ReleaseManifestUpdate(String[])
+  fullName: Unity.Reflect.IClient.ReleaseManifestUpdate(System.String[])
+  nameWithType.vb: IClient.ReleaseManifestUpdate(String())
+  fullName.vb: Unity.Reflect.IClient.ReleaseManifestUpdate(System.String())
+  name.vb: ReleaseManifestUpdate(String())
+  spec.csharp:
+  - uid: Unity.Reflect.IClient.ReleaseManifestUpdate(System.String[])
+    name: ReleaseManifestUpdate
+    nameWithType: IClient.ReleaseManifestUpdate
+    fullName: Unity.Reflect.IClient.ReleaseManifestUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Unity.Reflect.IClient.ReleaseManifestUpdate(System.String[])
+    name: ReleaseManifestUpdate
+    nameWithType: IClient.ReleaseManifestUpdate
+    fullName: Unity.Reflect.IClient.ReleaseManifestUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.IClient.Connected
+  commentId: P:Unity.Reflect.IClient.Connected
+  parent: Unity.Reflect.IClient
+  name: Connected
+  nameWithType: IClient.Connected
+  fullName: Unity.Reflect.IClient.Connected
+- uid: Unity.Reflect.IClient.Connect
+  commentId: M:Unity.Reflect.IClient.Connect
+  parent: Unity.Reflect.IClient
+  name: Connect()
+  nameWithType: IClient.Connect()
+  fullName: Unity.Reflect.IClient.Connect()
+  spec.csharp:
+  - uid: Unity.Reflect.IClient.Connect
+    name: Connect
+    nameWithType: IClient.Connect
+    fullName: Unity.Reflect.IClient.Connect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Unity.Reflect.IClient.Connect
+    name: Connect
+    nameWithType: IClient.Connect
+    fullName: Unity.Reflect.IClient.Connect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.IClient.Disconnect(System.Boolean)
+  commentId: M:Unity.Reflect.IClient.Disconnect(System.Boolean)
+  parent: Unity.Reflect.IClient
+  isExternal: true
+  name: Disconnect(Boolean)
+  nameWithType: IClient.Disconnect(Boolean)
+  fullName: Unity.Reflect.IClient.Disconnect(System.Boolean)
+  spec.csharp:
+  - uid: Unity.Reflect.IClient.Disconnect(System.Boolean)
+    name: Disconnect
+    nameWithType: IClient.Disconnect
+    fullName: Unity.Reflect.IClient.Disconnect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Unity.Reflect.IClient.Disconnect(System.Boolean)
+    name: Disconnect
+    nameWithType: IClient.Disconnect
+    fullName: Unity.Reflect.IClient.Disconnect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.IClient
+  commentId: T:Unity.Reflect.IClient
+  parent: Unity.Reflect
+  name: IClient
+  nameWithType: IClient
+  fullName: Unity.Reflect.IClient
+- uid: Unity.Reflect.IPlayerClient.GetManifests*
+  commentId: Overload:Unity.Reflect.IPlayerClient.GetManifests
+  name: GetManifests
+  nameWithType: IPlayerClient.GetManifests
+  fullName: Unity.Reflect.IPlayerClient.GetManifests
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: IEnumerable{Unity.Reflect.ManifestAsset}
+  commentId: '!:IEnumerable{Unity.Reflect.ManifestAsset}'
+  definition: IEnumerable`1
+  name: IEnumerable<ManifestAsset>
+  nameWithType: IEnumerable<ManifestAsset>
+  fullName: IEnumerable<Unity.Reflect.ManifestAsset>
+  nameWithType.vb: IEnumerable(Of ManifestAsset)
+  fullName.vb: IEnumerable(Of Unity.Reflect.ManifestAsset)
+  name.vb: IEnumerable(Of ManifestAsset)
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.ManifestAsset
+    name: ManifestAsset
+    nameWithType: ManifestAsset
+    fullName: Unity.Reflect.ManifestAsset
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.ManifestAsset
+    name: ManifestAsset
+    nameWithType: ManifestAsset
+    fullName: Unity.Reflect.ManifestAsset
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.IPlayerClient.GetManifest*
+  commentId: Overload:Unity.Reflect.IPlayerClient.GetManifest
+  name: GetManifest
+  nameWithType: IPlayerClient.GetManifest
+  fullName: Unity.Reflect.IPlayerClient.GetManifest
+- uid: SyncManifest
+  isExternal: true
+  name: SyncManifest
+  nameWithType: SyncManifest
+  fullName: SyncManifest
+- uid: Unity.Reflect.IPlayerClient.GetSyncModel*
+  commentId: Overload:Unity.Reflect.IPlayerClient.GetSyncModel
+  name: GetSyncModel
+  nameWithType: IPlayerClient.GetSyncModel
+  fullName: Unity.Reflect.IPlayerClient.GetSyncModel
+- uid: ISyncModel
+  isExternal: true
+  name: ISyncModel
+  nameWithType: ISyncModel
+  fullName: ISyncModel

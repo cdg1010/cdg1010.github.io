@@ -1,0 +1,448 @@
+### YamlMime:ManagedReference
+items:
+- uid: Unity.Reflect.Utils.FileUtils
+  commentId: T:Unity.Reflect.Utils.FileUtils
+  id: FileUtils
+  parent: Unity.Reflect.Utils
+  children:
+  - Unity.Reflect.Utils.FileUtils.SanitizeName(System.String,System.Int32,System.Int32)
+  - Unity.Reflect.Utils.FileUtils.SanitizeName(System.String,System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: FileUtils
+  nameWithType: FileUtils
+  fullName: Unity.Reflect.Utils.FileUtils
+  type: Class
+  source:
+    id: FileUtils
+    path: ''
+    startLine: 40574
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Utils
+  summary: "\nThis class provides some utility methods for file handling.\n"
+  example: []
+  syntax:
+    content: public static class FileUtils
+    content.vb: Public Module FileUtils
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Unity.Reflect.Utils.FileUtils.SanitizeName(System.String,System.Int32,System.Int32)
+  commentId: M:Unity.Reflect.Utils.FileUtils.SanitizeName(System.String,System.Int32,System.Int32)
+  id: SanitizeName(System.String,System.Int32,System.Int32)
+  parent: Unity.Reflect.Utils.FileUtils
+  langs:
+  - csharp
+  - vb
+  name: SanitizeName(String, Int32, Int32)
+  nameWithType: FileUtils.SanitizeName(String, Int32, Int32)
+  fullName: Unity.Reflect.Utils.FileUtils.SanitizeName(System.String, System.Int32, System.Int32)
+  type: Method
+  source:
+    id: SanitizeName
+    path: ''
+    startLine: 40342
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Utils
+  summary: "\nMakes a &quot;dirty name&quot; sanitized for any file system.\n"
+  example: []
+  syntax:
+    content: public static string SanitizeName(string dirtyName, int maxLength = 50, int maxLengthTolerance = 6)
+    parameters:
+    - id: dirtyName
+      type: System.String
+      description: The file name that you want to sanitize (without extension)
+    - id: maxLength
+      type: System.Int32
+      description: The maximum length of the sanitized string
+    - id: maxLengthTolerance
+      type: System.Int32
+      description: The sanitization process starts truncating if the string size exceeds maxLength + maxLengthTolerance
+    return:
+      type: System.String
+      description: A sanitized name
+    content.vb: Public Shared Function SanitizeName(dirtyName As String, maxLength As Integer = 50, maxLengthTolerance As Integer = 6) As String
+  overload: Unity.Reflect.Utils.FileUtils.SanitizeName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Unity.Reflect.Utils.FileUtils.SanitizeName(System.String,System.Int32,System.Int32)
+  commentId: M:Unity.Reflect.Utils.FileUtils.SanitizeName(System.String,System.Int32,System.Int32)
+  id: SanitizeName(System.String,System.Int32,System.Int32)
+  parent: Unity.Reflect.Utils.FileUtils
+  langs:
+  - csharp
+  - vb
+  name: SanitizeName(String, Int32, Int32)
+  nameWithType: FileUtils.SanitizeName(String, Int32, Int32)
+  fullName: Unity.Reflect.Utils.FileUtils.SanitizeName(System.String, System.Int32, System.Int32)
+  type: Method
+  source:
+    id: SanitizeName
+    path: ''
+    startLine: 40585
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Utils
+  summary: "\nMakes a &quot;dirty name&quot; sanitized for any file system.\n"
+  example: []
+  syntax:
+    content: public static string SanitizeName(string dirtyName, int maxLength = 50, int maxLengthTolerance = 6)
+    parameters:
+    - id: dirtyName
+      type: System.String
+      description: The file name that you want to sanitize (without extension)
+    - id: maxLength
+      type: System.Int32
+      description: The maximum length of the sanitized string
+    - id: maxLengthTolerance
+      type: System.Int32
+      description: The sanitization process starts truncating if the string size exceeds maxLength + maxLengthTolerance
+    return:
+      type: System.String
+      description: A sanitized name
+    content.vb: Public Shared Function SanitizeName(dirtyName As String, maxLength As Integer = 50, maxLengthTolerance As Integer = 6) As String
+  overload: Unity.Reflect.Utils.FileUtils.SanitizeName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Unity.Reflect.Utils
+  commentId: N:Unity.Reflect.Utils
+  name: Unity.Reflect.Utils
+  nameWithType: Unity.Reflect.Utils
+  fullName: Unity.Reflect.Utils
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Unity.Reflect.Utils.FileUtils.SanitizeName*
+  commentId: Overload:Unity.Reflect.Utils.FileUtils.SanitizeName
+  name: SanitizeName
+  nameWithType: FileUtils.SanitizeName
+  fullName: Unity.Reflect.Utils.FileUtils.SanitizeName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

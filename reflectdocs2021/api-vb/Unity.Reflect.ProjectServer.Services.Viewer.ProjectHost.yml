@@ -1,0 +1,1509 @@
+### YamlMime:ManagedReference
+items:
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  commentId: T:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  id: ProjectHost
+  parent: Unity.Reflect.ProjectServer.Services.Viewer
+  children:
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.#ctor
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.#ctor
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.#ctor(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.#ctor(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Address
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Address
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.AddressFieldNumber
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.AddressFieldNumber
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.CalculateSize
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.CalculateSize
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Clone
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Clone
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Descriptor
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Descriptor
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Equals(System.Object)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Equals(System.Object)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Equals(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Equals(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.GetHashCode
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.GetHashCode
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.MergeFrom(pb.CodedInputStream)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.MergeFrom(pb.CodedInputStream)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.MergeFrom(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.MergeFrom(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Name
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Name
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.NameFieldNumber
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.NameFieldNumber
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Parser
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Parser
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.ToString
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.ToString
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.UserName
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.UserName
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.UserNameFieldNumber
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.UserNameFieldNumber
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.WriteTo(pb.CodedOutputStream)
+  - Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.WriteTo(pb.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: ProjectHost
+  nameWithType: ProjectHost
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  type: Class
+  source:
+    id: ProjectHost
+    path: ''
+    startLine: 37209
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: 'public sealed class ProjectHost : pb.IMessage<ProjectHost>, pb.IMessage<ProjectHost>'
+    content.vb: >-
+      Public NotInheritable Class ProjectHost
+          Inherits pb.IMessage(Of ProjectHost)
+          Implements pb.IMessage(Of ProjectHost)
+  inheritance:
+  - System.Object
+  implements:
+  - pb.IMessage{Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost}
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Parser
+  commentId: P:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Parser
+  id: Parser
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: ProjectHost.Parser
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 17053
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public static pb.MessageParser<ProjectHost> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of ProjectHost)
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Descriptor
+  commentId: P:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Descriptor
+  id: Descriptor
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: ProjectHost.Descriptor
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 17056
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.#ctor
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.#ctor
+  id: '#ctor'
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: ProjectHost()
+  nameWithType: ProjectHost.ProjectHost()
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.ProjectHost()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 17066
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public ProjectHost()
+    content.vb: Public Sub New
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.#ctor(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.#ctor(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  id: '#ctor(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)'
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: ProjectHost(ProjectHost)
+  nameWithType: ProjectHost.ProjectHost(ProjectHost)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.ProjectHost(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 17073
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public ProjectHost(ProjectHost other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+    content.vb: Public Sub New(other As ProjectHost)
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Clone
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Clone
+  id: Clone
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: ProjectHost.Clone()
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 17081
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public ProjectHost Clone()
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+    content.vb: Public Function Clone As ProjectHost
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.NameFieldNumber
+  commentId: F:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.NameFieldNumber
+  id: NameFieldNumber
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: NameFieldNumber
+  nameWithType: ProjectHost.NameFieldNumber
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.NameFieldNumber
+  type: Field
+  source:
+    id: NameFieldNumber
+    path: ''
+    startLine: 17087
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  summary: Field number for the &quot;name&quot; field.
+  example: []
+  syntax:
+    content: public const int NameFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const NameFieldNumber As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Name
+  commentId: P:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Name
+  id: Name
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ProjectHost.Name
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 17089
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.AddressFieldNumber
+  commentId: F:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.AddressFieldNumber
+  id: AddressFieldNumber
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: AddressFieldNumber
+  nameWithType: ProjectHost.AddressFieldNumber
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.AddressFieldNumber
+  type: Field
+  source:
+    id: AddressFieldNumber
+    path: ''
+    startLine: 17098
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  summary: Field number for the &quot;address&quot; field.
+  example: []
+  syntax:
+    content: public const int AddressFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const AddressFieldNumber As Integer = 2
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Address
+  commentId: P:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Address
+  id: Address
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: ProjectHost.Address
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Address
+  type: Property
+  source:
+    id: Address
+    path: ''
+    startLine: 17100
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public string Address { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Address As String
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Address*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.UserNameFieldNumber
+  commentId: F:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.UserNameFieldNumber
+  id: UserNameFieldNumber
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: UserNameFieldNumber
+  nameWithType: ProjectHost.UserNameFieldNumber
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.UserNameFieldNumber
+  type: Field
+  source:
+    id: UserNameFieldNumber
+    path: ''
+    startLine: 17109
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  summary: Field number for the &quot;userName&quot; field.
+  example: []
+  syntax:
+    content: public const int UserNameFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const UserNameFieldNumber As Integer = 3
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.UserName
+  commentId: P:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.UserName
+  id: UserName
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: UserName
+  nameWithType: ProjectHost.UserName
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.UserName
+  type: Property
+  source:
+    id: UserName
+    path: ''
+    startLine: 17111
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public string UserName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserName As String
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.UserName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Equals(System.Object)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: ProjectHost.Equals(Object)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 17119
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Equals(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Equals(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  id: Equals(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: Equals(ProjectHost)
+  nameWithType: ProjectHost.Equals(ProjectHost)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Equals(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 17124
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public bool Equals(ProjectHost other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As ProjectHost) As Boolean
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.GetHashCode
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.GetHashCode
+  id: GetHashCode
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ProjectHost.GetHashCode()
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 17138
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.ToString
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.ToString
+  id: ToString
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ProjectHost.ToString()
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 17150
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.WriteTo(pb.CodedOutputStream)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: ProjectHost.WriteTo(pb.CodedOutputStream)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 17155
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.CalculateSize
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.CalculateSize
+  id: CalculateSize
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: ProjectHost.CalculateSize()
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 17174
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.MergeFrom(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.MergeFrom(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  id: MergeFrom(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(ProjectHost)
+  nameWithType: ProjectHost.MergeFrom(ProjectHost)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.MergeFrom(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 17192
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public void MergeFrom(ProjectHost other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+    content.vb: Public Sub MergeFrom(other As ProjectHost)
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.MergeFrom(pb.CodedInputStream)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: ProjectHost.MergeFrom(pb.CodedInputStream)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 17209
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Parser
+  commentId: P:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Parser
+  id: Parser
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: ProjectHost.Parser
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 37212
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public static pb.MessageParser<ProjectHost> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of ProjectHost)
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Descriptor
+  commentId: P:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Descriptor
+  id: Descriptor
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: ProjectHost.Descriptor
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 37215
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.#ctor
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.#ctor
+  id: '#ctor'
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: ProjectHost()
+  nameWithType: ProjectHost.ProjectHost()
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.ProjectHost()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 37225
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public ProjectHost()
+    content.vb: Public Sub New
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.#ctor(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.#ctor(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  id: '#ctor(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)'
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: ProjectHost(ProjectHost)
+  nameWithType: ProjectHost.ProjectHost(ProjectHost)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.ProjectHost(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 37232
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public ProjectHost(ProjectHost other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+    content.vb: Public Sub New(other As ProjectHost)
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Clone
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Clone
+  id: Clone
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: ProjectHost.Clone()
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 37240
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public ProjectHost Clone()
+    return:
+      type: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+    content.vb: Public Function Clone As ProjectHost
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.NameFieldNumber
+  commentId: F:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.NameFieldNumber
+  id: NameFieldNumber
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: NameFieldNumber
+  nameWithType: ProjectHost.NameFieldNumber
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.NameFieldNumber
+  type: Field
+  source:
+    id: NameFieldNumber
+    path: ''
+    startLine: 37246
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  summary: Field number for the &quot;name&quot; field.
+  example: []
+  syntax:
+    content: public const int NameFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const NameFieldNumber As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Name
+  commentId: P:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Name
+  id: Name
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ProjectHost.Name
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 37248
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.AddressFieldNumber
+  commentId: F:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.AddressFieldNumber
+  id: AddressFieldNumber
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: AddressFieldNumber
+  nameWithType: ProjectHost.AddressFieldNumber
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.AddressFieldNumber
+  type: Field
+  source:
+    id: AddressFieldNumber
+    path: ''
+    startLine: 37257
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  summary: Field number for the &quot;address&quot; field.
+  example: []
+  syntax:
+    content: public const int AddressFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const AddressFieldNumber As Integer = 2
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Address
+  commentId: P:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Address
+  id: Address
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: ProjectHost.Address
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Address
+  type: Property
+  source:
+    id: Address
+    path: ''
+    startLine: 37259
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public string Address { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Address As String
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Address*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.UserNameFieldNumber
+  commentId: F:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.UserNameFieldNumber
+  id: UserNameFieldNumber
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: UserNameFieldNumber
+  nameWithType: ProjectHost.UserNameFieldNumber
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.UserNameFieldNumber
+  type: Field
+  source:
+    id: UserNameFieldNumber
+    path: ''
+    startLine: 37268
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  summary: Field number for the &quot;userName&quot; field.
+  example: []
+  syntax:
+    content: public const int UserNameFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const UserNameFieldNumber As Integer = 3
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.UserName
+  commentId: P:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.UserName
+  id: UserName
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: UserName
+  nameWithType: ProjectHost.UserName
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.UserName
+  type: Property
+  source:
+    id: UserName
+    path: ''
+    startLine: 37270
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public string UserName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserName As String
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.UserName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Equals(System.Object)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: ProjectHost.Equals(Object)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 37278
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Equals(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Equals(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  id: Equals(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: Equals(ProjectHost)
+  nameWithType: ProjectHost.Equals(ProjectHost)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Equals(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 37283
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public bool Equals(ProjectHost other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As ProjectHost) As Boolean
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.GetHashCode
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.GetHashCode
+  id: GetHashCode
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ProjectHost.GetHashCode()
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 37297
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.ToString
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.ToString
+  id: ToString
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ProjectHost.ToString()
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 37309
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.WriteTo(pb.CodedOutputStream)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: ProjectHost.WriteTo(pb.CodedOutputStream)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 37314
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.CalculateSize
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.CalculateSize
+  id: CalculateSize
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: ProjectHost.CalculateSize()
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 37333
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.MergeFrom(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.MergeFrom(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  id: MergeFrom(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(ProjectHost)
+  nameWithType: ProjectHost.MergeFrom(ProjectHost)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.MergeFrom(Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 37351
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public void MergeFrom(ProjectHost other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+    content.vb: Public Sub MergeFrom(other As ProjectHost)
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.MergeFrom(pb.CodedInputStream)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: ProjectHost.MergeFrom(pb.CodedInputStream)
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 37368
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Viewer
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Unity.Reflect.ProjectServer.Services.Viewer
+  commentId: N:Unity.Reflect.ProjectServer.Services.Viewer
+  name: Unity.Reflect.ProjectServer.Services.Viewer
+  nameWithType: Unity.Reflect.ProjectServer.Services.Viewer
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: pb.IMessage{Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost}
+  commentId: '!:pb.IMessage{Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost}'
+  definition: pb.IMessage`1
+  name: pb.IMessage<ProjectHost>
+  nameWithType: pb.IMessage<ProjectHost>
+  fullName: pb.IMessage<Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost>
+  nameWithType.vb: pb.IMessage(Of ProjectHost)
+  fullName.vb: pb.IMessage(Of Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  name.vb: pb.IMessage(Of ProjectHost)
+  spec.csharp:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+    name: ProjectHost
+    nameWithType: ProjectHost
+    fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+    name: ProjectHost
+    nameWithType: ProjectHost
+    fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: pb.IMessage`1
+  isExternal: true
+  name: pb.IMessage<>
+  nameWithType: pb.IMessage<>
+  fullName: pb.IMessage<>
+  nameWithType.vb: pb.IMessage(Of )
+  fullName.vb: pb.IMessage(Of )
+  name.vb: pb.IMessage(Of )
+  spec.csharp:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Parser*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Parser
+  name: Parser
+  nameWithType: ProjectHost.Parser
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Parser
+- uid: pb.MessageParser{Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost}
+  commentId: '!:pb.MessageParser{Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost}'
+  definition: pb.MessageParser`1
+  name: pb.MessageParser<ProjectHost>
+  nameWithType: pb.MessageParser<ProjectHost>
+  fullName: pb.MessageParser<Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost>
+  nameWithType.vb: pb.MessageParser(Of ProjectHost)
+  fullName.vb: pb.MessageParser(Of Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost)
+  name.vb: pb.MessageParser(Of ProjectHost)
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+    name: ProjectHost
+    nameWithType: ProjectHost
+    fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+    name: ProjectHost
+    nameWithType: ProjectHost
+    fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pb.MessageParser`1
+  isExternal: true
+  name: pb.MessageParser<>
+  nameWithType: pb.MessageParser<>
+  fullName: pb.MessageParser<>
+  nameWithType.vb: pb.MessageParser(Of )
+  fullName.vb: pb.MessageParser(Of )
+  name.vb: pb.MessageParser(Of )
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Descriptor*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Descriptor
+  name: Descriptor
+  nameWithType: ProjectHost.Descriptor
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Descriptor
+- uid: pbr.MessageDescriptor
+  isExternal: true
+  name: pbr.MessageDescriptor
+  nameWithType: pbr.MessageDescriptor
+  fullName: pbr.MessageDescriptor
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.#ctor*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.#ctor
+  name: ProjectHost
+  nameWithType: ProjectHost.ProjectHost
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.ProjectHost
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  commentId: T:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+  parent: Unity.Reflect.ProjectServer.Services.Viewer
+  name: ProjectHost
+  nameWithType: ProjectHost
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Clone*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Clone
+  name: Clone
+  nameWithType: ProjectHost.Clone
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Clone
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Name*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Name
+  name: Name
+  nameWithType: ProjectHost.Name
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Address*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Address
+  name: Address
+  nameWithType: ProjectHost.Address
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Address
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.UserName*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.UserName
+  name: UserName
+  nameWithType: ProjectHost.UserName
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.UserName
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Equals*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Equals
+  name: Equals
+  nameWithType: ProjectHost.Equals
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.GetHashCode*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.GetHashCode
+  name: GetHashCode
+  nameWithType: ProjectHost.GetHashCode
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.GetHashCode
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.ToString*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.ToString
+  name: ToString
+  nameWithType: ProjectHost.ToString
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.ToString
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.WriteTo*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.WriteTo
+  name: WriteTo
+  nameWithType: ProjectHost.WriteTo
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.WriteTo
+- uid: pb.CodedOutputStream
+  isExternal: true
+  name: pb.CodedOutputStream
+  nameWithType: pb.CodedOutputStream
+  fullName: pb.CodedOutputStream
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.CalculateSize*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.CalculateSize
+  name: CalculateSize
+  nameWithType: ProjectHost.CalculateSize
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.CalculateSize
+- uid: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.MergeFrom*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.MergeFrom
+  name: MergeFrom
+  nameWithType: ProjectHost.MergeFrom
+  fullName: Unity.Reflect.ProjectServer.Services.Viewer.ProjectHost.MergeFrom
+- uid: pb.CodedInputStream
+  isExternal: true
+  name: pb.CodedInputStream
+  nameWithType: pb.CodedInputStream
+  fullName: pb.CodedInputStream

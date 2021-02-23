@@ -1,0 +1,3395 @@
+### YamlMime:ManagedReference
+items:
+- uid: Unity.Reflect.Model.SyncLight
+  commentId: T:Unity.Reflect.Model.SyncLight
+  id: SyncLight
+  parent: Unity.Reflect.Model
+  children:
+  - Unity.Reflect.Model.SyncLight.#ctor
+  - Unity.Reflect.Model.SyncLight.#ctor
+  - Unity.Reflect.Model.SyncLight.#ctor(System.String,Unity.Reflect.Model.SyncTransform,Unity.Reflect.Model.SyncLight.Types.Type,Unity.Reflect.Model.SyncColor,System.Single,System.Single,Unity.Reflect.Model.SyncLight.Types.IntensityUnit,System.Single,System.Single,System.Single,Unity.Reflect.Model.SyncLight.Types.Shape,System.Single,System.Single,System.Single,System.Boolean,System.String)
+  - Unity.Reflect.Model.SyncLight.#ctor(System.String,Unity.Reflect.Model.SyncTransform,Unity.Reflect.Model.SyncLight.Types.Type,Unity.Reflect.Model.SyncColor,System.Single,System.Single,Unity.Reflect.Model.SyncLight.Types.IntensityUnit,System.Single,System.Single,System.Single,Unity.Reflect.Model.SyncLight.Types.Shape,System.Single,System.Single,System.Single,System.Boolean,System.String)
+  - Unity.Reflect.Model.SyncLight.#ctor(Unity.Reflect.Model.SyncLight)
+  - Unity.Reflect.Model.SyncLight.#ctor(Unity.Reflect.Model.SyncLight)
+  - Unity.Reflect.Model.SyncLight.BeamAngle
+  - Unity.Reflect.Model.SyncLight.BeamAngle
+  - Unity.Reflect.Model.SyncLight.BeamAngleFieldNumber
+  - Unity.Reflect.Model.SyncLight.BeamAngleFieldNumber
+  - Unity.Reflect.Model.SyncLight.CalculateSize
+  - Unity.Reflect.Model.SyncLight.CalculateSize
+  - Unity.Reflect.Model.SyncLight.Clone
+  - Unity.Reflect.Model.SyncLight.Clone
+  - Unity.Reflect.Model.SyncLight.Color
+  - Unity.Reflect.Model.SyncLight.Color
+  - Unity.Reflect.Model.SyncLight.ColorFieldNumber
+  - Unity.Reflect.Model.SyncLight.ColorFieldNumber
+  - Unity.Reflect.Model.SyncLight.Descriptor
+  - Unity.Reflect.Model.SyncLight.Descriptor
+  - Unity.Reflect.Model.SyncLight.Equals(System.Object)
+  - Unity.Reflect.Model.SyncLight.Equals(System.Object)
+  - Unity.Reflect.Model.SyncLight.Equals(Unity.Reflect.Model.SyncLight)
+  - Unity.Reflect.Model.SyncLight.Equals(Unity.Reflect.Model.SyncLight)
+  - Unity.Reflect.Model.SyncLight.GetHashCode
+  - Unity.Reflect.Model.SyncLight.GetHashCode
+  - Unity.Reflect.Model.SyncLight.IesProfile
+  - Unity.Reflect.Model.SyncLight.IesProfile
+  - Unity.Reflect.Model.SyncLight.IesProfileFieldNumber
+  - Unity.Reflect.Model.SyncLight.IesProfileFieldNumber
+  - Unity.Reflect.Model.SyncLight.Intensity
+  - Unity.Reflect.Model.SyncLight.Intensity
+  - Unity.Reflect.Model.SyncLight.IntensityFieldNumber
+  - Unity.Reflect.Model.SyncLight.IntensityFieldNumber
+  - Unity.Reflect.Model.SyncLight.IntensityUnit
+  - Unity.Reflect.Model.SyncLight.IntensityUnit
+  - Unity.Reflect.Model.SyncLight.IntensityUnitFieldNumber
+  - Unity.Reflect.Model.SyncLight.IntensityUnitFieldNumber
+  - Unity.Reflect.Model.SyncLight.MergeFrom(pb.CodedInputStream)
+  - Unity.Reflect.Model.SyncLight.MergeFrom(pb.CodedInputStream)
+  - Unity.Reflect.Model.SyncLight.MergeFrom(Unity.Reflect.Model.SyncLight)
+  - Unity.Reflect.Model.SyncLight.MergeFrom(Unity.Reflect.Model.SyncLight)
+  - Unity.Reflect.Model.SyncLight.Name
+  - Unity.Reflect.Model.SyncLight.Name
+  - Unity.Reflect.Model.SyncLight.NameFieldNumber
+  - Unity.Reflect.Model.SyncLight.NameFieldNumber
+  - Unity.Reflect.Model.SyncLight.Parser
+  - Unity.Reflect.Model.SyncLight.Parser
+  - Unity.Reflect.Model.SyncLight.Range
+  - Unity.Reflect.Model.SyncLight.Range
+  - Unity.Reflect.Model.SyncLight.RangeFieldNumber
+  - Unity.Reflect.Model.SyncLight.RangeFieldNumber
+  - Unity.Reflect.Model.SyncLight.Shape
+  - Unity.Reflect.Model.SyncLight.Shape
+  - Unity.Reflect.Model.SyncLight.ShapeDiameter
+  - Unity.Reflect.Model.SyncLight.ShapeDiameter
+  - Unity.Reflect.Model.SyncLight.ShapeDiameterFieldNumber
+  - Unity.Reflect.Model.SyncLight.ShapeDiameterFieldNumber
+  - Unity.Reflect.Model.SyncLight.ShapeFieldNumber
+  - Unity.Reflect.Model.SyncLight.ShapeFieldNumber
+  - Unity.Reflect.Model.SyncLight.ShapeLength
+  - Unity.Reflect.Model.SyncLight.ShapeLength
+  - Unity.Reflect.Model.SyncLight.ShapeLengthFieldNumber
+  - Unity.Reflect.Model.SyncLight.ShapeLengthFieldNumber
+  - Unity.Reflect.Model.SyncLight.ShapeVisible
+  - Unity.Reflect.Model.SyncLight.ShapeVisible
+  - Unity.Reflect.Model.SyncLight.ShapeVisibleFieldNumber
+  - Unity.Reflect.Model.SyncLight.ShapeVisibleFieldNumber
+  - Unity.Reflect.Model.SyncLight.ShapeWidth
+  - Unity.Reflect.Model.SyncLight.ShapeWidth
+  - Unity.Reflect.Model.SyncLight.ShapeWidthFieldNumber
+  - Unity.Reflect.Model.SyncLight.ShapeWidthFieldNumber
+  - Unity.Reflect.Model.SyncLight.SpotAngle
+  - Unity.Reflect.Model.SyncLight.SpotAngle
+  - Unity.Reflect.Model.SyncLight.SpotAngleFieldNumber
+  - Unity.Reflect.Model.SyncLight.SpotAngleFieldNumber
+  - Unity.Reflect.Model.SyncLight.Temperature
+  - Unity.Reflect.Model.SyncLight.Temperature
+  - Unity.Reflect.Model.SyncLight.TemperatureFieldNumber
+  - Unity.Reflect.Model.SyncLight.TemperatureFieldNumber
+  - Unity.Reflect.Model.SyncLight.ToString
+  - Unity.Reflect.Model.SyncLight.ToString
+  - Unity.Reflect.Model.SyncLight.Transform
+  - Unity.Reflect.Model.SyncLight.Transform
+  - Unity.Reflect.Model.SyncLight.TransformFieldNumber
+  - Unity.Reflect.Model.SyncLight.TransformFieldNumber
+  - Unity.Reflect.Model.SyncLight.Type
+  - Unity.Reflect.Model.SyncLight.Type
+  - Unity.Reflect.Model.SyncLight.TypeFieldNumber
+  - Unity.Reflect.Model.SyncLight.TypeFieldNumber
+  - Unity.Reflect.Model.SyncLight.WriteTo(pb.CodedOutputStream)
+  - Unity.Reflect.Model.SyncLight.WriteTo(pb.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: SyncLight
+  nameWithType: SyncLight
+  fullName: Unity.Reflect.Model.SyncLight
+  type: Class
+  source:
+    id: SyncLight
+    path: ''
+    startLine: 22655
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: 'public sealed class SyncLight : pb.IMessage<SyncLight>, pb.IMessage<SyncLight>'
+    content.vb: >-
+      Public NotInheritable Class SyncLight
+          Inherits pb.IMessage(Of SyncLight)
+          Implements pb.IMessage(Of SyncLight)
+  inheritance:
+  - System.Object
+  implements:
+  - pb.IMessage{Unity.Reflect.Model.SyncLight}
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Unity.Reflect.Model.SyncLight.#ctor(System.String,Unity.Reflect.Model.SyncTransform,Unity.Reflect.Model.SyncLight.Types.Type,Unity.Reflect.Model.SyncColor,System.Single,System.Single,Unity.Reflect.Model.SyncLight.Types.IntensityUnit,System.Single,System.Single,System.Single,Unity.Reflect.Model.SyncLight.Types.Shape,System.Single,System.Single,System.Single,System.Boolean,System.String)
+  commentId: M:Unity.Reflect.Model.SyncLight.#ctor(System.String,Unity.Reflect.Model.SyncTransform,Unity.Reflect.Model.SyncLight.Types.Type,Unity.Reflect.Model.SyncColor,System.Single,System.Single,Unity.Reflect.Model.SyncLight.Types.IntensityUnit,System.Single,System.Single,System.Single,Unity.Reflect.Model.SyncLight.Types.Shape,System.Single,System.Single,System.Single,System.Boolean,System.String)
+  id: '#ctor(System.String,Unity.Reflect.Model.SyncTransform,Unity.Reflect.Model.SyncLight.Types.Type,Unity.Reflect.Model.SyncColor,System.Single,System.Single,Unity.Reflect.Model.SyncLight.Types.IntensityUnit,System.Single,System.Single,System.Single,Unity.Reflect.Model.SyncLight.Types.Shape,System.Single,System.Single,System.Single,System.Boolean,System.String)'
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: SyncLight(String, SyncTransform, SyncLight.Types.Type, SyncColor, Single, Single, SyncLight.Types.IntensityUnit, Single, Single, Single, SyncLight.Types.Shape, Single, Single, Single, Boolean, String)
+  nameWithType: SyncLight.SyncLight(String, SyncTransform, SyncLight.Types.Type, SyncColor, Single, Single, SyncLight.Types.IntensityUnit, Single, Single, Single, SyncLight.Types.Shape, Single, Single, Single, Boolean, String)
+  fullName: Unity.Reflect.Model.SyncLight.SyncLight(System.String, Unity.Reflect.Model.SyncTransform, Unity.Reflect.Model.SyncLight.Types.Type, Unity.Reflect.Model.SyncColor, System.Single, System.Single, Unity.Reflect.Model.SyncLight.Types.IntensityUnit, System.Single, System.Single, System.Single, Unity.Reflect.Model.SyncLight.Types.Shape, System.Single, System.Single, System.Single, System.Boolean, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 496
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncLight(string name, SyncTransform transform, SyncLight.Types.Type type, SyncColor color, float temperature, float intensity, SyncLight.Types.IntensityUnit intensityUnit, float range, float spotAngle, float beamAngle, SyncLight.Types.Shape shape, float shapeDiameter, float shapeWidth, float shapeLength, bool shapeVisible, string iesProfile)
+    parameters:
+    - id: name
+      type: System.String
+    - id: transform
+      type: Unity.Reflect.Model.SyncTransform
+    - id: type
+      type: Unity.Reflect.Model.SyncLight.Types.Type
+    - id: color
+      type: Unity.Reflect.Model.SyncColor
+    - id: temperature
+      type: System.Single
+    - id: intensity
+      type: System.Single
+    - id: intensityUnit
+      type: Unity.Reflect.Model.SyncLight.Types.IntensityUnit
+    - id: range
+      type: System.Single
+    - id: spotAngle
+      type: System.Single
+    - id: beamAngle
+      type: System.Single
+    - id: shape
+      type: Unity.Reflect.Model.SyncLight.Types.Shape
+    - id: shapeDiameter
+      type: System.Single
+    - id: shapeWidth
+      type: System.Single
+    - id: shapeLength
+      type: System.Single
+    - id: shapeVisible
+      type: System.Boolean
+    - id: iesProfile
+      type: System.String
+    content.vb: Public Sub New(name As String, transform As SyncTransform, type As SyncLight.Types.Type, color As SyncColor, temperature As Single, intensity As Single, intensityUnit As SyncLight.Types.IntensityUnit, range As Single, spotAngle As Single, beamAngle As Single, shape As SyncLight.Types.Shape, shapeDiameter As Single, shapeWidth As Single, shapeLength As Single, shapeVisible As Boolean, iesProfile As String)
+  overload: Unity.Reflect.Model.SyncLight.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.Parser
+  commentId: P:Unity.Reflect.Model.SyncLight.Parser
+  id: Parser
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: SyncLight.Parser
+  fullName: Unity.Reflect.Model.SyncLight.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 2499
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public static pb.MessageParser<SyncLight> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{Unity.Reflect.Model.SyncLight}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of SyncLight)
+  overload: Unity.Reflect.Model.SyncLight.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.Model.SyncLight.Descriptor
+  commentId: P:Unity.Reflect.Model.SyncLight.Descriptor
+  id: Descriptor
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: SyncLight.Descriptor
+  fullName: Unity.Reflect.Model.SyncLight.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 2502
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: Unity.Reflect.Model.SyncLight.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.Model.SyncLight.#ctor
+  commentId: M:Unity.Reflect.Model.SyncLight.#ctor
+  id: '#ctor'
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: SyncLight()
+  nameWithType: SyncLight.SyncLight()
+  fullName: Unity.Reflect.Model.SyncLight.SyncLight()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2512
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncLight()
+    content.vb: Public Sub New
+  overload: Unity.Reflect.Model.SyncLight.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.#ctor(Unity.Reflect.Model.SyncLight)
+  commentId: M:Unity.Reflect.Model.SyncLight.#ctor(Unity.Reflect.Model.SyncLight)
+  id: '#ctor(Unity.Reflect.Model.SyncLight)'
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: SyncLight(SyncLight)
+  nameWithType: SyncLight.SyncLight(SyncLight)
+  fullName: Unity.Reflect.Model.SyncLight.SyncLight(Unity.Reflect.Model.SyncLight)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2519
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncLight(SyncLight other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.Model.SyncLight
+    content.vb: Public Sub New(other As SyncLight)
+  overload: Unity.Reflect.Model.SyncLight.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.Clone
+  commentId: M:Unity.Reflect.Model.SyncLight.Clone
+  id: Clone
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: SyncLight.Clone()
+  fullName: Unity.Reflect.Model.SyncLight.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 2540
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncLight Clone()
+    return:
+      type: Unity.Reflect.Model.SyncLight
+    content.vb: Public Function Clone As SyncLight
+  overload: Unity.Reflect.Model.SyncLight.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.NameFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.NameFieldNumber
+  id: NameFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: NameFieldNumber
+  nameWithType: SyncLight.NameFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.NameFieldNumber
+  type: Field
+  source:
+    id: NameFieldNumber
+    path: ''
+    startLine: 2546
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;name&quot; field.
+  example: []
+  syntax:
+    content: public const int NameFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const NameFieldNumber As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.Name
+  commentId: P:Unity.Reflect.Model.SyncLight.Name
+  id: Name
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SyncLight.Name
+  fullName: Unity.Reflect.Model.SyncLight.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 2548
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Unity.Reflect.Model.SyncLight.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.TransformFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.TransformFieldNumber
+  id: TransformFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: TransformFieldNumber
+  nameWithType: SyncLight.TransformFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.TransformFieldNumber
+  type: Field
+  source:
+    id: TransformFieldNumber
+    path: ''
+    startLine: 2557
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;transform&quot; field.
+  example: []
+  syntax:
+    content: public const int TransformFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const TransformFieldNumber As Integer = 2
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.Transform
+  commentId: P:Unity.Reflect.Model.SyncLight.Transform
+  id: Transform
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Transform
+  nameWithType: SyncLight.Transform
+  fullName: Unity.Reflect.Model.SyncLight.Transform
+  type: Property
+  source:
+    id: Transform
+    path: ''
+    startLine: 2559
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncTransform Transform { get; set; }
+    parameters: []
+    return:
+      type: Unity.Reflect.Model.SyncTransform
+    content.vb: Public Property Transform As SyncTransform
+  overload: Unity.Reflect.Model.SyncLight.Transform*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.TypeFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.TypeFieldNumber
+  id: TypeFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: TypeFieldNumber
+  nameWithType: SyncLight.TypeFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.TypeFieldNumber
+  type: Field
+  source:
+    id: TypeFieldNumber
+    path: ''
+    startLine: 2568
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;type&quot; field.
+  example: []
+  syntax:
+    content: public const int TypeFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const TypeFieldNumber As Integer = 3
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.Type
+  commentId: P:Unity.Reflect.Model.SyncLight.Type
+  id: Type
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: SyncLight.Type
+  fullName: Unity.Reflect.Model.SyncLight.Type
+  type: Property
+  source:
+    id: Type
+    path: ''
+    startLine: 2570
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncLight.Types.Type Type { get; set; }
+    parameters: []
+    return:
+      type: Unity.Reflect.Model.SyncLight.Types.Type
+    content.vb: Public Property Type As SyncLight.Types.Type
+  overload: Unity.Reflect.Model.SyncLight.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.ColorFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.ColorFieldNumber
+  id: ColorFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: ColorFieldNumber
+  nameWithType: SyncLight.ColorFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.ColorFieldNumber
+  type: Field
+  source:
+    id: ColorFieldNumber
+    path: ''
+    startLine: 2579
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;color&quot; field.
+  example: []
+  syntax:
+    content: public const int ColorFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const ColorFieldNumber As Integer = 4
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.Color
+  commentId: P:Unity.Reflect.Model.SyncLight.Color
+  id: Color
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: SyncLight.Color
+  fullName: Unity.Reflect.Model.SyncLight.Color
+  type: Property
+  source:
+    id: Color
+    path: ''
+    startLine: 2581
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncColor Color { get; set; }
+    parameters: []
+    return:
+      type: Unity.Reflect.Model.SyncColor
+    content.vb: Public Property Color As SyncColor
+  overload: Unity.Reflect.Model.SyncLight.Color*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.TemperatureFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.TemperatureFieldNumber
+  id: TemperatureFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: TemperatureFieldNumber
+  nameWithType: SyncLight.TemperatureFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.TemperatureFieldNumber
+  type: Field
+  source:
+    id: TemperatureFieldNumber
+    path: ''
+    startLine: 2590
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;temperature&quot; field.
+  example: []
+  syntax:
+    content: public const int TemperatureFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const TemperatureFieldNumber As Integer = 5
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.Temperature
+  commentId: P:Unity.Reflect.Model.SyncLight.Temperature
+  id: Temperature
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Temperature
+  nameWithType: SyncLight.Temperature
+  fullName: Unity.Reflect.Model.SyncLight.Temperature
+  type: Property
+  source:
+    id: Temperature
+    path: ''
+    startLine: 2592
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public float Temperature { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Temperature As Single
+  overload: Unity.Reflect.Model.SyncLight.Temperature*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.IntensityFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.IntensityFieldNumber
+  id: IntensityFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: IntensityFieldNumber
+  nameWithType: SyncLight.IntensityFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.IntensityFieldNumber
+  type: Field
+  source:
+    id: IntensityFieldNumber
+    path: ''
+    startLine: 2601
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;intensity&quot; field.
+  example: []
+  syntax:
+    content: public const int IntensityFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const IntensityFieldNumber As Integer = 6
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.Intensity
+  commentId: P:Unity.Reflect.Model.SyncLight.Intensity
+  id: Intensity
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Intensity
+  nameWithType: SyncLight.Intensity
+  fullName: Unity.Reflect.Model.SyncLight.Intensity
+  type: Property
+  source:
+    id: Intensity
+    path: ''
+    startLine: 2603
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public float Intensity { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Intensity As Single
+  overload: Unity.Reflect.Model.SyncLight.Intensity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.IntensityUnitFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.IntensityUnitFieldNumber
+  id: IntensityUnitFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: IntensityUnitFieldNumber
+  nameWithType: SyncLight.IntensityUnitFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.IntensityUnitFieldNumber
+  type: Field
+  source:
+    id: IntensityUnitFieldNumber
+    path: ''
+    startLine: 2612
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;intensityUnit&quot; field.
+  example: []
+  syntax:
+    content: public const int IntensityUnitFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const IntensityUnitFieldNumber As Integer = 7
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.IntensityUnit
+  commentId: P:Unity.Reflect.Model.SyncLight.IntensityUnit
+  id: IntensityUnit
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: IntensityUnit
+  nameWithType: SyncLight.IntensityUnit
+  fullName: Unity.Reflect.Model.SyncLight.IntensityUnit
+  type: Property
+  source:
+    id: IntensityUnit
+    path: ''
+    startLine: 2614
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncLight.Types.IntensityUnit IntensityUnit { get; set; }
+    parameters: []
+    return:
+      type: Unity.Reflect.Model.SyncLight.Types.IntensityUnit
+    content.vb: Public Property IntensityUnit As SyncLight.Types.IntensityUnit
+  overload: Unity.Reflect.Model.SyncLight.IntensityUnit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.RangeFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.RangeFieldNumber
+  id: RangeFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: RangeFieldNumber
+  nameWithType: SyncLight.RangeFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.RangeFieldNumber
+  type: Field
+  source:
+    id: RangeFieldNumber
+    path: ''
+    startLine: 2623
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;range&quot; field.
+  example: []
+  syntax:
+    content: public const int RangeFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const RangeFieldNumber As Integer = 8
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.Range
+  commentId: P:Unity.Reflect.Model.SyncLight.Range
+  id: Range
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Range
+  nameWithType: SyncLight.Range
+  fullName: Unity.Reflect.Model.SyncLight.Range
+  type: Property
+  source:
+    id: Range
+    path: ''
+    startLine: 2625
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public float Range { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Range As Single
+  overload: Unity.Reflect.Model.SyncLight.Range*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.ShapeFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.ShapeFieldNumber
+  id: ShapeFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: ShapeFieldNumber
+  nameWithType: SyncLight.ShapeFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.ShapeFieldNumber
+  type: Field
+  source:
+    id: ShapeFieldNumber
+    path: ''
+    startLine: 2634
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;shape&quot; field.
+  example: []
+  syntax:
+    content: public const int ShapeFieldNumber = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const ShapeFieldNumber As Integer = 9
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.Shape
+  commentId: P:Unity.Reflect.Model.SyncLight.Shape
+  id: Shape
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Shape
+  nameWithType: SyncLight.Shape
+  fullName: Unity.Reflect.Model.SyncLight.Shape
+  type: Property
+  source:
+    id: Shape
+    path: ''
+    startLine: 2636
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncLight.Types.Shape Shape { get; set; }
+    parameters: []
+    return:
+      type: Unity.Reflect.Model.SyncLight.Types.Shape
+    content.vb: Public Property Shape As SyncLight.Types.Shape
+  overload: Unity.Reflect.Model.SyncLight.Shape*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.ShapeDiameterFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.ShapeDiameterFieldNumber
+  id: ShapeDiameterFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: ShapeDiameterFieldNumber
+  nameWithType: SyncLight.ShapeDiameterFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.ShapeDiameterFieldNumber
+  type: Field
+  source:
+    id: ShapeDiameterFieldNumber
+    path: ''
+    startLine: 2645
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;shapeDiameter&quot; field.
+  example: []
+  syntax:
+    content: public const int ShapeDiameterFieldNumber = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const ShapeDiameterFieldNumber As Integer = 10
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.ShapeDiameter
+  commentId: P:Unity.Reflect.Model.SyncLight.ShapeDiameter
+  id: ShapeDiameter
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: ShapeDiameter
+  nameWithType: SyncLight.ShapeDiameter
+  fullName: Unity.Reflect.Model.SyncLight.ShapeDiameter
+  type: Property
+  source:
+    id: ShapeDiameter
+    path: ''
+    startLine: 2647
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public float ShapeDiameter { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ShapeDiameter As Single
+  overload: Unity.Reflect.Model.SyncLight.ShapeDiameter*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.ShapeWidthFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.ShapeWidthFieldNumber
+  id: ShapeWidthFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: ShapeWidthFieldNumber
+  nameWithType: SyncLight.ShapeWidthFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.ShapeWidthFieldNumber
+  type: Field
+  source:
+    id: ShapeWidthFieldNumber
+    path: ''
+    startLine: 2656
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;shapeWidth&quot; field.
+  example: []
+  syntax:
+    content: public const int ShapeWidthFieldNumber = 11
+    return:
+      type: System.Int32
+    content.vb: Public Const ShapeWidthFieldNumber As Integer = 11
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.ShapeWidth
+  commentId: P:Unity.Reflect.Model.SyncLight.ShapeWidth
+  id: ShapeWidth
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: ShapeWidth
+  nameWithType: SyncLight.ShapeWidth
+  fullName: Unity.Reflect.Model.SyncLight.ShapeWidth
+  type: Property
+  source:
+    id: ShapeWidth
+    path: ''
+    startLine: 2658
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public float ShapeWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ShapeWidth As Single
+  overload: Unity.Reflect.Model.SyncLight.ShapeWidth*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.ShapeLengthFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.ShapeLengthFieldNumber
+  id: ShapeLengthFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: ShapeLengthFieldNumber
+  nameWithType: SyncLight.ShapeLengthFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.ShapeLengthFieldNumber
+  type: Field
+  source:
+    id: ShapeLengthFieldNumber
+    path: ''
+    startLine: 2667
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;shapeLength&quot; field.
+  example: []
+  syntax:
+    content: public const int ShapeLengthFieldNumber = 12
+    return:
+      type: System.Int32
+    content.vb: Public Const ShapeLengthFieldNumber As Integer = 12
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.ShapeLength
+  commentId: P:Unity.Reflect.Model.SyncLight.ShapeLength
+  id: ShapeLength
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: ShapeLength
+  nameWithType: SyncLight.ShapeLength
+  fullName: Unity.Reflect.Model.SyncLight.ShapeLength
+  type: Property
+  source:
+    id: ShapeLength
+    path: ''
+    startLine: 2669
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public float ShapeLength { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ShapeLength As Single
+  overload: Unity.Reflect.Model.SyncLight.ShapeLength*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.ShapeVisibleFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.ShapeVisibleFieldNumber
+  id: ShapeVisibleFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: ShapeVisibleFieldNumber
+  nameWithType: SyncLight.ShapeVisibleFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.ShapeVisibleFieldNumber
+  type: Field
+  source:
+    id: ShapeVisibleFieldNumber
+    path: ''
+    startLine: 2678
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;shapeVisible&quot; field.
+  example: []
+  syntax:
+    content: public const int ShapeVisibleFieldNumber = 13
+    return:
+      type: System.Int32
+    content.vb: Public Const ShapeVisibleFieldNumber As Integer = 13
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.ShapeVisible
+  commentId: P:Unity.Reflect.Model.SyncLight.ShapeVisible
+  id: ShapeVisible
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: ShapeVisible
+  nameWithType: SyncLight.ShapeVisible
+  fullName: Unity.Reflect.Model.SyncLight.ShapeVisible
+  type: Property
+  source:
+    id: ShapeVisible
+    path: ''
+    startLine: 2680
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public bool ShapeVisible { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShapeVisible As Boolean
+  overload: Unity.Reflect.Model.SyncLight.ShapeVisible*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.SpotAngleFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.SpotAngleFieldNumber
+  id: SpotAngleFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: SpotAngleFieldNumber
+  nameWithType: SyncLight.SpotAngleFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.SpotAngleFieldNumber
+  type: Field
+  source:
+    id: SpotAngleFieldNumber
+    path: ''
+    startLine: 2689
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;spotAngle&quot; field.
+  example: []
+  syntax:
+    content: public const int SpotAngleFieldNumber = 14
+    return:
+      type: System.Int32
+    content.vb: Public Const SpotAngleFieldNumber As Integer = 14
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.SpotAngle
+  commentId: P:Unity.Reflect.Model.SyncLight.SpotAngle
+  id: SpotAngle
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: SpotAngle
+  nameWithType: SyncLight.SpotAngle
+  fullName: Unity.Reflect.Model.SyncLight.SpotAngle
+  type: Property
+  source:
+    id: SpotAngle
+    path: ''
+    startLine: 2691
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public float SpotAngle { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property SpotAngle As Single
+  overload: Unity.Reflect.Model.SyncLight.SpotAngle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.BeamAngleFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.BeamAngleFieldNumber
+  id: BeamAngleFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: BeamAngleFieldNumber
+  nameWithType: SyncLight.BeamAngleFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.BeamAngleFieldNumber
+  type: Field
+  source:
+    id: BeamAngleFieldNumber
+    path: ''
+    startLine: 2700
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;beamAngle&quot; field.
+  example: []
+  syntax:
+    content: public const int BeamAngleFieldNumber = 15
+    return:
+      type: System.Int32
+    content.vb: Public Const BeamAngleFieldNumber As Integer = 15
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.BeamAngle
+  commentId: P:Unity.Reflect.Model.SyncLight.BeamAngle
+  id: BeamAngle
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: BeamAngle
+  nameWithType: SyncLight.BeamAngle
+  fullName: Unity.Reflect.Model.SyncLight.BeamAngle
+  type: Property
+  source:
+    id: BeamAngle
+    path: ''
+    startLine: 2702
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public float BeamAngle { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property BeamAngle As Single
+  overload: Unity.Reflect.Model.SyncLight.BeamAngle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.IesProfileFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.IesProfileFieldNumber
+  id: IesProfileFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: IesProfileFieldNumber
+  nameWithType: SyncLight.IesProfileFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.IesProfileFieldNumber
+  type: Field
+  source:
+    id: IesProfileFieldNumber
+    path: ''
+    startLine: 2711
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;iesProfile&quot; field.
+  example: []
+  syntax:
+    content: public const int IesProfileFieldNumber = 16
+    return:
+      type: System.Int32
+    content.vb: Public Const IesProfileFieldNumber As Integer = 16
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.IesProfile
+  commentId: P:Unity.Reflect.Model.SyncLight.IesProfile
+  id: IesProfile
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: IesProfile
+  nameWithType: SyncLight.IesProfile
+  fullName: Unity.Reflect.Model.SyncLight.IesProfile
+  type: Property
+  source:
+    id: IesProfile
+    path: ''
+    startLine: 2713
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public string IesProfile { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IesProfile As String
+  overload: Unity.Reflect.Model.SyncLight.IesProfile*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.Equals(System.Object)
+  commentId: M:Unity.Reflect.Model.SyncLight.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: SyncLight.Equals(Object)
+  fullName: Unity.Reflect.Model.SyncLight.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 2721
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: Unity.Reflect.Model.SyncLight.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.Model.SyncLight.Equals(Unity.Reflect.Model.SyncLight)
+  commentId: M:Unity.Reflect.Model.SyncLight.Equals(Unity.Reflect.Model.SyncLight)
+  id: Equals(Unity.Reflect.Model.SyncLight)
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Equals(SyncLight)
+  nameWithType: SyncLight.Equals(SyncLight)
+  fullName: Unity.Reflect.Model.SyncLight.Equals(Unity.Reflect.Model.SyncLight)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 2726
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public bool Equals(SyncLight other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.Model.SyncLight
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As SyncLight) As Boolean
+  overload: Unity.Reflect.Model.SyncLight.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.GetHashCode
+  commentId: M:Unity.Reflect.Model.SyncLight.GetHashCode
+  id: GetHashCode
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: SyncLight.GetHashCode()
+  fullName: Unity.Reflect.Model.SyncLight.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 2753
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: Unity.Reflect.Model.SyncLight.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.Model.SyncLight.ToString
+  commentId: M:Unity.Reflect.Model.SyncLight.ToString
+  id: ToString
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SyncLight.ToString()
+  fullName: Unity.Reflect.Model.SyncLight.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 2778
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Unity.Reflect.Model.SyncLight.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.Model.SyncLight.WriteTo(pb.CodedOutputStream)
+  commentId: M:Unity.Reflect.Model.SyncLight.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: SyncLight.WriteTo(pb.CodedOutputStream)
+  fullName: Unity.Reflect.Model.SyncLight.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 2783
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: Unity.Reflect.Model.SyncLight.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.CalculateSize
+  commentId: M:Unity.Reflect.Model.SyncLight.CalculateSize
+  id: CalculateSize
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: SyncLight.CalculateSize()
+  fullName: Unity.Reflect.Model.SyncLight.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 2854
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: Unity.Reflect.Model.SyncLight.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.MergeFrom(Unity.Reflect.Model.SyncLight)
+  commentId: M:Unity.Reflect.Model.SyncLight.MergeFrom(Unity.Reflect.Model.SyncLight)
+  id: MergeFrom(Unity.Reflect.Model.SyncLight)
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(SyncLight)
+  nameWithType: SyncLight.MergeFrom(SyncLight)
+  fullName: Unity.Reflect.Model.SyncLight.MergeFrom(Unity.Reflect.Model.SyncLight)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 2911
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public void MergeFrom(SyncLight other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.Model.SyncLight
+    content.vb: Public Sub MergeFrom(other As SyncLight)
+  overload: Unity.Reflect.Model.SyncLight.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.MergeFrom(pb.CodedInputStream)
+  commentId: M:Unity.Reflect.Model.SyncLight.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: SyncLight.MergeFrom(pb.CodedInputStream)
+  fullName: Unity.Reflect.Model.SyncLight.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 2973
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: Unity.Reflect.Model.SyncLight.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.#ctor(System.String,Unity.Reflect.Model.SyncTransform,Unity.Reflect.Model.SyncLight.Types.Type,Unity.Reflect.Model.SyncColor,System.Single,System.Single,Unity.Reflect.Model.SyncLight.Types.IntensityUnit,System.Single,System.Single,System.Single,Unity.Reflect.Model.SyncLight.Types.Shape,System.Single,System.Single,System.Single,System.Boolean,System.String)
+  commentId: M:Unity.Reflect.Model.SyncLight.#ctor(System.String,Unity.Reflect.Model.SyncTransform,Unity.Reflect.Model.SyncLight.Types.Type,Unity.Reflect.Model.SyncColor,System.Single,System.Single,Unity.Reflect.Model.SyncLight.Types.IntensityUnit,System.Single,System.Single,System.Single,Unity.Reflect.Model.SyncLight.Types.Shape,System.Single,System.Single,System.Single,System.Boolean,System.String)
+  id: '#ctor(System.String,Unity.Reflect.Model.SyncTransform,Unity.Reflect.Model.SyncLight.Types.Type,Unity.Reflect.Model.SyncColor,System.Single,System.Single,Unity.Reflect.Model.SyncLight.Types.IntensityUnit,System.Single,System.Single,System.Single,Unity.Reflect.Model.SyncLight.Types.Shape,System.Single,System.Single,System.Single,System.Boolean,System.String)'
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: SyncLight(String, SyncTransform, SyncLight.Types.Type, SyncColor, Single, Single, SyncLight.Types.IntensityUnit, Single, Single, Single, SyncLight.Types.Shape, Single, Single, Single, Boolean, String)
+  nameWithType: SyncLight.SyncLight(String, SyncTransform, SyncLight.Types.Type, SyncColor, Single, Single, SyncLight.Types.IntensityUnit, Single, Single, Single, SyncLight.Types.Shape, Single, Single, Single, Boolean, String)
+  fullName: Unity.Reflect.Model.SyncLight.SyncLight(System.String, Unity.Reflect.Model.SyncTransform, Unity.Reflect.Model.SyncLight.Types.Type, Unity.Reflect.Model.SyncColor, System.Single, System.Single, Unity.Reflect.Model.SyncLight.Types.IntensityUnit, System.Single, System.Single, System.Single, Unity.Reflect.Model.SyncLight.Types.Shape, System.Single, System.Single, System.Single, System.Boolean, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 20655
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncLight(string name, SyncTransform transform, SyncLight.Types.Type type, SyncColor color, float temperature, float intensity, SyncLight.Types.IntensityUnit intensityUnit, float range, float spotAngle, float beamAngle, SyncLight.Types.Shape shape, float shapeDiameter, float shapeWidth, float shapeLength, bool shapeVisible, string iesProfile)
+    parameters:
+    - id: name
+      type: System.String
+    - id: transform
+      type: Unity.Reflect.Model.SyncTransform
+    - id: type
+      type: Unity.Reflect.Model.SyncLight.Types.Type
+    - id: color
+      type: Unity.Reflect.Model.SyncColor
+    - id: temperature
+      type: System.Single
+    - id: intensity
+      type: System.Single
+    - id: intensityUnit
+      type: Unity.Reflect.Model.SyncLight.Types.IntensityUnit
+    - id: range
+      type: System.Single
+    - id: spotAngle
+      type: System.Single
+    - id: beamAngle
+      type: System.Single
+    - id: shape
+      type: Unity.Reflect.Model.SyncLight.Types.Shape
+    - id: shapeDiameter
+      type: System.Single
+    - id: shapeWidth
+      type: System.Single
+    - id: shapeLength
+      type: System.Single
+    - id: shapeVisible
+      type: System.Boolean
+    - id: iesProfile
+      type: System.String
+    content.vb: Public Sub New(name As String, transform As SyncTransform, type As SyncLight.Types.Type, color As SyncColor, temperature As Single, intensity As Single, intensityUnit As SyncLight.Types.IntensityUnit, range As Single, spotAngle As Single, beamAngle As Single, shape As SyncLight.Types.Shape, shapeDiameter As Single, shapeWidth As Single, shapeLength As Single, shapeVisible As Boolean, iesProfile As String)
+  overload: Unity.Reflect.Model.SyncLight.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.Parser
+  commentId: P:Unity.Reflect.Model.SyncLight.Parser
+  id: Parser
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: SyncLight.Parser
+  fullName: Unity.Reflect.Model.SyncLight.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 22658
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public static pb.MessageParser<SyncLight> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{Unity.Reflect.Model.SyncLight}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of SyncLight)
+  overload: Unity.Reflect.Model.SyncLight.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.Model.SyncLight.Descriptor
+  commentId: P:Unity.Reflect.Model.SyncLight.Descriptor
+  id: Descriptor
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: SyncLight.Descriptor
+  fullName: Unity.Reflect.Model.SyncLight.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 22661
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: Unity.Reflect.Model.SyncLight.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.Model.SyncLight.#ctor
+  commentId: M:Unity.Reflect.Model.SyncLight.#ctor
+  id: '#ctor'
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: SyncLight()
+  nameWithType: SyncLight.SyncLight()
+  fullName: Unity.Reflect.Model.SyncLight.SyncLight()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 22671
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncLight()
+    content.vb: Public Sub New
+  overload: Unity.Reflect.Model.SyncLight.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.#ctor(Unity.Reflect.Model.SyncLight)
+  commentId: M:Unity.Reflect.Model.SyncLight.#ctor(Unity.Reflect.Model.SyncLight)
+  id: '#ctor(Unity.Reflect.Model.SyncLight)'
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: SyncLight(SyncLight)
+  nameWithType: SyncLight.SyncLight(SyncLight)
+  fullName: Unity.Reflect.Model.SyncLight.SyncLight(Unity.Reflect.Model.SyncLight)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 22678
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncLight(SyncLight other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.Model.SyncLight
+    content.vb: Public Sub New(other As SyncLight)
+  overload: Unity.Reflect.Model.SyncLight.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.Clone
+  commentId: M:Unity.Reflect.Model.SyncLight.Clone
+  id: Clone
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: SyncLight.Clone()
+  fullName: Unity.Reflect.Model.SyncLight.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 22699
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncLight Clone()
+    return:
+      type: Unity.Reflect.Model.SyncLight
+    content.vb: Public Function Clone As SyncLight
+  overload: Unity.Reflect.Model.SyncLight.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.NameFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.NameFieldNumber
+  id: NameFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: NameFieldNumber
+  nameWithType: SyncLight.NameFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.NameFieldNumber
+  type: Field
+  source:
+    id: NameFieldNumber
+    path: ''
+    startLine: 22705
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;name&quot; field.
+  example: []
+  syntax:
+    content: public const int NameFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const NameFieldNumber As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.Name
+  commentId: P:Unity.Reflect.Model.SyncLight.Name
+  id: Name
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SyncLight.Name
+  fullName: Unity.Reflect.Model.SyncLight.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 22707
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Unity.Reflect.Model.SyncLight.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.TransformFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.TransformFieldNumber
+  id: TransformFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: TransformFieldNumber
+  nameWithType: SyncLight.TransformFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.TransformFieldNumber
+  type: Field
+  source:
+    id: TransformFieldNumber
+    path: ''
+    startLine: 22716
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;transform&quot; field.
+  example: []
+  syntax:
+    content: public const int TransformFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const TransformFieldNumber As Integer = 2
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.Transform
+  commentId: P:Unity.Reflect.Model.SyncLight.Transform
+  id: Transform
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Transform
+  nameWithType: SyncLight.Transform
+  fullName: Unity.Reflect.Model.SyncLight.Transform
+  type: Property
+  source:
+    id: Transform
+    path: ''
+    startLine: 22718
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncTransform Transform { get; set; }
+    parameters: []
+    return:
+      type: Unity.Reflect.Model.SyncTransform
+    content.vb: Public Property Transform As SyncTransform
+  overload: Unity.Reflect.Model.SyncLight.Transform*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.TypeFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.TypeFieldNumber
+  id: TypeFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: TypeFieldNumber
+  nameWithType: SyncLight.TypeFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.TypeFieldNumber
+  type: Field
+  source:
+    id: TypeFieldNumber
+    path: ''
+    startLine: 22727
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;type&quot; field.
+  example: []
+  syntax:
+    content: public const int TypeFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const TypeFieldNumber As Integer = 3
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.Type
+  commentId: P:Unity.Reflect.Model.SyncLight.Type
+  id: Type
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: SyncLight.Type
+  fullName: Unity.Reflect.Model.SyncLight.Type
+  type: Property
+  source:
+    id: Type
+    path: ''
+    startLine: 22729
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncLight.Types.Type Type { get; set; }
+    parameters: []
+    return:
+      type: Unity.Reflect.Model.SyncLight.Types.Type
+    content.vb: Public Property Type As SyncLight.Types.Type
+  overload: Unity.Reflect.Model.SyncLight.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.ColorFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.ColorFieldNumber
+  id: ColorFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: ColorFieldNumber
+  nameWithType: SyncLight.ColorFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.ColorFieldNumber
+  type: Field
+  source:
+    id: ColorFieldNumber
+    path: ''
+    startLine: 22738
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;color&quot; field.
+  example: []
+  syntax:
+    content: public const int ColorFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const ColorFieldNumber As Integer = 4
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.Color
+  commentId: P:Unity.Reflect.Model.SyncLight.Color
+  id: Color
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: SyncLight.Color
+  fullName: Unity.Reflect.Model.SyncLight.Color
+  type: Property
+  source:
+    id: Color
+    path: ''
+    startLine: 22740
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncColor Color { get; set; }
+    parameters: []
+    return:
+      type: Unity.Reflect.Model.SyncColor
+    content.vb: Public Property Color As SyncColor
+  overload: Unity.Reflect.Model.SyncLight.Color*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.TemperatureFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.TemperatureFieldNumber
+  id: TemperatureFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: TemperatureFieldNumber
+  nameWithType: SyncLight.TemperatureFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.TemperatureFieldNumber
+  type: Field
+  source:
+    id: TemperatureFieldNumber
+    path: ''
+    startLine: 22749
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;temperature&quot; field.
+  example: []
+  syntax:
+    content: public const int TemperatureFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const TemperatureFieldNumber As Integer = 5
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.Temperature
+  commentId: P:Unity.Reflect.Model.SyncLight.Temperature
+  id: Temperature
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Temperature
+  nameWithType: SyncLight.Temperature
+  fullName: Unity.Reflect.Model.SyncLight.Temperature
+  type: Property
+  source:
+    id: Temperature
+    path: ''
+    startLine: 22751
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public float Temperature { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Temperature As Single
+  overload: Unity.Reflect.Model.SyncLight.Temperature*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.IntensityFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.IntensityFieldNumber
+  id: IntensityFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: IntensityFieldNumber
+  nameWithType: SyncLight.IntensityFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.IntensityFieldNumber
+  type: Field
+  source:
+    id: IntensityFieldNumber
+    path: ''
+    startLine: 22760
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;intensity&quot; field.
+  example: []
+  syntax:
+    content: public const int IntensityFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const IntensityFieldNumber As Integer = 6
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.Intensity
+  commentId: P:Unity.Reflect.Model.SyncLight.Intensity
+  id: Intensity
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Intensity
+  nameWithType: SyncLight.Intensity
+  fullName: Unity.Reflect.Model.SyncLight.Intensity
+  type: Property
+  source:
+    id: Intensity
+    path: ''
+    startLine: 22762
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public float Intensity { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Intensity As Single
+  overload: Unity.Reflect.Model.SyncLight.Intensity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.IntensityUnitFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.IntensityUnitFieldNumber
+  id: IntensityUnitFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: IntensityUnitFieldNumber
+  nameWithType: SyncLight.IntensityUnitFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.IntensityUnitFieldNumber
+  type: Field
+  source:
+    id: IntensityUnitFieldNumber
+    path: ''
+    startLine: 22771
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;intensityUnit&quot; field.
+  example: []
+  syntax:
+    content: public const int IntensityUnitFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const IntensityUnitFieldNumber As Integer = 7
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.IntensityUnit
+  commentId: P:Unity.Reflect.Model.SyncLight.IntensityUnit
+  id: IntensityUnit
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: IntensityUnit
+  nameWithType: SyncLight.IntensityUnit
+  fullName: Unity.Reflect.Model.SyncLight.IntensityUnit
+  type: Property
+  source:
+    id: IntensityUnit
+    path: ''
+    startLine: 22773
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncLight.Types.IntensityUnit IntensityUnit { get; set; }
+    parameters: []
+    return:
+      type: Unity.Reflect.Model.SyncLight.Types.IntensityUnit
+    content.vb: Public Property IntensityUnit As SyncLight.Types.IntensityUnit
+  overload: Unity.Reflect.Model.SyncLight.IntensityUnit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.RangeFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.RangeFieldNumber
+  id: RangeFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: RangeFieldNumber
+  nameWithType: SyncLight.RangeFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.RangeFieldNumber
+  type: Field
+  source:
+    id: RangeFieldNumber
+    path: ''
+    startLine: 22782
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;range&quot; field.
+  example: []
+  syntax:
+    content: public const int RangeFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const RangeFieldNumber As Integer = 8
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.Range
+  commentId: P:Unity.Reflect.Model.SyncLight.Range
+  id: Range
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Range
+  nameWithType: SyncLight.Range
+  fullName: Unity.Reflect.Model.SyncLight.Range
+  type: Property
+  source:
+    id: Range
+    path: ''
+    startLine: 22784
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public float Range { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Range As Single
+  overload: Unity.Reflect.Model.SyncLight.Range*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.ShapeFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.ShapeFieldNumber
+  id: ShapeFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: ShapeFieldNumber
+  nameWithType: SyncLight.ShapeFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.ShapeFieldNumber
+  type: Field
+  source:
+    id: ShapeFieldNumber
+    path: ''
+    startLine: 22793
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;shape&quot; field.
+  example: []
+  syntax:
+    content: public const int ShapeFieldNumber = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const ShapeFieldNumber As Integer = 9
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.Shape
+  commentId: P:Unity.Reflect.Model.SyncLight.Shape
+  id: Shape
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Shape
+  nameWithType: SyncLight.Shape
+  fullName: Unity.Reflect.Model.SyncLight.Shape
+  type: Property
+  source:
+    id: Shape
+    path: ''
+    startLine: 22795
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public SyncLight.Types.Shape Shape { get; set; }
+    parameters: []
+    return:
+      type: Unity.Reflect.Model.SyncLight.Types.Shape
+    content.vb: Public Property Shape As SyncLight.Types.Shape
+  overload: Unity.Reflect.Model.SyncLight.Shape*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.ShapeDiameterFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.ShapeDiameterFieldNumber
+  id: ShapeDiameterFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: ShapeDiameterFieldNumber
+  nameWithType: SyncLight.ShapeDiameterFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.ShapeDiameterFieldNumber
+  type: Field
+  source:
+    id: ShapeDiameterFieldNumber
+    path: ''
+    startLine: 22804
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;shapeDiameter&quot; field.
+  example: []
+  syntax:
+    content: public const int ShapeDiameterFieldNumber = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const ShapeDiameterFieldNumber As Integer = 10
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.ShapeDiameter
+  commentId: P:Unity.Reflect.Model.SyncLight.ShapeDiameter
+  id: ShapeDiameter
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: ShapeDiameter
+  nameWithType: SyncLight.ShapeDiameter
+  fullName: Unity.Reflect.Model.SyncLight.ShapeDiameter
+  type: Property
+  source:
+    id: ShapeDiameter
+    path: ''
+    startLine: 22806
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public float ShapeDiameter { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ShapeDiameter As Single
+  overload: Unity.Reflect.Model.SyncLight.ShapeDiameter*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.ShapeWidthFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.ShapeWidthFieldNumber
+  id: ShapeWidthFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: ShapeWidthFieldNumber
+  nameWithType: SyncLight.ShapeWidthFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.ShapeWidthFieldNumber
+  type: Field
+  source:
+    id: ShapeWidthFieldNumber
+    path: ''
+    startLine: 22815
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;shapeWidth&quot; field.
+  example: []
+  syntax:
+    content: public const int ShapeWidthFieldNumber = 11
+    return:
+      type: System.Int32
+    content.vb: Public Const ShapeWidthFieldNumber As Integer = 11
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.ShapeWidth
+  commentId: P:Unity.Reflect.Model.SyncLight.ShapeWidth
+  id: ShapeWidth
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: ShapeWidth
+  nameWithType: SyncLight.ShapeWidth
+  fullName: Unity.Reflect.Model.SyncLight.ShapeWidth
+  type: Property
+  source:
+    id: ShapeWidth
+    path: ''
+    startLine: 22817
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public float ShapeWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ShapeWidth As Single
+  overload: Unity.Reflect.Model.SyncLight.ShapeWidth*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.ShapeLengthFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.ShapeLengthFieldNumber
+  id: ShapeLengthFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: ShapeLengthFieldNumber
+  nameWithType: SyncLight.ShapeLengthFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.ShapeLengthFieldNumber
+  type: Field
+  source:
+    id: ShapeLengthFieldNumber
+    path: ''
+    startLine: 22826
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;shapeLength&quot; field.
+  example: []
+  syntax:
+    content: public const int ShapeLengthFieldNumber = 12
+    return:
+      type: System.Int32
+    content.vb: Public Const ShapeLengthFieldNumber As Integer = 12
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.ShapeLength
+  commentId: P:Unity.Reflect.Model.SyncLight.ShapeLength
+  id: ShapeLength
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: ShapeLength
+  nameWithType: SyncLight.ShapeLength
+  fullName: Unity.Reflect.Model.SyncLight.ShapeLength
+  type: Property
+  source:
+    id: ShapeLength
+    path: ''
+    startLine: 22828
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public float ShapeLength { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ShapeLength As Single
+  overload: Unity.Reflect.Model.SyncLight.ShapeLength*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.ShapeVisibleFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.ShapeVisibleFieldNumber
+  id: ShapeVisibleFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: ShapeVisibleFieldNumber
+  nameWithType: SyncLight.ShapeVisibleFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.ShapeVisibleFieldNumber
+  type: Field
+  source:
+    id: ShapeVisibleFieldNumber
+    path: ''
+    startLine: 22837
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;shapeVisible&quot; field.
+  example: []
+  syntax:
+    content: public const int ShapeVisibleFieldNumber = 13
+    return:
+      type: System.Int32
+    content.vb: Public Const ShapeVisibleFieldNumber As Integer = 13
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.ShapeVisible
+  commentId: P:Unity.Reflect.Model.SyncLight.ShapeVisible
+  id: ShapeVisible
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: ShapeVisible
+  nameWithType: SyncLight.ShapeVisible
+  fullName: Unity.Reflect.Model.SyncLight.ShapeVisible
+  type: Property
+  source:
+    id: ShapeVisible
+    path: ''
+    startLine: 22839
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public bool ShapeVisible { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShapeVisible As Boolean
+  overload: Unity.Reflect.Model.SyncLight.ShapeVisible*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.SpotAngleFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.SpotAngleFieldNumber
+  id: SpotAngleFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: SpotAngleFieldNumber
+  nameWithType: SyncLight.SpotAngleFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.SpotAngleFieldNumber
+  type: Field
+  source:
+    id: SpotAngleFieldNumber
+    path: ''
+    startLine: 22848
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;spotAngle&quot; field.
+  example: []
+  syntax:
+    content: public const int SpotAngleFieldNumber = 14
+    return:
+      type: System.Int32
+    content.vb: Public Const SpotAngleFieldNumber As Integer = 14
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.SpotAngle
+  commentId: P:Unity.Reflect.Model.SyncLight.SpotAngle
+  id: SpotAngle
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: SpotAngle
+  nameWithType: SyncLight.SpotAngle
+  fullName: Unity.Reflect.Model.SyncLight.SpotAngle
+  type: Property
+  source:
+    id: SpotAngle
+    path: ''
+    startLine: 22850
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public float SpotAngle { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property SpotAngle As Single
+  overload: Unity.Reflect.Model.SyncLight.SpotAngle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.BeamAngleFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.BeamAngleFieldNumber
+  id: BeamAngleFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: BeamAngleFieldNumber
+  nameWithType: SyncLight.BeamAngleFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.BeamAngleFieldNumber
+  type: Field
+  source:
+    id: BeamAngleFieldNumber
+    path: ''
+    startLine: 22859
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;beamAngle&quot; field.
+  example: []
+  syntax:
+    content: public const int BeamAngleFieldNumber = 15
+    return:
+      type: System.Int32
+    content.vb: Public Const BeamAngleFieldNumber As Integer = 15
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.BeamAngle
+  commentId: P:Unity.Reflect.Model.SyncLight.BeamAngle
+  id: BeamAngle
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: BeamAngle
+  nameWithType: SyncLight.BeamAngle
+  fullName: Unity.Reflect.Model.SyncLight.BeamAngle
+  type: Property
+  source:
+    id: BeamAngle
+    path: ''
+    startLine: 22861
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public float BeamAngle { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property BeamAngle As Single
+  overload: Unity.Reflect.Model.SyncLight.BeamAngle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.IesProfileFieldNumber
+  commentId: F:Unity.Reflect.Model.SyncLight.IesProfileFieldNumber
+  id: IesProfileFieldNumber
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: IesProfileFieldNumber
+  nameWithType: SyncLight.IesProfileFieldNumber
+  fullName: Unity.Reflect.Model.SyncLight.IesProfileFieldNumber
+  type: Field
+  source:
+    id: IesProfileFieldNumber
+    path: ''
+    startLine: 22870
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  summary: Field number for the &quot;iesProfile&quot; field.
+  example: []
+  syntax:
+    content: public const int IesProfileFieldNumber = 16
+    return:
+      type: System.Int32
+    content.vb: Public Const IesProfileFieldNumber As Integer = 16
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Model.SyncLight.IesProfile
+  commentId: P:Unity.Reflect.Model.SyncLight.IesProfile
+  id: IesProfile
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: IesProfile
+  nameWithType: SyncLight.IesProfile
+  fullName: Unity.Reflect.Model.SyncLight.IesProfile
+  type: Property
+  source:
+    id: IesProfile
+    path: ''
+    startLine: 22872
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public string IesProfile { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IesProfile As String
+  overload: Unity.Reflect.Model.SyncLight.IesProfile*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.Equals(System.Object)
+  commentId: M:Unity.Reflect.Model.SyncLight.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: SyncLight.Equals(Object)
+  fullName: Unity.Reflect.Model.SyncLight.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 22880
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: Unity.Reflect.Model.SyncLight.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.Model.SyncLight.Equals(Unity.Reflect.Model.SyncLight)
+  commentId: M:Unity.Reflect.Model.SyncLight.Equals(Unity.Reflect.Model.SyncLight)
+  id: Equals(Unity.Reflect.Model.SyncLight)
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: Equals(SyncLight)
+  nameWithType: SyncLight.Equals(SyncLight)
+  fullName: Unity.Reflect.Model.SyncLight.Equals(Unity.Reflect.Model.SyncLight)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 22885
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public bool Equals(SyncLight other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.Model.SyncLight
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As SyncLight) As Boolean
+  overload: Unity.Reflect.Model.SyncLight.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.GetHashCode
+  commentId: M:Unity.Reflect.Model.SyncLight.GetHashCode
+  id: GetHashCode
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: SyncLight.GetHashCode()
+  fullName: Unity.Reflect.Model.SyncLight.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 22912
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: Unity.Reflect.Model.SyncLight.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.Model.SyncLight.ToString
+  commentId: M:Unity.Reflect.Model.SyncLight.ToString
+  id: ToString
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SyncLight.ToString()
+  fullName: Unity.Reflect.Model.SyncLight.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 22937
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Unity.Reflect.Model.SyncLight.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.Model.SyncLight.WriteTo(pb.CodedOutputStream)
+  commentId: M:Unity.Reflect.Model.SyncLight.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: SyncLight.WriteTo(pb.CodedOutputStream)
+  fullName: Unity.Reflect.Model.SyncLight.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 22942
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: Unity.Reflect.Model.SyncLight.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.CalculateSize
+  commentId: M:Unity.Reflect.Model.SyncLight.CalculateSize
+  id: CalculateSize
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: SyncLight.CalculateSize()
+  fullName: Unity.Reflect.Model.SyncLight.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 23013
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: Unity.Reflect.Model.SyncLight.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.MergeFrom(Unity.Reflect.Model.SyncLight)
+  commentId: M:Unity.Reflect.Model.SyncLight.MergeFrom(Unity.Reflect.Model.SyncLight)
+  id: MergeFrom(Unity.Reflect.Model.SyncLight)
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(SyncLight)
+  nameWithType: SyncLight.MergeFrom(SyncLight)
+  fullName: Unity.Reflect.Model.SyncLight.MergeFrom(Unity.Reflect.Model.SyncLight)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 23070
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public void MergeFrom(SyncLight other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.Model.SyncLight
+    content.vb: Public Sub MergeFrom(other As SyncLight)
+  overload: Unity.Reflect.Model.SyncLight.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Model.SyncLight.MergeFrom(pb.CodedInputStream)
+  commentId: M:Unity.Reflect.Model.SyncLight.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: Unity.Reflect.Model.SyncLight
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: SyncLight.MergeFrom(pb.CodedInputStream)
+  fullName: Unity.Reflect.Model.SyncLight.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 23132
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Model
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: Unity.Reflect.Model.SyncLight.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Unity.Reflect.Model
+  commentId: N:Unity.Reflect.Model
+  name: Unity.Reflect.Model
+  nameWithType: Unity.Reflect.Model
+  fullName: Unity.Reflect.Model
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: pb.IMessage{Unity.Reflect.Model.SyncLight}
+  commentId: '!:pb.IMessage{Unity.Reflect.Model.SyncLight}'
+  definition: pb.IMessage`1
+  name: pb.IMessage<SyncLight>
+  nameWithType: pb.IMessage<SyncLight>
+  fullName: pb.IMessage<Unity.Reflect.Model.SyncLight>
+  nameWithType.vb: pb.IMessage(Of SyncLight)
+  fullName.vb: pb.IMessage(Of Unity.Reflect.Model.SyncLight)
+  name.vb: pb.IMessage(Of SyncLight)
+  spec.csharp:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.Model.SyncLight
+    name: SyncLight
+    nameWithType: SyncLight
+    fullName: Unity.Reflect.Model.SyncLight
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.Model.SyncLight
+    name: SyncLight
+    nameWithType: SyncLight
+    fullName: Unity.Reflect.Model.SyncLight
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: pb.IMessage`1
+  isExternal: true
+  name: pb.IMessage<>
+  nameWithType: pb.IMessage<>
+  fullName: pb.IMessage<>
+  nameWithType.vb: pb.IMessage(Of )
+  fullName.vb: pb.IMessage(Of )
+  name.vb: pb.IMessage(Of )
+  spec.csharp:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.Model.SyncLight.#ctor*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.#ctor
+  name: SyncLight
+  nameWithType: SyncLight.SyncLight
+  fullName: Unity.Reflect.Model.SyncLight.SyncLight
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Unity.Reflect.Model.SyncTransform
+  commentId: T:Unity.Reflect.Model.SyncTransform
+  parent: Unity.Reflect.Model
+  name: SyncTransform
+  nameWithType: SyncTransform
+  fullName: Unity.Reflect.Model.SyncTransform
+- uid: Unity.Reflect.Model.SyncLight.Types.Type
+  commentId: T:Unity.Reflect.Model.SyncLight.Types.Type
+  parent: Unity.Reflect.Model
+  name: SyncLight.Types.Type
+  nameWithType: SyncLight.Types.Type
+  fullName: Unity.Reflect.Model.SyncLight.Types.Type
+- uid: Unity.Reflect.Model.SyncColor
+  commentId: T:Unity.Reflect.Model.SyncColor
+  parent: Unity.Reflect.Model
+  name: SyncColor
+  nameWithType: SyncColor
+  fullName: Unity.Reflect.Model.SyncColor
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Unity.Reflect.Model.SyncLight.Types.IntensityUnit
+  commentId: T:Unity.Reflect.Model.SyncLight.Types.IntensityUnit
+  parent: Unity.Reflect.Model
+  name: SyncLight.Types.IntensityUnit
+  nameWithType: SyncLight.Types.IntensityUnit
+  fullName: Unity.Reflect.Model.SyncLight.Types.IntensityUnit
+- uid: Unity.Reflect.Model.SyncLight.Types.Shape
+  commentId: T:Unity.Reflect.Model.SyncLight.Types.Shape
+  parent: Unity.Reflect.Model
+  name: SyncLight.Types.Shape
+  nameWithType: SyncLight.Types.Shape
+  fullName: Unity.Reflect.Model.SyncLight.Types.Shape
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Unity.Reflect.Model.SyncLight.Parser*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.Parser
+  name: Parser
+  nameWithType: SyncLight.Parser
+  fullName: Unity.Reflect.Model.SyncLight.Parser
+- uid: pb.MessageParser{Unity.Reflect.Model.SyncLight}
+  commentId: '!:pb.MessageParser{Unity.Reflect.Model.SyncLight}'
+  definition: pb.MessageParser`1
+  name: pb.MessageParser<SyncLight>
+  nameWithType: pb.MessageParser<SyncLight>
+  fullName: pb.MessageParser<Unity.Reflect.Model.SyncLight>
+  nameWithType.vb: pb.MessageParser(Of SyncLight)
+  fullName.vb: pb.MessageParser(Of Unity.Reflect.Model.SyncLight)
+  name.vb: pb.MessageParser(Of SyncLight)
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.Model.SyncLight
+    name: SyncLight
+    nameWithType: SyncLight
+    fullName: Unity.Reflect.Model.SyncLight
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.Model.SyncLight
+    name: SyncLight
+    nameWithType: SyncLight
+    fullName: Unity.Reflect.Model.SyncLight
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pb.MessageParser`1
+  isExternal: true
+  name: pb.MessageParser<>
+  nameWithType: pb.MessageParser<>
+  fullName: pb.MessageParser<>
+  nameWithType.vb: pb.MessageParser(Of )
+  fullName.vb: pb.MessageParser(Of )
+  name.vb: pb.MessageParser(Of )
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.Model.SyncLight.Descriptor*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.Descriptor
+  name: Descriptor
+  nameWithType: SyncLight.Descriptor
+  fullName: Unity.Reflect.Model.SyncLight.Descriptor
+- uid: pbr.MessageDescriptor
+  isExternal: true
+  name: pbr.MessageDescriptor
+  nameWithType: pbr.MessageDescriptor
+  fullName: pbr.MessageDescriptor
+- uid: Unity.Reflect.Model.SyncLight
+  commentId: T:Unity.Reflect.Model.SyncLight
+  parent: Unity.Reflect.Model
+  name: SyncLight
+  nameWithType: SyncLight
+  fullName: Unity.Reflect.Model.SyncLight
+- uid: Unity.Reflect.Model.SyncLight.Clone*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.Clone
+  name: Clone
+  nameWithType: SyncLight.Clone
+  fullName: Unity.Reflect.Model.SyncLight.Clone
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Unity.Reflect.Model.SyncLight.Name*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.Name
+  name: Name
+  nameWithType: SyncLight.Name
+  fullName: Unity.Reflect.Model.SyncLight.Name
+- uid: Unity.Reflect.Model.SyncLight.Transform*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.Transform
+  name: Transform
+  nameWithType: SyncLight.Transform
+  fullName: Unity.Reflect.Model.SyncLight.Transform
+- uid: Unity.Reflect.Model.SyncLight.Type*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.Type
+  name: Type
+  nameWithType: SyncLight.Type
+  fullName: Unity.Reflect.Model.SyncLight.Type
+- uid: Unity.Reflect.Model.SyncLight.Color*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.Color
+  name: Color
+  nameWithType: SyncLight.Color
+  fullName: Unity.Reflect.Model.SyncLight.Color
+- uid: Unity.Reflect.Model.SyncLight.Temperature*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.Temperature
+  name: Temperature
+  nameWithType: SyncLight.Temperature
+  fullName: Unity.Reflect.Model.SyncLight.Temperature
+- uid: Unity.Reflect.Model.SyncLight.Intensity*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.Intensity
+  name: Intensity
+  nameWithType: SyncLight.Intensity
+  fullName: Unity.Reflect.Model.SyncLight.Intensity
+- uid: Unity.Reflect.Model.SyncLight.IntensityUnit*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.IntensityUnit
+  name: IntensityUnit
+  nameWithType: SyncLight.IntensityUnit
+  fullName: Unity.Reflect.Model.SyncLight.IntensityUnit
+- uid: Unity.Reflect.Model.SyncLight.Range*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.Range
+  name: Range
+  nameWithType: SyncLight.Range
+  fullName: Unity.Reflect.Model.SyncLight.Range
+- uid: Unity.Reflect.Model.SyncLight.Shape*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.Shape
+  name: Shape
+  nameWithType: SyncLight.Shape
+  fullName: Unity.Reflect.Model.SyncLight.Shape
+- uid: Unity.Reflect.Model.SyncLight.ShapeDiameter*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.ShapeDiameter
+  name: ShapeDiameter
+  nameWithType: SyncLight.ShapeDiameter
+  fullName: Unity.Reflect.Model.SyncLight.ShapeDiameter
+- uid: Unity.Reflect.Model.SyncLight.ShapeWidth*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.ShapeWidth
+  name: ShapeWidth
+  nameWithType: SyncLight.ShapeWidth
+  fullName: Unity.Reflect.Model.SyncLight.ShapeWidth
+- uid: Unity.Reflect.Model.SyncLight.ShapeLength*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.ShapeLength
+  name: ShapeLength
+  nameWithType: SyncLight.ShapeLength
+  fullName: Unity.Reflect.Model.SyncLight.ShapeLength
+- uid: Unity.Reflect.Model.SyncLight.ShapeVisible*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.ShapeVisible
+  name: ShapeVisible
+  nameWithType: SyncLight.ShapeVisible
+  fullName: Unity.Reflect.Model.SyncLight.ShapeVisible
+- uid: Unity.Reflect.Model.SyncLight.SpotAngle*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.SpotAngle
+  name: SpotAngle
+  nameWithType: SyncLight.SpotAngle
+  fullName: Unity.Reflect.Model.SyncLight.SpotAngle
+- uid: Unity.Reflect.Model.SyncLight.BeamAngle*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.BeamAngle
+  name: BeamAngle
+  nameWithType: SyncLight.BeamAngle
+  fullName: Unity.Reflect.Model.SyncLight.BeamAngle
+- uid: Unity.Reflect.Model.SyncLight.IesProfile*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.IesProfile
+  name: IesProfile
+  nameWithType: SyncLight.IesProfile
+  fullName: Unity.Reflect.Model.SyncLight.IesProfile
+- uid: Unity.Reflect.Model.SyncLight.Equals*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.Equals
+  name: Equals
+  nameWithType: SyncLight.Equals
+  fullName: Unity.Reflect.Model.SyncLight.Equals
+- uid: Unity.Reflect.Model.SyncLight.GetHashCode*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.GetHashCode
+  name: GetHashCode
+  nameWithType: SyncLight.GetHashCode
+  fullName: Unity.Reflect.Model.SyncLight.GetHashCode
+- uid: Unity.Reflect.Model.SyncLight.ToString*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.ToString
+  name: ToString
+  nameWithType: SyncLight.ToString
+  fullName: Unity.Reflect.Model.SyncLight.ToString
+- uid: Unity.Reflect.Model.SyncLight.WriteTo*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.WriteTo
+  name: WriteTo
+  nameWithType: SyncLight.WriteTo
+  fullName: Unity.Reflect.Model.SyncLight.WriteTo
+- uid: pb.CodedOutputStream
+  isExternal: true
+  name: pb.CodedOutputStream
+  nameWithType: pb.CodedOutputStream
+  fullName: pb.CodedOutputStream
+- uid: Unity.Reflect.Model.SyncLight.CalculateSize*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.CalculateSize
+  name: CalculateSize
+  nameWithType: SyncLight.CalculateSize
+  fullName: Unity.Reflect.Model.SyncLight.CalculateSize
+- uid: Unity.Reflect.Model.SyncLight.MergeFrom*
+  commentId: Overload:Unity.Reflect.Model.SyncLight.MergeFrom
+  name: MergeFrom
+  nameWithType: SyncLight.MergeFrom
+  fullName: Unity.Reflect.Model.SyncLight.MergeFrom
+- uid: pb.CodedInputStream
+  isExternal: true
+  name: pb.CodedInputStream
+  nameWithType: pb.CodedInputStream
+  fullName: pb.CodedInputStream

@@ -1,0 +1,1243 @@
+### YamlMime:ManagedReference
+items:
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  commentId: T:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  id: KeepAliveResponse
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer
+  children:
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.#ctor
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.#ctor
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.#ctor(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.#ctor(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.CalculateSize
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.CalculateSize
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Clone
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Clone
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Descriptor
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Descriptor
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Equals(System.Object)
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Equals(System.Object)
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Equals(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Equals(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.GetHashCode
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.GetHashCode
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.MergeFrom(pb.CodedInputStream)
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.MergeFrom(pb.CodedInputStream)
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.MergeFrom(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.MergeFrom(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Parser
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Parser
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.SecondsToNextKeepAlive
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.SecondsToNextKeepAlive
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.SecondsToNextKeepAliveFieldNumber
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.SecondsToNextKeepAliveFieldNumber
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.ToString
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.ToString
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.WriteTo(pb.CodedOutputStream)
+  - Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.WriteTo(pb.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: KeepAliveResponse
+  nameWithType: KeepAliveResponse
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  type: Class
+  source:
+    id: KeepAliveResponse
+    path: ''
+    startLine: 36410
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: 'public sealed class KeepAliveResponse : pb.IMessage<KeepAliveResponse>, pb.IMessage<KeepAliveResponse>'
+    content.vb: >-
+      Public NotInheritable Class KeepAliveResponse
+          Inherits pb.IMessage(Of KeepAliveResponse)
+          Implements pb.IMessage(Of KeepAliveResponse)
+  inheritance:
+  - System.Object
+  implements:
+  - pb.IMessage{Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse}
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Parser
+  commentId: P:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Parser
+  id: Parser
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: KeepAliveResponse.Parser
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 16254
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public static pb.MessageParser<KeepAliveResponse> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of KeepAliveResponse)
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Descriptor
+  commentId: P:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Descriptor
+  id: Descriptor
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: KeepAliveResponse.Descriptor
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 16257
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.#ctor
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.#ctor
+  id: '#ctor'
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: KeepAliveResponse()
+  nameWithType: KeepAliveResponse.KeepAliveResponse()
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.KeepAliveResponse()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 16267
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public KeepAliveResponse()
+    content.vb: Public Sub New
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.#ctor(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.#ctor(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  id: '#ctor(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)'
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: KeepAliveResponse(KeepAliveResponse)
+  nameWithType: KeepAliveResponse.KeepAliveResponse(KeepAliveResponse)
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.KeepAliveResponse(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 16274
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public KeepAliveResponse(KeepAliveResponse other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+    content.vb: Public Sub New(other As KeepAliveResponse)
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Clone
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Clone
+  id: Clone
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: KeepAliveResponse.Clone()
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 16280
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public KeepAliveResponse Clone()
+    return:
+      type: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+    content.vb: Public Function Clone As KeepAliveResponse
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.SecondsToNextKeepAliveFieldNumber
+  commentId: F:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.SecondsToNextKeepAliveFieldNumber
+  id: SecondsToNextKeepAliveFieldNumber
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: SecondsToNextKeepAliveFieldNumber
+  nameWithType: KeepAliveResponse.SecondsToNextKeepAliveFieldNumber
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.SecondsToNextKeepAliveFieldNumber
+  type: Field
+  source:
+    id: SecondsToNextKeepAliveFieldNumber
+    path: ''
+    startLine: 16286
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  summary: Field number for the &quot;secondsToNextKeepAlive&quot; field.
+  example: []
+  syntax:
+    content: public const int SecondsToNextKeepAliveFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const SecondsToNextKeepAliveFieldNumber As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.SecondsToNextKeepAlive
+  commentId: P:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.SecondsToNextKeepAlive
+  id: SecondsToNextKeepAlive
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: SecondsToNextKeepAlive
+  nameWithType: KeepAliveResponse.SecondsToNextKeepAlive
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.SecondsToNextKeepAlive
+  type: Property
+  source:
+    id: SecondsToNextKeepAlive
+    path: ''
+    startLine: 16288
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public int SecondsToNextKeepAlive { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SecondsToNextKeepAlive As Integer
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.SecondsToNextKeepAlive*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Equals(System.Object)
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: KeepAliveResponse.Equals(Object)
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 16296
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Equals(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Equals(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  id: Equals(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: Equals(KeepAliveResponse)
+  nameWithType: KeepAliveResponse.Equals(KeepAliveResponse)
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Equals(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 16301
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public bool Equals(KeepAliveResponse other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As KeepAliveResponse) As Boolean
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.GetHashCode
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.GetHashCode
+  id: GetHashCode
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: KeepAliveResponse.GetHashCode()
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 16313
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.ToString
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.ToString
+  id: ToString
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: KeepAliveResponse.ToString()
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 16323
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.WriteTo(pb.CodedOutputStream)
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: KeepAliveResponse.WriteTo(pb.CodedOutputStream)
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 16328
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.CalculateSize
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.CalculateSize
+  id: CalculateSize
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: KeepAliveResponse.CalculateSize()
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 16339
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.MergeFrom(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.MergeFrom(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  id: MergeFrom(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(KeepAliveResponse)
+  nameWithType: KeepAliveResponse.MergeFrom(KeepAliveResponse)
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.MergeFrom(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 16351
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public void MergeFrom(KeepAliveResponse other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+    content.vb: Public Sub MergeFrom(other As KeepAliveResponse)
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.MergeFrom(pb.CodedInputStream)
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: KeepAliveResponse.MergeFrom(pb.CodedInputStream)
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 16362
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Parser
+  commentId: P:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Parser
+  id: Parser
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: KeepAliveResponse.Parser
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 36413
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public static pb.MessageParser<KeepAliveResponse> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of KeepAliveResponse)
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Descriptor
+  commentId: P:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Descriptor
+  id: Descriptor
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: KeepAliveResponse.Descriptor
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 36416
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.#ctor
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.#ctor
+  id: '#ctor'
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: KeepAliveResponse()
+  nameWithType: KeepAliveResponse.KeepAliveResponse()
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.KeepAliveResponse()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 36426
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public KeepAliveResponse()
+    content.vb: Public Sub New
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.#ctor(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.#ctor(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  id: '#ctor(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)'
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: KeepAliveResponse(KeepAliveResponse)
+  nameWithType: KeepAliveResponse.KeepAliveResponse(KeepAliveResponse)
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.KeepAliveResponse(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 36433
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public KeepAliveResponse(KeepAliveResponse other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+    content.vb: Public Sub New(other As KeepAliveResponse)
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Clone
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Clone
+  id: Clone
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: KeepAliveResponse.Clone()
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 36439
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public KeepAliveResponse Clone()
+    return:
+      type: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+    content.vb: Public Function Clone As KeepAliveResponse
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.SecondsToNextKeepAliveFieldNumber
+  commentId: F:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.SecondsToNextKeepAliveFieldNumber
+  id: SecondsToNextKeepAliveFieldNumber
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: SecondsToNextKeepAliveFieldNumber
+  nameWithType: KeepAliveResponse.SecondsToNextKeepAliveFieldNumber
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.SecondsToNextKeepAliveFieldNumber
+  type: Field
+  source:
+    id: SecondsToNextKeepAliveFieldNumber
+    path: ''
+    startLine: 36445
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  summary: Field number for the &quot;secondsToNextKeepAlive&quot; field.
+  example: []
+  syntax:
+    content: public const int SecondsToNextKeepAliveFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const SecondsToNextKeepAliveFieldNumber As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.SecondsToNextKeepAlive
+  commentId: P:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.SecondsToNextKeepAlive
+  id: SecondsToNextKeepAlive
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: SecondsToNextKeepAlive
+  nameWithType: KeepAliveResponse.SecondsToNextKeepAlive
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.SecondsToNextKeepAlive
+  type: Property
+  source:
+    id: SecondsToNextKeepAlive
+    path: ''
+    startLine: 36447
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public int SecondsToNextKeepAlive { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SecondsToNextKeepAlive As Integer
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.SecondsToNextKeepAlive*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Equals(System.Object)
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: KeepAliveResponse.Equals(Object)
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 36455
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Equals(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Equals(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  id: Equals(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: Equals(KeepAliveResponse)
+  nameWithType: KeepAliveResponse.Equals(KeepAliveResponse)
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Equals(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 36460
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public bool Equals(KeepAliveResponse other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As KeepAliveResponse) As Boolean
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.GetHashCode
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.GetHashCode
+  id: GetHashCode
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: KeepAliveResponse.GetHashCode()
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 36472
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.ToString
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.ToString
+  id: ToString
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: KeepAliveResponse.ToString()
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 36482
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.WriteTo(pb.CodedOutputStream)
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: KeepAliveResponse.WriteTo(pb.CodedOutputStream)
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 36487
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.CalculateSize
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.CalculateSize
+  id: CalculateSize
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: KeepAliveResponse.CalculateSize()
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 36498
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.MergeFrom(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.MergeFrom(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  id: MergeFrom(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(KeepAliveResponse)
+  nameWithType: KeepAliveResponse.MergeFrom(KeepAliveResponse)
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.MergeFrom(Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 36510
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public void MergeFrom(KeepAliveResponse other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+    content.vb: Public Sub MergeFrom(other As KeepAliveResponse)
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.MergeFrom(pb.CodedInputStream)
+  commentId: M:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: KeepAliveResponse.MergeFrom(pb.CodedInputStream)
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 36521
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.SyncServer
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer
+  commentId: N:Unity.Reflect.ProjectServer.Services.SyncServer
+  name: Unity.Reflect.ProjectServer.Services.SyncServer
+  nameWithType: Unity.Reflect.ProjectServer.Services.SyncServer
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: pb.IMessage{Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse}
+  commentId: '!:pb.IMessage{Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse}'
+  definition: pb.IMessage`1
+  name: pb.IMessage<KeepAliveResponse>
+  nameWithType: pb.IMessage<KeepAliveResponse>
+  fullName: pb.IMessage<Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse>
+  nameWithType.vb: pb.IMessage(Of KeepAliveResponse)
+  fullName.vb: pb.IMessage(Of Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  name.vb: pb.IMessage(Of KeepAliveResponse)
+  spec.csharp:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+    name: KeepAliveResponse
+    nameWithType: KeepAliveResponse
+    fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+    name: KeepAliveResponse
+    nameWithType: KeepAliveResponse
+    fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: pb.IMessage`1
+  isExternal: true
+  name: pb.IMessage<>
+  nameWithType: pb.IMessage<>
+  fullName: pb.IMessage<>
+  nameWithType.vb: pb.IMessage(Of )
+  fullName.vb: pb.IMessage(Of )
+  name.vb: pb.IMessage(Of )
+  spec.csharp:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Parser*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Parser
+  name: Parser
+  nameWithType: KeepAliveResponse.Parser
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Parser
+- uid: pb.MessageParser{Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse}
+  commentId: '!:pb.MessageParser{Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse}'
+  definition: pb.MessageParser`1
+  name: pb.MessageParser<KeepAliveResponse>
+  nameWithType: pb.MessageParser<KeepAliveResponse>
+  fullName: pb.MessageParser<Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse>
+  nameWithType.vb: pb.MessageParser(Of KeepAliveResponse)
+  fullName.vb: pb.MessageParser(Of Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse)
+  name.vb: pb.MessageParser(Of KeepAliveResponse)
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+    name: KeepAliveResponse
+    nameWithType: KeepAliveResponse
+    fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+    name: KeepAliveResponse
+    nameWithType: KeepAliveResponse
+    fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pb.MessageParser`1
+  isExternal: true
+  name: pb.MessageParser<>
+  nameWithType: pb.MessageParser<>
+  fullName: pb.MessageParser<>
+  nameWithType.vb: pb.MessageParser(Of )
+  fullName.vb: pb.MessageParser(Of )
+  name.vb: pb.MessageParser(Of )
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Descriptor*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Descriptor
+  name: Descriptor
+  nameWithType: KeepAliveResponse.Descriptor
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Descriptor
+- uid: pbr.MessageDescriptor
+  isExternal: true
+  name: pbr.MessageDescriptor
+  nameWithType: pbr.MessageDescriptor
+  fullName: pbr.MessageDescriptor
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.#ctor*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.#ctor
+  name: KeepAliveResponse
+  nameWithType: KeepAliveResponse.KeepAliveResponse
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.KeepAliveResponse
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  commentId: T:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+  parent: Unity.Reflect.ProjectServer.Services.SyncServer
+  name: KeepAliveResponse
+  nameWithType: KeepAliveResponse
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Clone*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Clone
+  name: Clone
+  nameWithType: KeepAliveResponse.Clone
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Clone
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.SecondsToNextKeepAlive*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.SecondsToNextKeepAlive
+  name: SecondsToNextKeepAlive
+  nameWithType: KeepAliveResponse.SecondsToNextKeepAlive
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.SecondsToNextKeepAlive
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Equals*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Equals
+  name: Equals
+  nameWithType: KeepAliveResponse.Equals
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.GetHashCode*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.GetHashCode
+  name: GetHashCode
+  nameWithType: KeepAliveResponse.GetHashCode
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.GetHashCode
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.ToString*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.ToString
+  name: ToString
+  nameWithType: KeepAliveResponse.ToString
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.WriteTo*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.WriteTo
+  name: WriteTo
+  nameWithType: KeepAliveResponse.WriteTo
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.WriteTo
+- uid: pb.CodedOutputStream
+  isExternal: true
+  name: pb.CodedOutputStream
+  nameWithType: pb.CodedOutputStream
+  fullName: pb.CodedOutputStream
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.CalculateSize*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.CalculateSize
+  name: CalculateSize
+  nameWithType: KeepAliveResponse.CalculateSize
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.CalculateSize
+- uid: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.MergeFrom*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.MergeFrom
+  name: MergeFrom
+  nameWithType: KeepAliveResponse.MergeFrom
+  fullName: Unity.Reflect.ProjectServer.Services.SyncServer.KeepAliveResponse.MergeFrom
+- uid: pb.CodedInputStream
+  isExternal: true
+  name: pb.CodedInputStream
+  nameWithType: pb.CodedInputStream
+  fullName: pb.CodedInputStream

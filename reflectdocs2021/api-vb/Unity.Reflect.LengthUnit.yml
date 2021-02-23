@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: Unity.Reflect.LengthUnit
+  commentId: T:Unity.Reflect.LengthUnit
+  id: LengthUnit
+  parent: Unity.Reflect
+  children:
+  - Unity.Reflect.LengthUnit.Feet
+  - Unity.Reflect.LengthUnit.Inches
+  - Unity.Reflect.LengthUnit.Meters
+  langs:
+  - csharp
+  - vb
+  name: LengthUnit
+  nameWithType: LengthUnit
+  fullName: Unity.Reflect.LengthUnit
+  type: Enum
+  source:
+    id: LengthUnit
+    path: ''
+    startLine: 19680
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  summary: "\nSets the length unit to use when exporting data to the SyncServer.\n"
+  example: []
+  syntax:
+    content: public enum LengthUnit
+    content.vb: Public Enum LengthUnit
+  seealso:
+  - linkId: Unity.Reflect.PublisherSettings
+    commentId: T:Unity.Reflect.PublisherSettings
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Unity.Reflect.LengthUnit.Meters
+  commentId: F:Unity.Reflect.LengthUnit.Meters
+  id: Meters
+  parent: Unity.Reflect.LengthUnit
+  langs:
+  - csharp
+  - vb
+  name: Meters
+  nameWithType: LengthUnit.Meters
+  fullName: Unity.Reflect.LengthUnit.Meters
+  type: Field
+  source:
+    id: Meters
+    path: ''
+    startLine: 19682
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  syntax:
+    content: Meters = 0
+    return:
+      type: Unity.Reflect.LengthUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.LengthUnit.Feet
+  commentId: F:Unity.Reflect.LengthUnit.Feet
+  id: Feet
+  parent: Unity.Reflect.LengthUnit
+  langs:
+  - csharp
+  - vb
+  name: Feet
+  nameWithType: LengthUnit.Feet
+  fullName: Unity.Reflect.LengthUnit.Feet
+  type: Field
+  source:
+    id: Feet
+    path: ''
+    startLine: 19683
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  syntax:
+    content: Feet = 1
+    return:
+      type: Unity.Reflect.LengthUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.LengthUnit.Inches
+  commentId: F:Unity.Reflect.LengthUnit.Inches
+  id: Inches
+  parent: Unity.Reflect.LengthUnit
+  langs:
+  - csharp
+  - vb
+  name: Inches
+  nameWithType: LengthUnit.Inches
+  fullName: Unity.Reflect.LengthUnit.Inches
+  type: Field
+  source:
+    id: Inches
+    path: ''
+    startLine: 19684
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  syntax:
+    content: Inches = 2
+    return:
+      type: Unity.Reflect.LengthUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Unity.Reflect.PublisherSettings
+  commentId: T:Unity.Reflect.PublisherSettings
+  parent: Unity.Reflect
+  name: PublisherSettings
+  nameWithType: PublisherSettings
+  fullName: Unity.Reflect.PublisherSettings
+- uid: Unity.Reflect
+  commentId: N:Unity.Reflect
+  name: Unity.Reflect
+  nameWithType: Unity.Reflect
+  fullName: Unity.Reflect
+- uid: Unity.Reflect.LengthUnit
+  commentId: T:Unity.Reflect.LengthUnit
+  parent: Unity.Reflect
+  name: LengthUnit
+  nameWithType: LengthUnit
+  fullName: Unity.Reflect.LengthUnit

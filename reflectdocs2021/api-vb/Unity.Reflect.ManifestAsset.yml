@@ -1,0 +1,576 @@
+### YamlMime:ManagedReference
+items:
+- uid: Unity.Reflect.ManifestAsset
+  commentId: T:Unity.Reflect.ManifestAsset
+  id: ManifestAsset
+  parent: Unity.Reflect
+  children:
+  - Unity.Reflect.ManifestAsset.#ctor(System.String,System.String,SyncManifest)
+  - Unity.Reflect.ManifestAsset.#ctor(System.String,System.String,SyncManifest)
+  - Unity.Reflect.ManifestAsset.Manifest
+  - Unity.Reflect.ManifestAsset.Manifest
+  - Unity.Reflect.ManifestAsset.ProjectId
+  - Unity.Reflect.ManifestAsset.ProjectId
+  - Unity.Reflect.ManifestAsset.SourceId
+  - Unity.Reflect.ManifestAsset.SourceId
+  langs:
+  - csharp
+  - vb
+  name: ManifestAsset
+  nameWithType: ManifestAsset
+  fullName: Unity.Reflect.ManifestAsset
+  type: Struct
+  source:
+    id: ManifestAsset
+    path: ''
+    startLine: 39708
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  syntax:
+    content: public struct ManifestAsset
+    content.vb: Public Structure ManifestAsset
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Unity.Reflect.ManifestAsset.ProjectId
+  commentId: F:Unity.Reflect.ManifestAsset.ProjectId
+  id: ProjectId
+  parent: Unity.Reflect.ManifestAsset
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: ManifestAsset.ProjectId
+  fullName: Unity.Reflect.ManifestAsset.ProjectId
+  type: Field
+  source:
+    id: ProjectId
+    path: ''
+    startLine: 19551
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  syntax:
+    content: public readonly string ProjectId
+    return:
+      type: System.String
+    content.vb: Public ReadOnly ProjectId As String
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Unity.Reflect.ManifestAsset.SourceId
+  commentId: F:Unity.Reflect.ManifestAsset.SourceId
+  id: SourceId
+  parent: Unity.Reflect.ManifestAsset
+  langs:
+  - csharp
+  - vb
+  name: SourceId
+  nameWithType: ManifestAsset.SourceId
+  fullName: Unity.Reflect.ManifestAsset.SourceId
+  type: Field
+  source:
+    id: SourceId
+    path: ''
+    startLine: 19552
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  syntax:
+    content: public readonly string SourceId
+    return:
+      type: System.String
+    content.vb: Public ReadOnly SourceId As String
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Unity.Reflect.ManifestAsset.Manifest
+  commentId: F:Unity.Reflect.ManifestAsset.Manifest
+  id: Manifest
+  parent: Unity.Reflect.ManifestAsset
+  langs:
+  - csharp
+  - vb
+  name: Manifest
+  nameWithType: ManifestAsset.Manifest
+  fullName: Unity.Reflect.ManifestAsset.Manifest
+  type: Field
+  source:
+    id: Manifest
+    path: ''
+    startLine: 19553
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  syntax:
+    content: public readonly SyncManifest Manifest
+    return:
+      type: SyncManifest
+    content.vb: Public ReadOnly Manifest As SyncManifest
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Unity.Reflect.ManifestAsset.#ctor(System.String,System.String,SyncManifest)
+  commentId: M:Unity.Reflect.ManifestAsset.#ctor(System.String,System.String,SyncManifest)
+  id: '#ctor(System.String,System.String,SyncManifest)'
+  parent: Unity.Reflect.ManifestAsset
+  langs:
+  - csharp
+  - vb
+  name: ManifestAsset(String, String, SyncManifest)
+  nameWithType: ManifestAsset.ManifestAsset(String, String, SyncManifest)
+  fullName: Unity.Reflect.ManifestAsset.ManifestAsset(System.String, System.String, SyncManifest)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 19555
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  syntax:
+    content: public ManifestAsset(string projectId, string sourceId, SyncManifest manifest)
+    parameters:
+    - id: projectId
+      type: System.String
+    - id: sourceId
+      type: System.String
+    - id: manifest
+      type: SyncManifest
+    content.vb: Public Sub New(projectId As String, sourceId As String, manifest As SyncManifest)
+  overload: Unity.Reflect.ManifestAsset.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.ManifestAsset.ProjectId
+  commentId: F:Unity.Reflect.ManifestAsset.ProjectId
+  id: ProjectId
+  parent: Unity.Reflect.ManifestAsset
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: ManifestAsset.ProjectId
+  fullName: Unity.Reflect.ManifestAsset.ProjectId
+  type: Field
+  source:
+    id: ProjectId
+    path: ''
+    startLine: 39710
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  syntax:
+    content: public readonly string ProjectId
+    return:
+      type: System.String
+    content.vb: Public ReadOnly ProjectId As String
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Unity.Reflect.ManifestAsset.SourceId
+  commentId: F:Unity.Reflect.ManifestAsset.SourceId
+  id: SourceId
+  parent: Unity.Reflect.ManifestAsset
+  langs:
+  - csharp
+  - vb
+  name: SourceId
+  nameWithType: ManifestAsset.SourceId
+  fullName: Unity.Reflect.ManifestAsset.SourceId
+  type: Field
+  source:
+    id: SourceId
+    path: ''
+    startLine: 39711
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  syntax:
+    content: public readonly string SourceId
+    return:
+      type: System.String
+    content.vb: Public ReadOnly SourceId As String
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Unity.Reflect.ManifestAsset.Manifest
+  commentId: F:Unity.Reflect.ManifestAsset.Manifest
+  id: Manifest
+  parent: Unity.Reflect.ManifestAsset
+  langs:
+  - csharp
+  - vb
+  name: Manifest
+  nameWithType: ManifestAsset.Manifest
+  fullName: Unity.Reflect.ManifestAsset.Manifest
+  type: Field
+  source:
+    id: Manifest
+    path: ''
+    startLine: 39712
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  syntax:
+    content: public readonly SyncManifest Manifest
+    return:
+      type: SyncManifest
+    content.vb: Public ReadOnly Manifest As SyncManifest
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Unity.Reflect.ManifestAsset.#ctor(System.String,System.String,SyncManifest)
+  commentId: M:Unity.Reflect.ManifestAsset.#ctor(System.String,System.String,SyncManifest)
+  id: '#ctor(System.String,System.String,SyncManifest)'
+  parent: Unity.Reflect.ManifestAsset
+  langs:
+  - csharp
+  - vb
+  name: ManifestAsset(String, String, SyncManifest)
+  nameWithType: ManifestAsset.ManifestAsset(String, String, SyncManifest)
+  fullName: Unity.Reflect.ManifestAsset.ManifestAsset(System.String, System.String, SyncManifest)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 39714
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  syntax:
+    content: public ManifestAsset(string projectId, string sourceId, SyncManifest manifest)
+    parameters:
+    - id: projectId
+      type: System.String
+    - id: sourceId
+      type: System.String
+    - id: manifest
+      type: SyncManifest
+    content.vb: Public Sub New(projectId As String, sourceId As String, manifest As SyncManifest)
+  overload: Unity.Reflect.ManifestAsset.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Unity.Reflect
+  commentId: N:Unity.Reflect
+  name: Unity.Reflect
+  nameWithType: Unity.Reflect
+  fullName: Unity.Reflect
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SyncManifest
+  isExternal: true
+  name: SyncManifest
+  nameWithType: SyncManifest
+  fullName: SyncManifest
+- uid: Unity.Reflect.ManifestAsset.#ctor*
+  commentId: Overload:Unity.Reflect.ManifestAsset.#ctor
+  name: ManifestAsset
+  nameWithType: ManifestAsset.ManifestAsset
+  fullName: Unity.Reflect.ManifestAsset.ManifestAsset

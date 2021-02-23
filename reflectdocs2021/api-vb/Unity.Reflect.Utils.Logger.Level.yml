@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: Unity.Reflect.Utils.Logger.Level
+  commentId: T:Unity.Reflect.Utils.Logger.Level
+  id: Logger.Level
+  parent: Unity.Reflect.Utils
+  children:
+  - Unity.Reflect.Utils.Logger.Level.Debug
+  - Unity.Reflect.Utils.Logger.Level.Error
+  - Unity.Reflect.Utils.Logger.Level.Fatal
+  - Unity.Reflect.Utils.Logger.Level.Info
+  - Unity.Reflect.Utils.Logger.Level.Warn
+  langs:
+  - csharp
+  - vb
+  name: Logger.Level
+  nameWithType: Logger.Level
+  fullName: Unity.Reflect.Utils.Logger.Level
+  type: Enum
+  source:
+    id: Level
+    path: ''
+    startLine: 40423
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Utils
+  syntax:
+    content: public enum Level
+    content.vb: Public Enum Level
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Unity.Reflect.Utils.Logger.Level.Debug
+  commentId: F:Unity.Reflect.Utils.Logger.Level.Debug
+  id: Debug
+  parent: Unity.Reflect.Utils.Logger.Level
+  langs:
+  - csharp
+  - vb
+  name: Debug
+  nameWithType: Logger.Level.Debug
+  fullName: Unity.Reflect.Utils.Logger.Level.Debug
+  type: Field
+  source:
+    id: Debug
+    path: ''
+    startLine: 40425
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Utils
+  syntax:
+    content: Debug = 0
+    return:
+      type: Unity.Reflect.Utils.Logger.Level
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Utils.Logger.Level.Info
+  commentId: F:Unity.Reflect.Utils.Logger.Level.Info
+  id: Info
+  parent: Unity.Reflect.Utils.Logger.Level
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: Logger.Level.Info
+  fullName: Unity.Reflect.Utils.Logger.Level.Info
+  type: Field
+  source:
+    id: Info
+    path: ''
+    startLine: 40426
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Utils
+  syntax:
+    content: Info = 1
+    return:
+      type: Unity.Reflect.Utils.Logger.Level
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Utils.Logger.Level.Warn
+  commentId: F:Unity.Reflect.Utils.Logger.Level.Warn
+  id: Warn
+  parent: Unity.Reflect.Utils.Logger.Level
+  langs:
+  - csharp
+  - vb
+  name: Warn
+  nameWithType: Logger.Level.Warn
+  fullName: Unity.Reflect.Utils.Logger.Level.Warn
+  type: Field
+  source:
+    id: Warn
+    path: ''
+    startLine: 40427
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Utils
+  syntax:
+    content: Warn = 2
+    return:
+      type: Unity.Reflect.Utils.Logger.Level
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Utils.Logger.Level.Error
+  commentId: F:Unity.Reflect.Utils.Logger.Level.Error
+  id: Error
+  parent: Unity.Reflect.Utils.Logger.Level
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: Logger.Level.Error
+  fullName: Unity.Reflect.Utils.Logger.Level.Error
+  type: Field
+  source:
+    id: Error
+    path: ''
+    startLine: 40428
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Utils
+  syntax:
+    content: Error = 3
+    return:
+      type: Unity.Reflect.Utils.Logger.Level
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Utils.Logger.Level.Fatal
+  commentId: F:Unity.Reflect.Utils.Logger.Level.Fatal
+  id: Fatal
+  parent: Unity.Reflect.Utils.Logger.Level
+  langs:
+  - csharp
+  - vb
+  name: Fatal
+  nameWithType: Logger.Level.Fatal
+  fullName: Unity.Reflect.Utils.Logger.Level.Fatal
+  type: Field
+  source:
+    id: Fatal
+    path: ''
+    startLine: 40429
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Utils
+  syntax:
+    content: Fatal = 4
+    return:
+      type: Unity.Reflect.Utils.Logger.Level
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Unity.Reflect.Utils
+  commentId: N:Unity.Reflect.Utils
+  name: Unity.Reflect.Utils
+  nameWithType: Unity.Reflect.Utils
+  fullName: Unity.Reflect.Utils
+- uid: Unity.Reflect.Utils.Logger.Level
+  commentId: T:Unity.Reflect.Utils.Logger.Level
+  parent: Unity.Reflect.Utils
+  name: Logger.Level
+  nameWithType: Logger.Level
+  fullName: Unity.Reflect.Utils.Logger.Level

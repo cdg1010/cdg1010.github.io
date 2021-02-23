@@ -1,0 +1,600 @@
+### YamlMime:ManagedReference
+items:
+- uid: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService
+  commentId: T:Unity.Reflect.ProjectServer.Services.Publisher.PublisherService
+  id: PublisherService
+  parent: Unity.Reflect.ProjectServer.Services.Publisher
+  children:
+  - Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.BindService(grpc.ServiceBinderBase,Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase)
+  - Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.BindService(grpc.ServiceBinderBase,Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase)
+  - Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.BindService(Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase)
+  - Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.BindService(Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase)
+  - Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.Descriptor
+  - Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.Descriptor
+  langs:
+  - csharp
+  - vb
+  name: PublisherService
+  nameWithType: PublisherService
+  fullName: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService
+  type: Class
+  source:
+    id: PublisherService
+    path: ''
+    startLine: 35888
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Publisher
+  summary: "\nThis service requires the client to be signed-in and have the Reflect entitlement\n"
+  example: []
+  syntax:
+    content: public static class PublisherService
+    content.vb: Public Module PublisherService
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.Descriptor
+  commentId: P:Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.Descriptor
+  id: Descriptor
+  parent: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: PublisherService.Descriptor
+  fullName: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 15761
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Publisher
+  summary: Service descriptor
+  example: []
+  syntax:
+    content: public static Google.Protobuf.Reflection.ServiceDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.ServiceDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As Google.Protobuf.Reflection.ServiceDescriptor
+  overload: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.BindService(Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.BindService(Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase)
+  id: BindService(Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase)
+  parent: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService
+  langs:
+  - csharp
+  - vb
+  name: BindService(PublisherService.PublisherServiceBase)
+  nameWithType: PublisherService.BindService(PublisherService.PublisherServiceBase)
+  fullName: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.BindService(Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase)
+  type: Method
+  source:
+    id: BindService
+    path: ''
+    startLine: 15867
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Publisher
+  summary: Creates service definition that can be registered with a server
+  example: []
+  syntax:
+    content: public static grpc.ServerServiceDefinition BindService(PublisherService.PublisherServiceBase serviceImpl)
+    parameters:
+    - id: serviceImpl
+      type: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase
+      description: An object implementing the server-side handling logic.
+    return:
+      type: grpc.ServerServiceDefinition
+    content.vb: Public Shared Function BindService(serviceImpl As PublisherService.PublisherServiceBase) As grpc.ServerServiceDefinition
+  overload: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.BindService*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.BindService(grpc.ServiceBinderBase,Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.BindService(grpc.ServiceBinderBase,Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase)
+  id: BindService(grpc.ServiceBinderBase,Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase)
+  parent: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService
+  langs:
+  - csharp
+  - vb
+  name: BindService(grpc.ServiceBinderBase, PublisherService.PublisherServiceBase)
+  nameWithType: PublisherService.BindService(grpc.ServiceBinderBase, PublisherService.PublisherServiceBase)
+  fullName: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.BindService(grpc.ServiceBinderBase, Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase)
+  type: Method
+  source:
+    id: BindService
+    path: ''
+    startLine: 15879
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Publisher
+  summary: >-
+    Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
+
+    Note: this method is part of an experimental API that can change or be removed without any prior notice.
+  example: []
+  syntax:
+    content: public static void BindService(grpc.ServiceBinderBase serviceBinder, PublisherService.PublisherServiceBase serviceImpl)
+    parameters:
+    - id: serviceBinder
+      type: grpc.ServiceBinderBase
+      description: Service methods will be bound by calling <code>AddMethod</code> on this object.
+    - id: serviceImpl
+      type: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase
+      description: An object implementing the server-side handling logic.
+    content.vb: Public Shared Sub BindService(serviceBinder As grpc.ServiceBinderBase, serviceImpl As PublisherService.PublisherServiceBase)
+  overload: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.BindService*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.Descriptor
+  commentId: P:Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.Descriptor
+  id: Descriptor
+  parent: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: PublisherService.Descriptor
+  fullName: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 35920
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Publisher
+  summary: Service descriptor
+  example: []
+  syntax:
+    content: public static Google.Protobuf.Reflection.ServiceDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.ServiceDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As Google.Protobuf.Reflection.ServiceDescriptor
+  overload: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.BindService(Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.BindService(Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase)
+  id: BindService(Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase)
+  parent: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService
+  langs:
+  - csharp
+  - vb
+  name: BindService(PublisherService.PublisherServiceBase)
+  nameWithType: PublisherService.BindService(PublisherService.PublisherServiceBase)
+  fullName: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.BindService(Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase)
+  type: Method
+  source:
+    id: BindService
+    path: ''
+    startLine: 36026
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Publisher
+  summary: Creates service definition that can be registered with a server
+  example: []
+  syntax:
+    content: public static grpc.ServerServiceDefinition BindService(PublisherService.PublisherServiceBase serviceImpl)
+    parameters:
+    - id: serviceImpl
+      type: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase
+      description: An object implementing the server-side handling logic.
+    return:
+      type: grpc.ServerServiceDefinition
+    content.vb: Public Shared Function BindService(serviceImpl As PublisherService.PublisherServiceBase) As grpc.ServerServiceDefinition
+  overload: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.BindService*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.BindService(grpc.ServiceBinderBase,Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase)
+  commentId: M:Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.BindService(grpc.ServiceBinderBase,Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase)
+  id: BindService(grpc.ServiceBinderBase,Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase)
+  parent: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService
+  langs:
+  - csharp
+  - vb
+  name: BindService(grpc.ServiceBinderBase, PublisherService.PublisherServiceBase)
+  nameWithType: PublisherService.BindService(grpc.ServiceBinderBase, PublisherService.PublisherServiceBase)
+  fullName: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.BindService(grpc.ServiceBinderBase, Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase)
+  type: Method
+  source:
+    id: BindService
+    path: ''
+    startLine: 36038
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.ProjectServer.Services.Publisher
+  summary: >-
+    Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
+
+    Note: this method is part of an experimental API that can change or be removed without any prior notice.
+  example: []
+  syntax:
+    content: public static void BindService(grpc.ServiceBinderBase serviceBinder, PublisherService.PublisherServiceBase serviceImpl)
+    parameters:
+    - id: serviceBinder
+      type: grpc.ServiceBinderBase
+      description: Service methods will be bound by calling <code>AddMethod</code> on this object.
+    - id: serviceImpl
+      type: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase
+      description: An object implementing the server-side handling logic.
+    content.vb: Public Shared Sub BindService(serviceBinder As grpc.ServiceBinderBase, serviceImpl As PublisherService.PublisherServiceBase)
+  overload: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.BindService*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Unity.Reflect.ProjectServer.Services.Publisher
+  commentId: N:Unity.Reflect.ProjectServer.Services.Publisher
+  name: Unity.Reflect.ProjectServer.Services.Publisher
+  nameWithType: Unity.Reflect.ProjectServer.Services.Publisher
+  fullName: Unity.Reflect.ProjectServer.Services.Publisher
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.Descriptor*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.Descriptor
+  name: Descriptor
+  nameWithType: PublisherService.Descriptor
+  fullName: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.Descriptor
+- uid: Google.Protobuf.Reflection.ServiceDescriptor
+  isExternal: true
+  name: Google.Protobuf.Reflection.ServiceDescriptor
+  nameWithType: Google.Protobuf.Reflection.ServiceDescriptor
+  fullName: Google.Protobuf.Reflection.ServiceDescriptor
+- uid: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.BindService*
+  commentId: Overload:Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.BindService
+  name: BindService
+  nameWithType: PublisherService.BindService
+  fullName: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.BindService
+- uid: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase
+  commentId: T:Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase
+  parent: Unity.Reflect.ProjectServer.Services.Publisher
+  name: PublisherService.PublisherServiceBase
+  nameWithType: PublisherService.PublisherServiceBase
+  fullName: Unity.Reflect.ProjectServer.Services.Publisher.PublisherService.PublisherServiceBase
+- uid: grpc.ServerServiceDefinition
+  isExternal: true
+  name: grpc.ServerServiceDefinition
+  nameWithType: grpc.ServerServiceDefinition
+  fullName: grpc.ServerServiceDefinition
+- uid: grpc.ServiceBinderBase
+  isExternal: true
+  name: grpc.ServiceBinderBase
+  nameWithType: grpc.ServiceBinderBase
+  fullName: grpc.ServiceBinderBase

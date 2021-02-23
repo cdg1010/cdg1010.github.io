@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: Unity.Reflect.ConnectionStatus
+  commentId: T:Unity.Reflect.ConnectionStatus
+  id: ConnectionStatus
+  parent: Unity.Reflect
+  children:
+  - Unity.Reflect.ConnectionStatus.Connected
+  - Unity.Reflect.ConnectionStatus.Disconnected
+  langs:
+  - csharp
+  - vb
+  name: ConnectionStatus
+  nameWithType: ConnectionStatus
+  fullName: Unity.Reflect.ConnectionStatus
+  type: Enum
+  source:
+    id: ConnectionStatus
+    path: ''
+    startLine: 19427
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  summary: "\nOptions for the current connection status of the client.\n"
+  example: []
+  syntax:
+    content: public enum ConnectionStatus
+    content.vb: Public Enum ConnectionStatus
+  seealso:
+  - linkId: Unity.Reflect.IClient.OnConnectionStatusChanged
+    commentId: E:Unity.Reflect.IClient.OnConnectionStatusChanged
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Unity.Reflect.ConnectionStatus.Connected
+  commentId: F:Unity.Reflect.ConnectionStatus.Connected
+  id: Connected
+  parent: Unity.Reflect.ConnectionStatus
+  langs:
+  - csharp
+  - vb
+  name: Connected
+  nameWithType: ConnectionStatus.Connected
+  fullName: Unity.Reflect.ConnectionStatus.Connected
+  type: Field
+  source:
+    id: Connected
+    path: ''
+    startLine: 19432
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  summary: "\nThe client is connected to the SyncServer.\n"
+  example: []
+  syntax:
+    content: Connected = 0
+    return:
+      type: Unity.Reflect.ConnectionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.ConnectionStatus.Disconnected
+  commentId: F:Unity.Reflect.ConnectionStatus.Disconnected
+  id: Disconnected
+  parent: Unity.Reflect.ConnectionStatus
+  langs:
+  - csharp
+  - vb
+  name: Disconnected
+  nameWithType: ConnectionStatus.Disconnected
+  fullName: Unity.Reflect.ConnectionStatus.Disconnected
+  type: Field
+  source:
+    id: Disconnected
+    path: ''
+    startLine: 19437
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect
+  summary: "\nThe client is disconnected from the SyncServer.\n"
+  example: []
+  syntax:
+    content: Disconnected = 1
+    return:
+      type: Unity.Reflect.ConnectionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Unity.Reflect.IClient.OnConnectionStatusChanged
+  commentId: E:Unity.Reflect.IClient.OnConnectionStatusChanged
+  parent: Unity.Reflect.IClient
+  name: OnConnectionStatusChanged
+  nameWithType: IClient.OnConnectionStatusChanged
+  fullName: Unity.Reflect.IClient.OnConnectionStatusChanged
+- uid: Unity.Reflect
+  commentId: N:Unity.Reflect
+  name: Unity.Reflect
+  nameWithType: Unity.Reflect
+  fullName: Unity.Reflect
+- uid: Unity.Reflect.IClient
+  commentId: T:Unity.Reflect.IClient
+  parent: Unity.Reflect
+  name: IClient
+  nameWithType: IClient
+  fullName: Unity.Reflect.IClient
+- uid: Unity.Reflect.ConnectionStatus
+  commentId: T:Unity.Reflect.ConnectionStatus
+  parent: Unity.Reflect
+  name: ConnectionStatus
+  nameWithType: ConnectionStatus
+  fullName: Unity.Reflect.ConnectionStatus

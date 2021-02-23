@@ -1,0 +1,54 @@
+syntax = "proto3";
+package Reflect;
+
+option csharp_namespace = "Unity.Reflect.Model";
+
+message SyncFloat2 {
+	float x = 1;
+	float y = 2;
+}
+
+message SyncFloat3 {
+	float x = 1;
+	float y = 2;
+	float z = 3;
+}
+
+message SyncFloat4 {
+	float x = 1;
+	float y = 2;
+	float z = 3;
+	float w = 4;
+}
+
+message SyncQuaternion {
+	float x = 1;
+	float y = 2;
+	float z = 3;
+	float w = 4;
+}
+
+message SyncTRS {
+	SyncFloat3 position = 1;
+	SyncQuaternion rotation = 2;
+	SyncFloat3 scale = 3;
+}
+
+message SyncMatrix {
+	SyncFloat4 c0 = 1;
+	SyncFloat4 c1 = 2;
+	SyncFloat4 c2 = 3;
+	SyncFloat4 c3 = 4;
+}
+
+message SyncTransform {
+	oneof value {
+		SyncTRS trs = 1;
+		SyncMatrix matrix = 2;
+	}
+}
+
+message SyncBoundingBox {
+	SyncFloat3 min = 1;
+	SyncFloat3 max = 2;
+}

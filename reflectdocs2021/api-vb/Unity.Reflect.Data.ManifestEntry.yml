@@ -1,0 +1,1653 @@
+### YamlMime:ManagedReference
+items:
+- uid: Unity.Reflect.Data.ManifestEntry
+  commentId: T:Unity.Reflect.Data.ManifestEntry
+  id: ManifestEntry
+  parent: Unity.Reflect.Data
+  children:
+  - Unity.Reflect.Data.ManifestEntry.#ctor
+  - Unity.Reflect.Data.ManifestEntry.#ctor
+  - Unity.Reflect.Data.ManifestEntry.#ctor(Unity.Reflect.Data.ManifestEntry)
+  - Unity.Reflect.Data.ManifestEntry.#ctor(Unity.Reflect.Data.ManifestEntry)
+  - Unity.Reflect.Data.ManifestEntry.BoundingBox
+  - Unity.Reflect.Data.ManifestEntry.BoundingBox
+  - Unity.Reflect.Data.ManifestEntry.BoundingBoxFieldNumber
+  - Unity.Reflect.Data.ManifestEntry.BoundingBoxFieldNumber
+  - Unity.Reflect.Data.ManifestEntry.CalculateSize
+  - Unity.Reflect.Data.ManifestEntry.CalculateSize
+  - Unity.Reflect.Data.ManifestEntry.Clone
+  - Unity.Reflect.Data.ManifestEntry.Clone
+  - Unity.Reflect.Data.ManifestEntry.Descriptor
+  - Unity.Reflect.Data.ManifestEntry.Descriptor
+  - Unity.Reflect.Data.ManifestEntry.DstHash
+  - Unity.Reflect.Data.ManifestEntry.DstHash
+  - Unity.Reflect.Data.ManifestEntry.DstHashFieldNumber
+  - Unity.Reflect.Data.ManifestEntry.DstHashFieldNumber
+  - Unity.Reflect.Data.ManifestEntry.DstPath
+  - Unity.Reflect.Data.ManifestEntry.DstPath
+  - Unity.Reflect.Data.ManifestEntry.DstPathFieldNumber
+  - Unity.Reflect.Data.ManifestEntry.DstPathFieldNumber
+  - Unity.Reflect.Data.ManifestEntry.Equals(System.Object)
+  - Unity.Reflect.Data.ManifestEntry.Equals(System.Object)
+  - Unity.Reflect.Data.ManifestEntry.Equals(Unity.Reflect.Data.ManifestEntry)
+  - Unity.Reflect.Data.ManifestEntry.Equals(Unity.Reflect.Data.ManifestEntry)
+  - Unity.Reflect.Data.ManifestEntry.GetHashCode
+  - Unity.Reflect.Data.ManifestEntry.GetHashCode
+  - Unity.Reflect.Data.ManifestEntry.MergeFrom(pb.CodedInputStream)
+  - Unity.Reflect.Data.ManifestEntry.MergeFrom(pb.CodedInputStream)
+  - Unity.Reflect.Data.ManifestEntry.MergeFrom(Unity.Reflect.Data.ManifestEntry)
+  - Unity.Reflect.Data.ManifestEntry.MergeFrom(Unity.Reflect.Data.ManifestEntry)
+  - Unity.Reflect.Data.ManifestEntry.Parser
+  - Unity.Reflect.Data.ManifestEntry.Parser
+  - Unity.Reflect.Data.ManifestEntry.SrcHash
+  - Unity.Reflect.Data.ManifestEntry.SrcHash
+  - Unity.Reflect.Data.ManifestEntry.SrcHashFieldNumber
+  - Unity.Reflect.Data.ManifestEntry.SrcHashFieldNumber
+  - Unity.Reflect.Data.ManifestEntry.ToString
+  - Unity.Reflect.Data.ManifestEntry.ToString
+  - Unity.Reflect.Data.ManifestEntry.WriteTo(pb.CodedOutputStream)
+  - Unity.Reflect.Data.ManifestEntry.WriteTo(pb.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: ManifestEntry
+  nameWithType: ManifestEntry
+  fullName: Unity.Reflect.Data.ManifestEntry
+  type: Class
+  source:
+    id: ManifestEntry
+    path: ''
+    startLine: 23418
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: 'public sealed class ManifestEntry : pb.IMessage<ManifestEntry>, pb.IMessage<ManifestEntry>'
+    content.vb: >-
+      Public NotInheritable Class ManifestEntry
+          Inherits pb.IMessage(Of ManifestEntry)
+          Implements pb.IMessage(Of ManifestEntry)
+  inheritance:
+  - System.Object
+  implements:
+  - pb.IMessage{Unity.Reflect.Data.ManifestEntry}
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Unity.Reflect.Data.ManifestEntry.Parser
+  commentId: P:Unity.Reflect.Data.ManifestEntry.Parser
+  id: Parser
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: ManifestEntry.Parser
+  fullName: Unity.Reflect.Data.ManifestEntry.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 3262
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public static pb.MessageParser<ManifestEntry> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{Unity.Reflect.Data.ManifestEntry}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of ManifestEntry)
+  overload: Unity.Reflect.Data.ManifestEntry.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.Data.ManifestEntry.Descriptor
+  commentId: P:Unity.Reflect.Data.ManifestEntry.Descriptor
+  id: Descriptor
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: ManifestEntry.Descriptor
+  fullName: Unity.Reflect.Data.ManifestEntry.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 3265
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: Unity.Reflect.Data.ManifestEntry.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.Data.ManifestEntry.#ctor
+  commentId: M:Unity.Reflect.Data.ManifestEntry.#ctor
+  id: '#ctor'
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: ManifestEntry()
+  nameWithType: ManifestEntry.ManifestEntry()
+  fullName: Unity.Reflect.Data.ManifestEntry.ManifestEntry()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 3275
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public ManifestEntry()
+    content.vb: Public Sub New
+  overload: Unity.Reflect.Data.ManifestEntry.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Data.ManifestEntry.#ctor(Unity.Reflect.Data.ManifestEntry)
+  commentId: M:Unity.Reflect.Data.ManifestEntry.#ctor(Unity.Reflect.Data.ManifestEntry)
+  id: '#ctor(Unity.Reflect.Data.ManifestEntry)'
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: ManifestEntry(ManifestEntry)
+  nameWithType: ManifestEntry.ManifestEntry(ManifestEntry)
+  fullName: Unity.Reflect.Data.ManifestEntry.ManifestEntry(Unity.Reflect.Data.ManifestEntry)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 3282
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public ManifestEntry(ManifestEntry other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.Data.ManifestEntry
+    content.vb: Public Sub New(other As ManifestEntry)
+  overload: Unity.Reflect.Data.ManifestEntry.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Data.ManifestEntry.Clone
+  commentId: M:Unity.Reflect.Data.ManifestEntry.Clone
+  id: Clone
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: ManifestEntry.Clone()
+  fullName: Unity.Reflect.Data.ManifestEntry.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 3291
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public ManifestEntry Clone()
+    return:
+      type: Unity.Reflect.Data.ManifestEntry
+    content.vb: Public Function Clone As ManifestEntry
+  overload: Unity.Reflect.Data.ManifestEntry.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Data.ManifestEntry.DstPathFieldNumber
+  commentId: F:Unity.Reflect.Data.ManifestEntry.DstPathFieldNumber
+  id: DstPathFieldNumber
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: DstPathFieldNumber
+  nameWithType: ManifestEntry.DstPathFieldNumber
+  fullName: Unity.Reflect.Data.ManifestEntry.DstPathFieldNumber
+  type: Field
+  source:
+    id: DstPathFieldNumber
+    path: ''
+    startLine: 3297
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  summary: Field number for the &quot;dstPath&quot; field.
+  example: []
+  syntax:
+    content: public const int DstPathFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const DstPathFieldNumber As Integer = 3
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Data.ManifestEntry.DstPath
+  commentId: P:Unity.Reflect.Data.ManifestEntry.DstPath
+  id: DstPath
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: DstPath
+  nameWithType: ManifestEntry.DstPath
+  fullName: Unity.Reflect.Data.ManifestEntry.DstPath
+  type: Property
+  source:
+    id: DstPath
+    path: ''
+    startLine: 3299
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public string DstPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DstPath As String
+  overload: Unity.Reflect.Data.ManifestEntry.DstPath*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Data.ManifestEntry.SrcHashFieldNumber
+  commentId: F:Unity.Reflect.Data.ManifestEntry.SrcHashFieldNumber
+  id: SrcHashFieldNumber
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: SrcHashFieldNumber
+  nameWithType: ManifestEntry.SrcHashFieldNumber
+  fullName: Unity.Reflect.Data.ManifestEntry.SrcHashFieldNumber
+  type: Field
+  source:
+    id: SrcHashFieldNumber
+    path: ''
+    startLine: 3308
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  summary: Field number for the &quot;srcHash&quot; field.
+  example: []
+  syntax:
+    content: public const int SrcHashFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const SrcHashFieldNumber As Integer = 4
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Data.ManifestEntry.SrcHash
+  commentId: P:Unity.Reflect.Data.ManifestEntry.SrcHash
+  id: SrcHash
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: SrcHash
+  nameWithType: ManifestEntry.SrcHash
+  fullName: Unity.Reflect.Data.ManifestEntry.SrcHash
+  type: Property
+  source:
+    id: SrcHash
+    path: ''
+    startLine: 3310
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public string SrcHash { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SrcHash As String
+  overload: Unity.Reflect.Data.ManifestEntry.SrcHash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Data.ManifestEntry.DstHashFieldNumber
+  commentId: F:Unity.Reflect.Data.ManifestEntry.DstHashFieldNumber
+  id: DstHashFieldNumber
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: DstHashFieldNumber
+  nameWithType: ManifestEntry.DstHashFieldNumber
+  fullName: Unity.Reflect.Data.ManifestEntry.DstHashFieldNumber
+  type: Field
+  source:
+    id: DstHashFieldNumber
+    path: ''
+    startLine: 3319
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  summary: Field number for the &quot;dstHash&quot; field.
+  example: []
+  syntax:
+    content: public const int DstHashFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const DstHashFieldNumber As Integer = 5
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Data.ManifestEntry.DstHash
+  commentId: P:Unity.Reflect.Data.ManifestEntry.DstHash
+  id: DstHash
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: DstHash
+  nameWithType: ManifestEntry.DstHash
+  fullName: Unity.Reflect.Data.ManifestEntry.DstHash
+  type: Property
+  source:
+    id: DstHash
+    path: ''
+    startLine: 3321
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public string DstHash { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DstHash As String
+  overload: Unity.Reflect.Data.ManifestEntry.DstHash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Data.ManifestEntry.BoundingBoxFieldNumber
+  commentId: F:Unity.Reflect.Data.ManifestEntry.BoundingBoxFieldNumber
+  id: BoundingBoxFieldNumber
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: BoundingBoxFieldNumber
+  nameWithType: ManifestEntry.BoundingBoxFieldNumber
+  fullName: Unity.Reflect.Data.ManifestEntry.BoundingBoxFieldNumber
+  type: Field
+  source:
+    id: BoundingBoxFieldNumber
+    path: ''
+    startLine: 3330
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  summary: Field number for the &quot;boundingBox&quot; field.
+  example: []
+  syntax:
+    content: public const int BoundingBoxFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const BoundingBoxFieldNumber As Integer = 6
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Data.ManifestEntry.BoundingBox
+  commentId: P:Unity.Reflect.Data.ManifestEntry.BoundingBox
+  id: BoundingBox
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: BoundingBox
+  nameWithType: ManifestEntry.BoundingBox
+  fullName: Unity.Reflect.Data.ManifestEntry.BoundingBox
+  type: Property
+  source:
+    id: BoundingBox
+    path: ''
+    startLine: 3332
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public SyncBoundingBox BoundingBox { get; set; }
+    parameters: []
+    return:
+      type: Unity.Reflect.Model.SyncBoundingBox
+    content.vb: Public Property BoundingBox As SyncBoundingBox
+  overload: Unity.Reflect.Data.ManifestEntry.BoundingBox*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Data.ManifestEntry.Equals(System.Object)
+  commentId: M:Unity.Reflect.Data.ManifestEntry.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: ManifestEntry.Equals(Object)
+  fullName: Unity.Reflect.Data.ManifestEntry.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 3340
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: Unity.Reflect.Data.ManifestEntry.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.Data.ManifestEntry.Equals(Unity.Reflect.Data.ManifestEntry)
+  commentId: M:Unity.Reflect.Data.ManifestEntry.Equals(Unity.Reflect.Data.ManifestEntry)
+  id: Equals(Unity.Reflect.Data.ManifestEntry)
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: Equals(ManifestEntry)
+  nameWithType: ManifestEntry.Equals(ManifestEntry)
+  fullName: Unity.Reflect.Data.ManifestEntry.Equals(Unity.Reflect.Data.ManifestEntry)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 3345
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public bool Equals(ManifestEntry other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.Data.ManifestEntry
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As ManifestEntry) As Boolean
+  overload: Unity.Reflect.Data.ManifestEntry.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Data.ManifestEntry.GetHashCode
+  commentId: M:Unity.Reflect.Data.ManifestEntry.GetHashCode
+  id: GetHashCode
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ManifestEntry.GetHashCode()
+  fullName: Unity.Reflect.Data.ManifestEntry.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 3360
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: Unity.Reflect.Data.ManifestEntry.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.Data.ManifestEntry.ToString
+  commentId: M:Unity.Reflect.Data.ManifestEntry.ToString
+  id: ToString
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ManifestEntry.ToString()
+  fullName: Unity.Reflect.Data.ManifestEntry.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 3373
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Unity.Reflect.Data.ManifestEntry.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.Data.ManifestEntry.WriteTo(pb.CodedOutputStream)
+  commentId: M:Unity.Reflect.Data.ManifestEntry.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: ManifestEntry.WriteTo(pb.CodedOutputStream)
+  fullName: Unity.Reflect.Data.ManifestEntry.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 3378
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: Unity.Reflect.Data.ManifestEntry.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Data.ManifestEntry.CalculateSize
+  commentId: M:Unity.Reflect.Data.ManifestEntry.CalculateSize
+  id: CalculateSize
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: ManifestEntry.CalculateSize()
+  fullName: Unity.Reflect.Data.ManifestEntry.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 3401
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: Unity.Reflect.Data.ManifestEntry.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Data.ManifestEntry.MergeFrom(Unity.Reflect.Data.ManifestEntry)
+  commentId: M:Unity.Reflect.Data.ManifestEntry.MergeFrom(Unity.Reflect.Data.ManifestEntry)
+  id: MergeFrom(Unity.Reflect.Data.ManifestEntry)
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(ManifestEntry)
+  nameWithType: ManifestEntry.MergeFrom(ManifestEntry)
+  fullName: Unity.Reflect.Data.ManifestEntry.MergeFrom(Unity.Reflect.Data.ManifestEntry)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 3422
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public void MergeFrom(ManifestEntry other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.Data.ManifestEntry
+    content.vb: Public Sub MergeFrom(other As ManifestEntry)
+  overload: Unity.Reflect.Data.ManifestEntry.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Data.ManifestEntry.MergeFrom(pb.CodedInputStream)
+  commentId: M:Unity.Reflect.Data.ManifestEntry.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: ManifestEntry.MergeFrom(pb.CodedInputStream)
+  fullName: Unity.Reflect.Data.ManifestEntry.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 3445
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: Unity.Reflect.Data.ManifestEntry.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Data.ManifestEntry.Parser
+  commentId: P:Unity.Reflect.Data.ManifestEntry.Parser
+  id: Parser
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: ManifestEntry.Parser
+  fullName: Unity.Reflect.Data.ManifestEntry.Parser
+  type: Property
+  source:
+    id: Parser
+    path: ''
+    startLine: 23421
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public static pb.MessageParser<ManifestEntry> Parser { get; }
+    parameters: []
+    return:
+      type: pb.MessageParser{Unity.Reflect.Data.ManifestEntry}
+    content.vb: Public Shared ReadOnly Property Parser As pb.MessageParser(Of ManifestEntry)
+  overload: Unity.Reflect.Data.ManifestEntry.Parser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.Data.ManifestEntry.Descriptor
+  commentId: P:Unity.Reflect.Data.ManifestEntry.Descriptor
+  id: Descriptor
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: ManifestEntry.Descriptor
+  fullName: Unity.Reflect.Data.ManifestEntry.Descriptor
+  type: Property
+  source:
+    id: Descriptor
+    path: ''
+    startLine: 23424
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public static pbr.MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: pbr.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As pbr.MessageDescriptor
+  overload: Unity.Reflect.Data.ManifestEntry.Descriptor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Unity.Reflect.Data.ManifestEntry.#ctor
+  commentId: M:Unity.Reflect.Data.ManifestEntry.#ctor
+  id: '#ctor'
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: ManifestEntry()
+  nameWithType: ManifestEntry.ManifestEntry()
+  fullName: Unity.Reflect.Data.ManifestEntry.ManifestEntry()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 23434
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public ManifestEntry()
+    content.vb: Public Sub New
+  overload: Unity.Reflect.Data.ManifestEntry.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Data.ManifestEntry.#ctor(Unity.Reflect.Data.ManifestEntry)
+  commentId: M:Unity.Reflect.Data.ManifestEntry.#ctor(Unity.Reflect.Data.ManifestEntry)
+  id: '#ctor(Unity.Reflect.Data.ManifestEntry)'
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: ManifestEntry(ManifestEntry)
+  nameWithType: ManifestEntry.ManifestEntry(ManifestEntry)
+  fullName: Unity.Reflect.Data.ManifestEntry.ManifestEntry(Unity.Reflect.Data.ManifestEntry)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 23441
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public ManifestEntry(ManifestEntry other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.Data.ManifestEntry
+    content.vb: Public Sub New(other As ManifestEntry)
+  overload: Unity.Reflect.Data.ManifestEntry.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Data.ManifestEntry.Clone
+  commentId: M:Unity.Reflect.Data.ManifestEntry.Clone
+  id: Clone
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: ManifestEntry.Clone()
+  fullName: Unity.Reflect.Data.ManifestEntry.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 23450
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public ManifestEntry Clone()
+    return:
+      type: Unity.Reflect.Data.ManifestEntry
+    content.vb: Public Function Clone As ManifestEntry
+  overload: Unity.Reflect.Data.ManifestEntry.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Data.ManifestEntry.DstPathFieldNumber
+  commentId: F:Unity.Reflect.Data.ManifestEntry.DstPathFieldNumber
+  id: DstPathFieldNumber
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: DstPathFieldNumber
+  nameWithType: ManifestEntry.DstPathFieldNumber
+  fullName: Unity.Reflect.Data.ManifestEntry.DstPathFieldNumber
+  type: Field
+  source:
+    id: DstPathFieldNumber
+    path: ''
+    startLine: 23456
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  summary: Field number for the &quot;dstPath&quot; field.
+  example: []
+  syntax:
+    content: public const int DstPathFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const DstPathFieldNumber As Integer = 3
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Data.ManifestEntry.DstPath
+  commentId: P:Unity.Reflect.Data.ManifestEntry.DstPath
+  id: DstPath
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: DstPath
+  nameWithType: ManifestEntry.DstPath
+  fullName: Unity.Reflect.Data.ManifestEntry.DstPath
+  type: Property
+  source:
+    id: DstPath
+    path: ''
+    startLine: 23458
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public string DstPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DstPath As String
+  overload: Unity.Reflect.Data.ManifestEntry.DstPath*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Data.ManifestEntry.SrcHashFieldNumber
+  commentId: F:Unity.Reflect.Data.ManifestEntry.SrcHashFieldNumber
+  id: SrcHashFieldNumber
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: SrcHashFieldNumber
+  nameWithType: ManifestEntry.SrcHashFieldNumber
+  fullName: Unity.Reflect.Data.ManifestEntry.SrcHashFieldNumber
+  type: Field
+  source:
+    id: SrcHashFieldNumber
+    path: ''
+    startLine: 23467
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  summary: Field number for the &quot;srcHash&quot; field.
+  example: []
+  syntax:
+    content: public const int SrcHashFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const SrcHashFieldNumber As Integer = 4
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Data.ManifestEntry.SrcHash
+  commentId: P:Unity.Reflect.Data.ManifestEntry.SrcHash
+  id: SrcHash
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: SrcHash
+  nameWithType: ManifestEntry.SrcHash
+  fullName: Unity.Reflect.Data.ManifestEntry.SrcHash
+  type: Property
+  source:
+    id: SrcHash
+    path: ''
+    startLine: 23469
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public string SrcHash { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SrcHash As String
+  overload: Unity.Reflect.Data.ManifestEntry.SrcHash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Data.ManifestEntry.DstHashFieldNumber
+  commentId: F:Unity.Reflect.Data.ManifestEntry.DstHashFieldNumber
+  id: DstHashFieldNumber
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: DstHashFieldNumber
+  nameWithType: ManifestEntry.DstHashFieldNumber
+  fullName: Unity.Reflect.Data.ManifestEntry.DstHashFieldNumber
+  type: Field
+  source:
+    id: DstHashFieldNumber
+    path: ''
+    startLine: 23478
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  summary: Field number for the &quot;dstHash&quot; field.
+  example: []
+  syntax:
+    content: public const int DstHashFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const DstHashFieldNumber As Integer = 5
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Data.ManifestEntry.DstHash
+  commentId: P:Unity.Reflect.Data.ManifestEntry.DstHash
+  id: DstHash
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: DstHash
+  nameWithType: ManifestEntry.DstHash
+  fullName: Unity.Reflect.Data.ManifestEntry.DstHash
+  type: Property
+  source:
+    id: DstHash
+    path: ''
+    startLine: 23480
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public string DstHash { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DstHash As String
+  overload: Unity.Reflect.Data.ManifestEntry.DstHash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Data.ManifestEntry.BoundingBoxFieldNumber
+  commentId: F:Unity.Reflect.Data.ManifestEntry.BoundingBoxFieldNumber
+  id: BoundingBoxFieldNumber
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: BoundingBoxFieldNumber
+  nameWithType: ManifestEntry.BoundingBoxFieldNumber
+  fullName: Unity.Reflect.Data.ManifestEntry.BoundingBoxFieldNumber
+  type: Field
+  source:
+    id: BoundingBoxFieldNumber
+    path: ''
+    startLine: 23489
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  summary: Field number for the &quot;boundingBox&quot; field.
+  example: []
+  syntax:
+    content: public const int BoundingBoxFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const BoundingBoxFieldNumber As Integer = 6
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Unity.Reflect.Data.ManifestEntry.BoundingBox
+  commentId: P:Unity.Reflect.Data.ManifestEntry.BoundingBox
+  id: BoundingBox
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: BoundingBox
+  nameWithType: ManifestEntry.BoundingBox
+  fullName: Unity.Reflect.Data.ManifestEntry.BoundingBox
+  type: Property
+  source:
+    id: BoundingBox
+    path: ''
+    startLine: 23491
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public SyncBoundingBox BoundingBox { get; set; }
+    parameters: []
+    return:
+      type: Unity.Reflect.Model.SyncBoundingBox
+    content.vb: Public Property BoundingBox As SyncBoundingBox
+  overload: Unity.Reflect.Data.ManifestEntry.BoundingBox*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Data.ManifestEntry.Equals(System.Object)
+  commentId: M:Unity.Reflect.Data.ManifestEntry.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: ManifestEntry.Equals(Object)
+  fullName: Unity.Reflect.Data.ManifestEntry.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 23499
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overload: Unity.Reflect.Data.ManifestEntry.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.Data.ManifestEntry.Equals(Unity.Reflect.Data.ManifestEntry)
+  commentId: M:Unity.Reflect.Data.ManifestEntry.Equals(Unity.Reflect.Data.ManifestEntry)
+  id: Equals(Unity.Reflect.Data.ManifestEntry)
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: Equals(ManifestEntry)
+  nameWithType: ManifestEntry.Equals(ManifestEntry)
+  fullName: Unity.Reflect.Data.ManifestEntry.Equals(Unity.Reflect.Data.ManifestEntry)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 23504
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public bool Equals(ManifestEntry other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.Data.ManifestEntry
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As ManifestEntry) As Boolean
+  overload: Unity.Reflect.Data.ManifestEntry.Equals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Data.ManifestEntry.GetHashCode
+  commentId: M:Unity.Reflect.Data.ManifestEntry.GetHashCode
+  id: GetHashCode
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ManifestEntry.GetHashCode()
+  fullName: Unity.Reflect.Data.ManifestEntry.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 23519
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: Unity.Reflect.Data.ManifestEntry.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.Data.ManifestEntry.ToString
+  commentId: M:Unity.Reflect.Data.ManifestEntry.ToString
+  id: ToString
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ManifestEntry.ToString()
+  fullName: Unity.Reflect.Data.ManifestEntry.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 23532
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Unity.Reflect.Data.ManifestEntry.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Unity.Reflect.Data.ManifestEntry.WriteTo(pb.CodedOutputStream)
+  commentId: M:Unity.Reflect.Data.ManifestEntry.WriteTo(pb.CodedOutputStream)
+  id: WriteTo(pb.CodedOutputStream)
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(pb.CodedOutputStream)
+  nameWithType: ManifestEntry.WriteTo(pb.CodedOutputStream)
+  fullName: Unity.Reflect.Data.ManifestEntry.WriteTo(pb.CodedOutputStream)
+  type: Method
+  source:
+    id: WriteTo
+    path: ''
+    startLine: 23537
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public void WriteTo(pb.CodedOutputStream output)
+    parameters:
+    - id: output
+      type: pb.CodedOutputStream
+    content.vb: Public Sub WriteTo(output As pb.CodedOutputStream)
+  overload: Unity.Reflect.Data.ManifestEntry.WriteTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Data.ManifestEntry.CalculateSize
+  commentId: M:Unity.Reflect.Data.ManifestEntry.CalculateSize
+  id: CalculateSize
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: ManifestEntry.CalculateSize()
+  fullName: Unity.Reflect.Data.ManifestEntry.CalculateSize()
+  type: Method
+  source:
+    id: CalculateSize
+    path: ''
+    startLine: 23560
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function CalculateSize As Integer
+  overload: Unity.Reflect.Data.ManifestEntry.CalculateSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Data.ManifestEntry.MergeFrom(Unity.Reflect.Data.ManifestEntry)
+  commentId: M:Unity.Reflect.Data.ManifestEntry.MergeFrom(Unity.Reflect.Data.ManifestEntry)
+  id: MergeFrom(Unity.Reflect.Data.ManifestEntry)
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(ManifestEntry)
+  nameWithType: ManifestEntry.MergeFrom(ManifestEntry)
+  fullName: Unity.Reflect.Data.ManifestEntry.MergeFrom(Unity.Reflect.Data.ManifestEntry)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 23581
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public void MergeFrom(ManifestEntry other)
+    parameters:
+    - id: other
+      type: Unity.Reflect.Data.ManifestEntry
+    content.vb: Public Sub MergeFrom(other As ManifestEntry)
+  overload: Unity.Reflect.Data.ManifestEntry.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Unity.Reflect.Data.ManifestEntry.MergeFrom(pb.CodedInputStream)
+  commentId: M:Unity.Reflect.Data.ManifestEntry.MergeFrom(pb.CodedInputStream)
+  id: MergeFrom(pb.CodedInputStream)
+  parent: Unity.Reflect.Data.ManifestEntry
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(pb.CodedInputStream)
+  nameWithType: ManifestEntry.MergeFrom(pb.CodedInputStream)
+  fullName: Unity.Reflect.Data.ManifestEntry.MergeFrom(pb.CodedInputStream)
+  type: Method
+  source:
+    id: MergeFrom
+    path: ''
+    startLine: 23604
+  assemblies:
+  - cs.temp.dll
+  namespace: Unity.Reflect.Data
+  syntax:
+    content: public void MergeFrom(pb.CodedInputStream input)
+    parameters:
+    - id: input
+      type: pb.CodedInputStream
+    content.vb: Public Sub MergeFrom(input As pb.CodedInputStream)
+  overload: Unity.Reflect.Data.ManifestEntry.MergeFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Unity.Reflect.Data
+  commentId: N:Unity.Reflect.Data
+  name: Unity.Reflect.Data
+  nameWithType: Unity.Reflect.Data
+  fullName: Unity.Reflect.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: pb.IMessage{Unity.Reflect.Data.ManifestEntry}
+  commentId: '!:pb.IMessage{Unity.Reflect.Data.ManifestEntry}'
+  definition: pb.IMessage`1
+  name: pb.IMessage<ManifestEntry>
+  nameWithType: pb.IMessage<ManifestEntry>
+  fullName: pb.IMessage<Unity.Reflect.Data.ManifestEntry>
+  nameWithType.vb: pb.IMessage(Of ManifestEntry)
+  fullName.vb: pb.IMessage(Of Unity.Reflect.Data.ManifestEntry)
+  name.vb: pb.IMessage(Of ManifestEntry)
+  spec.csharp:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.Data.ManifestEntry
+    name: ManifestEntry
+    nameWithType: ManifestEntry
+    fullName: Unity.Reflect.Data.ManifestEntry
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.Data.ManifestEntry
+    name: ManifestEntry
+    nameWithType: ManifestEntry
+    fullName: Unity.Reflect.Data.ManifestEntry
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: pb.IMessage`1
+  isExternal: true
+  name: pb.IMessage<>
+  nameWithType: pb.IMessage<>
+  fullName: pb.IMessage<>
+  nameWithType.vb: pb.IMessage(Of )
+  fullName.vb: pb.IMessage(Of )
+  name.vb: pb.IMessage(Of )
+  spec.csharp:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.IMessage`1
+    name: pb.IMessage
+    nameWithType: pb.IMessage
+    fullName: pb.IMessage
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.Data.ManifestEntry.Parser*
+  commentId: Overload:Unity.Reflect.Data.ManifestEntry.Parser
+  name: Parser
+  nameWithType: ManifestEntry.Parser
+  fullName: Unity.Reflect.Data.ManifestEntry.Parser
+- uid: pb.MessageParser{Unity.Reflect.Data.ManifestEntry}
+  commentId: '!:pb.MessageParser{Unity.Reflect.Data.ManifestEntry}'
+  definition: pb.MessageParser`1
+  name: pb.MessageParser<ManifestEntry>
+  nameWithType: pb.MessageParser<ManifestEntry>
+  fullName: pb.MessageParser<Unity.Reflect.Data.ManifestEntry>
+  nameWithType.vb: pb.MessageParser(Of ManifestEntry)
+  fullName.vb: pb.MessageParser(Of Unity.Reflect.Data.ManifestEntry)
+  name.vb: pb.MessageParser(Of ManifestEntry)
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unity.Reflect.Data.ManifestEntry
+    name: ManifestEntry
+    nameWithType: ManifestEntry
+    fullName: Unity.Reflect.Data.ManifestEntry
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unity.Reflect.Data.ManifestEntry
+    name: ManifestEntry
+    nameWithType: ManifestEntry
+    fullName: Unity.Reflect.Data.ManifestEntry
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: pb.MessageParser`1
+  isExternal: true
+  name: pb.MessageParser<>
+  nameWithType: pb.MessageParser<>
+  fullName: pb.MessageParser<>
+  nameWithType.vb: pb.MessageParser(Of )
+  fullName.vb: pb.MessageParser(Of )
+  name.vb: pb.MessageParser(Of )
+  spec.csharp:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: pb.MessageParser`1
+    name: pb.MessageParser
+    nameWithType: pb.MessageParser
+    fullName: pb.MessageParser
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Unity.Reflect.Data.ManifestEntry.Descriptor*
+  commentId: Overload:Unity.Reflect.Data.ManifestEntry.Descriptor
+  name: Descriptor
+  nameWithType: ManifestEntry.Descriptor
+  fullName: Unity.Reflect.Data.ManifestEntry.Descriptor
+- uid: pbr.MessageDescriptor
+  isExternal: true
+  name: pbr.MessageDescriptor
+  nameWithType: pbr.MessageDescriptor
+  fullName: pbr.MessageDescriptor
+- uid: Unity.Reflect.Data.ManifestEntry.#ctor*
+  commentId: Overload:Unity.Reflect.Data.ManifestEntry.#ctor
+  name: ManifestEntry
+  nameWithType: ManifestEntry.ManifestEntry
+  fullName: Unity.Reflect.Data.ManifestEntry.ManifestEntry
+- uid: Unity.Reflect.Data.ManifestEntry
+  commentId: T:Unity.Reflect.Data.ManifestEntry
+  parent: Unity.Reflect.Data
+  name: ManifestEntry
+  nameWithType: ManifestEntry
+  fullName: Unity.Reflect.Data.ManifestEntry
+- uid: Unity.Reflect.Data.ManifestEntry.Clone*
+  commentId: Overload:Unity.Reflect.Data.ManifestEntry.Clone
+  name: Clone
+  nameWithType: ManifestEntry.Clone
+  fullName: Unity.Reflect.Data.ManifestEntry.Clone
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Unity.Reflect.Data.ManifestEntry.DstPath*
+  commentId: Overload:Unity.Reflect.Data.ManifestEntry.DstPath
+  name: DstPath
+  nameWithType: ManifestEntry.DstPath
+  fullName: Unity.Reflect.Data.ManifestEntry.DstPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Unity.Reflect.Data.ManifestEntry.SrcHash*
+  commentId: Overload:Unity.Reflect.Data.ManifestEntry.SrcHash
+  name: SrcHash
+  nameWithType: ManifestEntry.SrcHash
+  fullName: Unity.Reflect.Data.ManifestEntry.SrcHash
+- uid: Unity.Reflect.Data.ManifestEntry.DstHash*
+  commentId: Overload:Unity.Reflect.Data.ManifestEntry.DstHash
+  name: DstHash
+  nameWithType: ManifestEntry.DstHash
+  fullName: Unity.Reflect.Data.ManifestEntry.DstHash
+- uid: Unity.Reflect.Data.ManifestEntry.BoundingBox*
+  commentId: Overload:Unity.Reflect.Data.ManifestEntry.BoundingBox
+  name: BoundingBox
+  nameWithType: ManifestEntry.BoundingBox
+  fullName: Unity.Reflect.Data.ManifestEntry.BoundingBox
+- uid: Unity.Reflect.Model.SyncBoundingBox
+  commentId: T:Unity.Reflect.Model.SyncBoundingBox
+  parent: Unity.Reflect.Model
+  name: SyncBoundingBox
+  nameWithType: SyncBoundingBox
+  fullName: Unity.Reflect.Model.SyncBoundingBox
+- uid: Unity.Reflect.Model
+  commentId: N:Unity.Reflect.Model
+  name: Unity.Reflect.Model
+  nameWithType: Unity.Reflect.Model
+  fullName: Unity.Reflect.Model
+- uid: Unity.Reflect.Data.ManifestEntry.Equals*
+  commentId: Overload:Unity.Reflect.Data.ManifestEntry.Equals
+  name: Equals
+  nameWithType: ManifestEntry.Equals
+  fullName: Unity.Reflect.Data.ManifestEntry.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Unity.Reflect.Data.ManifestEntry.GetHashCode*
+  commentId: Overload:Unity.Reflect.Data.ManifestEntry.GetHashCode
+  name: GetHashCode
+  nameWithType: ManifestEntry.GetHashCode
+  fullName: Unity.Reflect.Data.ManifestEntry.GetHashCode
+- uid: Unity.Reflect.Data.ManifestEntry.ToString*
+  commentId: Overload:Unity.Reflect.Data.ManifestEntry.ToString
+  name: ToString
+  nameWithType: ManifestEntry.ToString
+  fullName: Unity.Reflect.Data.ManifestEntry.ToString
+- uid: Unity.Reflect.Data.ManifestEntry.WriteTo*
+  commentId: Overload:Unity.Reflect.Data.ManifestEntry.WriteTo
+  name: WriteTo
+  nameWithType: ManifestEntry.WriteTo
+  fullName: Unity.Reflect.Data.ManifestEntry.WriteTo
+- uid: pb.CodedOutputStream
+  isExternal: true
+  name: pb.CodedOutputStream
+  nameWithType: pb.CodedOutputStream
+  fullName: pb.CodedOutputStream
+- uid: Unity.Reflect.Data.ManifestEntry.CalculateSize*
+  commentId: Overload:Unity.Reflect.Data.ManifestEntry.CalculateSize
+  name: CalculateSize
+  nameWithType: ManifestEntry.CalculateSize
+  fullName: Unity.Reflect.Data.ManifestEntry.CalculateSize
+- uid: Unity.Reflect.Data.ManifestEntry.MergeFrom*
+  commentId: Overload:Unity.Reflect.Data.ManifestEntry.MergeFrom
+  name: MergeFrom
+  nameWithType: ManifestEntry.MergeFrom
+  fullName: Unity.Reflect.Data.ManifestEntry.MergeFrom
+- uid: pb.CodedInputStream
+  isExternal: true
+  name: pb.CodedInputStream
+  nameWithType: pb.CodedInputStream
+  fullName: pb.CodedInputStream

@@ -1,0 +1,68 @@
+- name: Getting started
+  href: WelcomeReflect.md
+  items:
+  - name: Compatibility
+    href: SystemRequirements.md
+  - name: Managing seats
+    href: ManagingLicenses.md
+  - name: Installing and uninstalling
+    href: ReflectInstaller.md
+- name: The Reflect Viewer
+  href: ReflectViewer.md
+  items:
+  - name: Interface overview
+    href: ReflectViewer.md
+  - name: AR mode
+    href: ViewerAR.md
+  - name: VR mode
+    href: ViewerVR.md
+- name: The Reflect Dashboard
+  href: ReflectDashboard.md
+- name: The Reflect plugins
+  href: plugins/ReflectPlugins.md
+  items:
+    - name: BIM 360
+      href: plugins/BIM360.md
+    - name: Navisworks
+      href: plugins/Navisworks.md
+    - name: Revit
+      href: plugins/Revit.md
+    - name: Rhino
+      href: plugins/Rhino.md
+    - name: SketchUp
+      href: plugins/SketchUp.md
+- name: Storage and syncing
+  items:
+    - name: Managing your storage
+      href: ManagingStorage.md
+  #  - name: Cloud syncing
+  #    href: CloudSyncing.md
+  #  - name: Creating a new project
+  #    href: ReflectNewProject.md
+    - name: Managing project permissions
+      href: ProjectsPermissions.md
+- name: Developer guide
+  href: devguide/DevGuide.md
+  items:
+  #  - name: Introduction
+  #    href: devguide/DevIntro.md
+    - name: Customizing the Reflect Viewer
+      href: devguide/DevIntro.md
+      items:
+        - name: Adding a new dialog
+          href: devguide/NewDialog.md
+        - name: Adding a new input mapping
+          href: devguide/NewMapping.md
+        - name: Adding a new radial dial
+          href: devguide/NewRadial.md
+    - name: Installing the Reflect package
+      href: devguide/PackageInstall.md
+    - name: Importing data from Reflect
+      href: devguide/PackageSync.md
+- name: Need help?
+  href: Support.md
+  items:
+    - name: Support
+      href: Support.md
+    - name: Network configuration
+      href: NetworkConfiguration.md
