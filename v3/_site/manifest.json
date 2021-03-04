@@ -172,12 +172,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "manual/Templates.md",
       "output": {
         ".html": {
           "relative_path": "manual/Templates.html",
-          "hash": "1uvvPW9852YmmzmH5ohjxA=="
+          "hash": "g5rDpOogJIi7qO10fKo0jw=="
         }
       },
       "is_incremental": false,
@@ -252,7 +255,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 16,
-          "skipped_file_count": 16
+          "skipped_file_count": 15
         }
       }
     },

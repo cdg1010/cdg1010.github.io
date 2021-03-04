@@ -1,82 +1,82 @@
 {
-  "index.html": {
-    "href": "index.html",
-    "title": "| Unity Hub | 3.0",
-    "keywords": "[!include[index](/manual/index.md)]"
-  },
-  "manual/SystemRequirements.html": {
-    "href": "manual/SystemRequirements.html",
-    "title": "System and network requirements | Unity Hub | 3.0",
-    "keywords": "System and network requirements"
-  },
-  "manual/HubCLI.html": {
-    "href": "manual/HubCLI.html",
-    "title": "Using the Hub from the command line | Unity Hub | 3.0",
-    "keywords": "Using the Hub from the command line"
-  },
-  "manual/InstallHub.html": {
-    "href": "manual/InstallHub.html",
-    "title": "Downloading and installing the Hub | Unity Hub | 3.0",
-    "keywords": "Downloading and installing the Hub Downloading the Hub To install the Unity Hub for Windows, macOS, or Linux: Visit [URL tbd] and follow the instructions on screen to download the installer. Open the installer file, review the License Agreement, and click I Agree . Choose the location where you want to install the Hub. Click Install. Signing in to the Hub Launch Unity Hub. If you have a Unity ID, click Sign In . Unity Hub opens a sign-in page in your default web browser. If you do not have a Unity ID, click Create Unity ID and follow the prompts to create one. For more information about accounts and subscriptions, see Unity Organizations. When you're signed in, your web browser redirects you back to the Unity Hub. If prompted, click Open Unity Hub.app."
-  },
-  "manual/Support.html": {
-    "href": "manual/Support.html",
-    "title": "Support | Unity Hub | 3.0",
-    "keywords": "Support Click This menu also lets you send feedback, access troubleshooting information, or sign out of the Unity Hub."
-  },
-  "manual/Templates.html": {
-    "href": "manual/Templates.html",
-    "title": "Templates | Unity Hub | 3.0",
-    "keywords": "Templates"
-  },
-  "manual/LoggingIn.html": {
-    "href": "manual/LoggingIn.html",
-    "title": "Logging in to the Hub | Unity Hub | 3.0",
-    "keywords": "Logging in to the Hub"
-  },
-  "manual/ManageProfile.html": {
-    "href": "manual/ManageProfile.html",
-    "title": "Manage your profile | Unity Hub | 3.0",
-    "keywords": "Manage your profile"
-  },
-  "manual/CreateProject.html": {
-    "href": "manual/CreateProject.html",
-    "title": "Create a project from a template | Unity Hub | 3.0",
-    "keywords": "Create a project from a template"
-  },
-  "manual/Projects.html": {
-    "href": "manual/Projects.html",
-    "title": "Projects | Unity Hub | 3.0",
-    "keywords": "Projects"
-  },
-  "manual/InstallEditors.html": {
-    "href": "manual/InstallEditors.html",
-    "title": "Downloading and installing with the Unity Hub | Unity Hub | 3.0",
-    "keywords": "Downloading and installing with the Unity Hub With the Unity Hub, you can download and launch different versions of the Unity Editor as well as optional modules. Installing the Unity Editor Open the Unity Hub and click Installs in the left sidebar. Click Install Editor . The pop-up window displays the available Unity releases. To download and install an official Unity release, select a version from the Official Releases tab. To install pre-releases or archived versions of Unity, click Pre-Releases or Archive. To install the Unity Editor from local files downloaded previously, click Install from Local Files in the lower right corner of the window. Click Install. If prompted, read and agree to the terms and conditions and then click Continue. Select an install location and add any optional modules, then click Install. Note: You can always add or remove modules later. The Unity Hub can remove temporary installation files to free up disk space after installing the Editor. To enable this option, select Remove installation files automatically. Adding modules to an installed Unity Editor Pending info: is this under the gear icon on the Installs screen? Managing your installations from the Hub When an Editor version is installed, you can see it on the Installs screen."
-  },
-  "manual/Preferences.html": {
-    "href": "manual/Preferences.html",
-    "title": "Change your Hub preferences | Unity Hub | 3.0",
-    "keywords": "Change your Hub preferences The Preferences screen lets you customize a wide range of preferences. To switch between Preferences screens, use the left-hand navigation menu. Editor lets you specify the folders on your computer where the Unity Hub downloads and installs the Unity Editor. For more information about Editor downloads, see link . Projects lets you specify the folder where new projects are created. For more information about creating projects, see link . Appearance lets you specify the Unity Hub display language, UI theme, and other appearance settings. For more information, see Select a theme . License Management lets you manage and activate your Unity licenses. For more information about managing your licenses, see link . Advanced lets you opt in or out of automatically downloading beta releases. For more information about beta releases, see link . Select a theme To change the display theme of the interface, go to Preferences > Appearance. Under the heading UI Theme, select one of the options from the drop-down menu. Light theme Dark theme"
-  },
-  "manual/ManageInstalls.html": {
-    "href": "manual/ManageInstalls.html",
-    "title": "Manage your Editor installations | Unity Hub | 3.0",
-    "keywords": "Manage your Editor installations"
-  },
-  "manual/index.html": {
-    "href": "manual/index.html",
-    "title": "Getting started with the Unity Hub | Unity Hub | 3.0",
-    "keywords": "Getting started with the Unity Hub The Unity Hub is a standalone application that streamlines the way you find, download, and manage your Unity Projects and installations. In addition, you can manually add versions of the Editor that you have already installed on your machine to your Hub. You can use the Hub to: Download and install the Unity Editor and modules. Manage downloads and multiple installations of Unity Create, manage, and launch Unity Projects. Explore templates, sample projects and more to learn and create in new ways. Manage your profile and preferences Get more resources about learning and using Unity To get started, see [link]."
+  "manual/UIOverview.html": {
+    "href": "manual/UIOverview.html",
+    "title": "Navigating the Hub | Unity Hub | 3.0",
+    "keywords": "Navigating the Hub This document provides a high-level overview of the Unity Hub interface. **Note: The following sections are available when you’re logged in to the Hub. For help logging in, see link . To switch between screens, use the left-hand navigation menu. Projects The Projects screen displays your Unity Projects. From this screen you can manage your existing projects, create a new project, or open a project in the Unity Editor. For more information about managing your projects, see link . Installs The Installs screen displays your currently installed versions of the Unity Editor. From this screen, you can browse and install new versions and manage your downloads of the Unity Editor and its associated modules. For more information about managing your installs with the Unity Hub, see link . Learn The Learn screen displays content designed to help you get the most from Unity. From this screen, you can browse and download tutorials and projects as well as manage your downloaded Learn content. For more information about managing your Learn tutorials and projects, see link . Community The Community tab displays featured content from the Unity community, including blog posts and links to key resources. Preferences The Preferences screen lets you customize a wide range of preferences. To switch between Preferences screens, use the left-hand navigation menu. Editor lets you specify the folder on your computer where the Unity Hub downloads and installs the Unity Editor. For more information about Editor downloads, see link . Projects lets you specify the folder where new projects are created. For more information about creating projects, see link . Appearance lets you specify the Unity Hub display language, UI theme, and other appearance settings. For more information, see Select a theme . License Management lets you manage and activate your Unity licenses. For more information about managing your licenses, see link . Advanced lets you opt in or out of automatically downloading beta releases. For more information about beta releases, see link . Select a theme To change the display theme of the interface, go to Preferences > Appearance. Under the heading UI Theme, select one of the options from the drop-down menu. Light theme Dark theme Profile menu When you’re logged in to the Unity Hub, you can click on your name to open a drop-down menu with additional options: For more about managing your account and licenses, see link . This menu also lets you send feedback, access troubleshooting information, or sign out of the Unity Hub."
   },
   "manual/ManageLicense.html": {
     "href": "manual/ManageLicense.html",
     "title": "Manage your license | Unity Hub | 3.0",
     "keywords": "Manage your license How do I see when something is up for renewal, etc. etc. Set up your license (not currently a streamlined workflow with login but will need this info regardless)"
   },
-  "manual/UIOverview.html": {
-    "href": "manual/UIOverview.html",
-    "title": "Navigating the Hub | Unity Hub | 3.0",
-    "keywords": "Navigating the Hub This document provides a high-level overview of the Unity Hub interface. **Note: The following sections are available when you’re logged in to the Hub. For help logging in, see link . To switch between screens, use the left-hand navigation menu. Projects The Projects screen displays your Unity Projects. From this screen you can manage your existing projects, create a new project, or open a project in the Unity Editor. For more information about managing your projects, see link . Installs The Installs screen displays your currently installed versions of the Unity Editor. From this screen, you can browse and install new versions and manage your downloads of the Unity Editor and its associated modules. For more information about managing your installs with the Unity Hub, see link . Learn The Learn screen displays content designed to help you get the most from Unity. From this screen, you can browse and download tutorials and projects as well as manage your downloaded Learn content. For more information about managing your Learn tutorials and projects, see link . Community The Community tab displays featured content from the Unity community, including blog posts and links to key resources. Preferences The Preferences screen lets you customize a wide range of preferences. To switch between Preferences screens, use the left-hand navigation menu. Editor lets you specify the folder on your computer where the Unity Hub downloads and installs the Unity Editor. For more information about Editor downloads, see link . Projects lets you specify the folder where new projects are created. For more information about creating projects, see link . Appearance lets you specify the Unity Hub display language, UI theme, and other appearance settings. For more information, see Select a theme . License Management lets you manage and activate your Unity licenses. For more information about managing your licenses, see link . Advanced lets you opt in or out of automatically downloading beta releases. For more information about beta releases, see link . Select a theme To change the display theme of the interface, go to Preferences > Appearance. Under the heading UI Theme, select one of the options from the drop-down menu. Light theme Dark theme Profile menu When you’re logged in to the Unity Hub, you can click on your name to open a drop-down menu with additional options: For more about managing your account and licenses, see link . This menu also lets you send feedback, access troubleshooting information, or sign out of the Unity Hub."
+  "manual/index.html": {
+    "href": "manual/index.html",
+    "title": "Getting started with the Unity Hub | Unity Hub | 3.0",
+    "keywords": "Getting started with the Unity Hub The Unity Hub is a standalone application that streamlines the way you find, download, and manage your Unity Projects and installations. In addition, you can manually add versions of the Editor that you have already installed on your machine to your Hub. You can use the Hub to: Download and install the Unity Editor and modules. Manage downloads and multiple installations of Unity Create, manage, and launch Unity Projects. Explore templates, sample projects and more to learn and create in new ways. Manage your profile and preferences Get more resources about learning and using Unity To get started, see [link]."
+  },
+  "manual/ManageInstalls.html": {
+    "href": "manual/ManageInstalls.html",
+    "title": "Manage your Editor installations | Unity Hub | 3.0",
+    "keywords": "Manage your Editor installations"
+  },
+  "manual/Preferences.html": {
+    "href": "manual/Preferences.html",
+    "title": "Change your Hub preferences | Unity Hub | 3.0",
+    "keywords": "Change your Hub preferences The Preferences screen lets you customize a wide range of preferences. To switch between Preferences screens, use the left-hand navigation menu. Editor lets you specify the folders on your computer where the Unity Hub downloads and installs the Unity Editor. For more information about Editor downloads, see link . Projects lets you specify the folder where new projects are created. For more information about creating projects, see link . Appearance lets you specify the Unity Hub display language, UI theme, and other appearance settings. For more information, see Select a theme . License Management lets you manage and activate your Unity licenses. For more information about managing your licenses, see link . Advanced lets you opt in or out of automatically downloading beta releases. For more information about beta releases, see link . Select a theme To change the display theme of the interface, go to Preferences > Appearance. Under the heading UI Theme, select one of the options from the drop-down menu. Light theme Dark theme"
+  },
+  "manual/InstallEditors.html": {
+    "href": "manual/InstallEditors.html",
+    "title": "Downloading and installing with the Unity Hub | Unity Hub | 3.0",
+    "keywords": "Downloading and installing with the Unity Hub With the Unity Hub, you can download and launch different versions of the Unity Editor as well as optional modules. Installing the Unity Editor Open the Unity Hub and click Installs in the left sidebar. Click Install Editor . The pop-up window displays the available Unity releases. To download and install an official Unity release, select a version from the Official Releases tab. To install pre-releases or archived versions of Unity, click Pre-Releases or Archive. To install the Unity Editor from local files downloaded previously, click Install from Local Files in the lower right corner of the window. Click Install. If prompted, read and agree to the terms and conditions and then click Continue. Select an install location and add any optional modules, then click Install. Note: You can always add or remove modules later. The Unity Hub can remove temporary installation files to free up disk space after installing the Editor. To enable this option, select Remove installation files automatically. Adding modules to an installed Unity Editor Pending info: is this under the gear icon on the Installs screen? Managing your installations from the Hub When an Editor version is installed, you can see it on the Installs screen."
+  },
+  "manual/Projects.html": {
+    "href": "manual/Projects.html",
+    "title": "Projects | Unity Hub | 3.0",
+    "keywords": "Projects"
+  },
+  "manual/CreateProject.html": {
+    "href": "manual/CreateProject.html",
+    "title": "Create a project from a template | Unity Hub | 3.0",
+    "keywords": "Create a project from a template"
+  },
+  "manual/ManageProfile.html": {
+    "href": "manual/ManageProfile.html",
+    "title": "Manage your profile | Unity Hub | 3.0",
+    "keywords": "Manage your profile"
+  },
+  "manual/LoggingIn.html": {
+    "href": "manual/LoggingIn.html",
+    "title": "Logging in to the Hub | Unity Hub | 3.0",
+    "keywords": "Logging in to the Hub"
+  },
+  "manual/Support.html": {
+    "href": "manual/Support.html",
+    "title": "Support | Unity Hub | 3.0",
+    "keywords": "Support Click This menu also lets you send feedback, access troubleshooting information, or sign out of the Unity Hub."
+  },
+  "manual/InstallHub.html": {
+    "href": "manual/InstallHub.html",
+    "title": "Downloading and installing the Hub | Unity Hub | 3.0",
+    "keywords": "Downloading and installing the Hub Downloading the Hub To install the Unity Hub for Windows, macOS, or Linux: Visit [URL tbd] and follow the instructions on screen to download the installer. Open the installer file, review the License Agreement, and click I Agree . Choose the location where you want to install the Hub. Click Install. Signing in to the Hub Launch Unity Hub. If you have a Unity ID, click Sign In . Unity Hub opens a sign-in page in your default web browser. If you do not have a Unity ID, click Create Unity ID and follow the prompts to create one. For more information about accounts and subscriptions, see Unity Organizations. When you're signed in, your web browser redirects you back to the Unity Hub. If prompted, click Open Unity Hub.app."
+  },
+  "manual/HubCLI.html": {
+    "href": "manual/HubCLI.html",
+    "title": "Using the Hub from the command line | Unity Hub | 3.0",
+    "keywords": "Using the Hub from the command line"
+  },
+  "manual/SystemRequirements.html": {
+    "href": "manual/SystemRequirements.html",
+    "title": "System and network requirements | Unity Hub | 3.0",
+    "keywords": "System and network requirements"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "| Unity Hub | 3.0",
+    "keywords": "[!include[index](/manual/index.md)]"
+  },
+  "manual/Templates.html": {
+    "href": "manual/Templates.html",
+    "title": "Templates | Unity Hub | 3.0",
+    "keywords": "Templates Overview When you create a Project, you select a Template with which to initialize your Project. Types of Template All versions of Unity offer Core Templates . These are blank templates with preloaded packages and settings that enable you to quickly create a Project. For information about the current Core Templates, see [Core Templates]. 2D belthae 3ed \\ LTS versions of Unity also offer: **Sample Templates: **Content-based templates designed to demonstrate Editor capabilities for a specific outcome._ _(For example: HDRP, Auto Showroom.) Learning Templates: Project-led templates designed to teach you to use Unity features or builds and to publish a Project for a specific outcome. (For example: FPS Microgame, 2D Platformer Microgame, Karting Microgame, LEGO® Microgame.) >>>>> gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. ( Back to top )( Next alert ) >>>>> LTS Project Templates Editor Compatibility Different versions of Unity support different Templates. All versions of the Editor include a set of default Project Templates. For more information about the default templates, see Prepackaged Templates . LTS Editor versions starting with 2019.4 LTS support Dynamic Templates.** **These are optional Project Templates that you can download for additional functionality. For more information, see Dynamic Templates . **Note: **Because Dynamic Templates are not shared between Editor versions, you'll need to download them separately for each version of the Editor you install. You must be connected to the Internet to see or download the latest Dynamic Templates. Default Templates By default, the Unity Hub comes with the following Project templates installed: 2D Configures Project settings for 2D apps that use Unity’s built-in rendering pipeline. 3D Configures Project settings for 3D apps that use Unity’s built-in rendering pipeline . 3D with Extras Configures Project settings for 3D apps that use Unity’s built-in renderer and post-processing features. This Project type includes the new post-processing stack, several Presets to jump-start development, and example content. For more information on post-processing, see documentation on post-processing in the post-processing GitHub repository. High Definition RP Configures Project settings for Projects that use high-end platforms that support Shader Model 5.0 (DX11 and above). This template is built using the Scriptable Render Pipeline (SRP), a modern rendering pipeline that includes advanced material types and a configurable hybrid tile/cluster deferred/forward lighting architecture. This Template also includes the new post-processing stack, several Presets to jump start development, and example content. This Template adds the following features to your Project: SRP - For more information, see documentation on the Scriptable Render Pipeline in the SRP GitHub repository. Post-Processing stack - The post-processing Stack enables artists and designers to apply full -screen filters to scenes using an artist-friendly interface. For more information, see documentation on post-processing in the post-processing GitHub repository. Universal Render Pipeline The Universal Render Pipeline Template configures Project settings for Projects where performance, wide platform support, and ease of customizing graphics are the primary considerations. This Template uses the following Unity features: Universal Render Pipeline (URP): a prebuilt Scriptable Render Pipeline that is quick and easy to customize, and lets you create optimized graphics across a wide range of platforms. URP also includes an optimized 2D renderer complete with 2D lights and **pixel ** perfect rendering, and an integrated post-processing solution. For more information on URP, see the URP documentation . Shader Graph: a tool that allows you to create shaders using a visual node editor instead of writing code. For more information on Shader Graph, see the Shader Graph documentation . The template contains the following: A sample Scene that contains examples of how to configure lighting settings, Materials, Shaders, and post-processing effects in URP Several preconfigured Universal Render Pipline Assets that let you quickly swap between graphics quality levels Presets that have been optimized for use with URP Dynamic templates **Note: **Dynamic templates are available for LTS Editor versions only, starting with 2019.2 LTS. Dynamic Templates are optional Project Templates that you can download for additional functionality. Dynamic Templates, including those bundled with the Unity Editor, also have their own versioning: this means you can download and update them independently from the Unity Editor whenever new versions are available. Because Dynamic Templates are not shared between Editor versions, you'll need to download them separately for each version of the Editor you install. You must be connected to the Internet to see or download the latest Dynamic Templates. Downloading Dynamic Templates In the Unity Hub, when you click New , the Templates window displays a list of all the Project Templates available for that version of the Editor. If a Dynamic Template is available for download, its tile displays a download icon: >>>>> gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. ( Back to top )( Next alert ) >>>>> To download a Template, move your cursor over its tile and click Download . When prompted, click Install . Updating Dynamic Templates If an update is available for a Template you previously installed, its tile displays the option Update . You can either download the update or continue using the installed version of the Template. >>>>> gd2md-html alert: inline image link here (to images/image3.gif). Store image on your image server and adjust path/filename/extension if necessary. ( Back to top )( Next alert ) >>>>> Downloading and updating Dynamic Templates Creating a project from a Template To create a new Project (and specify which Editor version to open it in), do one of the following: Click the New button. The title bar of the New Project dialog box displays the Editor version that the project will use. Click the drop-down arrow next to the New button to select the Editor version that you want to use. Note : This drop-down menu is only available if you have installed multiple versions of the Editor in the Hub. Select a Template, Project Name, and Location: Setting Function Templates Choose a Project Template. For information about a specific Template, click the 🛈 icon. Project Name Sets the name of your Project. This names the main Project folder, which stores the Assets, Scenes, and other files related to your Project. Location Use this to define where in your computer’s file system to store your Project. The location of your Project defaults to the home folder on your computer. To change it, type the file path to your preferred storage location in the Location field. Alternatively, click the ellipsis icon (…) in the Location field. This opens your computer’s file browser (Explorer, Finder or Files, depending on your computer’s operating system). In your file browser, navigate to the folder that you want to store your Project in and click Select Folder or Open. When you’re satisfied with the Project settings, click Create."
   }
 }
