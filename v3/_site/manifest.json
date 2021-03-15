@@ -13,6 +13,28 @@
       "is_incremental": false
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/2.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/2.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "log_codes": [
         "include-not-found"
       ],
@@ -45,7 +67,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/HubCLI.html",
-          "hash": "oQM8NsOLGtQ0zLq7x5cOrg=="
+          "hash": "nzBuR0tLw20WtKtb3Xa21A=="
         }
       },
       "is_incremental": false,
@@ -64,12 +86,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "manual/InstallHub.md",
       "output": {
         ".html": {
           "relative_path": "manual/InstallHub.html",
-          "hash": "AH+ues9oVJHQvovlgnbgvQ=="
+          "hash": "EeWTnSBnElOrWD2zyOK85Q=="
         }
       },
       "is_incremental": false,
@@ -136,12 +161,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "manual/Projects.md",
       "output": {
         ".html": {
           "relative_path": "manual/Projects.html",
-          "hash": "pDBXifetWzCxq2woC2PnQQ=="
+          "hash": "D5Txdl5a8N0UauhqIIV3sQ=="
         }
       },
       "is_incremental": false,
@@ -165,22 +193,19 @@
       "output": {
         ".html": {
           "relative_path": "manual/SystemRequirements.html",
-          "hash": "3dQwzOGIoWoGSHvC7k05oQ=="
+          "hash": "Di31HYSFNZtfMtU6HltBew=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "manual/Templates.md",
       "output": {
         ".html": {
           "relative_path": "manual/Templates.html",
-          "hash": "g5rDpOogJIi7qO10fKo0jw=="
+          "hash": "SXVd5U4sL5ae6HAUzsssNg=="
         }
       },
       "is_incremental": false,
@@ -216,7 +241,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "L+qrvlC9PTGZLC9vfQUvwA=="
+          "hash": "HpzBu1RAnFJbg4uPo3b0Bg=="
         }
       },
       "is_incremental": false,
@@ -255,7 +280,14 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 16,
-          "skipped_file_count": 15
+          "skipped_file_count": 14
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
         }
       }
     },

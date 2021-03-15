@@ -122,79 +122,65 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="templates">Templates</h1>
 
-<h1 id="overview">Overview</h1>
 <p>When you create a Project, you select a Template with which to initialize your Project.</p>
-<h2 id="types-of-template">Types of Template</h2>
-<p>All versions of Unity offer <strong>Core Templates</strong>. These are blank templates with preloaded packages and settings that enable you to quickly create a Project. For information about the current Core Templates, see [Core Templates].</p>
-<ul>
-<li>2D belthae</li>
-<li>3ed</li>
-<li>\</li>
-</ul>
+<h2 id="overview-of-templates">Overview of Templates</h2>
+<p>All versions of Unity offer <strong>Core Templates</strong>. These are blank templates with preloaded packages and settings that enable you to quickly create a Project. (For example: 2D, 3D, 3D with Extras.) For information about the current Core Templates, see [Core Templates].</p>
 <p>LTS versions of Unity also offer:</p>
 <ul>
-<li>**Sample Templates: **Content-based templates designed to demonstrate Editor capabilities for a specific outcome._ _(For example: HDRP, Auto Showroom.)</li>
-<li><strong>Learning Templates:</strong> Project-led templates designed to teach you to use Unity features or builds and to publish a Project for a specific outcome. (For example: FPS Microgame, 2D Platformer Microgame, Karting Microgame, LEGO® Microgame.)</li>
-</ul>
-<p id="gdcalert1"><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-<p><img src="images/image1.png" alt="alt_text" title="image_tooltip"></p>
-<p><em>LTS Project Templates</em></p>
-<h2 id="editor-compatibility">Editor Compatibility</h2>
-<p>Different versions of Unity support different Templates.</p>
-<ul>
-<li><p>All versions of the Editor include a set of default Project Templates. For more information about the default templates, see <a href="#">Prepackaged Templates</a>.</p>
+<li><p><strong>Sample Templates:</strong> Content-based templates designed to demonstrate Editor capabilities for a specific outcome. (For example: HDRP, Auto Showroom.)</p>
 </li>
-<li><p>LTS Editor versions starting with 2019.4 LTS support Dynamic Templates.** **These are optional Project Templates that you can download for additional functionality. For more information, see <a href="#">Dynamic Templates</a>.</p>
-<p>**Note: **Because Dynamic Templates are not shared between Editor versions, you'll need to download them separately for each version of the Editor you install. You must be connected to the Internet to see or download the latest Dynamic Templates.</p>
+<li><p><strong>Learning Templates:</strong> Project-led templates designed to teach you to use Unity features or builds and to publish a Project for a specific outcome. (For example: FPS Microgame, 2D Platformer Microgame, Karting Microgame, LEGO® Microgame.)</p>
 </li>
 </ul>
-<h1 id="default-templates">Default Templates</h1>
-<p>By default, the Unity Hub comes with the following Project templates installed:</p>
-<h3 id="2d">2D</h3>
-<p>Configures <strong>Project settings</strong> for 2D apps that use Unity’s built-in rendering pipeline.</p>
-<h3 id="3d">3D</h3>
-<p>Configures Project settings for 3D apps that use Unity’s built-in<a href="https://docs.unity3d.com/Manual/SL-RenderPipeline.html"> rendering pipeline</a>.</p>
-<h3 id="3d-with-extras">3D with Extras</h3>
-<p>Configures Project settings for 3D apps that use Unity’s built-in renderer and post-processing features. This Project type includes the new post-processing stack, several <a href="https://docs.unity3d.com/Manual/Presets.html">Presets</a> to jump-start development, and example content.</p>
-<p>For more information on post-processing, see documentation on <a href="https://github.com/Unity-Technologies/PostProcessing/wiki">post-processing</a> <br>
-in the post-processing GitHub repository.</p>
-<h3 id="high-definition-rp">High Definition RP</h3>
-<p>Configures Project settings for Projects that use high-end platforms that support Shader Model 5.0 (DX11 and above). This template is built using the Scriptable Render Pipeline (SRP), a modern rendering pipeline that includes advanced material types and a configurable hybrid tile/cluster deferred/forward lighting architecture. This Template also includes the new post-processing stack, several Presets to jump start development, and example content.</p>
-<p>This Template adds the following features to your Project:</p>
+<p><img src="../images/1.png" alt="alt_text" title="image_tooltip">
+<em>LTS Project Templates</em></p>
+<p>Because Templates are not shared between Editor versions, you need to download them separately for each version of the Editor you install. You must be connected to the Internet to see or download the latest Templates.</p>
+<h3 id="core-templates">Core Templates</h3>
+<h4 id="2d">2D</h4>
+<p>Configures Project settings for 2D apps that use Unity’s <a href="https://docs.unity3d.com/Manual/SL-RenderPipeline.html">built-in rendering pipeline</a>.</p>
+<h4 id="3d">3D</h4>
+<p>Configures Project settings for 3D apps that use Unity’s <a href="https://docs.unity3d.com/Manual/SL-RenderPipeline.html">built-in rendering pipeline</a>.</p>
+<h4 id="3d-with-extras">3D with Extras</h4>
+<p>Configures Project settings for 3D apps that use Unity’s built-in renderer and <a href="https://github.com/Unity-Technologies/PostProcessing/wiki">post-processing features</a>. This Project type uses the new post-processing stack and includes several <a href="https://docs.unity3d.com/Manual/Presets.html">Presets</a> to jump-start development along with example content.</p>
+<h3 id="sample-templates">Sample templates</h3>
+<h4 id="high-definition-rp">High Definition RP</h4>
+<p>Available as a sample template from Editor version 2020.2.X onward, this template uses the High Definition Render Pipeline (HDRP) for graphics-intensive projects on platforms that support Shader Model 5.0 (DX11 and above).</p>
+<p>This project includes:</p>
 <ul>
-<li><strong>SRP</strong> - For more information, see documentation on the<a href="https://github.com/Unity-Technologies/ScriptableRenderPipeline/wiki"> Scriptable Render Pipeline</a> in the SRP GitHub repository.</li>
-<li><strong>Post-Processing stack</strong> - The post-processing Stack enables artists and designers to apply full -screen filters to scenes using an artist-friendly interface. For more information, see documentation on<a href="https://github.com/Unity-Technologies/PostProcessing/wiki"> post-processing</a> in the post-processing GitHub repository.</li>
+<li><p>Shader Graph: a tool that allows you to create shaders using a visual node editor instead of writing code. For more information on Shader Graph, see the <a href="https://docs.unity3d.com/Packages/com.unity.shadergraph@latest">Shader Graph documentation</a>.</p>
+</li>
+<li><p>Visual Effect Graph</p>
+</li>
+<li><p>Presets</p>
+</li>
+<li><p>Example content</p>
+</li>
 </ul>
-<h3 id="universal-render-pipeline">Universal Render Pipeline</h3>
-<p>The Universal Render Pipeline Template configures Project settings for Projects where performance, wide platform support, and ease of customizing graphics are the primary considerations.</p>
-<p>This Template uses the following Unity features:</p>
+<h4 id="universal-render-pipeline">Universal Render Pipeline</h4>
+<p>The Universal Render Pipeline Template configures Project settings for Projects where performance, wide platform support, and ease of customizing graphics are the primary considerations.
+This Template uses the following Unity features:</p>
 <ul>
-<li>Universal Render Pipeline (URP): a prebuilt Scriptable Render Pipeline that is quick and easy to customize, and lets you create optimized graphics across a wide range of platforms. URP also includes an optimized 2D renderer complete with 2D lights and **pixel <br>
-** perfect rendering, and an integrated post-processing solution. For more information on URP, see the<a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@latest"> URP documentation</a>.</li>
-<li>Shader Graph: a tool that allows you to create shaders using a visual node editor instead of writing code. For more information on Shader Graph, see the<a href="https://docs.unity3d.com/Packages/com.unity.shadergraph@latest"> Shader Graph documentation</a>.</li>
-</ul>
-<p>The template contains the following:</p>
-<ul>
+<li>Universal Render Pipeline (URP): a prebuilt Scriptable Render Pipeline that is quick and easy to customize, and lets you create optimized graphics across a wide range of platforms. URP also includes an optimized 2D renderer complete with 2D lights and pixel
+perfect rendering, and an integrated post-processing solution. For more information on URP, see the URP documentation.</li>
+<li>Shader Graph: a tool that allows you to create shaders using a visual node editor instead of writing code. For more information on Shader Graph, see the Shader Graph documentation.
+The template contains the following:</li>
 <li>A sample Scene that contains examples of how to configure lighting settings, Materials, Shaders, and post-processing effects in URP</li>
-<li>Several preconfigured<a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@latest/index.html?subfolder=/manual/universalrp-asset.html"> Universal Render Pipline Assets</a> that let you quickly swap between graphics quality levels</li>
-<li><a href="https://docs.unity3d.com/Manual/Presets.html">Presets</a> that have been optimized for use with URP</li>
+<li>Several preconfigured Universal Render Pipline Assets that let you quickly swap between graphics quality levels</li>
+<li>Presets that have been optimized for use with URP</li>
 </ul>
-<h1 id="dynamic-templates">Dynamic templates</h1>
-<p>**Note: **Dynamic templates are available for LTS Editor versions only, starting with 2019.2 LTS.</p>
-<p>Dynamic Templates are optional Project Templates that you can download for additional functionality. Dynamic Templates, including those bundled with the Unity Editor, also have their own versioning: this means you can download and update them independently from the Unity Editor whenever new versions are available.</p>
-<p>Because Dynamic Templates are not shared between Editor versions, you'll need to download them separately for each version of the Editor you install. You must be connected to the Internet to see or download the latest Dynamic Templates.</p>
+<h3 id="learning-templates">Learning Templates</h3>
+<h4 id="2d-platformer-microgame">2D Platformer Microgame</h4>
+<h4 id="karting-microgame">Karting Microgame</h4>
+<h4 id="lego-microgame">LEGO® Microgame</h4>
 <h2 id="downloading-dynamic-templates">Downloading Dynamic Templates</h2>
 <p>In the Unity Hub, when you click <strong>New</strong>, the Templates window displays a list of all the Project Templates available for that version of the Editor.</p>
-<p>If a Dynamic Template is available for download, its tile displays a download icon:</p>
-<p id="gdcalert2"><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-<p><img src="images/image2.png" alt="alt_text" title="image_tooltip"></p>
+<p>If a Dynamic Template is available for download, its tile displays a download icon.</p>
 <p>To download a Template, move your cursor over its tile and click <strong>Download</strong>. When prompted, click <strong>Install</strong>.</p>
-<h2 id="updating-dynamic-templates"><strong>Updating Dynamic Templates</strong></h2>
+<h2 id="updating-dynamic-templates">Updating Dynamic Templates</h2>
 <p>If an update is available for a Template you previously installed, its tile displays the option <strong>Update</strong>. You can either download the update or continue using the installed version of the Template.</p>
-<p id="gdcalert3"><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.gif). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-<p><img src="images/image3.gif" alt="alt_text" title="image_tooltip"></p>
+<p><img src="../images/2.gif" alt="alt_text" title="image_tooltip"></p>
 <p><em>Downloading and updating Dynamic Templates</em></p>
-<h1 id="creating-a-project-from-a-template">Creating a project from a Template</h1>
+<h2 id="creating-a-project-from-a-template">Creating a project from a Template</h2>
 <p>To create a new Project (and specify which Editor version to open it in), do one of the following:</p>
 <ul>
 <li><p>Click the <strong>New</strong> button. The title bar of the New Project dialog box displays the Editor version that the project will use.</p>

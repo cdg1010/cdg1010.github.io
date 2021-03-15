@@ -16,13 +16,15 @@
   - name: Manage your Editor installations
     href: ManageInstalls.md
 - name: Manage your Unity projects
+  href: Projects.md
   items:
-  - name: Manage your Projects
-    href: Projects.md
-  - name: Manage your Templates
+  - name: Create a Project from a Template
+    href: Templates.md  
+- name: Manage your Templates
+  href: Templates.md
+  items:
+  - name: Create a Project from a Template
     href: Templates.md
-  - name: Create a project from a template
-    href: CreateProject.md
 - name: Profile and preferences
   items:
   - name: Manage your license
