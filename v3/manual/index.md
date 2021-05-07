@@ -11,4 +11,4 @@ You can use the Hub to:
 * Manage your profile and preferences
 * Get more resources about learning and using Unity
 
-To get started, see [link].
+To get started, see [Installing the Hub](InstallHub.md).

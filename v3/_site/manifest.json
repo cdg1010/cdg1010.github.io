@@ -35,6 +35,314 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/Appearance.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Appearance.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DarkTheme.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DarkTheme.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Editor.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Editor.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Ellipsis.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Ellipsis.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GridIcon.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/GridIcon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/InstallHub.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/InstallHub.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/InstallHub0.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/InstallHub0.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/InstallHub1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/InstallHub1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/InstallHub2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/InstallHub2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/InstallHub3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/InstallHub3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/InstallHub4.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/InstallHub4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/LightTheme.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/LightTheme.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ListIcon.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ListIcon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Profile.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Profile.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Projects01.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Projects01.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Projects02.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Projects02.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Projects03.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Projects03.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Projects1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Projects1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Projects10.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Projects10.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Projects2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Projects2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Projects3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Projects3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Projects4.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Projects4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Projects5.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Projects5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Projects6.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Projects6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Projects7.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Projects7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Projects8.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Projects8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Projects9.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Projects9.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/VerticalEllipsis.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/VerticalEllipsis.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "log_codes": [
         "include-not-found"
       ],
@@ -55,7 +363,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/CreateProject.html",
-          "hash": "5T4jh0kUgtrFXbzehE5Hlw=="
+          "hash": "8xJsmXHa9JY/UXu8w2g/dg=="
         }
       },
       "is_incremental": false,
@@ -79,22 +387,19 @@
       "output": {
         ".html": {
           "relative_path": "manual/InstallEditors.html",
-          "hash": "CUBAxnd5MiUiVo99VhAb1w=="
+          "hash": "Qs4IMnwcvj+uG/cRDl5N1Q=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "manual/InstallHub.md",
       "output": {
         ".html": {
           "relative_path": "manual/InstallHub.html",
-          "hash": "EeWTnSBnElOrWD2zyOK85Q=="
+          "hash": "YRZbbXnBmuj0k7vGLmLHkQ=="
         }
       },
       "is_incremental": false,
@@ -106,7 +411,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/LoggingIn.html",
-          "hash": "5YrlFVu5vrsqS9KL3RN/uQ=="
+          "hash": "zGm29bnIByP9sw84lYnlpw=="
         }
       },
       "is_incremental": false,
@@ -142,7 +447,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/ManageProfile.html",
-          "hash": "TX9WA7fr0NhcGa1XhNrnGQ=="
+          "hash": "JMxFN3S1NAS/xiG5pk5YfQ=="
         }
       },
       "is_incremental": false,
@@ -154,22 +459,19 @@
       "output": {
         ".html": {
           "relative_path": "manual/Preferences.html",
-          "hash": "tLXpSPW6AW7sBxlIws6G7g=="
+          "hash": "j+khOAUahZbWOshgKNLcfA=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "manual/Projects.md",
       "output": {
         ".html": {
           "relative_path": "manual/Projects.html",
-          "hash": "D5Txdl5a8N0UauhqIIV3sQ=="
+          "hash": "pRAwJzhqCv1cNfAOS5CgQg=="
         }
       },
       "is_incremental": false,
@@ -193,7 +495,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/SystemRequirements.html",
-          "hash": "Di31HYSFNZtfMtU6HltBew=="
+          "hash": "mGXzvsv8R2BW7jFMx6FLKg=="
         }
       },
       "is_incremental": false,
@@ -205,7 +507,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Templates.html",
-          "hash": "SXVd5U4sL5ae6HAUzsssNg=="
+          "hash": "qJ6sQWxQPoc0RzkSWHY/uw=="
         }
       },
       "is_incremental": false,
@@ -229,7 +531,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/index.html",
-          "hash": "qFCduFNMd78PhApHfMSHsw=="
+          "hash": "YDI2huthLMmR/VET1ouoZA=="
         }
       },
       "is_incremental": false,
@@ -269,6 +571,13 @@
         "skipped_file_count": 0
       },
       "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -280,14 +589,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 16,
-          "skipped_file_count": 14
-        },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
+          "skipped_file_count": 6
         }
       }
     },

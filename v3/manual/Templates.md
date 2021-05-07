@@ -88,7 +88,7 @@ If an update is available for a Template you previously installed, its tile disp
 _Downloading and updating Dynamic Templates_
 
 
-## Creating a project from a Template
+<!--## Creating a project from a Template
 
 To create a new Project (and specify which Editor version to open it in), do one of the following:
 
@@ -130,4 +130,4 @@ For information about a specific Template, click the 🛈 icon.
   </tr>
 </table>
 
-When you’re satisfied with the Project settings, click **Create.**
+When you’re satisfied with the Project settings, click **Create.**-->
