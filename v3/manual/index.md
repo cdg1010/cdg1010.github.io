@@ -10,5 +10,6 @@ You can use the Hub to:
 * Explore templates, sample projects and more to learn and create in new ways.
 * Manage your profile and preferences
 * Get more resources about learning and using Unity
+* Do Magic!
 
 To get started, see [Installing the Hub](InstallHub.md).
