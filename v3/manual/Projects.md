@@ -1,10 +1,7 @@
 # Projects
-
-## Overview
-
+<!--
 The **Projects** screen displays your Unity Projects. From this screen you can create a new Project, manage your existing Projects, or open a Project in the Unity Editor.
 
-![Projects](../images/Projects01.png)
 
 ### Switching between list and grid view
 
@@ -16,15 +13,21 @@ To switch to grid view, click [grid icon].
 
 To switch back to list view, click [list icon].
 
+
+-->
 ## Managing your Projects
 
 To view your Unity Projects in the Hub, click the **Projects** tab.
+
+
+![Projects](../images/Projects.png)
+
 
 ### Adding an existing Project
 
 If you have an existing Project that isn’t displayed on the Projects screen, click **Add**.
 
-![Projects](../images/Projects1.png)
+![image pending]()
 
 * To add a local Project, click **Add Project from Disk** and browse to the Project folder. You can also drag and drop the folder from your filesystem directly into the Projects screen.
 

@@ -35,13 +35,3 @@ The Unity Hub can remove temporary installation files to free up disk space afte
 > Note: You can always add or remove modules later.
 
 5. Click **Install**.
-
-## Adding modules to an installed Unity Editor
-
-<!--Pending info: is this under the gear icon on the Installs screen?-->
-
-## Managing your installations from the Hub
-
-When an Editor version is installed, you can see it on the Installs screen.
-
-<!--add screenshot-->

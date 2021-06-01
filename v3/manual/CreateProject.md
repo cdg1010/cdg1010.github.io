@@ -7,22 +7,16 @@ To create a new Project and specify which Editor version to open it in, do one o
 
 > **Note:** This drop-down menu is only available if you previously installed multiple versions of the Editor in the Hub.
 
-## Select a Template
+1. Choose a Project Template. For more information about Templates, see [Managing  your Templates](Templates.md).
 
-Choose a Project Template.
+  > **Note:** For information about a specific Template, click the information icon (🛈).
 
-For information about a specific Template, click the information icon (🛈).
+2. Enter the name of your Project. This names the main Project folder, which stores the Assets, Scenes, and other files related to your Project.
 
-## Enter the Project Name
+3. Select where in your computer’s filesystem to store your Project.
 
-Enter the name of your Project.
+  By default, new Projects are stored in your computer's home folder. To store a Project elsewhere, type the file path to your preferred storage location in the Location field.
 
-This names the main Project folder, which stores the Assets, Scenes, and other files related to your Project.
+  You can also click the ellipsis icon (…) to open your computer’s file browser (Explorer, Finder or Files, depending on your computer’s operating system), then navigate to the folder that you want to store your Project in and click **Select Folder** or **Open.**
 
-## Select the Project Location
-
-Select where in your computer’s file system to store your Project.
-
- By default, new Projects are stored in your computer's home folder. To store a Project elsewhere, type the file path to your preferred storage location in the Location field. You can also click the ellipsis icon (…) to open your computer’s file browser (Explorer, Finder or Files, depending on your computer’s operating system), then navigate to the folder that you want to store your Project in and click **Select Folder** or **Open.** |
-
-When you’re satisfied with the Project settings, click **Create.**
+4. When you’re satisfied with the Project settings, click **Create.**

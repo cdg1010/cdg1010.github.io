@@ -1,4 +1,4 @@
-# Templates
+# Manage your Templates
 
 When you create a Project, you select a Template with which to initialize your Project.
 
@@ -34,7 +34,7 @@ Configures Project settings for 3D apps that use Unity’s [built-in rendering p
 
 Configures Project settings for 3D apps that use Unity’s built-in renderer and [post-processing features](https://github.com/Unity-Technologies/PostProcessing/wiki). This Project type uses the new post-processing stack and includes several [Presets](https://docs.unity3d.com/Manual/Presets.html) to jump-start development along with example content.
 
-### Sample templates
+### Sample Templates
 
 #### High Definition RP
 
@@ -53,14 +53,21 @@ This project includes:
 #### Universal Render Pipeline
 
 The Universal Render Pipeline Template configures Project settings for Projects where performance, wide platform support, and ease of customizing graphics are the primary considerations.
+
 This Template uses the following Unity features:
-* Universal Render Pipeline (URP): a prebuilt Scriptable Render Pipeline that is quick and easy to customize, and lets you create optimized graphics across a wide range of platforms. URP also includes an optimized 2D renderer complete with 2D lights and pixel
+
+* **Universal Render Pipeline (URP)**: A prebuilt Scriptable Render Pipeline that is quick and easy to customize, and lets you create optimized graphics across a wide range of platforms. URP also includes an optimized 2D renderer complete with 2D lights and pixel
  perfect rendering, and an integrated post-processing solution. For more information on URP, see the URP documentation.
-* Shader Graph: a tool that allows you to create shaders using a visual node editor instead of writing code. For more information on Shader Graph, see the Shader Graph documentation.
-The template contains the following:
-* A sample Scene that contains examples of how to configure lighting settings, Materials, Shaders, and post-processing effects in URP
-* Several preconfigured Universal Render Pipline Assets that let you quickly swap between graphics quality levels
-* Presets that have been optimized for use with URP
+
+* **Shader Graph**: a tool that allows you to create shaders using a visual node editor instead of writing code. For more information on Shader Graph, see the Shader Graph documentation.
+
+The Template contains the following:
+
+* A sample Scene that contains examples of how to configure lighting settings, Materials, Shaders, and post-processing effects in URP.
+
+* Several preconfigured URP Assets that let you quickly swap between graphics quality levels.
+
+* Presets optimized for use with URP.
 
 ### Learning Templates
 
@@ -70,16 +77,15 @@ The template contains the following:
 
 #### LEGO® Microgame
 
-## Downloading Dynamic Templates
+## Downloading Templates
 
 In the Unity Hub, when you click **New**, the Templates window displays a list of all the Project Templates available for that version of the Editor.
 
-If a Dynamic Template is available for download, its tile displays a download icon.
+If a Template is available for download, its tile displays a download icon.
 
 To download a Template, move your cursor over its tile and click **Download**. When prompted, click **Install**.
 
-
-## Updating Dynamic Templates
+## Updating Templates
 
 If an update is available for a Template you previously installed, its tile displays the option **Update**. You can either download the update or continue using the installed version of the Template.
 

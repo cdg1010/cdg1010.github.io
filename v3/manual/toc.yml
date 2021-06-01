@@ -15,15 +15,12 @@
     href: InstallEditors.md
   - name: Manage your Editor installations
     href: ManageInstalls.md
-- name: Manage your Unity projects
+- name: Projects and templates
   href: Projects.md
   items:
   - name: Create a Project from a Template
-    href: Templates.md  
-- name: Manage your Templates
-  href: Templates.md
-  items:
-  - name: Create a Project from a Template
+    href: CreateProject.md
+  - name: Manage your templates
     href: Templates.md
 - name: Profile and preferences
   items:

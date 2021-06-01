@@ -1,7 +1,7 @@
 # System and network requirements
 
 ### System and network requirements
-
+<!--
 ### **[Is this distinct from Unity Editor requirements? If so, I need this info.]**
 
 Unity officially supports the following Linux distributions:
@@ -15,3 +15,4 @@ Unity officially supports the following Linux distributions:
 1. Open your terminal.
 2. Go to the directory where UnityHub.AppImage is. This will be the Unity Hub directory.
 3. Run chmod +x UnityHub.AppImage.
+-->

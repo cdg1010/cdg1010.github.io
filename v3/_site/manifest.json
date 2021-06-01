@@ -36,6 +36,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/Account.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Account.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/Appearance.png",
       "output": {
         "resource": {
@@ -51,6 +62,17 @@
       "output": {
         "resource": {
           "relative_path": "images/DarkTheme.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DownloadsInProgress.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DownloadsInProgress.png"
         }
       },
       "is_incremental": false,
@@ -157,6 +179,28 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/Installs.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Installs.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Learn.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Learn.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/LightTheme.png",
       "output": {
         "resource": {
@@ -179,10 +223,87 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/NewProject.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/NewProject.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Profile-LoggedIn.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Profile-LoggedIn.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Profile-LoggedOut.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Profile-LoggedOut.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/Profile.png",
       "output": {
         "resource": {
           "relative_path": "images/Profile.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ProfileLoggedIn.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ProfileLoggedIn.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ProfileLoggedOut.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ProfileLoggedOut.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ProfileSettings.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ProfileSettings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Projects.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Projects.png"
         }
       },
       "is_incremental": false,
@@ -359,11 +480,23 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/Community.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Community.html",
+          "hash": "rdF+8JENTVS5sSYkGuAZZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/CreateProject.md",
       "output": {
         ".html": {
           "relative_path": "manual/CreateProject.html",
-          "hash": "8xJsmXHa9JY/UXu8w2g/dg=="
+          "hash": "t7UY9hBc6pAA/zF/TuY7ug=="
         }
       },
       "is_incremental": false,
@@ -387,7 +520,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/InstallEditors.html",
-          "hash": "Qs4IMnwcvj+uG/cRDl5N1Q=="
+          "hash": "4nx+WrdZthObFyAhpcGM+Q=="
         }
       },
       "is_incremental": false,
@@ -399,7 +532,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/InstallHub.html",
-          "hash": "YRZbbXnBmuj0k7vGLmLHkQ=="
+          "hash": "FeZarWEbonFFKPrNpVbLig=="
         }
       },
       "is_incremental": false,
@@ -411,7 +544,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/LoggingIn.html",
-          "hash": "zGm29bnIByP9sw84lYnlpw=="
+          "hash": "3Thevk0t/hRnm1HtwaDXHw=="
         }
       },
       "is_incremental": false,
@@ -423,7 +556,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/ManageInstalls.html",
-          "hash": "jobmykbUB9KHMX5vMhYFlg=="
+          "hash": "v0pX905Gkma5oBQUqe32Jw=="
         }
       },
       "is_incremental": false,
@@ -447,7 +580,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/ManageProfile.html",
-          "hash": "JMxFN3S1NAS/xiG5pk5YfQ=="
+          "hash": "puJEBlMtBTiixPMsYisy8w=="
         }
       },
       "is_incremental": false,
@@ -459,7 +592,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Preferences.html",
-          "hash": "j+khOAUahZbWOshgKNLcfA=="
+          "hash": "DlE6AuHmy6acrfMbvYoGkw=="
         }
       },
       "is_incremental": false,
@@ -471,7 +604,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Projects.html",
-          "hash": "pRAwJzhqCv1cNfAOS5CgQg=="
+          "hash": "zkmxR1ElQGaUh1k1Rsp66w=="
         }
       },
       "is_incremental": false,
@@ -483,7 +616,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Support.html",
-          "hash": "nHcGHmG/yoEtklqWUqzkdg=="
+          "hash": "l1NjyhQrI6nkDaPSusXeGg=="
         }
       },
       "is_incremental": false,
@@ -495,7 +628,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/SystemRequirements.html",
-          "hash": "mGXzvsv8R2BW7jFMx6FLKg=="
+          "hash": "HldgmsAuMgT79nHYPhq5FA=="
         }
       },
       "is_incremental": false,
@@ -507,7 +640,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Templates.html",
-          "hash": "qJ6sQWxQPoc0RzkSWHY/uw=="
+          "hash": "W7DrFa6s8JUsNy5kZ5OeWQ=="
         }
       },
       "is_incremental": false,
@@ -519,7 +652,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/UIOverview.html",
-          "hash": "sBFgtzvMrK80yWf52jaHDA=="
+          "hash": "UedCaCzsWLR/w96/+UfGRw=="
         }
       },
       "is_incremental": false,
@@ -543,7 +676,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "HpzBu1RAnFJbg4uPo3b0Bg=="
+          "hash": "68wnbnhUrnojIA6U31B/1A=="
         }
       },
       "is_incremental": false,
@@ -588,8 +721,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 16,
-          "skipped_file_count": 6
+          "total_file_count": 17,
+          "skipped_file_count": 8
         }
       }
     },
